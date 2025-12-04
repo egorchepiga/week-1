@@ -251,3 +251,9 @@ jobs:
         run: |
           echo "::warning::Claude Code exited with code ${{ steps.claude.outputs.exit_code }}"
           echo "Check the execution log for details"
+
+      - name: Cleanup branch on failure
+        if: failure() || steps.claude.outputs.exit_code != '0'
+        run: |
+          echo "Job failed, deleting branch: ${{ steps.branch.outputs.name }}"
+          git push origin --delete ${{ steps.branch.outputs.name }} || echo "Branch already deleted or not found"
