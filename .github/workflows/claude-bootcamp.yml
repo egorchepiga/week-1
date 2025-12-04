@@ -1,5 +1,10 @@
 name: Claude Bootcamp Execution
 
+# ⚠️ ВАЖНО: Этот workflow запускается ТОЛЬКО ВРУЧНУЮ!
+# - НЕ запускается автоматически при изменениях master
+# - НЕ запускается из Claude Desktop
+# - Только через GitHub Actions UI → "Run workflow"
+
 on:
   workflow_dispatch:
     inputs:
@@ -23,8 +28,8 @@ on:
           - '2'
           - '3'
           - '4'
-      branch_suffix:
-        description: 'Branch suffix (e.g., run-001)'
+      run_id:
+        description: 'Run identifier (optional, e.g., experiment-1)'
         required: false
         default: ''
 
@@ -40,12 +45,13 @@ jobs:
       - name: Generate branch name
         id: branch
         run: |
+          # Формат: claude/master-manual_YYYYMMDD-HHMMSS или claude/master-manual_custom-id
           TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-          SUFFIX="${{ github.event.inputs.branch_suffix }}"
-          if [ -n "$SUFFIX" ]; then
-            BRANCH_NAME="bootcamp-run-${SUFFIX}"
+          RUN_ID="${{ github.event.inputs.run_id }}"
+          if [ -n "$RUN_ID" ]; then
+            BRANCH_NAME="claude/master-manual_${RUN_ID}"
           else
-            BRANCH_NAME="bootcamp-run-${TIMESTAMP}"
+            BRANCH_NAME="claude/master-manual_${TIMESTAMP}"
           fi
           echo "name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
           echo "Branch: ${BRANCH_NAME}"
