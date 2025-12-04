@@ -200,15 +200,20 @@ jobs:
           echo "Lessons: $LESSON_START to $LESSON_END"
 
           # Сохраняем промпт в файл
-          echo "$PROMPT" > /tmp/claude_prompt.txt
-          cat /tmp/claude_prompt.txt
+          printf '%s' "$PROMPT" > /tmp/claude_prompt.txt
 
-          # Execute Claude Code with unbuffered output
-          # unbuffer отключает буферизацию для live streaming
-          unbuffer claude -p "$(cat /tmp/claude_prompt.txt)" --dangerously-skip-permissions 2>&1 | tee claude_output.log
+          # Показываем промпт
+          echo "=== PROMPT (first 30 lines) ==="
+          head -30 /tmp/claude_prompt.txt
+          echo "=== END PROMPT ==="
 
-          EXIT_CODE=${PIPESTATUS[0]}
+          # Execute Claude Code напрямую (без pipe для live output)
+          claude -p "$(cat /tmp/claude_prompt.txt)" --dangerously-skip-permissions > >(tee claude_output.log) 2>&1
+
+          EXIT_CODE=$?
           echo "exit_code=${EXIT_CODE}" >> $GITHUB_OUTPUT
+
+          echo "=== EXECUTION COMPLETE ==="
 
       - name: Commit generated files
         if: always()
