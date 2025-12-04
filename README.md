@@ -40,34 +40,34 @@
 
 ```
 week-1/
-├── sources/                       # Исходные сырые данные
-│   ├── course-html/               # 11 HTML уроков курса
-│   ├── app-database-exports/      # 20 XLSX экспортов
-│   └── whisper-transcription/     # Транскрипция вебинара
-│       ├── raw_transcription.txt  # Сырой текст (~3700 строк)
-│       └── WEBINAR_INSIGHTS.md    # Очищенные инсайты
+├── CLAUDE.md                      # Инструкции для Claude AI
+├── README.md                      # Этот файл
 │
-├── reports/                       # Готовые отчёты
+├── lessons/                       # ★ УРОКИ (материалы по модулям)
+│   └── lesson-01-idea-selection/  # Урок 1: Выбор идеи
+│       ├── README.md              # Описание и задания урока
+│       ├── AI_TUTORIAL.md         # Туториал для AI
+│       ├── IDEA_EVALUATION_TEMPLATE.md  # Шаблон оценки
+│       └── whisper-transcription/ # Транскрипция вебинара
+│           ├── raw_transcription.txt
+│           └── WEBINAR_INSIGHTS.md
+│
+├── sources/                       # Исходные данные (общие)
+│   ├── course-html/               # 11 HTML уроков курса
+│   └── app-database-exports/      # 20 XLSX экспортов
+│
+├── reports/                       # Аналитические отчёты
 │   ├── lessons_content.md         # Извлечённый текст уроков
 │   └── ANALYSIS_SUMMARY.md        # Анализ 947 расширений
 │
-├── prompts/                       # Алгоритмы для AI
+├── prompts/                       # Общие промпты для AI
 │   ├── 00_MASTER_ALGORITHM.md     # Мастер-план
-│   ├── 01_vybor_idei.md           # Этап 1: Выбор идеи
-│   ├── 02_ocenka_dohodnosti.md    # Этап 2: Оценка доходности
-│   ├── IDEA_EVALUATION_TEMPLATE.md # Шаблон оценки идеи
-│   └── ...                        # Этапы 3-10
+│   └── ...                        # Этапы 1-10
 │
-├── scripts/                       # Python/Bash скрипты
-│   ├── extract_clean.py           # Извлечение текста из HTML
-│   ├── parse_exports.py           # Парсинг XLSX
-│   ├── analyze_exports.py         # Анализ расширений
-│   ├── transcribe.bat             # Whisper транскрипция
-│   ├── fix_gpu.bat                # CUDA для PyTorch
-│   └── check_gpu.py               # Проверка GPU
-│
-├── CLAUDE.md                      # Инструкции для Claude AI
-└── README.md                      # Этот файл
+└── scripts/                       # Python/Bash скрипты
+    ├── extract_clean.py           # Извлечение текста из HTML
+    ├── analyze_exports.py         # Анализ расширений
+    └── transcribe.bat             # Whisper транскрипция
 ```
 
 ---
@@ -100,22 +100,16 @@ python scripts/analyze_exports.py
 
 ---
 
-## Как использовать промпты
+## Как использовать уроки
 
-### Для выбора идеи (prompts/01_vybor_idei.md):
-1. Открыть app-database.com
-2. Найти 5-10 расширений с >10K пользователей
-3. Использовать промпт для анализа ниши
-
-### Для проверки ключа (prompts/04_05_podbor_zaprosa.md):
-1. Открыть Serpstat/Semrush
-2. Ввести потенциальный ключ
-3. Проверить объём и KD
-
-### Для разработки (prompts/10_razrabotka.md):
-1. Определить 1 ключевую функцию
-2. Найти готовый код на GitHub
-3. Использовать промпт для генерации MVP
+### Урок 1: Выбор идеи
+```
+lessons/lesson-01-idea-selection/
+```
+1. Прочитать `README.md` - задания урока
+2. Следовать `AI_TUTORIAL.md` - пошаговый процесс
+3. Заполнить `IDEA_EVALUATION_TEMPLATE.md` для каждой идеи
+4. Использовать инсайты из `whisper-transcription/WEBINAR_INSIGHTS.md`
 
 ---
 

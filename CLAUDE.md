@@ -2,12 +2,16 @@
 
 ## ВАЖНО: Первые шаги для AI
 
-При начале работы с этим проектом, прочитай файлы в таком порядке:
+При начале работы с этим проектом, прочитай файлы **текущего урока**:
 
 ```
-1. AI_TUTORIAL.md              # Пошаговый туториал по загрузке контекста
-2. sources/whisper-transcription/WEBINAR_INSIGHTS.md  # Инсайты из вебинара
-3. prompts/IDEA_EVALUATION_TEMPLATE.md  # Шаблон оценки идеи (8 критериев)
+# Урок 1: Выбор идеи
+lessons/lesson-01-idea-selection/
+├── README.md                    # Описание урока и задания
+├── AI_TUTORIAL.md               # Пошаговый туториал для AI
+├── IDEA_EVALUATION_TEMPLATE.md  # Шаблон оценки (8 критериев)
+└── whisper-transcription/
+    └── WEBINAR_INSIGHTS.md      # Инсайты из 2ч вебинара
 ```
 
 ---
@@ -20,21 +24,25 @@
 
 ```
 week-1/
-├── AI_TUTORIAL.md              # ★ ЧИТАЙ ПЕРВЫМ - туториал для AI
 ├── CLAUDE.md                   # Этот файл
 ├── README.md                   # Описание проекта
-├── sources/                    # Исходные данные
+│
+├── lessons/                    # ★ УРОКИ (по модулям)
+│   └── lesson-01-idea-selection/
+│       ├── README.md           # Описание урока
+│       ├── AI_TUTORIAL.md      # Туториал для AI
+│       ├── IDEA_EVALUATION_TEMPLATE.md
+│       └── whisper-transcription/
+│           ├── raw_transcription.txt
+│           └── WEBINAR_INSIGHTS.md
+│
+├── sources/                    # Исходные данные (общие)
 │   ├── course-html/            # HTML уроки курса
-│   ├── app-database-exports/   # Экспорты из app-database.com
-│   └── whisper-transcription/  # Транскрипция вебинара
-│       ├── raw_transcription.txt
-│       └── WEBINAR_INSIGHTS.md # ★ Очищенные инсайты
+│   └── app-database-exports/   # Экспорты из app-database.com
+│
 ├── reports/                    # Аналитические отчёты
-├── prompts/                    # Алгоритмы и промпты для AI
-│   └── IDEA_EVALUATION_TEMPLATE.md  # ★ Шаблон оценки идеи
+├── prompts/                    # Общие промпты для AI
 └── scripts/                    # Python/Bash скрипты
-    ├── transcribe.bat          # Whisper транскрипция
-    └── fix_gpu.bat             # CUDA для PyTorch
 ```
 
 ## Текущий статус
@@ -124,7 +132,7 @@ score = (monetization * 2) + (traffic * 2) + (competition * 1.5) + simplicity + 
 
 ## Оценка идеи (Captain Bootcamp)
 
-> Полный шаблон: `prompts/IDEA_EVALUATION_TEMPLATE.md`
+> Полный шаблон: `lessons/lesson-01-idea-selection/IDEA_EVALUATION_TEMPLATE.md`
 
 ### Критерии (баллы 0-10):
 
