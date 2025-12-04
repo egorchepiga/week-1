@@ -1,17 +1,17 @@
 # Отчёт оценки идей — Урок 01
 
 > **Дата:** 2025-12-04
-> **Ветка:** `claude/read-claude-md-01L3WkunZz5UZdByBKP6Vj8y`
-> **Статус:** Требуются SEO-данные для финальной оценки
+> **Ветка:** `claude/master-manual_20251204-224705`
+> **Статус:** ТОП-3 выбраны, готов к Уроку 2 (Keyword Research)
 
 ---
 
 ## О проекте
 
-- **Тематика:** Developer Tools, Productivity, Accessibility
+- **Тематика:** Developer Tools, Productivity
 - **Количество идей:** 12
-- **Источник:** app-database.com (946 расширений проанализировано)
-- **Критерии отбора:** 10K-500K users, без известных брендов, простые функции
+- **Источник:** app-database.com (5,625 расширений проанализировано)
+- **Критерии отбора:** MV3, 10K-500K users, <30 языков (недооптимизированные), высокий рейтинг
 
 ---
 
@@ -423,26 +423,96 @@
 
 ---
 
-## Предварительные ТОП-3 рекомендации
+## ФИНАЛЬНЫЕ ТОП-3 для Урока 2
 
-1. **CSS Inspector / CSS Peeper**
-   - Developer Tools ниша (высокая платежеспособность)
-   - Простая функция (одна)
-   - Много open source (cssviewer на GitHub)
-   - 500K users у конкурента
+На основе анализа 5,625 расширений выбраны идеи с:
+- Недооптимизированными конкурентами (<30 языков)
+- MV3 (Manifest V3)
+- Простой функцией (одна)
+- Потенциалом монетизации
 
-2. **Text to Speech / Read Aloud**
-   - Accessibility ниша (растущая)
-   - Монетизация работает (premium голоса)
-   - Web Speech API (простая реализация)
-   - 500K users у конкурента
+### ТОП-1: CSS Inspector
 
-3. **Font Finder**
-   - Designer tools ниша
-   - Простая функция
-   - 300K users, рейтинг 4.5★
+**Почему:**
+- **Конкурент:** CSS Used (60K users, 1 язык — NOT OPTIMIZED!)
+- **Ниша:** Developer Tools (высокая платежеспособность)
+- **Простота:** Одна функция (показать CSS элемента)
+- **Open Source:** https://github.com/nicknisi/cssviewer (MIT)
+- **Монетизация:** CSS Scan = $88 one-time payment
+
+**Ключевые запросы для Semrush:**
+- `css inspector`
+- `css viewer`
+- `css checker`
 
 ---
 
-*Отчёт создан: 2025-12-04*
-*Статус: Ожидает SEO-данные от пользователя*
+### ТОП-2: JSON Formatter
+
+**Почему:**
+- **Конкурент:** JSON Viewer (80K users, 1 язык — NOT OPTIMIZED!)
+- **Ниша:** Developer Tools
+- **Простота:** Одна функция (форматирование JSON)
+- **Open Source:** Множество библиотек
+- **Риск:** Высокая конкуренция
+
+**Ключевые запросы для Semrush:**
+- `json formatter`
+- `json viewer`
+- `json beautifier`
+
+---
+
+### ТОП-3: Markdown Viewer
+
+**Почему:**
+- **Конкурент:** Markdown Preview Plus (90K users, 1 язык — NOT OPTIMIZED!)
+- **Ниша:** Developer Tools
+- **Простота:** Одна функция (preview .md файлов)
+- **Open Source:** marked.js, showdown.js
+
+**Ключевые запросы для Semrush:**
+- `markdown viewer`
+- `markdown preview`
+- `md viewer`
+
+---
+
+## Чек-лист проверки на ошибки (ERRORS_CATALOG)
+
+| Проверка | CSS Inspector | JSON Formatter | Markdown Viewer |
+|----------|---------------|----------------|-----------------|
+| Есть конкуренты? | ✅ | ✅ | ✅ |
+| Для работы (не развлечение)? | ✅ | ✅ | ✅ |
+| Нет запрещённых брендов? | ✅ | ✅ | ✅ |
+| Не MV2 зависимость? | ✅ | ✅ | ✅ |
+| Volume >= 500? | ⏳ Semrush | ⏳ Semrush | ⏳ Semrush |
+| KD <= 70? | ⏳ Semrush | ⏳ Semrush | ⏳ Semrush |
+| SERP софтовый? | ⏳ Google | ⏳ Google | ⏳ Google |
+| Тренд стабильный? | ⏳ Semrush | ⏳ Semrush | ⏳ Semrush |
+
+---
+
+## Резервные идеи
+
+| # | Идея | Users | Lang | Причина резерва |
+|---|------|-------|------|-----------------|
+| 4 | WCAG Contrast Checker | 90K | 1 | Нишевый инструмент |
+| 5 | Color Picker | 100K | 1 | Высокая конкуренция |
+| 6 | HTML Outliner | 90K | 1 | Низкий потенциал монетизации |
+| 7 | Video Screenshot | 100K | 1 | Околопиратская ниша |
+
+---
+
+## Следующие шаги (Урок 2)
+
+1. [ ] Собрать данные Semrush для ТОП-3 ключевых запросов
+2. [ ] Проверить софтовость в Google SERP
+3. [ ] Проверить тренд (не ботоводный)
+4. [ ] Найти альтернативные long-tail ключи
+5. [ ] Принять финальное решение
+
+---
+
+*Отчёт обновлён: 2025-12-04*
+*Статус: Готов к Уроку 2 (Keyword Research)*
