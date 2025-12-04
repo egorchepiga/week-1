@@ -135,10 +135,7 @@ lesson-02/
 
 **Требуется из Урока 1:**
 - `lesson-01/outputs/FINAL_IDEAS_REPORT.md`
-- ТОП-3 идеи для проработки:
-  1. Grammar Checker RU/ES (41 балл)
-  2. CSS Inspector Tool (39 баллов)
-  3. AI Code Review (35 баллов)
+- ТОП-3 идеи для проработки (будут определены в Уроке 1)
 
 ---
 
