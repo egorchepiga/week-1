@@ -195,16 +195,15 @@ jobs:
           echo "Starting Claude Code execution..."
           echo "Lessons: $LESSON_START to $LESSON_END"
 
-          # Execute Claude Code with live streaming
-          # Используем script для эмуляции TTY и unbuffered вывода
-          script -q -c "claude -p \"$PROMPT\" --dangerously-skip-permissions" claude_output.log
+          # Сохраняем промпт в файл чтобы избежать проблем с экранированием
+          echo "$PROMPT" > /tmp/claude_prompt.txt
 
-          EXIT_CODE=$?
+          # Execute Claude Code
+          # Читаем промпт из файла через stdin
+          cat /tmp/claude_prompt.txt | claude -p - --dangerously-skip-permissions 2>&1 | tee claude_output.log
+
+          EXIT_CODE=${PIPESTATUS[1]}
           echo "exit_code=${EXIT_CODE}" >> $GITHUB_OUTPUT
-
-          # Показать последние строки лога
-          echo "=== Last 50 lines of output ==="
-          tail -50 claude_output.log
 
       - name: Commit generated files
         if: always()
