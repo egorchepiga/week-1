@@ -185,8 +185,10 @@ jobs:
           echo "Starting Claude Code execution..."
           echo "Lessons: $LESSON_START to $LESSON_END"
 
-          # Execute Claude Code
-          claude --print --dangerously-skip-permissions "$PROMPT" 2>&1 | tee claude_output.log
+          # Execute Claude Code with live streaming
+          # --verbose для подробного вывода
+          # stdbuf -oL для line-buffered output
+          stdbuf -oL claude --dangerously-skip-permissions --verbose -p "$PROMPT" 2>&1 | tee claude_output.log
 
           EXIT_CODE=${PIPESTATUS[0]}
           echo "exit_code=${EXIT_CODE}" >> $GITHUB_OUTPUT
@@ -239,3 +241,9 @@ jobs:
         run: |
           echo "::warning::Claude Code exited with code ${{ steps.claude.outputs.exit_code }}"
           echo "Check the execution log for details"
+
+      - name: Cleanup branch on failure
+        if: failure() || steps.claude.outputs.exit_code != '0'
+        run: |
+          echo "Job failed, deleting branch: ${{ steps.branch.outputs.name }}"
+          git push origin --delete ${{ steps.branch.outputs.name }} || echo "Branch already deleted or not found"
