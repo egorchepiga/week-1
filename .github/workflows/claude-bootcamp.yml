@@ -84,16 +84,6 @@ jobs:
           git checkout -b ${{ steps.branch.outputs.name }}
           git push -u origin ${{ steps.branch.outputs.name }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Claude Code CLI
-        run: |
-          npm install -g @anthropic-ai/claude-code
-          claude --version
-
       - name: Execute Claude Code
         id: claude
         run: |
