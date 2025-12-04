@@ -53,10 +53,12 @@ inputs/
 
 ## Связь с уроками
 
-| Урок | Использует из inputs |
-|------|---------------------|
-| Lesson 01 | app-database + course (01-03) + webinar |
-| Lesson 02 | course (04-09) + webinar |
+| Урок | Тема | Использует из inputs |
+|------|------|---------------------|
+| Lesson 01 | Выбор идеи | app-database + course (01-03) + webinar |
+| Lesson 02 | Keyword Research | course (04-09) + webinar |
+| Lesson 03 | Разработка MVP | course (10) + webinar |
+| Lesson 04 | Публикация | course (11) + webinar |
 
 ---
 

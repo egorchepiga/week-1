@@ -10,6 +10,29 @@
 
 ---
 
+## Связь с уроками Week 1
+
+```
+inputs/course/                       │ week-1/
+                                     │
+01_vybor_idei.htm          ─┐        │
+02_ocenka_dohodnosti.htm    ├────────┼──→ lesson-01/ (Выбор идеи)
+03_podschet_ballov.htm     ─┘        │
+                                     │
+04_podbor_zaprosa_1.htm    ─┐        │
+05_podbor_zaprosa_2.htm     │        │
+06_keyword_difficulty.htm   ├────────┼──→ lesson-02/ (Keyword Research)
+07_proverka_konkurentov.htm │        │
+08_ranzhirovanie_po_zaprosam│        │
+09_proverka_klucha.htm     ─┘        │
+                                     │
+10_vytaskivaem_funkciyu.htm ─────────┼──→ lesson-03/ (Разработка MVP)
+                                     │
+11_otpravka_rezultatov.htm  ─────────┼──→ lesson-04/ (Публикация)
+```
+
+---
+
 ## Структура уроков
 
 | # | Файл | Тема | Для урока |
@@ -23,12 +46,12 @@
 | 07 | `07_proverka_konkurentov.htm` | Проверка конкурентов | Lesson 02 |
 | 08 | `08_ranzhirovanie_po_zaprosam.htm` | Ранжирование по хвостам | Lesson 02 |
 | 09 | `09_proverka_klucha.htm` | Проверка софтовости | Lesson 02 |
-| 10 | `10_vytaskivaem_funkciyu.htm` | Разработка MVP | Lesson 03+ |
-| 11 | `11_otpravka_rezultatov.htm` | Публикация в CWS | Lesson 03+ |
+| 10 | `10_vytaskivaem_funkciyu.htm` | Разработка MVP | Lesson 03 |
+| 11 | `11_otpravka_rezultatov.htm` | Публикация в CWS | Lesson 04 |
 
 ---
 
-## Распределение по урокам
+## Загрузка по урокам
 
 ### Lesson 01 — Выбор идеи
 ```
@@ -47,28 +70,40 @@
 Прочитай: inputs/course/09_proverka_klucha.htm
 ```
 
+### Lesson 03 — Разработка MVP
+```
+Прочитай: inputs/course/10_vytaskivaem_funkciyu.htm
+```
+
+### Lesson 04 — Публикация
+```
+Прочитай: inputs/course/11_otpravka_rezultatov.htm
+```
+
 ---
 
-## Ключевые концепции
+## Ключевые концепции по урокам
 
-### 8 критериев оценки (урок 03)
-| # | Критерий | Тип | Макс |
-|---|----------|-----|------|
-| 1 | Пользователи | 0-10 | 10 |
-| 2 | Заработок | 0-10 | 10 |
-| 3 | Одна функция | ДА/НЕТ | +5 |
-| 4 | Простота | 0-10 | 10 |
-| 5 | Поиск ключа | 0-10 | 10 |
-| 6 | Софтовость | ДА/НЕТ | +5 |
-| 7 | Ключ свободен | ДА/НЕТ | - |
-| 8 | KD | 0-10 | - |
+### Уроки 01-03: Выбор идеи
+- **8 критериев оценки** (макс 50 баллов)
+- RED FLAGS: нельзя свести к 1 функции, нет софтовости, ключ занят
+- Формулы: monthly_revenue, sale_price, global_traffic
 
-**Максимум:** 50 баллов
+### Уроки 04-09: Keyword Research
+- **Volume** — объём запросов (точное вхождение)
+- **KD** — Keyword Difficulty (до 30% = легко)
+- **Софтовость** — % софта в Google выдаче (> 50%)
+- **Long-tail** — хвостовые запросы
+- **Конкуренты** — признаки оптимизированного расширения
 
-### RED FLAGS (не брать идею если):
-- Нельзя свести к 1 функции
-- Нет софтовости (< 50% расширений в выдаче)
-- Ключ занят оптимизированным конкурентом
+### Урок 10: Разработка MVP
+- Источники кода: Open Source, LLM, большие проекты
+- Критерии простоты: 1 функция, 2-5 дней, есть готовый код
+
+### Урок 11: Публикация
+- Название = ключевой запрос
+- Description > 3,000 символов
+- Локализация > 30 языков
 
 ---
 

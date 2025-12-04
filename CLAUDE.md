@@ -16,6 +16,9 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 │
 ├── lesson-01/CLAUDE.md      ← Урок 1: Выбор идеи ✅
 ├── lesson-02/CLAUDE.md      ← Урок 2: Keyword Research ⏳
+├── lesson-03/CLAUDE.md      ← Урок 3: Разработка MVP
+├── lesson-04/CLAUDE.md      ← Урок 4: Публикация
+│
 └── shared/CLAUDE.md         ← Общие формулы и критерии
 ```
 
@@ -27,6 +30,8 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 |--------|---------|
 | **Начать урок 1** | `Прочитай: lesson-01/CLAUDE.md` |
 | **Начать урок 2** | `Прочитай: lesson-02/CLAUDE.md` |
+| **Начать урок 3** | `Прочитай: lesson-03/CLAUDE.md` |
+| **Начать урок 4** | `Прочитай: lesson-04/CLAUDE.md` |
 | **Понять входные данные** | `Прочитай: inputs/CLAUDE.md` |
 | **Формулы и критерии** | `Прочитай: shared/CLAUDE.md` |
 
@@ -34,10 +39,33 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 
 ## Навигация по урокам
 
-| Урок | Тема | Статус | Контекст |
-|------|------|--------|----------|
-| **01** | Выбор идеи | ✅ Завершён | [lesson-01/CLAUDE.md](lesson-01/CLAUDE.md) |
-| **02** | Keyword Research | ⏳ Не начат | [lesson-02/CLAUDE.md](lesson-02/CLAUDE.md) |
+| Урок | Тема | Материалы курса | Статус |
+|------|------|-----------------|--------|
+| **01** | Выбор идеи | 01-03 | ✅ Завершён |
+| **02** | Keyword Research | 04-09 | ⏳ Не начат |
+| **03** | Разработка MVP | 10 | Не начат |
+| **04** | Публикация | 11 | Не начат |
+
+---
+
+## Связь уроков с материалами курса
+
+```
+inputs/course/
+├── 01_vybor_idei.htm          ─┐
+├── 02_ocenka_dohodnosti.htm    ├─→ Lesson 01: Выбор идеи
+├── 03_podschet_ballov.htm     ─┘
+│
+├── 04_podbor_zaprosa_1.htm    ─┐
+├── 05_podbor_zaprosa_2.htm     │
+├── 06_keyword_difficulty.htm   ├─→ Lesson 02: Keyword Research
+├── 07_proverka_konkurentov.htm │
+├── 08_ranzhirovanie.htm        │
+├── 09_proverka_klucha.htm     ─┘
+│
+├── 10_vytaskivaem_funkciyu.htm ──→ Lesson 03: Разработка MVP
+└── 11_otpravka_rezultatov.htm  ──→ Lesson 04: Публикация
+```
 
 ---
 
@@ -46,29 +74,36 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 ```
 week-1/
 ├── CLAUDE.md                 # ★ Entry Point (роутер)
-├── README.md
+├── README.md                 # Описание проекта
 │
 ├── inputs/                   # Общие входные данные
-│   ├── CLAUDE.md             # → Описание всех inputs
+│   ├── CLAUDE.md
 │   ├── app-database/         # 20 XLSX (946 расширений)
-│   │   └── CLAUDE.md
 │   ├── course/               # 11 HTML уроков курса
-│   │   └── CLAUDE.md
 │   └── webinar/              # Транскрипция вебинара
-│       └── CLAUDE.md
 │
-├── lesson-01/                # Урок 1: Выбор идеи ✅
-│   ├── CLAUDE.md             # → Контекст урока
-│   ├── templates/            # Шаблоны оценки
-│   └── outputs/              # Результаты (FINAL_IDEAS_REPORT.md)
-│
-├── lesson-02/                # Урок 2: Keyword Research ⏳
-│   ├── CLAUDE.md             # → Контекст урока
+├── lesson-01/                # Выбор идеи ✅
+│   ├── CLAUDE.md
 │   ├── templates/
 │   └── outputs/
 │
-└── shared/                   # Общие ресурсы
-    └── CLAUDE.md             # → Формулы, критерии
+├── lesson-02/                # Keyword Research ⏳
+│   ├── CLAUDE.md
+│   ├── templates/
+│   └── outputs/
+│
+├── lesson-03/                # Разработка MVP
+│   ├── CLAUDE.md
+│   ├── templates/
+│   └── outputs/
+│
+├── lesson-04/                # Публикация
+│   ├── CLAUDE.md
+│   ├── templates/
+│   └── outputs/
+│
+└── shared/
+    └── CLAUDE.md             # Формулы, критерии
 ```
 
 ---
@@ -89,7 +124,7 @@ week-1/
 
 ---
 
-## Краткая справка (из shared/)
+## Краткая справка
 
 ### Ключевые формулы
 ```python
@@ -98,7 +133,7 @@ sale_price = users / 10                    # продажа проекта
 global_traffic = us_traffic * 10 * 10     # ×10 EN, ×10 все языки
 ```
 
-### Критерии оценки (8 штук, макс 50 баллов)
+### 8 критериев оценки (макс 50 баллов)
 | # | Критерий | Тип |
 |---|----------|-----|
 | 1 | Пользователи | 0-10 |
