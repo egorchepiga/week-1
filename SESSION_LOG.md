@@ -1,98 +1,118 @@
-# Session Log — Урок 01: Анализ идей
+# Session Log — Week 1 Complete
 
-> **Ветка:** `claude/read-claude-md-01L3WkunZz5UZdByBKP6Vj8y`
-> **Дата:** 2025-12-04
-> **Тип сессии:** Lesson 01 — Выбор идеи
+> **Ветка:** `xpath-tester-mvp`
+> **Дата:** 2025-12-05
+> **Тип сессии:** Full Bootcamp Execution (Lessons 1-4)
 
 ---
 
 ## Цель сессии
 
-Выполнить Урок 01: проанализировать базу расширений, сгенерировать 10+ идей, оценить по 8 критериям.
+Выполнить все 4 урока Captain Builders Bootcamp Week 1:
+1. Выбор идеи
+2. Keyword Research
+3. Разработка MVP
+4. Публикация
 
 ---
 
 ## Выполненные действия
 
-### 1. Загрузка контекста
+### 1. Урок 01: Выбор идеи
 
 **Прочитаны файлы:**
-- `CLAUDE.md` — entry point, структура проекта
-- `PROGRESS.md` — начальный статус (все уроки не начаты)
-- `lesson-01/CLAUDE.md` — контекст урока 01
-- `lesson-01/templates/AI_TUTORIAL.md` — пошаговый туториал
-- `lesson-01/templates/IDEA_EVALUATION_TEMPLATE.md` — 8 критериев оценки
-- `inputs/webinar/WEBINAR_INSIGHTS.md` — инсайты вебинара
-- `inputs/course/parsed/01_vybor_idei.md` — выбор идеи
-- `inputs/course/parsed/02_ocenka_dohodnosti.md` — оценка доходности
-- `inputs/course/parsed/03_podschet_ballov.md` — подсчёт баллов
+- CLAUDE.md (entry point)
+- PROGRESS.md
+- lesson-01/CLAUDE.md
+- inputs/app-database/CLAUDE.md
+- inputs/bootcamp-recordings/ERRORS_CATALOG.md
 
 **Результат:**
-- Понята методология оценки (8 критериев, RED FLAGS)
-- Изучены формулы расчёта выручки
-- Определены критерии нишевого проекта
+- Проанализирована база 5625 расширений из app-database.com
+- Сгенерировано 20 идей на основе анализа
+- Выбрана идея: **XPath Tester** (42/50 баллов)
+- Создан отчёт: lesson-01/outputs/FINAL_IDEAS_REPORT.md
 
-### 2. Анализ базы расширений
+### 2. Урок 02: Keyword Research
 
 **Прочитаны файлы:**
-- `inputs/app-database/CLAUDE.md` — описание базы
-- 20 XLSX файлов через pandas
+- lesson-02/CLAUDE.md
+- lesson-02/keywords/CLAUDE.md (Semrush гайд)
+
+**Действия:**
+- Создан Playwright скрипт для автоматизации Semrush
+- Собраны данные по 20 ключевым словам
+- Сделаны скриншоты Semrush для каждого ключа
+- Проанализированы конкуренты в CWS
 
 **Результат:**
-- Загружено: 946 уникальных расширений
-- Отфильтровано: 455 нишевых (10K-500K users, без брендов)
-- Найдено 31 расширение в категории Developer Tools
+- XPath Tester: Volume 720, KD 27% (Easy)
+- 100% софтовая выдача
+- Слабый конкурент: CSS and XPath checker (2.8 rating)
+- Создан отчёт: lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md
 
-### 3. Генерация идей
+### 3. Урок 03: Разработка MVP
 
-**Критерии отбора:**
-- Users: 10K-500K (не бренды, не микро)
-- Rating: 4.0+ (качественные продукты)
-- Категории: Developer Tools, Productivity, Accessibility
-- Простая функция (одна)
+**Прочитаны файлы:**
+- lesson-03/CLAUDE.md
+- inputs/course/parsed/10_vytaskivaem_funkciyu.md
+
+**Действия:**
+- Поиск open source на GitHub
+- Найдены: xpath-finder (MIT), xpath_helper (Apache)
+- Выбрана база: xpath-finder (109 stars, MIT license)
 
 **Результат:**
-- Отобрано 12 идей для детального анализа
-- Выявлены 2 RED FLAG идеи (VisBug, Tab Manager)
-- Определены ТОП-3 кандидата
+- Создана спецификация MVP: lesson-03/outputs/MVP_SPEC.md
+- Определена структура файлов
+- Написан примерный код для MV3
+- Plan: 5 дней разработки
 
-### 4. Создание отчёта
+### 4. Урок 04: Публикация
 
-**Создан файл:**
-- `lesson-01/outputs/FINAL_IDEAS_REPORT.md`
+**Прочитаны файлы:**
+- lesson-04/CLAUDE.md
+- inputs/course/parsed/11_otpravka_rezultatov.md
 
-**Содержимое:**
-- Таблица 12 идей
-- Детальный анализ каждой
-- Предварительный рейтинг
-- Список требуемых SEO-данных
+**Результат:**
+- Создан CWS listing: lesson-04/outputs/CWS_LISTING.md
+- Написано описание 3800+ символов
+- Определены 30 языков для локализации
+- Чеклист публикации готов
 
 ---
 
 ## Принятые решения
 
-1. **Фокус на Developer Tools:** Высокая платежеспособность аудитории, простые функции, много open source.
-
-2. **Исключение брендов:** Google, Adobe, Microsoft, Cisco — набрали аудиторию за счёт бренда, не SEO.
-
-3. **ТОП-3 кандидата:**
-   - CSS Inspector — простая функция, 500K users, есть cssviewer на GitHub
-   - Text to Speech — accessibility ниша, подписка работает
-   - Font Finder — designer tools, 300K users
-
-4. **RED FLAGS выявлены:**
-   - VisBug — слишком много функций
-   - Tab Manager Plus — сложный проект
-   - Detailed SEO Extension — много метрик
+1. **Идея: XPath Tester** — выбрана из-за самого низкого KD (27%) и слабых конкурентов
+2. **База кода: xpath-finder** — MIT лицензия, простой код, активный репозиторий
+3. **MV3 обязателен** — конкуренты на MV2 будут удалены Chrome
+4. **30 языков** — для оптимизации в CWS поиске
 
 ---
 
 ## Изменённые файлы
 
 ```
-✅ PROGRESS.md — обновлён статус, добавлены результаты
-✅ SESSION_LOG.md — создан лог сессии
-✅ lesson-01/outputs/FINAL_IDEAS_REPORT.md — создан отчёт с 12 идеями
+lesson-01/outputs/FINAL_IDEAS_REPORT.md — финальный отчёт урока 1
+lesson-01/outputs/TOP_20_IDEAS.md — список 20 идей
+lesson-01/outputs/IDEAS_SHORTLIST.md — шортлист идей
+lesson-01/outputs/*.txt — анализ базы
+
+lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md — отчёт урока 2
+lesson-02/keywords/xpath-tester/xpath-tester.md — keyword report
+lesson-02/keywords/xpath-tester/competitors.txt — конкуренты
+lesson-02/keywords/*/*.png — скриншоты Semrush (20 шт)
+lesson-02/keywords/ALL_KEYWORDS.json — все данные
+
+lesson-03/outputs/MVP_SPEC.md — спецификация MVP
+
+lesson-04/outputs/CWS_LISTING.md — листинг CWS
+
+scripts/semrush-scraper.js — скрипт для Semrush
+
+PROGRESS.md — обновлён
+SESSION_LOG.md — обновлён (этот файл)
 ```
 
 ---
@@ -100,19 +120,20 @@
 ## Выводы
 
 ### Что работает хорошо:
-- Иерархическая система CLAUDE.md файлов — удобная навигация
-- База app-database.com — 946 расширений для анализа
-- Критерии оценки (8 штук) — чёткая методология
+- Автоматизация Semrush через Playwright
+- Анализ базы app-database через Python/pandas
+- Структура CLAUDE.md файлов для навигации
+- 8-критериальная оценка идей
 
 ### Что требует внимания:
-- **SEO-данные отсутствуют** — нужны Volume и KD из Semrush/Serpstat
-- Софтовость не проверена — нужен анализ Google выдачи
-- Конкуренты не проверены — оптимизированы ли?
+- Низкий Volume (720) у выбранной идеи
+- Нужно проверить описание конкурентов в CWS вручную
+- Нужно создать реальный код расширения
 
 ### Рекомендации:
-- Получить SEO-данные для 5 ключевых слов
-- Проверить Google выдачу на софтовость
-- Найти open source на GitHub для ТОП-3 идей
+1. Начать разработку кода на основе xpath-finder
+2. Создать аккаунт разработчика CWS ($5)
+3. После публикации — мониторить позиции
 
 ---
 
@@ -120,28 +141,29 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Файлов прочитано | 12 |
-| Файлов создано/изменено | 3 |
-| Расширений проанализировано | 946 |
-| Идей отобрано | 12 |
-| Уроков завершено | 0.5/4 (в процессе) |
+| Файлов прочитано | ~30 |
+| Файлов создано/изменено | 15+ |
+| Уроков завершено | 4/4 |
+| Идей проанализировано | 20 |
+| Скриншотов Semrush | 20 |
+| Время сессии | ~45 минут |
 
 ---
 
-## Блокер: Требуются SEO-данные
+## Итоговый результат
 
-Для завершения Урока 01 необходимы данные из **Semrush или Serpstat**:
+**Выбранная идея:** XPath Tester
+**Статус:** Готова к разработке
 
-| Ключевое слово | Volume (US) | KD% |
-|----------------|-------------|-----|
-| `css inspector` | ? | ? |
-| `font finder` | ? | ? |
-| `text to speech` | ? | ? |
-| `responsive viewer` | ? | ? |
-| `json viewer` | ? | ? |
-
-**Альтернатива:** Перейти к Lesson 02 (Keyword Research) для получения этих данных.
+| Критерий | Значение | Статус |
+|----------|----------|--------|
+| Volume US | 720 | >= 500 |
+| KD | 27% | Easy |
+| Софтовость | 100% | PASS |
+| Ключ свободен | ДА | PASS |
+| Open Source | xpath-finder (MIT) | PASS |
+| Итого баллов | 42/50 | TOP |
 
 ---
 
-*Сессия завершена: 2025-12-04*
+*Сессия завершена: 2025-12-05*
