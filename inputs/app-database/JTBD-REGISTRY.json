@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "generated_date": "2025-12-05T01:19:47.395787",
+    "total_jtbds": 207,
+    "total_extensions": 5625,
+    "classified_extensions": 5320,
+    "main_categories": 14
+  },
+  "categories": {
+    "BROWSING": {
+      "jobs": [
+        "BROWSING > Privacy & Safety > Ad Blocking",
+        "BROWSING > Privacy & Safety > Anti-Phishing",
+        "BROWSING > Privacy & Safety > Cookie Management",
+        "BROWSING > Privacy & Safety > Privacy Protection",
+        "BROWSING > Privacy & Safety > Tracker Blocking",
+        "BROWSING > Reading & Content > Article Tools",
+        "BROWSING > Reading & Content > Highlighting & Notes",
+        "BROWSING > Reading & Content > News & Feed",
+        "BROWSING > Reading & Content > Read Later",
+        "BROWSING > Search & Discovery > Discovery Engine",
+        "BROWSING > Search & Discovery > Enhanced Search",
+        "BROWSING > Search & Discovery > Search History",
+        "BROWSING > Search & Discovery > Search Shortcuts",
+        "BROWSING > URL Management > Link Management",
+        "BROWSING > URL Management > Link Preview",
+        "BROWSING > URL Management > QR Codes",
+        "BROWSING > URL Management > URL Shortening"
+      ]
+    },
+    "BUSINESS & ENTERPRISE": {
+      "jobs": [
+        "BUSINESS & ENTERPRISE > CRM & Sales > CRM Integration",
+        "BUSINESS & ENTERPRISE > CRM & Sales > Customer Data",
+        "BUSINESS & ENTERPRISE > CRM & Sales > Lead Management",
+        "BUSINESS & ENTERPRISE > CRM & Sales > Sales Pipeline",
+        "BUSINESS & ENTERPRISE > Enterprise Integration > Desktop Redirect",
+        "BUSINESS & ENTERPRISE > Enterprise Integration > EMR Integration",
+        "BUSINESS & ENTERPRISE > Enterprise Integration > Enterprise Tools",
+        "BUSINESS & ENTERPRISE > Finance & Accounting > Budget Planning",
+        "BUSINESS & ENTERPRISE > Finance & Accounting > Expense Tracking",
+        "BUSINESS & ENTERPRISE > Finance & Accounting > Financial Reports",
+        "BUSINESS & ENTERPRISE > Finance & Accounting > Invoice Management",
+        "BUSINESS & ENTERPRISE > HR & Team Management > Employee Management",
+        "BUSINESS & ENTERPRISE > HR & Team Management > Payroll",
+        "BUSINESS & ENTERPRISE > HR & Team Management > Team Communication",
+        "BUSINESS & ENTERPRISE > HR & Team Management > Time Off"
+      ]
+    },
+    "COMMUNICATION": {
+      "jobs": [
+        "COMMUNICATION > Chat & Messaging > Discord Tools",
+        "COMMUNICATION > Chat & Messaging > Instant Messaging",
+        "COMMUNICATION > Chat & Messaging > Slack Integration",
+        "COMMUNICATION > Chat & Messaging > Video Chat",
+        "COMMUNICATION > Content Creation > Grammar & Spell",
+        "COMMUNICATION > Content Creation > Paraphrase & Style",
+        "COMMUNICATION > Content Creation > Translation",
+        "COMMUNICATION > Content Creation > Write & Compose",
+        "COMMUNICATION > Media & Recording > Audio Recording",
+        "COMMUNICATION > Media & Recording > Media Conversion",
+        "COMMUNICATION > Media & Recording > Transcription",
+        "COMMUNICATION > Media & Recording > Video Download",
+        "COMMUNICATION > VoIP & Phone Integration > Browser Calling",
+        "COMMUNICATION > VoIP & Phone Integration > Integration",
+        "COMMUNICATION > VoIP & Phone Integration > Phone Systems"
+      ]
+    },
+    "DATA & INFORMATION": {
+      "jobs": [
+        "DATA & INFORMATION > Data Extraction & Export > Bulk Download",
+        "DATA & INFORMATION > Data Extraction & Export > CSV Export",
+        "DATA & INFORMATION > Data Extraction & Export > Data Transformation",
+        "DATA & INFORMATION > Data Extraction & Export > Web Scraping",
+        "DATA & INFORMATION > Database & Storage > Backup & Archive",
+        "DATA & INFORMATION > Database & Storage > Cloud Storage",
+        "DATA & INFORMATION > Database & Storage > Data Synchronization",
+        "DATA & INFORMATION > Database & Storage > Database Tools",
+        "DATA & INFORMATION > Document Processing > Document Conversion",
+        "DATA & INFORMATION > Document Processing > Document Organization",
+        "DATA & INFORMATION > Document Processing > OCR & Text",
+        "DATA & INFORMATION > Document Processing > PDF Tools"
+      ]
+    },
+    "DEVELOPMENT": {
+      "jobs": [
+        "DEVELOPMENT > AI Coding Tools > AI Coding Assistant",
+        "DEVELOPMENT > AI Coding Tools > Code Completion",
+        "DEVELOPMENT > AI Coding Tools > Code Generation",
+        "DEVELOPMENT > API & Backend Tools > API Documentation",
+        "DEVELOPMENT > API & Backend Tools > API Testing",
+        "DEVELOPMENT > API & Backend Tools > HTTP Tools",
+        "DEVELOPMENT > API & Backend Tools > JSON Tools",
+        "DEVELOPMENT > Code Development & IDE > Code Editing",
+        "DEVELOPMENT > Code Development & IDE > Code Quality",
+        "DEVELOPMENT > Code Development & IDE > Local Development",
+        "DEVELOPMENT > Code Development & IDE > Version Control",
+        "DEVELOPMENT > Developer Utilities > Base64 Encoding",
+        "DEVELOPMENT > Developer Utilities > Data Conversion",
+        "DEVELOPMENT > Developer Utilities > Developer Tools",
+        "DEVELOPMENT > Developer Utilities > Text Generation",
+        "DEVELOPMENT > Frontend & Design > CSS Inspection",
+        "DEVELOPMENT > Frontend & Design > Color Tools",
+        "DEVELOPMENT > Frontend & Design > Font Management",
+        "DEVELOPMENT > Frontend & Design > UI Components",
+        "DEVELOPMENT > Web Performance > Bandwidth Optimization",
+        "DEVELOPMENT > Web Performance > Cache Management",
+        "DEVELOPMENT > Web Performance > Network Analysis",
+        "DEVELOPMENT > Web Performance > Page Speed"
+      ]
+    },
+    "LEARNING & WRITING": {
+      "jobs": [
+        "LEARNING & WRITING > Education Platforms > Learning Management",
+        "LEARNING & WRITING > Education Platforms > Online Courses",
+        "LEARNING & WRITING > Education Platforms > Platform Enhancement",
+        "LEARNING & WRITING > Education Platforms > Research",
+        "LEARNING & WRITING > Education Platforms > Study Tools",
+        "LEARNING & WRITING > Writing & Language > Dictionary",
+        "LEARNING & WRITING > Writing & Language > Grammar Check",
+        "LEARNING & WRITING > Writing & Language > Language Learning",
+        "LEARNING & WRITING > Writing & Language > Style & Tone"
+      ]
+    },
+    "MEDIA & ENTERTAINMENT": {
+      "jobs": [
+        "MEDIA & ENTERTAINMENT > Entertainment > Comics & Manga",
+        "MEDIA & ENTERTAINMENT > Entertainment > Entertainment News",
+        "MEDIA & ENTERTAINMENT > Entertainment > Gaming",
+        "MEDIA & ENTERTAINMENT > Streaming & Download > Content Download",
+        "MEDIA & ENTERTAINMENT > Streaming & Download > Music Streaming",
+        "MEDIA & ENTERTAINMENT > Streaming & Download > Podcast Tools",
+        "MEDIA & ENTERTAINMENT > Streaming & Download > Video Streaming"
+      ]
+    },
+    "PERSONALIZATION": {
+      "jobs": [
+        "PERSONALIZATION > New Tab & Homepage > Dashboard",
+        "PERSONALIZATION > New Tab & Homepage > New Tab Page",
+        "PERSONALIZATION > New Tab & Homepage > Wallpaper",
+        "PERSONALIZATION > New Tab & Homepage > Widget",
+        "PERSONALIZATION > Personal Journal > Diary & Journal",
+        "PERSONALIZATION > Personal Journal > Wellness",
+        "PERSONALIZATION > Theme & Appearance > Color Themes",
+        "PERSONALIZATION > Theme & Appearance > Custom Skins",
+        "PERSONALIZATION > Theme & Appearance > Dark Mode",
+        "PERSONALIZATION > Theme & Appearance > Font & Size"
+      ]
+    },
+    "PRODUCTIVITY": {
+      "jobs": [
+        "PRODUCTIVITY > Email & Communication Automation > Email Templates",
+        "PRODUCTIVITY > Email & Communication Automation > Gmail Integration",
+        "PRODUCTIVITY > Email & Communication Automation > Send & Schedule Emails",
+        "PRODUCTIVITY > Email & Communication Automation > Track & Follow-up",
+        "PRODUCTIVITY > Notes & Knowledge Management > Code Snippets",
+        "PRODUCTIVITY > Notes & Knowledge Management > Knowledge Base",
+        "PRODUCTIVITY > Notes & Knowledge Management > Organize & Tag Notes",
+        "PRODUCTIVITY > Notes & Knowledge Management > Save & Capture Content",
+        "PRODUCTIVITY > Tab & Window Organization > Close & Manage Tabs",
+        "PRODUCTIVITY > Tab & Window Organization > Group & Session Tabs",
+        "PRODUCTIVITY > Tab & Window Organization > Split & Compare View",
+        "PRODUCTIVITY > Tab & Window Organization > Tab Search & Find",
+        "PRODUCTIVITY > Task & Project Management > Create & Manage Tasks",
+        "PRODUCTIVITY > Task & Project Management > Kanban Board",
+        "PRODUCTIVITY > Task & Project Management > Project Tracking",
+        "PRODUCTIVITY > Task & Project Management > Team Collaboration",
+        "PRODUCTIVITY > Time & Calendar Management > Event Scheduling",
+        "PRODUCTIVITY > Time & Calendar Management > Meeting Management",
+        "PRODUCTIVITY > Time & Calendar Management > Reminders & Notifications",
+        "PRODUCTIVITY > Time & Calendar Management > Time Tracking"
+      ]
+    },
+    "SEO & MARKETING": {
+      "jobs": [
+        "SEO & MARKETING > Ads & Campaigns > Ad Management",
+        "SEO & MARKETING > Ads & Campaigns > Budget Tracking",
+        "SEO & MARKETING > Ads & Campaigns > Pixel Implementation",
+        "SEO & MARKETING > Ads & Campaigns > Platform Integration",
+        "SEO & MARKETING > Content Analysis > Analytics Tracking",
+        "SEO & MARKETING > Content Analysis > Conversion Tracking",
+        "SEO & MARKETING > Content Analysis > Traffic Monitoring",
+        "SEO & MARKETING > Content Analysis > User Behavior",
+        "SEO & MARKETING > E-commerce Intelligence > Competitor Analysis",
+        "SEO & MARKETING > E-commerce Intelligence > Pricing Strategy",
+        "SEO & MARKETING > E-commerce Intelligence > Product Research",
+        "SEO & MARKETING > E-commerce Intelligence > Store Intelligence",
+        "SEO & MARKETING > Local SEO > Business Listings",
+        "SEO & MARKETING > Local SEO > Google Maps",
+        "SEO & MARKETING > Local SEO > Review Management",
+        "SEO & MARKETING > SEO & Search Optimization > Backlink Analysis",
+        "SEO & MARKETING > SEO & Search Optimization > Keyword Research",
+        "SEO & MARKETING > SEO & Search Optimization > On-Page SEO",
+        "SEO & MARKETING > SEO & Search Optimization > Ranking & Traffic",
+        "SEO & MARKETING > Social Media Marketing > Content Management",
+        "SEO & MARKETING > Social Media Marketing > Platform Tools",
+        "SEO & MARKETING > Social Media Marketing > Post & Schedule",
+        "SEO & MARKETING > Social Media Marketing > Social Analytics"
+      ]
+    },
+    "SHOPPING & DEALS": {
+      "jobs": [
+        "SHOPPING & DEALS > Marketplace Selling > Fiverr Tools",
+        "SHOPPING & DEALS > Marketplace Selling > Multi-Platform",
+        "SHOPPING & DEALS > Marketplace Selling > Shopee Tools",
+        "SHOPPING & DEALS > Price & Coupons > Cashback & Rewards",
+        "SHOPPING & DEALS > Price & Coupons > Coupon & Deals",
+        "SHOPPING & DEALS > Price & Coupons > Price Comparison",
+        "SHOPPING & DEALS > Price & Coupons > Price Tracking",
+        "SHOPPING & DEALS > Product Intelligence > Competitor Prices",
+        "SHOPPING & DEALS > Product Intelligence > Product Details",
+        "SHOPPING & DEALS > Product Intelligence > Product Search",
+        "SHOPPING & DEALS > Product Intelligence > Reviews & Ratings"
+      ]
+    },
+    "SPECIALIZED": {
+      "jobs": [
+        "SPECIALIZED > Cryptocurrency & Finance > Crypto Tracking",
+        "SPECIALIZED > Cryptocurrency & Finance > Price Alerts",
+        "SPECIALIZED > Cryptocurrency & Finance > Trading",
+        "SPECIALIZED > Cryptocurrency & Finance > Wallet Management",
+        "SPECIALIZED > Geolocation & Navigation > Location Services",
+        "SPECIALIZED > Geolocation & Navigation > Route Planning",
+        "SPECIALIZED > Health & Wellness > Health Monitoring",
+        "SPECIALIZED > Health & Wellness > Wellness",
+        "SPECIALIZED > IoT & Smart Devices > Hardware Integration",
+        "SPECIALIZED > IoT & Smart Devices > Smart Home",
+        "SPECIALIZED > IoT & Smart Devices > Smart TV",
+        "SPECIALIZED > Legal & Compliance > Compliance Tracking",
+        "SPECIALIZED > Legal & Compliance > Document Management",
+        "SPECIALIZED > Legal & Compliance > Terms & Conditions",
+        "SPECIALIZED > Time & Timezone > Time Conversion",
+        "SPECIALIZED > Time & Timezone > Worldtime",
+        "SPECIALIZED > Unit Conversion > Measurement",
+        "SPECIALIZED > Unit Conversion > Unit Converter"
+      ]
+    },
+    "SYSTEM & UTILITIES": {
+      "jobs": [
+        "SYSTEM & UTILITIES > Accessibility > Dyslexia Tools",
+        "SYSTEM & UTILITIES > Accessibility > Keyboard Tools",
+        "SYSTEM & UTILITIES > Accessibility > Vision Tools",
+        "SYSTEM & UTILITIES > Accessibility > Voice Tools",
+        "SYSTEM & UTILITIES > Browser Security > Developer Control",
+        "SYSTEM & UTILITIES > Browser Security > Flash & Legacy",
+        "SYSTEM & UTILITIES > Browser Security > Security",
+        "SYSTEM & UTILITIES > Network & Connectivity > DNS Tools",
+        "SYSTEM & UTILITIES > Network & Connectivity > Internet Tools",
+        "SYSTEM & UTILITIES > Network & Connectivity > VPN",
+        "SYSTEM & UTILITIES > System Tools > Clipboard Tools",
+        "SYSTEM & UTILITIES > System Tools > File Management",
+        "SYSTEM & UTILITIES > System Tools > System Optimization",
+        "SYSTEM & UTILITIES > System Tools > Window Management"
+      ]
+    },
+    "VISUAL & DESIGN": {
+      "jobs": [
+        "VISUAL & DESIGN > Content Removal > Overlay Removal",
+        "VISUAL & DESIGN > Content Removal > Remove Elements",
+        "VISUAL & DESIGN > Design Tools > Brand Tools",
+        "VISUAL & DESIGN > Design Tools > Design Creation",
+        "VISUAL & DESIGN > Design Tools > Mockups & Wireframes",
+        "VISUAL & DESIGN > Image Tools > Color Tools",
+        "VISUAL & DESIGN > Image Tools > Image Conversion",
+        "VISUAL & DESIGN > Image Tools > Image Editing",
+        "VISUAL & DESIGN > Image Tools > Photo Filters",
+        "VISUAL & DESIGN > Screenshot & Capture > Annotate & Markup",
+        "VISUAL & DESIGN > Screenshot & Capture > Screen Recording",
+        "VISUAL & DESIGN > Screenshot & Capture > Screenshot Management",
+        "VISUAL & DESIGN > Screenshot & Capture > Take Screenshots"
+      ]
+    }
+  }
+}

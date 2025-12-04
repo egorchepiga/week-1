@@ -254,7 +254,7 @@ class ExtensionCategorizer:
 
 def main():
     """Main execution"""
-    excel_path = "inputs/app-database/app-database-COMBINED-2025-12-04-EN-enriched copy.xlsx"
+    excel_path = "inputs/app-database/app-database-COMBINED-2025-12-04-EN-enriched.xlsx"
 
     try:
         categorizer = ExtensionCategorizer(excel_path)

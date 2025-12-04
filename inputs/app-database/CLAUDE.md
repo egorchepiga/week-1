@@ -14,11 +14,22 @@
 
 ```
 app-database/
-├── CLAUDE.md                                    # ★ ТЫ ЗДЕСЬ
-└── app_database_com_cws_export_*.xlsx          # 20 XLSX файлов
+├── CLAUDE.md                                    # ★ ТЫ ЗДЕСЬ (документация)
+│
+├─ ИСХОДНЫЕ ДАННЫЕ:
+├── app-database-COMBINED-2025-12-04-EN.xlsx   # 5625 расширений (EN only)
+│
+├─ ОБОГАЩЕНИЕ (внешний скрипт):
+├── enrichment-progress.json                    # 2100+ расширений с ссылками
+│
+└─ ПОЛНЫЕ ОПИСАНИЯ (наш скрипт):
+    └── description-results.json                # ⭐ НОВЫЙ: Полные описания
 ```
 
-**Всего:** 20 файлов × ~50 расширений = **946 уникальных расширений**
+**Статус данных:**
+- ✅ **Исходные:** 5625 расширений (XLSX, EN only)
+- 🔄 **Обогащённые:** 2100+ расширений (JSON с ссылками) — обновляется
+- 🔄 **Выходной Excel:** app-database-COMBINED-2025-12-04-EN-enriched.xlsx
 
 ---
 
@@ -79,4 +90,184 @@ print(f"Уникальных расширений: {len(combined)}")
 
 ---
 
+---
+
+## ⭐ НОВЫЕ ФАЙЛЫ: Обогащение данных (2025-12-04)
+
+### 1. `enrichment-progress.json` 🔄
+
+**Назначение:** Содержит **ссылки на CWS** и **краткие описания** расширений
+
+**Генератор:** Скрипт `scripts/enrich-extensions.py` (запускается **внешним процессом**)
+
+**Статус:** 🔄 **Постоянно обновляется** (параллельно с нашим процессом)
+
+**Структура:**
+```json
+{
+  "completed": {
+    "gadafnnkijfmbbmeielphlapddbmgbgo": {
+      "link": "https://chromewebstore.google.com/detail/close-tabs/gadafnnkijfmbbmeielphlapddbmgbgo",
+      "description": "Context menu to close - tabs to the left, tabs to the right..."
+    }
+  },
+  "errors": [...],
+  "last_index": 2100
+}
+```
+
+**Размер:** ~2-3 MB
+**Записей:** 2100+ расширений
+
+**Как использовать:**
+```python
+import json
+with open("inputs/app-database/enrichment-progress.json") as f:
+    data = json.load(f)
+for ext_id, info in data["completed"].items():
+    url = info["link"]  # https://chromewebstore.google.com/detail/...
+    short_desc = info["description"]  # Краткое описание
+```
+
+---
+
+### 2. `description-results.json` ⭐ **НОВЫЙ ФАЙЛ**
+
+**Назначение:** **ПОЛНЫЕ ОПИСАНИЯ** всех расширений со страниц Chrome Web Store
+
+**Генератор:** Скрипт `scripts/fetch-descriptions.py` (наш новый скрипт)
+
+**Статус:** 🔄 **Обновляется в реальном времени** (resumable processing)
+
+**Структура:**
+```json
+{
+  "processed": {
+    "gadafnnkijfmbbmeielphlapddbmgbgo": {
+      "url": "https://chromewebstore.google.com/detail/close-tabs/...",
+      "short_description": "Context menu to close...",
+      "full_description": "ПОЛНЫЙ ТЕКСТ со всеми деталями, версиями, инструкциями..."
+    }
+  },
+  "errors": [{...}],
+  "last_processed_id": "gadafnnkijfmbbmeielphlapddbmgbgo",
+  "stats": {
+    "success": 1000,
+    "failed": 5
+  }
+}
+```
+
+**Пример полного описания:**
+```
+Context menu to close - tabs to the left, tabs to the right, other tabs, tabs from same domain, current tab, window and more
+
+Provide context menu (popup that appear on right click) close button with following options
+
+1. Close tabs to the left of current tab
+2. Close tabs to the right of current tab
+3. Close other tabs except current tab
+...
+
+v1.2 - 2018-09-13
+- changes to ensure compliance Chrome Web Store policies
+```
+
+**Размер файла:** ~15-20 MB (при полном заполнении)
+**Записей:** обновляется по мере обработки
+
+**Как использовать:**
+```python
+import json
+with open("inputs/app-database/description-results.json") as f:
+    results = json.load(f)
+
+# Получить полное описание
+ext_id = "gadafnnkijfmbbmeielphlapddbmgbgo"
+if ext_id in results["processed"]:
+    full_desc = results["processed"][ext_id]["full_description"]
+    print(full_desc)
+
+# Проверить статус обработки
+print(f"Успешно: {results['stats']['success']}")
+print(f"Ошибок: {results['stats']['failed']}")
+```
+
+---
+
+## 🔄 Процесс обогащения (Pipeline)
+
+```
+1️⃣  app-database-COMBINED-2025-12-04-EN.xlsx (5625 расширений)
+         ↓
+    scripts/enrich-extensions.py
+         ↓
+2️⃣  enrichment-progress.json (прогресс + ссылки + описания)
+    +
+    app-database-COMBINED-2025-12-04-EN-enriched.xlsx (Excel с новыми колонками)
+```
+
+---
+
+## 📊 Как данные используются в Lessons
+
+| Lesson | Входной файл | Что делает |
+|--------|-------------|-----------|
+| **01** | `app-database-COMBINED-2025-12-04-EN.xlsx` | Генерация идей, анализ ниш |
+| **02** | `enrichment-progress.json` | Keyword research, анализ конкурентов |
+| **03** | `description-results.json` | Анализ функций, разработка MVP |
+| **04** | `description-results.json` | Подготовка к публикации |
+
+---
+
+## 🚀 Как запустить обогащение
+
+### Первый запуск (тест)
+```bash
+# Обработать только первые 5 расширений
+python3 scripts/fetch-descriptions.py --limit 5
+```
+
+### Полный запуск
+```bash
+# Обработать все оставшиеся расширения
+python3 scripts/fetch-descriptions.py
+```
+
+### Второй запуск (продолжение)
+```bash
+# Автоматически продолжит с сохранённой позиции
+python3 scripts/fetch-descriptions.py
+```
+
+---
+
+## 📈 Статистика обогащения
+
+### Текущий статус (2025-12-04)
+
+| Метрика | Значение | Статус |
+|---------|----------|--------|
+| Исходных расширений | 5625 | ✅ |
+| Обогащённых (с ссылками) | 2100+ | 🔄 |
+| Успешных | ~99% | ✅ |
+| Ошибок | ~1% | ⚠️ |
+
+**Проверить текущий прогресс:**
+```bash
+cat inputs/app-database/enrichment-progress.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(f'Progress: {len(d[\"completed\"])}/5625, Errors: {len(d[\"errors\"])}')"
+```
+
+---
+
+## ⚠️ Важные замечания
+
+✅ **Resumable:** Можно прервать и продолжить с сохранённого места
+✅ **Concurrent-safe:** Работает параллельно с другими скриптами
+✅ **Rate-limited:** Уважает сервер Chrome Web Store (0.3 сек между запросами)
+✅ **Error tracking:** Отслеживает и регистрирует ошибки отдельно
+
+---
+
 *Источник: app-database.com, экспорт 2025-12-04*
+*Обогащение: 2025-12-04*

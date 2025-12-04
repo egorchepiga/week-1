@@ -1,0 +1,2670 @@
+{
+  "BROWSING > Privacy & Safety > Ad Blocking": {
+    "count": 1333,
+    "avg_rating": 4.124486692015209,
+    "avg_users": 26145.536384096024,
+    "max_users": 100000,
+    "extensions": [
+      "Force.com Migration Tool Package Creator",
+      "Graph X-Ray",
+      "No PDF Download",
+      "Offset start-times in Google Calendar",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "BROWSING > Privacy & Safety > Anti-Phishing": {
+    "count": 55,
+    "avg_rating": 4.105882352941177,
+    "avg_users": 31872.727272727272,
+    "max_users": 100000,
+    "extensions": [
+      "10 Minutes Email - 10 min disposable email",
+      "Browsershield - Anti Phising Tool",
+      "HiFrame - The Hyper IFRAME extension!",
+      "JShelter",
+      "Qualys BrowserCheck for Windows"
+    ]
+  },
+  "BROWSING > Privacy & Safety > Cookie Management": {
+    "count": 68,
+    "avg_rating": 4.213636363636364,
+    "avg_users": 18632.352941176472,
+    "max_users": 100000,
+    "extensions": [
+      "Cookie Editor",
+      "Cookie Tab Viewer",
+      "Cookies Extractor",
+      "Google & YouTube Cookie Consent Popup Blocker",
+      "Request X"
+    ]
+  },
+  "BROWSING > Privacy & Safety > Privacy Protection": {
+    "count": 240,
+    "avg_rating": 4.294915254237289,
+    "avg_users": 28808.333333333332,
+    "max_users": 100000,
+    "extensions": [
+      "Force.com Migration Tool Package Creator",
+      "Global Privacy Control (GPC) Inspector",
+      "Rich Results - Structured Data Test Plugin",
+      "SEOInfo",
+      "Website Scraper"
+    ]
+  },
+  "BROWSING > Privacy & Safety > Tracker Blocking": {
+    "count": 266,
+    "avg_rating": 4.11444866920152,
+    "avg_users": 32650.375939849626,
+    "max_users": 100000,
+    "extensions": [
+      "BelkaVPN is VPN, Proxy to Unblock any sites",
+      "Breeze Ads: Friendly Adblock for Youtube™",
+      "HTML Content Blocker",
+      "Pogline",
+      "Shade Calendar – Time Blocking for Google Calendar"
+    ]
+  },
+  "BROWSING > Reading & Content > Article Tools": {
+    "count": 101,
+    "avg_rating": 4.116831683168317,
+    "avg_users": 31712.871287128713,
+    "max_users": 100000,
+    "extensions": [
+      "@Voice Add To List",
+      "Article Summarizer",
+      "Email This",
+      "Human Reader, powered by ElevenLabs",
+      "IDmelon WebLogin"
+    ]
+  },
+  "BROWSING > Reading & Content > Highlighting & Notes": {
+    "count": 75,
+    "avg_rating": 4.180821917808219,
+    "avg_users": 20640.0,
+    "max_users": 100000,
+    "extensions": [
+      "Cursorlux - Mouse Highlighter",
+      "Multi Highlight",
+      "Roam-highlighter",
+      "Salesforce.com Enhanced Formula Editor",
+      "Sur.ly Surfguard"
+    ]
+  },
+  "BROWSING > Reading & Content > News & Feed": {
+    "count": 38,
+    "avg_rating": 4.327027027027027,
+    "avg_users": 16684.21052631579,
+    "max_users": 70000,
+    "extensions": [
+      "RSS Finder",
+      "SubShift: Transfer your YouTube subscriptions",
+      "Subscriptions Grid For YouTube™",
+      "Tabtonews",
+      "Turbo Ad Finder"
+    ]
+  },
+  "BROWSING > Reading & Content > Read Later": {
+    "count": 10,
+    "avg_rating": 4.069999999999999,
+    "avg_users": 25400.0,
+    "max_users": 90000,
+    "extensions": [
+      "Alarm Me!",
+      "JSON Pretty",
+      "MarkSnip - Markdown Web Clipper",
+      "Quick Pocket",
+      "SEO Content Checker: Plagiarism & Readability"
+    ]
+  },
+  "BROWSING > Search & Discovery > Discovery Engine": {
+    "count": 42,
+    "avg_rating": 4.504761904761905,
+    "avg_users": 21071.428571428572,
+    "max_users": 100000,
+    "extensions": [
+      "Bulk Image Downloader",
+      "Color Name Finder",
+      "Rabbit Hole for YouTube™",
+      "SEO Spider Tools",
+      "Video Search Extension"
+    ]
+  },
+  "BROWSING > Search & Discovery > Enhanced Search": {
+    "count": 589,
+    "avg_rating": 4.123571428571428,
+    "avg_users": 26101.867572156196,
+    "max_users": 100000,
+    "extensions": [
+      "Color Name Finder",
+      "SEO Render Insight Tool",
+      "SelectON — selection popup. Copy & search",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork",
+      "Whale CoPilot"
+    ]
+  },
+  "BROWSING > Search & Discovery > Search History": {
+    "count": 120,
+    "avg_rating": 4.2823529411764705,
+    "avg_users": 20391.666666666668,
+    "max_users": 100000,
+    "extensions": [
+      "Bookmark It",
+      "Clipper",
+      "Open bookmarks in a new tab",
+      "PageSpeed Insights Shortcut & History Report Recorder",
+      "Whale CoPilot"
+    ]
+  },
+  "BROWSING > Search & Discovery > Search Shortcuts": {
+    "count": 68,
+    "avg_rating": 4.275757575757575,
+    "avg_users": 26808.823529411766,
+    "max_users": 100000,
+    "extensions": [
+      "Amz superman seller tool",
+      "Keyboard shortcuts to manage Chrome tabs",
+      "LeetCode Night",
+      "Mouse Gestures - Power Mouse X",
+      "PageSpeed Insights Shortcut & History Report Recorder"
+    ]
+  },
+  "BROWSING > URL Management > Link Management": {
+    "count": 542,
+    "avg_rating": 4.128838951310862,
+    "avg_users": 24998.154981549815,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Bookmark It",
+      "Mega-Debrid Browser Extension",
+      "Multi-links",
+      "Whale CoPilot"
+    ]
+  },
+  "BROWSING > URL Management > Link Preview": {
+    "count": 39,
+    "avg_rating": 4.378947368421053,
+    "avg_users": 19333.333333333332,
+    "max_users": 90000,
+    "extensions": [
+      "ASO tool – Free app store optimization tool by AppTweak",
+      "Audible Library Extractor",
+      "Force.com Migration Tool Package Creator",
+      "Open Graph Checker",
+      "Search & Link Preview"
+    ]
+  },
+  "BROWSING > URL Management > QR Codes": {
+    "count": 30,
+    "avg_rating": 4.024137931034483,
+    "avg_users": 27500.0,
+    "max_users": 100000,
+    "extensions": [
+      "Barcode Generator",
+      "Free Qr code generator without ads - Rqrcode",
+      "QR Clip and Scan",
+      "QR creator",
+      "Review Link Generator for Google™"
+    ]
+  },
+  "BROWSING > URL Management > URL Shortening": {
+    "count": 44,
+    "avg_rating": 4.2023809523809526,
+    "avg_users": 28613.636363636364,
+    "max_users": 100000,
+    "extensions": [
+      "No Redirections",
+      "Openload Video Only",
+      "PoE Wiki Redirector",
+      "Smartsheet",
+      "URLRedirector"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > CRM & Sales > CRM Integration": {
+    "count": 71,
+    "avg_rating": 4.304285714285714,
+    "avg_users": 25098.591549295776,
+    "max_users": 100000,
+    "extensions": [
+      "AppCursor - All App Wigets inside CRM, Desk",
+      "ConvergeHub Lead Generator",
+      "Force.com Migration Tool Package Creator",
+      "LinkMatch For Pipedrive",
+      "Salesforce.com Enhanced Formula Editor"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > CRM & Sales > Customer Data": {
+    "count": 121,
+    "avg_rating": 4.2283333333333335,
+    "avg_users": 23421.487603305784,
+    "max_users": 100000,
+    "extensions": [
+      "Chats Backup for wa",
+      "Codeforces Rating-Based Heatmap",
+      "Customer Meetings",
+      "Facebook Videos Downloader - Save FB Videos",
+      "PageSpeed Insights Shortcut & History Report Recorder"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > CRM & Sales > Lead Management": {
+    "count": 94,
+    "avg_rating": 4.279569892473118,
+    "avg_users": 20734.042553191488,
+    "max_users": 100000,
+    "extensions": [
+      "Advent of Code Charts",
+      "ConvergeHub Lead Generator",
+      "Lead Connect | LinkedIn Outreach Platform",
+      "LinkMatch For Pipedrive",
+      "Penny+"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > CRM & Sales > Sales Pipeline": {
+    "count": 102,
+    "avg_rating": 4.288,
+    "avg_users": 26039.21568627451,
+    "max_users": 100000,
+    "extensions": [
+      "Color Name Finder",
+      "Force.com Migration Tool Package Creator",
+      "Regie.ai | AI Co-Pilot for Sales Emails",
+      "Salesforce.com Enhanced Formula Editor",
+      "Video to mp3"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Enterprise Integration > Desktop Redirect": {
+    "count": 80,
+    "avg_rating": 4.002777777777777,
+    "avg_users": 29275.0,
+    "max_users": 100000,
+    "extensions": [
+      "Autoplay Shorts",
+      "Google Inbox Checker (Inbox by Gmail)",
+      "Rick and Morty NewTab",
+      "Smartsheet",
+      "URLRedirector"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Enterprise Integration > EMR Integration": {
+    "count": 17,
+    "avg_rating": 4.1625,
+    "avg_users": 14176.470588235294,
+    "max_users": 40000,
+    "extensions": [
+      "Chartnote",
+      "Comprehend EMR Integration",
+      "Cortico Plug-in: Automate Your EMR",
+      "Salesforce Profile Reader",
+      "chg-sf-highlighter"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Enterprise Integration > Enterprise Tools": {
+    "count": 49,
+    "avg_rating": 4.157446808510638,
+    "avg_users": 25367.34693877551,
+    "max_users": 100000,
+    "extensions": [
+      "Comprehend EMR Integration",
+      "ControlUp Digital Employee Experience for ChromeOS",
+      "Lead Connect | LinkedIn Outreach Platform",
+      "YouTube Ad Accelerator — Skip, Mute & Speed Up Ads",
+      "uGet Integration"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Finance & Accounting > Budget Planning": {
+    "count": 5,
+    "avg_rating": 3.6399999999999997,
+    "avg_users": 53000.0,
+    "max_users": 100000,
+    "extensions": [
+      "Everhour — Time Tracking, Budgets, Expenses",
+      "Milanote Web Clipper",
+      "Online Weather Forecast",
+      "Toggl Plan: Project Planning Calendar",
+      "Wanderlog: search & save Google Maps places"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Finance & Accounting > Expense Tracking": {
+    "count": 1,
+    "avg_rating": 4.2,
+    "avg_users": 90000.0,
+    "max_users": 90000,
+    "extensions": [
+      "Everhour — Time Tracking, Budgets, Expenses"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Finance & Accounting > Financial Reports": {
+    "count": 65,
+    "avg_rating": 4.2453125,
+    "avg_users": 28446.153846153848,
+    "max_users": 100000,
+    "extensions": [
+      "AsoSpy for Google Play Store ASO",
+      "BetterBugs: A Fresh Approach to Bug Reporting",
+      "Dark New Tab",
+      "Page Size Inspector",
+      "PageSpeed Insights Shortcut & History Report Recorder"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > Finance & Accounting > Invoice Management": {
+    "count": 13,
+    "avg_rating": 3.8307692307692305,
+    "avg_users": 19230.76923076923,
+    "max_users": 70000,
+    "extensions": [
+      "Ali Invoice",
+      "AliBilling - Download AliExpress Invoice",
+      "Invoice ETA Download Tools Plus",
+      "Invoice Simple",
+      "Speed Bitcoin Lightning Wallet"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > HR & Team Management > Employee Management": {
+    "count": 63,
+    "avg_rating": 4.2316666666666665,
+    "avg_users": 27873.015873015873,
+    "max_users": 100000,
+    "extensions": [
+      "GQueues for Gmail",
+      "Jiminny Sidekick",
+      "Passwd: Team Password Manager",
+      "Snipit - organize, share, collaborate",
+      "Teamtailor sourcing"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > HR & Team Management > Payroll": {
+    "count": 8,
+    "avg_rating": 4.2,
+    "avg_users": 27000.0,
+    "max_users": 90000,
+    "extensions": [
+      "Adyen Test Cards",
+      "Bottomline PTX eSigner",
+      "Credit Card Generator Tool",
+      "Salary Seeker",
+      "Speed Bitcoin Lightning Wallet"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > HR & Team Management > Team Communication": {
+    "count": 59,
+    "avg_rating": 4.2403508771929825,
+    "avg_users": 26305.084745762713,
+    "max_users": 100000,
+    "extensions": [
+      "Jiminny Sidekick",
+      "Passwd: Team Password Manager",
+      "Prolific Studies Notifier",
+      "Snipit - organize, share, collaborate",
+      "Teamtailor sourcing"
+    ]
+  },
+  "BUSINESS & ENTERPRISE > HR & Team Management > Time Off": {
+    "count": 2,
+    "avg_rating": 4.1,
+    "avg_users": 23000.0,
+    "max_users": 40000,
+    "extensions": [
+      "Audio Recordings for Google Classroom - Beep",
+      "Instant Maps"
+    ]
+  },
+  "COMMUNICATION > Chat & Messaging > Discord Tools": {
+    "count": 51,
+    "avg_rating": 3.976470588235294,
+    "avg_users": 27803.92156862745,
+    "max_users": 100000,
+    "extensions": [
+      "DeepSeek Server Busy",
+      "Hide Expert VPN",
+      "Magnet Link and .torrent to Transmission",
+      "Trend Micro Shell Shock Detector",
+      "TubeArchivist Companion"
+    ]
+  },
+  "COMMUNICATION > Chat & Messaging > Instant Messaging": {
+    "count": 296,
+    "avg_rating": 4.177815699658702,
+    "avg_users": 24733.108108108107,
+    "max_users": 100000,
+    "extensions": [
+      "AIKTP: All-in-One AI",
+      "Google Inbox Checker (Inbox by Gmail)",
+      "Scrollshot: Scrolling Screenshots. Full Page.",
+      "Tris",
+      "WA Audio & Voice Message to Text | WASBB.COM"
+    ]
+  },
+  "COMMUNICATION > Chat & Messaging > Slack Integration": {
+    "count": 25,
+    "avg_rating": 4.444,
+    "avg_users": 19960.0,
+    "max_users": 100000,
+    "extensions": [
+      "GQueues for Gmail",
+      "New Lantern – Multi-monitor Workspace",
+      "Rebump for Gmail",
+      "Slack Custom Emoji Manager",
+      "tabVertikal - vertical tabs"
+    ]
+  },
+  "COMMUNICATION > Chat & Messaging > Video Chat": {
+    "count": 112,
+    "avg_rating": 4.005405405405406,
+    "avg_users": 31410.714285714286,
+    "max_users": 100000,
+    "extensions": [
+      "AI Transcription - Transcribe Speech To Text",
+      "Customer Meetings",
+      "Google Transcribe & Summarize Live",
+      "MuteMe Web Extension",
+      "OnceHub for Gmail"
+    ]
+  },
+  "COMMUNICATION > Content Creation > Grammar & Spell": {
+    "count": 27,
+    "avg_rating": 4.185185185185185,
+    "avg_users": 30592.59259259259,
+    "max_users": 100000,
+    "extensions": [
+      "FlyMSG: AI Writing, Grammar Checker, Snippets, and Sales Engagement Tool",
+      "Grammarly with Ghost",
+      "Proofread Bot AI Writing Coach",
+      "Spell Bee",
+      "SpellCheckerGE - მცდარბეჭდილმძებნი"
+    ]
+  },
+  "COMMUNICATION > Content Creation > Paraphrase & Style": {
+    "count": 49,
+    "avg_rating": 4.3040816326530615,
+    "avg_users": 19938.775510204083,
+    "max_users": 100000,
+    "extensions": [
+      "Ellie: Your Professional AI Email Assistant",
+      "F'in sweet Scrollbar Styler for Webflow",
+      "FlipaCreate: Flipaclip For PC",
+      "HTML Content Blocker",
+      "Webpage Word Counter"
+    ]
+  },
+  "COMMUNICATION > Content Creation > Translation": {
+    "count": 132,
+    "avg_rating": 4.13587786259542,
+    "avg_users": 34318.181818181816,
+    "max_users": 100000,
+    "extensions": [
+      "AI Translator",
+      "Depth Translator for DeepL",
+      "Khan Academy Dots",
+      "Whatsapp™ Translator - Immersive Translation",
+      "WordReference"
+    ]
+  },
+  "COMMUNICATION > Content Creation > Write & Compose": {
+    "count": 216,
+    "avg_rating": 4.131944444444445,
+    "avg_users": 30203.703703703704,
+    "max_users": 100000,
+    "extensions": [
+      "Better Classroom",
+      "Bookmark It",
+      "FlipaCreate: Flipaclip For PC",
+      "Force.com Migration Tool Package Creator",
+      "Google Docs New"
+    ]
+  },
+  "COMMUNICATION > Media & Recording > Audio Recording": {
+    "count": 248,
+    "avg_rating": 4.065714285714286,
+    "avg_users": 28608.870967741936,
+    "max_users": 100000,
+    "extensions": [
+      "Audio Capture – Record Tab Sound in Chrome",
+      "Chemistry Reference Resolver",
+      "Graph X-Ray",
+      "PageSpeed Insights Shortcut & History Report Recorder",
+      "WA Audio & Voice Message to Text | WASBB.COM"
+    ]
+  },
+  "COMMUNICATION > Media & Recording > Media Conversion": {
+    "count": 380,
+    "avg_rating": 4.07426273458445,
+    "avg_users": 22213.157894736843,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Graph X-Ray",
+      "PDF to text",
+      "Product review export",
+      "WebSite IP Information Query"
+    ]
+  },
+  "COMMUNICATION > Media & Recording > Transcription": {
+    "count": 70,
+    "avg_rating": 4.1242857142857146,
+    "avg_users": 28328.571428571428,
+    "max_users": 100000,
+    "extensions": [
+      "AI Transcription - Transcribe Speech To Text",
+      "Revoldiv",
+      "TransorAI - AI Translator | Web, PDF, Images",
+      "WA Audio & Voice Message to Text | WASBB.COM",
+      "Wistia Video Downloader Plus"
+    ]
+  },
+  "COMMUNICATION > Media & Recording > Video Download": {
+    "count": 337,
+    "avg_rating": 4.120238095238095,
+    "avg_users": 27528.18991097923,
+    "max_users": 100000,
+    "extensions": [
+      "Bookmark It",
+      "FDownload - F.B Video Downloader",
+      "Facebook Videos Downloader - Save FB Videos",
+      "Influencer insights for Instagram & YouTube",
+      "YouTube Screenshot"
+    ]
+  },
+  "COMMUNICATION > VoIP & Phone Integration > Browser Calling": {
+    "count": 3,
+    "avg_rating": 3.6666666666666665,
+    "avg_users": 13666.666666666666,
+    "max_users": 30000,
+    "extensions": [
+      "Call From Browser",
+      "Click To Call Chrome Extension",
+      "JustCall - Click To Call for CRM Tools"
+    ]
+  },
+  "COMMUNICATION > VoIP & Phone Integration > Integration": {
+    "count": 1,
+    "avg_rating": 5.0,
+    "avg_users": 5000.0,
+    "max_users": 5000,
+    "extensions": [
+      "Ringostat click-to-call"
+    ]
+  },
+  "COMMUNICATION > VoIP & Phone Integration > Phone Systems": {
+    "count": 56,
+    "avg_rating": 4.02,
+    "avg_users": 23839.285714285714,
+    "max_users": 100000,
+    "extensions": [
+      "Akamai MFA",
+      "ChromeBar",
+      "Hilton ResSmart Click to Dial",
+      "IGEmail - IG Email Scraper and Extractor",
+      "Ringostat click-to-call"
+    ]
+  },
+  "DATA & INFORMATION > Data Extraction & Export > Bulk Download": {
+    "count": 144,
+    "avg_rating": 4.096503496503496,
+    "avg_users": 26097.222222222223,
+    "max_users": 100000,
+    "extensions": [
+      "Bulk Image Downloader",
+      "Multi-links",
+      "Search New Tab",
+      "Slack Custom Emoji Manager",
+      "VU Quiz Firewall Unlocker - VU TALK"
+    ]
+  },
+  "DATA & INFORMATION > Data Extraction & Export > CSV Export": {
+    "count": 458,
+    "avg_rating": 4.0695842450765864,
+    "avg_users": 23192.139737991267,
+    "max_users": 100000,
+    "extensions": [
+      "FDownload - F.B Video Downloader",
+      "Facebook Videos Downloader - Save FB Videos",
+      "FlipaCreate: Flipaclip For PC",
+      "No PDF Download",
+      "Product review export"
+    ]
+  },
+  "DATA & INFORMATION > Data Extraction & Export > Data Transformation": {
+    "count": 176,
+    "avg_rating": 4.080346820809249,
+    "avg_users": 19744.31818181818,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Graph X-Ray",
+      "PDF Converted - Convert Documents",
+      "PDF to text",
+      "Webpage to Markdown"
+    ]
+  },
+  "DATA & INFORMATION > Data Extraction & Export > Web Scraping": {
+    "count": 107,
+    "avg_rating": 4.139252336448598,
+    "avg_users": 21542.056074766355,
+    "max_users": 100000,
+    "extensions": [
+      "Audible Library Extractor",
+      "Cookies Extractor",
+      "PDF to text",
+      "Website Scraper",
+      "XPath Helper"
+    ]
+  },
+  "DATA & INFORMATION > Database & Storage > Backup & Archive": {
+    "count": 42,
+    "avg_rating": 4.119047619047619,
+    "avg_users": 23190.47619047619,
+    "max_users": 100000,
+    "extensions": [
+      "Bookmark Backup",
+      "Chats Backup for wa",
+      "JadeShip.com Extension",
+      "Subscriptions Grid For YouTube™",
+      "Web Archive Viewer"
+    ]
+  },
+  "DATA & INFORMATION > Database & Storage > Cloud Storage": {
+    "count": 152,
+    "avg_rating": 4.067114093959733,
+    "avg_users": 23848.684210526317,
+    "max_users": 100000,
+    "extensions": [
+      "CrowdLog Calendar Sync",
+      "Jira Black - Dark Mode",
+      "TECHRIS IFS Clipboard Sync",
+      "Tab Keeper - Chrome Tab Manager & Sync Tool",
+      "TabHamster"
+    ]
+  },
+  "DATA & INFORMATION > Database & Storage > Data Synchronization": {
+    "count": 42,
+    "avg_rating": 4.130952380952381,
+    "avg_users": 24047.619047619046,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "CrowdLog Calendar Sync",
+      "TECHRIS IFS Clipboard Sync",
+      "Tab Keeper - Chrome Tab Manager & Sync Tool",
+      "TabHamster"
+    ]
+  },
+  "DATA & INFORMATION > Database & Storage > Database Tools": {
+    "count": 323,
+    "avg_rating": 4.13596214511041,
+    "avg_users": 25631.57894736842,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Better Classroom",
+      "HTTP Commander",
+      "TabHamster",
+      "Vertical Tabs for Google Chrome™"
+    ]
+  },
+  "DATA & INFORMATION > Document Processing > Document Conversion": {
+    "count": 367,
+    "avg_rating": 4.086426592797784,
+    "avg_users": 23705.722070844688,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "GcalColor",
+      "Graph X-Ray",
+      "PDF to text",
+      "TasteWP: Free WordPress Instances"
+    ]
+  },
+  "DATA & INFORMATION > Document Processing > Document Organization": {
+    "count": 328,
+    "avg_rating": 4.121495327102804,
+    "avg_users": 25899.39024390244,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Better Classroom",
+      "HTTP Commander",
+      "TabHamster",
+      "Vertical Tabs for Google Chrome™"
+    ]
+  },
+  "DATA & INFORMATION > Document Processing > OCR & Text": {
+    "count": 23,
+    "avg_rating": 3.891304347826087,
+    "avg_users": 28695.652173913044,
+    "max_users": 100000,
+    "extensions": [
+      "Domain Blocker",
+      "PDF to OCR Text Converter",
+      "PDF to OCR for Google Chrome™",
+      "Timewarp",
+      "YouTube Time"
+    ]
+  },
+  "DATA & INFORMATION > Document Processing > PDF Tools": {
+    "count": 273,
+    "avg_rating": 3.978731343283582,
+    "avg_users": 28329.67032967033,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "IDmelon WebLogin",
+      "No PDF Download",
+      "PDF Converted - Convert Documents",
+      "PDF to text"
+    ]
+  },
+  "DEVELOPMENT > AI Coding Tools > AI Coding Assistant": {
+    "count": 1025,
+    "avg_rating": 4.222924901185771,
+    "avg_users": 27020.48780487805,
+    "max_users": 100000,
+    "extensions": [
+      "Close Tabs",
+      "EML to PDF",
+      "Rebump for Gmail",
+      "Regie.ai | AI Co-Pilot for Sales Emails",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "DEVELOPMENT > AI Coding Tools > Code Completion": {
+    "count": 26,
+    "avg_rating": 4.1692307692307695,
+    "avg_users": 24115.384615384617,
+    "max_users": 80000,
+    "extensions": [
+      "Google Instant Keywords Extractor",
+      "Salesforce.com Enhanced Formula Editor",
+      "Simple Form Fill",
+      "Universal Keyword Planner box",
+      "Whale CoPilot"
+    ]
+  },
+  "DEVELOPMENT > AI Coding Tools > Code Generation": {
+    "count": 160,
+    "avg_rating": 4.169182389937107,
+    "avg_users": 24587.5,
+    "max_users": 100000,
+    "extensions": [
+      "AIKTP: All-in-One AI",
+      "ChatGPT to Google Docs or PDF",
+      "ChatGPT to PDF",
+      "Ellie: Your Professional AI Email Assistant",
+      "Scrollshot: Scrolling Screenshots. Full Page."
+    ]
+  },
+  "DEVELOPMENT > API & Backend Tools > API Documentation": {
+    "count": 7,
+    "avg_rating": 4.757142857142857,
+    "avg_users": 22142.85714285714,
+    "max_users": 100000,
+    "extensions": [
+      "Apidog Browser Extension",
+      "Chartnote",
+      "Java Assist",
+      "Suki Assistant",
+      "Swagger UI - API Documentation Viewer"
+    ]
+  },
+  "DEVELOPMENT > API & Backend Tools > API Testing": {
+    "count": 63,
+    "avg_rating": 4.111111111111111,
+    "avg_users": 24444.444444444445,
+    "max_users": 100000,
+    "extensions": [
+      "ChatGPT to PDF",
+      "DeepSeek Server Busy",
+      "Page Size Inspector",
+      "PoE Wiki Redirector",
+      "Request X"
+    ]
+  },
+  "DEVELOPMENT > API & Backend Tools > HTTP Tools": {
+    "count": 79,
+    "avg_rating": 4.072151898734177,
+    "avg_users": 29734.177215189873,
+    "max_users": 100000,
+    "extensions": [
+      "Advent of Code Charts",
+      "HTTP Commander",
+      "SEOInfo",
+      "Skip shorte.st ads",
+      "Undisposition [Racle fork]"
+    ]
+  },
+  "DEVELOPMENT > API & Backend Tools > JSON Tools": {
+    "count": 49,
+    "avg_rating": 4.252083333333333,
+    "avg_users": 21183.673469387755,
+    "max_users": 100000,
+    "extensions": [
+      "FollowFox - IG Follower Export Tool (Email)",
+      "JsonDiscovery",
+      "OdooTerminal",
+      "PixelPal (by NextRoll)",
+      "SEO Schema Visualizer"
+    ]
+  },
+  "DEVELOPMENT > Code Development & IDE > Code Editing": {
+    "count": 765,
+    "avg_rating": 4.136631016042781,
+    "avg_users": 27643.13725490196,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Bookmark It",
+      "Color Name Finder",
+      "DOI Resolver",
+      "SEO Render Insight Tool"
+    ]
+  },
+  "DEVELOPMENT > Code Development & IDE > Code Quality": {
+    "count": 179,
+    "avg_rating": 4.059428571428572,
+    "avg_users": 26290.50279329609,
+    "max_users": 100000,
+    "extensions": [
+      "AFFiNE Web Clipper",
+      "HTML Visual Validation",
+      "PDF Converted - Convert Documents",
+      "WebSite IP Information Query",
+      "Webpage to Markdown"
+    ]
+  },
+  "DEVELOPMENT > Code Development & IDE > Local Development": {
+    "count": 51,
+    "avg_rating": 4.152,
+    "avg_users": 18411.764705882353,
+    "max_users": 100000,
+    "extensions": [
+      "Chameleon",
+      "Keak - Automated A/B Testing & Web Editor",
+      "SEOTesting",
+      "Simple Ruler Beta",
+      "TasteWP: Free WordPress Instances"
+    ]
+  },
+  "DEVELOPMENT > Code Development & IDE > Version Control": {
+    "count": 75,
+    "avg_rating": 4.282191780821918,
+    "avg_users": 24573.333333333332,
+    "max_users": 100000,
+    "extensions": [
+      "Advent of Code Charts",
+      "Authenticator App",
+      "DOI Resolver",
+      "Generate Password",
+      "Hero Wallet | hero.io"
+    ]
+  },
+  "DEVELOPMENT > Developer Utilities > Base64 Encoding": {
+    "count": 14,
+    "avg_rating": 4.228571428571429,
+    "avg_users": 31500.0,
+    "max_users": 100000,
+    "extensions": [
+      "Base64 Decoder",
+      "Base64 Encoder and Decoder",
+      "Base64 encode/decode selected text",
+      "SAML, WS-Federation and OAuth 2.0 tracer",
+      "URL Decode/Encode"
+    ]
+  },
+  "DEVELOPMENT > Developer Utilities > Data Conversion": {
+    "count": 284,
+    "avg_rating": 4.053790613718412,
+    "avg_users": 22686.61971830986,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Graph X-Ray",
+      "PDF Converted - Convert Documents",
+      "PDF to text",
+      "WebSite IP Information Query"
+    ]
+  },
+  "DEVELOPMENT > Developer Utilities > Developer Tools": {
+    "count": 600,
+    "avg_rating": 4.24283305227656,
+    "avg_users": 23376.666666666668,
+    "max_users": 100000,
+    "extensions": [
+      "AIKTP: All-in-One AI",
+      "Force.com Migration Tool Package Creator",
+      "New Tab & Toolbox",
+      "Rich Results - Structured Data Test Plugin",
+      "SEO Render Insight Tool"
+    ]
+  },
+  "DEVELOPMENT > Developer Utilities > Text Generation": {
+    "count": 82,
+    "avg_rating": 4.2370370370370365,
+    "avg_users": 18987.80487804878,
+    "max_users": 100000,
+    "extensions": [
+      "ConvergeHub Lead Generator",
+      "Generate Password",
+      "Lipsum Generator",
+      "Sitemap Generator",
+      "Smallppt"
+    ]
+  },
+  "DEVELOPMENT > Frontend & Design > CSS Inspection": {
+    "count": 119,
+    "avg_rating": 4.1571428571428575,
+    "avg_users": 21521.008403361346,
+    "max_users": 100000,
+    "extensions": [
+      "Code Beautifier (JS, CSS, HTML)",
+      "Element Locator",
+      "FlipaCreate: Flipaclip For PC",
+      "Global Privacy Control (GPC) Inspector",
+      "HTML Content Blocker"
+    ]
+  },
+  "DEVELOPMENT > Frontend & Design > Color Tools": {
+    "count": 87,
+    "avg_rating": 4.066279069767441,
+    "avg_users": 24482.758620689656,
+    "max_users": 100000,
+    "extensions": [
+      "Adjust Screen Brightness for Browser",
+      "Color Name Finder",
+      "DevTools for D365F&O",
+      "GcalColor",
+      "Shade Calendar – Time Blocking for Google Calendar"
+    ]
+  },
+  "DEVELOPMENT > Frontend & Design > Font Management": {
+    "count": 40,
+    "avg_rating": 4.225,
+    "avg_users": 26775.0,
+    "max_users": 100000,
+    "extensions": [
+      "Asset Downloader",
+      "Brandfetch",
+      "Code Formatter",
+      "Font Finder by WhatFont",
+      "What Font - find font"
+    ]
+  },
+  "DEVELOPMENT > Frontend & Design > UI Components": {
+    "count": 460,
+    "avg_rating": 4.140134529147982,
+    "avg_users": 25221.739130434784,
+    "max_users": 100000,
+    "extensions": [
+      "Chemistry Reference Resolver",
+      "DOI Resolver",
+      "EML to PDF",
+      "Pogline",
+      "Stonly Browser Extension"
+    ]
+  },
+  "DEVELOPMENT > Web Performance > Bandwidth Optimization": {
+    "count": 190,
+    "avg_rating": 4.302688172043011,
+    "avg_users": 25900.0,
+    "max_users": 100000,
+    "extensions": [
+      "Force.com Migration Tool Package Creator",
+      "Rich Results - Structured Data Test Plugin",
+      "SEOInfo",
+      "Tagbird",
+      "Website Scraper"
+    ]
+  },
+  "DEVELOPMENT > Web Performance > Cache Management": {
+    "count": 39,
+    "avg_rating": 4.102564102564102,
+    "avg_users": 17000.0,
+    "max_users": 70000,
+    "extensions": [
+      "Fileon - S3 Browser",
+      "Forget Me - Clean History, Cookies & more",
+      "Incognito Mode Reset Button",
+      "Page Size Inspector",
+      "Tab Suspender – Free Up RAM & Boost Browser Speed"
+    ]
+  },
+  "DEVELOPMENT > Web Performance > Network Analysis": {
+    "count": 54,
+    "avg_rating": 4.09433962264151,
+    "avg_users": 36481.48148148148,
+    "max_users": 100000,
+    "extensions": [
+      "Hero Wallet | hero.io",
+      "Page Size Inspector",
+      "Prentus | Job Tracker, AI Networking, & Application Helper",
+      "Proxy Client for Onion",
+      "Z3US"
+    ]
+  },
+  "DEVELOPMENT > Web Performance > Page Speed": {
+    "count": 28,
+    "avg_rating": 4.444,
+    "avg_users": 18535.714285714286,
+    "max_users": 100000,
+    "extensions": [
+      "Hide Latest Video Performance - YT",
+      "Page Size Inspector",
+      "Ptengine-Assistant",
+      "SEOInfo",
+      "Vidnoz Flex - Video recorder & Video share"
+    ]
+  },
+  "LEARNING & WRITING > Education Platforms > Learning Management": {
+    "count": 38,
+    "avg_rating": 3.70625,
+    "avg_users": 28210.526315789473,
+    "max_users": 100000,
+    "extensions": [
+      "CopyComments for Classroom",
+      "FPT GPA",
+      "Focus - On Your Work",
+      "Homework Checker (Schoology)",
+      "Howdou for students"
+    ]
+  },
+  "LEARNING & WRITING > Education Platforms > Online Courses": {
+    "count": 72,
+    "avg_rating": 4.173239436619719,
+    "avg_users": 32152.777777777777,
+    "max_users": 100000,
+    "extensions": [
+      "Better Blackboard Learn",
+      "ClickLearn Assist",
+      "ClickLearn Connector",
+      "Learning",
+      "Moodle Buddy"
+    ]
+  },
+  "LEARNING & WRITING > Education Platforms > Platform Enhancement": {
+    "count": 18,
+    "avg_rating": 4.316666666666666,
+    "avg_users": 24166.666666666668,
+    "max_users": 100000,
+    "extensions": [
+      "DRC ScoreBoard Secure Extension",
+      "Editing News X re:TikTok",
+      "GTMFixer - Google Tag Manager Enhancements",
+      "Udemy Picture-in-Picture",
+      "Visual Enhancements for Google Meet™"
+    ]
+  },
+  "LEARNING & WRITING > Education Platforms > Research": {
+    "count": 61,
+    "avg_rating": 4.2655737704918035,
+    "avg_users": 31868.852459016394,
+    "max_users": 100000,
+    "extensions": [
+      "Amz superman seller tool",
+      "Change My Location",
+      "CiteRight Next",
+      "Merch Dominator For Merch By Amazon & KDP",
+      "Winning Hunter"
+    ]
+  },
+  "LEARNING & WRITING > Education Platforms > Study Tools": {
+    "count": 42,
+    "avg_rating": 4.045238095238095,
+    "avg_users": 35976.19047619047,
+    "max_users": 100000,
+    "extensions": [
+      "Aceify.ai",
+      "Quizlet++",
+      "SmarterHumans.ai: AI flashcards & notes deep-linked to videos & webpages",
+      "Study Timer",
+      "VU Quiz Firewall Unlocker - VU TALK"
+    ]
+  },
+  "LEARNING & WRITING > Writing & Language > Dictionary": {
+    "count": 113,
+    "avg_rating": 4.179646017699115,
+    "avg_users": 38469.02654867257,
+    "max_users": 100000,
+    "extensions": [
+      "AI Translator",
+      "Depth Translator for DeepL",
+      "Khan Academy Dots",
+      "One click translate",
+      "WordReference"
+    ]
+  },
+  "LEARNING & WRITING > Writing & Language > Grammar Check": {
+    "count": 163,
+    "avg_rating": 4.18282208588957,
+    "avg_users": 24975.460122699387,
+    "max_users": 100000,
+    "extensions": [
+      "Check Range",
+      "Google Inbox Checker (Inbox by Gmail)",
+      "Rich Results - Structured Data Test Plugin",
+      "SEO Checker",
+      "Website Responsiveness Checker"
+    ]
+  },
+  "LEARNING & WRITING > Writing & Language > Language Learning": {
+    "count": 13,
+    "avg_rating": 4.484615384615385,
+    "avg_users": 15076.923076923076,
+    "max_users": 50000,
+    "extensions": [
+      "Elia – Own your English!",
+      "Japanese Dictionary JP",
+      "Read Frog - Open Source Immersive Translate",
+      "Thesaurus online",
+      "WordsMine! Your one-stop solution for vocabulary"
+    ]
+  },
+  "LEARNING & WRITING > Writing & Language > Style & Tone": {
+    "count": 49,
+    "avg_rating": 4.3040816326530615,
+    "avg_users": 19938.775510204083,
+    "max_users": 100000,
+    "extensions": [
+      "Ellie: Your Professional AI Email Assistant",
+      "F'in sweet Scrollbar Styler for Webflow",
+      "FlipaCreate: Flipaclip For PC",
+      "HTML Content Blocker",
+      "Webpage Word Counter"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Entertainment > Comics & Manga": {
+    "count": 182,
+    "avg_rating": 4.187362637362638,
+    "avg_users": 26582.417582417584,
+    "max_users": 100000,
+    "extensions": [
+      "Google Docs New",
+      "Graph X-Ray",
+      "IDmelon WebLogin",
+      "Shade Calendar – Time Blocking for Google Calendar",
+      "SnapMagic"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Entertainment > Entertainment News": {
+    "count": 16,
+    "avg_rating": 4.406666666666666,
+    "avg_users": 14250.0,
+    "max_users": 50000,
+    "extensions": [
+      "Editing News X re:TikTok",
+      "Elink - Bookmark Manager",
+      "Panda | Hacker News, Dribbble, Designer News",
+      "Tabtonews",
+      "Turbo Ad Finder"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Entertainment > Gaming": {
+    "count": 252,
+    "avg_rating": 4.129718875502008,
+    "avg_users": 24333.333333333332,
+    "max_users": 100000,
+    "extensions": [
+      "Autoplay Settings for YouTube™",
+      "Music on Stream",
+      "SEOInfo",
+      "TasteWP: Free WordPress Instances",
+      "remove YouTube TV button"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Streaming & Download > Content Download": {
+    "count": 566,
+    "avg_rating": 4.071378091872791,
+    "avg_users": 25068.904593639574,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Element Locator",
+      "Facebook Videos Downloader - Save FB Videos",
+      "No PDF Download",
+      "Regie.ai | AI Co-Pilot for Sales Emails"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Streaming & Download > Music Streaming": {
+    "count": 127,
+    "avg_rating": 4.0236220472440944,
+    "avg_users": 28551.181102362203,
+    "max_users": 100000,
+    "extensions": [
+      "Audio Capture – Record Tab Sound in Chrome",
+      "Music on Stream",
+      "Revoldiv",
+      "Text to Speech Chrome Extension",
+      "WA Audio & Voice Message to Text | WASBB.COM"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Streaming & Download > Podcast Tools": {
+    "count": 55,
+    "avg_rating": 4.062962962962962,
+    "avg_users": 29290.909090909092,
+    "max_users": 100000,
+    "extensions": [
+      "Audio Capture – Record Tab Sound in Chrome",
+      "Netflix Pause Removal",
+      "OUI9 HLS PLAYER M3U8",
+      "Revoldiv",
+      "Roll20: Click & Roll"
+    ]
+  },
+  "MEDIA & ENTERTAINMENT > Streaming & Download > Video Streaming": {
+    "count": 467,
+    "avg_rating": 4.0721627408993575,
+    "avg_users": 27387.580299785866,
+    "max_users": 100000,
+    "extensions": [
+      "Bookmark It",
+      "FDownload - F.B Video Downloader",
+      "Facebook Videos Downloader - Save FB Videos",
+      "Group Tabs By Domain",
+      "Music on Stream"
+    ]
+  },
+  "PERSONALIZATION > New Tab & Homepage > Dashboard": {
+    "count": 27,
+    "avg_rating": 4.466666666666667,
+    "avg_users": 23148.14814814815,
+    "max_users": 100000,
+    "extensions": [
+      "Daily Planner: Tasks, Notes, Goals",
+      "Hide Latest Video Performance - YT",
+      "Start!",
+      "Ultidash - New Tab",
+      "iHomepage"
+    ]
+  },
+  "PERSONALIZATION > New Tab & Homepage > New Tab Page": {
+    "count": 170,
+    "avg_rating": 4.130625,
+    "avg_users": 21205.882352941175,
+    "max_users": 100000,
+    "extensions": [
+      "Facebook Videos Downloader - Save FB Videos",
+      "Group Tabs By Domain",
+      "NFT Tab",
+      "New Tab & Toolbox",
+      "O'Reilly"
+    ]
+  },
+  "PERSONALIZATION > New Tab & Homepage > Wallpaper": {
+    "count": 282,
+    "avg_rating": 3.9916967509025274,
+    "avg_users": 23301.41843971631,
+    "max_users": 100000,
+    "extensions": [
+      "Better Blackboard Learn",
+      "Product review export",
+      "Save Image As Type",
+      "Swiggle - Safe Search",
+      "Temu Images Downloader"
+    ]
+  },
+  "PERSONALIZATION > New Tab & Homepage > Widget": {
+    "count": 117,
+    "avg_rating": 4.238392857142857,
+    "avg_users": 25683.760683760684,
+    "max_users": 100000,
+    "extensions": [
+      "Amz superman seller tool",
+      "IDmelon WebLogin",
+      "Keyboard shortcuts to manage Chrome tabs",
+      "LeetCode Night",
+      "PageSpeed Insights Shortcut & History Report Recorder"
+    ]
+  },
+  "PERSONALIZATION > Personal Journal > Diary & Journal": {
+    "count": 12,
+    "avg_rating": 4.175,
+    "avg_users": 30666.666666666668,
+    "max_users": 100000,
+    "extensions": [
+      "DocHero AI: Your AI Academic Companion",
+      "Journey: Diary, Journal",
+      "My Diary",
+      "Show Conference/Journal Ranking",
+      "paperGuard"
+    ]
+  },
+  "PERSONALIZATION > Personal Journal > Wellness": {
+    "count": 2,
+    "avg_rating": 4.4,
+    "avg_users": 6500.0,
+    "max_users": 8000,
+    "extensions": [
+      "Bell of Mindfulness",
+      "NimbusMind: Meditation, Relax, and Calm"
+    ]
+  },
+  "PERSONALIZATION > Theme & Appearance > Color Themes": {
+    "count": 163,
+    "avg_rating": 4.133950617283951,
+    "avg_users": 22815.9509202454,
+    "max_users": 100000,
+    "extensions": [
+      "Color Name Finder",
+      "FlipaCreate: Flipaclip For PC",
+      "GcalColor",
+      "Shopify Store Spy - Shoper Spy - Shopify apps",
+      "TasteWP: Free WordPress Instances"
+    ]
+  },
+  "PERSONALIZATION > Theme & Appearance > Custom Skins": {
+    "count": 40,
+    "avg_rating": 4.282500000000001,
+    "avg_users": 22400.0,
+    "max_users": 100000,
+    "extensions": [
+      "Customize Tabs for Google Keep™",
+      "Google Search Ad Remover And Customizer",
+      "Ostendo – Capture Beautiful YouTube Screenshots",
+      "Tab Position Customizer - Modified",
+      "Zippi by Zippia – Autofill Job Applications"
+    ]
+  },
+  "PERSONALIZATION > Theme & Appearance > Dark Mode": {
+    "count": 29,
+    "avg_rating": 4.041379310344828,
+    "avg_users": 16689.655172413793,
+    "max_users": 100000,
+    "extensions": [
+      "Better Blackboard Learn",
+      "Codeforces Lite - Dark Mode & Code Runner",
+      "Jira Black - Dark Mode",
+      "LeetCode Night",
+      "Zendesk Dark Mode Theme"
+    ]
+  },
+  "PERSONALIZATION > Theme & Appearance > Font & Size": {
+    "count": 104,
+    "avg_rating": 4.1582524271844665,
+    "avg_users": 22519.23076923077,
+    "max_users": 100000,
+    "extensions": [
+      "Code Formatter",
+      "Convert JPG to PDF",
+      "Font Finder by WhatFont",
+      "Full Image Downloader - Download all images",
+      "Window Sizer"
+    ]
+  },
+  "PRODUCTIVITY > Email & Communication Automation > Email Templates": {
+    "count": 54,
+    "avg_rating": 4.1692307692307695,
+    "avg_users": 23722.222222222223,
+    "max_users": 100000,
+    "extensions": [
+      "ChatGPT Prompt Assistant",
+      "ChatGPT Prompt Plus",
+      "Clipper",
+      "Form Vault",
+      "N8N Master - Workflow Assistant"
+    ]
+  },
+  "PRODUCTIVITY > Email & Communication Automation > Gmail Integration": {
+    "count": 142,
+    "avg_rating": 4.232142857142857,
+    "avg_users": 28316.901408450703,
+    "max_users": 100000,
+    "extensions": [
+      "CrowdLog Calendar Sync",
+      "EML to PDF",
+      "Enhanced Outlook Web App",
+      "Google Inbox Checker (Inbox by Gmail)",
+      "Rebump for Gmail"
+    ]
+  },
+  "PRODUCTIVITY > Email & Communication Automation > Send & Schedule Emails": {
+    "count": 183,
+    "avg_rating": 4.242857142857143,
+    "avg_users": 27737.70491803279,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Lead Connect | LinkedIn Outreach Platform",
+      "Mailtastic",
+      "Rebump for Gmail",
+      "Regie.ai | AI Co-Pilot for Sales Emails"
+    ]
+  },
+  "PRODUCTIVITY > Email & Communication Automation > Track & Follow-up": {
+    "count": 150,
+    "avg_rating": 4.12517006802721,
+    "avg_users": 23053.333333333332,
+    "max_users": 100000,
+    "extensions": [
+      "Domain Blocker",
+      "Email Tracker",
+      "PageSpeed Insights Shortcut & History Report Recorder",
+      "Rebump for Gmail",
+      "Vidnoz Flex - Video recorder & Video share"
+    ]
+  },
+  "PRODUCTIVITY > Notes & Knowledge Management > Code Snippets": {
+    "count": 18,
+    "avg_rating": 4.133333333333334,
+    "avg_users": 20055.555555555555,
+    "max_users": 100000,
+    "extensions": [
+      "FlyMSG: AI Writing, Grammar Checker, Snippets, and Sales Engagement Tool",
+      "Optimizely Assistant",
+      "SnappySnippet",
+      "Snipit - organize, share, collaborate",
+      "Text Snippets"
+    ]
+  },
+  "PRODUCTIVITY > Notes & Knowledge Management > Knowledge Base": {
+    "count": 52,
+    "avg_rating": 4.380769230769231,
+    "avg_users": 30153.846153846152,
+    "max_users": 100000,
+    "extensions": [
+      "Chemistry Reference Resolver",
+      "PoE Wiki Redirector",
+      "Web Sticky Notes",
+      "WikiTree Browser Extension",
+      "WordReference"
+    ]
+  },
+  "PRODUCTIVITY > Notes & Knowledge Management > Organize & Tag Notes": {
+    "count": 132,
+    "avg_rating": 4.182442748091603,
+    "avg_users": 21977.272727272728,
+    "max_users": 100000,
+    "extensions": [
+      "Better Classroom",
+      "Group Tabs By Domain",
+      "Influencer insights for Instagram & YouTube",
+      "Numerous.ai",
+      "SEO Checker"
+    ]
+  },
+  "PRODUCTIVITY > Notes & Knowledge Management > Save & Capture Content": {
+    "count": 491,
+    "avg_rating": 4.136122448979592,
+    "avg_users": 25737.27087576375,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Element Locator",
+      "Facebook Videos Downloader - Save FB Videos",
+      "Regie.ai | AI Co-Pilot for Sales Emails",
+      "TECHRIS IFS Clipboard Sync"
+    ]
+  },
+  "PRODUCTIVITY > Tab & Window Organization > Close & Manage Tabs": {
+    "count": 14,
+    "avg_rating": 4.107142857142857,
+    "avg_users": 8500.0,
+    "max_users": 30000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Close Tabs",
+      "Keyboard shortcuts to manage Chrome tabs",
+      "TabTabTab - All In One Tab Manager",
+      "Tabbs - Instant Search & Tab Management"
+    ]
+  },
+  "PRODUCTIVITY > Tab & Window Organization > Group & Session Tabs": {
+    "count": 39,
+    "avg_rating": 4.243243243243243,
+    "avg_users": 20974.358974358973,
+    "max_users": 100000,
+    "extensions": [
+      "Autoplay Settings for YouTube™",
+      "Customer Meetings",
+      "Group Tabs By Domain",
+      "Tab Group Manager",
+      "TabHamster"
+    ]
+  },
+  "PRODUCTIVITY > Tab & Window Organization > Split & Compare View": {
+    "count": 13,
+    "avg_rating": 4.415384615384616,
+    "avg_users": 39307.692307692305,
+    "max_users": 100000,
+    "extensions": [
+      "Adobe LLM Optimizer: Is Your Webpage Citable?",
+      "Core Web Vitals Test",
+      "Crazy Compare For Salesforce",
+      "EarData - 亚马逊卖家助手",
+      "Pixelay for Figma"
+    ]
+  },
+  "PRODUCTIVITY > Tab & Window Organization > Tab Search & Find": {
+    "count": 8,
+    "avg_rating": 4.2,
+    "avg_users": 36000.0,
+    "max_users": 100000,
+    "extensions": [
+      "ChatGPT for Web Search Tab",
+      "My Horoscope Pro",
+      "PolyBox - ChatGPT launcher and prompts, search tabs, bookmarks, history",
+      "Questa Mobi Desktop Tab",
+      "multi-searches.com"
+    ]
+  },
+  "PRODUCTIVITY > Task & Project Management > Create & Manage Tasks": {
+    "count": 227,
+    "avg_rating": 4.1255506607929515,
+    "avg_users": 27145.374449339208,
+    "max_users": 100000,
+    "extensions": [
+      "Better Classroom",
+      "Bookmark It",
+      "FlipaCreate: Flipaclip For PC",
+      "Force.com Migration Tool Package Creator",
+      "Google Docs New"
+    ]
+  },
+  "PRODUCTIVITY > Task & Project Management > Kanban Board": {
+    "count": 18,
+    "avg_rating": 4.144444444444444,
+    "avg_users": 13277.777777777777,
+    "max_users": 50000,
+    "extensions": [
+      "Add to Trello",
+      "Export Trello to Excel",
+      "Gmail-2-Trello",
+      "Multiselect for Trello",
+      "Trellists: Trello Lists Master"
+    ]
+  },
+  "PRODUCTIVITY > Task & Project Management > Project Tracking": {
+    "count": 77,
+    "avg_rating": 4.0027027027027025,
+    "avg_users": 26649.35064935065,
+    "max_users": 100000,
+    "extensions": [
+      "Chatterclock — a ChatGPT message tracking extension",
+      "Domain Blocker",
+      "Multi Ad Blocker Complete for Youtube™",
+      "Publishing.ai",
+      "Winning Hunter"
+    ]
+  },
+  "PRODUCTIVITY > Task & Project Management > Team Collaboration": {
+    "count": 144,
+    "avg_rating": 4.242657342657343,
+    "avg_users": 27951.38888888889,
+    "max_users": 100000,
+    "extensions": [
+      "Ostendo – Capture Beautiful YouTube Screenshots",
+      "Senja - Testimonial Extension",
+      "Snipit - organize, share, collaborate",
+      "TECHRIS IFS Clipboard Sync",
+      "Vidnoz Flex - Video recorder & Video share"
+    ]
+  },
+  "PRODUCTIVITY > Time & Calendar Management > Event Scheduling": {
+    "count": 99,
+    "avg_rating": 4.144791666666666,
+    "avg_users": 29838.383838383837,
+    "max_users": 100000,
+    "extensions": [
+      "CrowdLog Calendar Sync",
+      "GcalColor",
+      "Offset start-times in Google Calendar",
+      "OnceHub for Gmail",
+      "Shade Calendar – Time Blocking for Google Calendar"
+    ]
+  },
+  "PRODUCTIVITY > Time & Calendar Management > Meeting Management": {
+    "count": 74,
+    "avg_rating": 4.184722222222223,
+    "avg_users": 27986.486486486487,
+    "max_users": 100000,
+    "extensions": [
+      "AI Transcription - Transcribe Speech To Text",
+      "Customer Meetings",
+      "Google Transcribe & Summarize Live",
+      "OnceHub for Gmail",
+      "Voicenotes AI: Transcribe Notes and Meetings"
+    ]
+  },
+  "PRODUCTIVITY > Time & Calendar Management > Reminders & Notifications": {
+    "count": 48,
+    "avg_rating": 4.2318181818181815,
+    "avg_users": 22437.5,
+    "max_users": 100000,
+    "extensions": [
+      "Google Inbox Checker (Inbox by Gmail)",
+      "Moodle Buddy",
+      "Note-it Aside – Sticky Notes in Side Panel",
+      "Tris",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "PRODUCTIVITY > Time & Calendar Management > Time Tracking": {
+    "count": 46,
+    "avg_rating": 4.095652173913043,
+    "avg_users": 22608.695652173912,
+    "max_users": 100000,
+    "extensions": [
+      "HedNet Protocol Extension: Enabling Decentralized Bandwidth Sharing",
+      "Study Timer",
+      "Tab Close Timer",
+      "Tab Countdown Timer",
+      "Web Timer"
+    ]
+  },
+  "SEO & MARKETING > Ads & Campaigns > Ad Management": {
+    "count": 232,
+    "avg_rating": 4.138528138528138,
+    "avg_users": 27056.03448275862,
+    "max_users": 100000,
+    "extensions": [
+      "Breeze Ads: Friendly Adblock for Youtube™",
+      "Clear Downloads",
+      "Google Docs New",
+      "Influencer insights for Instagram & YouTube",
+      "Turbo Ad Finder"
+    ]
+  },
+  "SEO & MARKETING > Ads & Campaigns > Budget Tracking": {
+    "count": 16,
+    "avg_rating": 4.175,
+    "avg_users": 28062.5,
+    "max_users": 90000,
+    "extensions": [
+      "@Voice Add To List",
+      "ASO tool – Free app store optimization tool by AppTweak",
+      "Clip Cloud",
+      "KDROI – Book Marketing Tools for Authors",
+      "KWS Everywhere - SEO Keyword Tool"
+    ]
+  },
+  "SEO & MARKETING > Ads & Campaigns > Pixel Implementation": {
+    "count": 94,
+    "avg_rating": 4.118681318681319,
+    "avg_users": 22882.978723404256,
+    "max_users": 100000,
+    "extensions": [
+      "Chatterclock — a ChatGPT message tracking extension",
+      "Domain Blocker",
+      "Pixelay for Figma",
+      "Tiktok PIxel Helper",
+      "VidSaver.io - download all TikToks you've loved"
+    ]
+  },
+  "SEO & MARKETING > Ads & Campaigns > Platform Integration": {
+    "count": 6,
+    "avg_rating": 4.483333333333333,
+    "avg_users": 46666.666666666664,
+    "max_users": 100000,
+    "extensions": [
+      "Dropship - Product Research",
+      "Google Ads API Web Navi",
+      "TagHound - Analytics/GTM/Pixel Debugger",
+      "Turbo Ad Finder",
+      "Winning Hunter"
+    ]
+  },
+  "SEO & MARKETING > Content Analysis > Analytics Tracking": {
+    "count": 38,
+    "avg_rating": 4.2368421052631575,
+    "avg_users": 28710.526315789473,
+    "max_users": 100000,
+    "extensions": [
+      "AsoSpy for Google Play Store ASO",
+      "Dark New Tab",
+      "Influencer Hero",
+      "Tracking Token Stripper",
+      "Zopi - Dropshipping Sidekick for AliExpress & Shopify"
+    ]
+  },
+  "SEO & MARKETING > Content Analysis > Conversion Tracking": {
+    "count": 69,
+    "avg_rating": 4.090909090909091,
+    "avg_users": 27695.652173913044,
+    "max_users": 100000,
+    "extensions": [
+      "Customer Meetings",
+      "Day Counter - New Tab Page",
+      "Elevar GTM Event Builder",
+      "GcalColor",
+      "Offset start-times in Google Calendar"
+    ]
+  },
+  "SEO & MARKETING > Content Analysis > Traffic Monitoring": {
+    "count": 17,
+    "avg_rating": 4.258823529411764,
+    "avg_users": 32823.529411764706,
+    "max_users": 100000,
+    "extensions": [
+      "Blexb - Alexa Rank Alternative",
+      "FindNiche - Shopify™ store traffic analysis",
+      "Metrica - Fast website analytics",
+      "SEO Checker",
+      "Total Defense Traffic Light"
+    ]
+  },
+  "SEO & MARKETING > Content Analysis > User Behavior": {
+    "count": 34,
+    "avg_rating": 4.28125,
+    "avg_users": 23000.0,
+    "max_users": 100000,
+    "extensions": [
+      "Autoplay Settings for YouTube™",
+      "ChatGPT LightSession",
+      "Customer Meetings",
+      "Ptengine-Assistant",
+      "TabHamster"
+    ]
+  },
+  "SEO & MARKETING > E-commerce Intelligence > Competitor Analysis": {
+    "count": 64,
+    "avg_rating": 4.19375,
+    "avg_users": 23734.375,
+    "max_users": 100000,
+    "extensions": [
+      "AsoSpy for Google Play Store ASO",
+      "CF World Standings",
+      "Integrito — Analyze Text, Check Plagiarism&AI",
+      "Shopify Store Spy - Shoper Spy - Shopify apps",
+      "Webpage Word Counter"
+    ]
+  },
+  "SEO & MARKETING > E-commerce Intelligence > Pricing Strategy": {
+    "count": 11,
+    "avg_rating": 4.363636363636363,
+    "avg_users": 21000.0,
+    "max_users": 50000,
+    "extensions": [
+      "Amzpecty",
+      "Ethereum Gas Prices",
+      "JadeShip.com Extension",
+      "KuCoin:Bitcoin,Dogecoin Price Market",
+      "PaTMa Property Insights"
+    ]
+  },
+  "SEO & MARKETING > E-commerce Intelligence > Product Research": {
+    "count": 407,
+    "avg_rating": 4.258646616541354,
+    "avg_users": 26329.238329238327,
+    "max_users": 100000,
+    "extensions": [
+      "Force.com Migration Tool Package Creator",
+      "Product review export",
+      "Rich Results - Structured Data Test Plugin",
+      "SEOInfo",
+      "Shopify Store Spy - Shoper Spy - Shopify apps"
+    ]
+  },
+  "SEO & MARKETING > E-commerce Intelligence > Store Intelligence": {
+    "count": 120,
+    "avg_rating": 4.114285714285715,
+    "avg_users": 23008.333333333332,
+    "max_users": 100000,
+    "extensions": [
+      "Codeforces Lite - Dark Mode & Code Runner",
+      "Ostendo – Capture Beautiful YouTube Screenshots",
+      "Shopify Store Spy - Shoper Spy - Shopify apps",
+      "TasteWP: Free WordPress Instances",
+      "Zendesk Dark Mode Theme"
+    ]
+  },
+  "SEO & MARKETING > Local SEO > Business Listings": {
+    "count": 56,
+    "avg_rating": 4.283333333333333,
+    "avg_users": 21392.85714285714,
+    "max_users": 100000,
+    "extensions": [
+      "FoxFilter - The content filter!",
+      "InterLogistic Tool",
+      "NUSO Connect AC SIP",
+      "Nimbus Extension",
+      "Onoff Business | Click2Call & SMS"
+    ]
+  },
+  "SEO & MARKETING > Local SEO > Google Maps": {
+    "count": 20,
+    "avg_rating": 4.075,
+    "avg_users": 14000.0,
+    "max_users": 60000,
+    "extensions": [
+      "Free Route Planner for Google Maps",
+      "GMB PLUG",
+      "MapMe",
+      "Open via Google Maps",
+      "Restore Google Maps on Search"
+    ]
+  },
+  "SEO & MARKETING > Local SEO > Review Management": {
+    "count": 97,
+    "avg_rating": 4.258947368421053,
+    "avg_users": 20051.546391752578,
+    "max_users": 100000,
+    "extensions": [
+      "AliExpress Review Importer",
+      "Editorify - Review Importer",
+      "Product review export",
+      "SEO | ASO | Search Ranking & Keyword Tool",
+      "Senja - Testimonial Extension"
+    ]
+  },
+  "SEO & MARKETING > SEO & Search Optimization > Backlink Analysis": {
+    "count": 250,
+    "avg_rating": 4.144578313253012,
+    "avg_users": 24588.0,
+    "max_users": 100000,
+    "extensions": [
+      "Close Tabs",
+      "Lead Connect | LinkedIn Outreach Platform",
+      "Mega-Debrid Browser Extension",
+      "Multi-links",
+      "One-Click TickTick"
+    ]
+  },
+  "SEO & MARKETING > SEO & Search Optimization > Keyword Research": {
+    "count": 51,
+    "avg_rating": 4.107843137254902,
+    "avg_users": 20745.098039215685,
+    "max_users": 80000,
+    "extensions": [
+      "GcalColor",
+      "KWS Everywhere - SEO Keyword Tool",
+      "SEO | ASO | Search Ranking & Keyword Tool",
+      "Tags for YouTube™",
+      "Universal Keyword Planner box"
+    ]
+  },
+  "SEO & MARKETING > SEO & Search Optimization > On-Page SEO": {
+    "count": 39,
+    "avg_rating": 4.360526315789474,
+    "avg_users": 23230.76923076923,
+    "max_users": 100000,
+    "extensions": [
+      "AIO Search",
+      "Audible Library Extractor",
+      "Force.com Migration Tool Package Creator",
+      "SEO Checker",
+      "SnapMagic"
+    ]
+  },
+  "SEO & MARKETING > SEO & Search Optimization > Ranking & Traffic": {
+    "count": 39,
+    "avg_rating": 4.18974358974359,
+    "avg_users": 29641.02564102564,
+    "max_users": 100000,
+    "extensions": [
+      "Display Ranking",
+      "SEO SERP Counter - Free SERP Checker tool",
+      "SEO | ASO | Search Ranking & Keyword Tool",
+      "SERP Snippet Extractor by searchanalyzer.io",
+      "paperGuard"
+    ]
+  },
+  "SEO & MARKETING > Social Media Marketing > Content Management": {
+    "count": 254,
+    "avg_rating": 4.14,
+    "avg_users": 24122.047244094487,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Offset start-times in Google Calendar",
+      "PDF to text",
+      "SEO Render Insight Tool",
+      "Whale CoPilot"
+    ]
+  },
+  "SEO & MARKETING > Social Media Marketing > Platform Tools": {
+    "count": 131,
+    "avg_rating": 4.054198473282443,
+    "avg_users": 21396.946564885497,
+    "max_users": 100000,
+    "extensions": [
+      "FDownload - F.B Video Downloader",
+      "Facebook Videos Downloader - Save FB Videos",
+      "Facebook video downloader - VidSaver.io",
+      "Influencer insights for Instagram & YouTube",
+      "Lead Connect | LinkedIn Outreach Platform"
+    ]
+  },
+  "SEO & MARKETING > Social Media Marketing > Post & Schedule": {
+    "count": 63,
+    "avg_rating": 4.117741935483871,
+    "avg_users": 22190.47619047619,
+    "max_users": 100000,
+    "extensions": [
+      "OnceHub for Gmail",
+      "Post and Search",
+      "Publishing.ai",
+      "Shade Calendar – Time Blocking for Google Calendar",
+      "Site Blocker: Stay focused & Block websites"
+    ]
+  },
+  "SEO & MARKETING > Social Media Marketing > Social Analytics": {
+    "count": 55,
+    "avg_rating": 4.176363636363636,
+    "avg_users": 30000.0,
+    "max_users": 100000,
+    "extensions": [
+      "AsoSpy for Google Play Store ASO",
+      "Dark New Tab",
+      "FlyMSG: AI Writing, Grammar Checker, Snippets, and Sales Engagement Tool",
+      "Lead Connect | LinkedIn Outreach Platform",
+      "Zoom Phone For Outreach"
+    ]
+  },
+  "SHOPPING & DEALS > Marketplace Selling > Fiverr Tools": {
+    "count": 43,
+    "avg_rating": 4.1069767441860465,
+    "avg_users": 28790.697674418603,
+    "max_users": 100000,
+    "extensions": [
+      "Amz superman seller tool",
+      "Crosslister - SellerAider",
+      "FIVERR +",
+      "SellerSpace:Simplify Amazon Operations & Advertising",
+      "TWF Buy Box Scope BETA 1.1"
+    ]
+  },
+  "SHOPPING & DEALS > Marketplace Selling > Multi-Platform": {
+    "count": 53,
+    "avg_rating": 4.12156862745098,
+    "avg_users": 21849.056603773584,
+    "max_users": 100000,
+    "extensions": [
+      "Comprehend EMR Integration",
+      "Lead Connect | LinkedIn Outreach Platform",
+      "Vehicle Scraper and Lister",
+      "YouTube Ad Accelerator — Skip, Mute & Speed Up Ads",
+      "uGet Integration"
+    ]
+  },
+  "SHOPPING & DEALS > Marketplace Selling > Shopee Tools": {
+    "count": 6,
+    "avg_rating": 4.366666666666666,
+    "avg_users": 30500.0,
+    "max_users": 100000,
+    "extensions": [
+      "Heimdall",
+      "Shopdora - Shopee Keyword & Analytics Tools",
+      "Shopee Commission & Order Calculator",
+      "Shopee Fans - Shopee Seller Assistant",
+      "Shopee Save Plus - Download Images & Videos"
+    ]
+  },
+  "SHOPPING & DEALS > Price & Coupons > Cashback & Rewards": {
+    "count": 29,
+    "avg_rating": 4.127586206896551,
+    "avg_users": 38482.75862068965,
+    "max_users": 100000,
+    "extensions": [
+      "Agile SCRUM for Trello boards",
+      "NoteGPT: ChatGPT Summary for Vimeo",
+      "Twich.tv: Auto-Point Claimer",
+      "Twitch Channel Points Auto Claimer -Twiclips",
+      "Twitch Channel Points Auto Redeem"
+    ]
+  },
+  "SHOPPING & DEALS > Price & Coupons > Coupon & Deals": {
+    "count": 20,
+    "avg_rating": 4.410526315789474,
+    "avg_users": 28050.0,
+    "max_users": 100000,
+    "extensions": [
+      "Cloze Sidebar for CRM",
+      "Color Name Finder",
+      "Instant Multi Search",
+      "Video to mp3",
+      "Web Audio Recorder - Record Browser Audio to MP3 & WAV"
+    ]
+  },
+  "SHOPPING & DEALS > Price & Coupons > Price Comparison": {
+    "count": 22,
+    "avg_rating": 4.386363636363637,
+    "avg_users": 26318.18181818182,
+    "max_users": 100000,
+    "extensions": [
+      "Adobe LLM Optimizer: Is Your Webpage Citable?",
+      "Core Web Vitals Test",
+      "Crazy Compare For Salesforce",
+      "JadeShip.com Extension",
+      "Pixelay for Figma"
+    ]
+  },
+  "SHOPPING & DEALS > Price & Coupons > Price Tracking": {
+    "count": 20,
+    "avg_rating": 4.2444444444444445,
+    "avg_users": 27600.0,
+    "max_users": 90000,
+    "extensions": [
+      "GIS Extension",
+      "Prolific Studies Notifier",
+      "Tris",
+      "UpAlerts: AI Cover Letters",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "SHOPPING & DEALS > Product Intelligence > Competitor Prices": {
+    "count": 33,
+    "avg_rating": 4.363636363636363,
+    "avg_users": 25242.424242424244,
+    "max_users": 100000,
+    "extensions": [
+      "CF World Standings",
+      "Crazy Compare For Salesforce",
+      "JadeShip.com Extension",
+      "Pixelay for Figma",
+      "Shopify Store Spy - Shoper Spy - Shopify apps"
+    ]
+  },
+  "SHOPPING & DEALS > Product Intelligence > Product Details": {
+    "count": 20,
+    "avg_rating": 3.965,
+    "avg_users": 25750.0,
+    "max_users": 100000,
+    "extensions": [
+      "Font Finder by WhatFont",
+      "Image-Details",
+      "SEO Checker",
+      "SEO | ASO | Search Ranking & Keyword Tool",
+      "tuvis for WhatsApp and Salesforce"
+    ]
+  },
+  "SHOPPING & DEALS > Product Intelligence > Product Search": {
+    "count": 737,
+    "avg_rating": 4.146950354609929,
+    "avg_users": 26061.058344640434,
+    "max_users": 100000,
+    "extensions": [
+      "Product review export",
+      "SEO Render Insight Tool",
+      "SelectON — selection popup. Copy & search",
+      "Shopify Store Spy - Shoper Spy - Shopify apps",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "SHOPPING & DEALS > Product Intelligence > Reviews & Ratings": {
+    "count": 97,
+    "avg_rating": 4.258947368421053,
+    "avg_users": 20051.546391752578,
+    "max_users": 100000,
+    "extensions": [
+      "AliExpress Review Importer",
+      "Editorify - Review Importer",
+      "Product review export",
+      "SEO | ASO | Search Ranking & Keyword Tool",
+      "Senja - Testimonial Extension"
+    ]
+  },
+  "SPECIALIZED > Cryptocurrency & Finance > Crypto Tracking": {
+    "count": 64,
+    "avg_rating": 4.330158730158731,
+    "avg_users": 42656.25,
+    "max_users": 100000,
+    "extensions": [
+      "Guarda",
+      "Hero Wallet | hero.io",
+      "Nintondo Wallet",
+      "Pali Wallet",
+      "Ultra Wallet"
+    ]
+  },
+  "SPECIALIZED > Cryptocurrency & Finance > Price Alerts": {
+    "count": 30,
+    "avg_rating": 4.285714285714286,
+    "avg_users": 25100.0,
+    "max_users": 90000,
+    "extensions": [
+      "GIS Extension",
+      "JadeShip.com Extension",
+      "Prolific Studies Notifier",
+      "Tris",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "SPECIALIZED > Cryptocurrency & Finance > Trading": {
+    "count": 31,
+    "avg_rating": 4.241935483870968,
+    "avg_users": 19290.322580645163,
+    "max_users": 100000,
+    "extensions": [
+      "Stat Vin",
+      "Tomo Wallet",
+      "Trade Rocket",
+      "TradeWiz Extension",
+      "wikifx"
+    ]
+  },
+  "SPECIALIZED > Cryptocurrency & Finance > Wallet Management": {
+    "count": 126,
+    "avg_rating": 4.250793650793651,
+    "avg_users": 38103.1746031746,
+    "max_users": 100000,
+    "extensions": [
+      "Klever Wallet",
+      "MyDoge - Dogecoin Wallet",
+      "OWallet",
+      "Ultra Wallet",
+      "Z3US"
+    ]
+  },
+  "SPECIALIZED > Geolocation & Navigation > Location Services": {
+    "count": 32,
+    "avg_rating": 3.9193548387096775,
+    "avg_users": 28593.75,
+    "max_users": 100000,
+    "extensions": [
+      "Change My Location",
+      "IGEmail - IG Email Scraper and Extractor",
+      "MapMe",
+      "WebSite IP Information Query",
+      "prajnAM - Screen Capturing"
+    ]
+  },
+  "SPECIALIZED > Geolocation & Navigation > Route Planning": {
+    "count": 56,
+    "avg_rating": 4.066071428571428,
+    "avg_users": 21053.571428571428,
+    "max_users": 100000,
+    "extensions": [
+      "Free Route Planner for Google Maps",
+      "LeetCode Night",
+      "MapMe",
+      "Ptengine-Assistant",
+      "Sitemap Generator"
+    ]
+  },
+  "SPECIALIZED > Health & Wellness > Health Monitoring": {
+    "count": 18,
+    "avg_rating": 3.9176470588235293,
+    "avg_users": 17277.777777777777,
+    "max_users": 90000,
+    "extensions": [
+      "Chartnote",
+      "DoctorN for Torn",
+      "Heidi",
+      "UWorld2Anki",
+      "chg-sf-highlighter"
+    ]
+  },
+  "SPECIALIZED > Health & Wellness > Wellness": {
+    "count": 2,
+    "avg_rating": 4.4,
+    "avg_users": 6500.0,
+    "max_users": 8000,
+    "extensions": [
+      "Bell of Mindfulness",
+      "NimbusMind: Meditation, Relax, and Calm"
+    ]
+  },
+  "SPECIALIZED > IoT & Smart Devices > Hardware Integration": {
+    "count": 64,
+    "avg_rating": 3.9166666666666665,
+    "avg_users": 27843.75,
+    "max_users": 100000,
+    "extensions": [
+      "FDownload - F.B Video Downloader",
+      "Light Meter (RGB & Luminance)",
+      "OmniDefend MFA Extension",
+      "System Info",
+      "Website Responsiveness Checker"
+    ]
+  },
+  "SPECIALIZED > IoT & Smart Devices > Smart Home": {
+    "count": 3,
+    "avg_rating": 3.466666666666667,
+    "avg_users": 33333.333333333336,
+    "max_users": 40000,
+    "extensions": [
+      "AudioTTS - Simple Text to Speech Downloader",
+      "Google Meet Auto Admit",
+      "IOTA Wallet"
+    ]
+  },
+  "SPECIALIZED > IoT & Smart Devices > Smart TV": {
+    "count": 68,
+    "avg_rating": 4.143283582089553,
+    "avg_users": 27544.117647058825,
+    "max_users": 100000,
+    "extensions": [
+      "Arcelik Smart TV Browser Emulator",
+      "Cookies Extractor",
+      "Download Virus Scanner",
+      "N8N Master - Workflow Assistant",
+      "Website Scraper"
+    ]
+  },
+  "SPECIALIZED > Legal & Compliance > Compliance Tracking": {
+    "count": 10,
+    "avg_rating": 4.300000000000001,
+    "avg_users": 18200.0,
+    "max_users": 100000,
+    "extensions": [
+      "CMP Validator",
+      "Page Audit",
+      "Plerdy SEO Analyzer",
+      "SEO Spider Tools",
+      "Spark SEO by seoClarity"
+    ]
+  },
+  "SPECIALIZED > Legal & Compliance > Document Management": {
+    "count": 3,
+    "avg_rating": 3.8666666666666667,
+    "avg_users": 30333.333333333332,
+    "max_users": 80000,
+    "extensions": [
+      "CiteRight Next",
+      "Dokobit e-signing and e-identification",
+      "Galaxy Station Wallet"
+    ]
+  },
+  "SPECIALIZED > Legal & Compliance > Terms & Conditions": {
+    "count": 55,
+    "avg_rating": 4.290909090909091,
+    "avg_users": 32363.636363636364,
+    "max_users": 100000,
+    "extensions": [
+      "Global Privacy Control (GPC) Inspector",
+      "JShelter",
+      "Todo Tab",
+      "Webrtc Leak Shield",
+      "WhatsApp Web - File Upload and Download Blocker"
+    ]
+  },
+  "SPECIALIZED > Time & Timezone > Time Conversion": {
+    "count": 5,
+    "avg_rating": 3.84,
+    "avg_users": 38000.0,
+    "max_users": 100000,
+    "extensions": [
+      "Change Timezone (Time Shift)",
+      "Change Timezone for Google Chrome™",
+      "ProxyEmpire Proxy Manager",
+      "Spoof Timezone",
+      "Time Zone Converter - Savvy Time"
+    ]
+  },
+  "SPECIALIZED > Time & Timezone > Worldtime": {
+    "count": 28,
+    "avg_rating": 4.292307692307692,
+    "avg_users": 19607.14285714286,
+    "max_users": 100000,
+    "extensions": [
+      "Chatterclock — a ChatGPT message tracking extension",
+      "Lightweight Alarm Clock, Timer & Countdown",
+      "Tomato Clock",
+      "Twitch Live Clock",
+      "Worldtime"
+    ]
+  },
+  "SPECIALIZED > Unit Conversion > Measurement": {
+    "count": 20,
+    "avg_rating": 4.205,
+    "avg_users": 32950.0,
+    "max_users": 100000,
+    "extensions": [
+      "Light Meter (RGB & Luminance)",
+      "MeasureSEO: Keyword Density Checker",
+      "Online protractor",
+      "Screen Sizes",
+      "Simple Ruler Beta"
+    ]
+  },
+  "SPECIALIZED > Unit Conversion > Unit Converter": {
+    "count": 166,
+    "avg_rating": 4.049390243902439,
+    "avg_users": 21439.75903614458,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Graph X-Ray",
+      "PDF Converted - Convert Documents",
+      "PDF to text",
+      "Z3US"
+    ]
+  },
+  "SYSTEM & UTILITIES > Accessibility > Dyslexia Tools": {
+    "count": 58,
+    "avg_rating": 4.205172413793104,
+    "avg_users": 27586.206896551725,
+    "max_users": 100000,
+    "extensions": [
+      "@Voice Add To List",
+      "Breeze Ads: Friendly Adblock for Youtube™",
+      "Read fast - Speed Reading Extension",
+      "Swiggle - Safe Search",
+      "Text to Speech Chrome Extension"
+    ]
+  },
+  "SYSTEM & UTILITIES > Accessibility > Keyboard Tools": {
+    "count": 73,
+    "avg_rating": 4.355555555555556,
+    "avg_users": 25328.76712328767,
+    "max_users": 100000,
+    "extensions": [
+      "Amz superman seller tool",
+      "Favitabs",
+      "Keyboard shortcuts to manage Chrome tabs",
+      "LeetCode Night",
+      "Shortcuts For Zoho"
+    ]
+  },
+  "SYSTEM & UTILITIES > Accessibility > Vision Tools": {
+    "count": 13,
+    "avg_rating": 3.8666666666666667,
+    "avg_users": 32615.384615384617,
+    "max_users": 80000,
+    "extensions": [
+      "AI Homework Helper - Apex Vision AI",
+      "Enlargify Magnifying Glass",
+      "Magnifying Glass",
+      "Spectrum",
+      "Super Highlight Search"
+    ]
+  },
+  "SYSTEM & UTILITIES > Accessibility > Voice Tools": {
+    "count": 142,
+    "avg_rating": 3.9432624113475176,
+    "avg_users": 28485.915492957745,
+    "max_users": 100000,
+    "extensions": [
+      "Audio Capture – Record Tab Sound in Chrome",
+      "Revoldiv",
+      "Speech Recognition Anywhere 365",
+      "Text to Speech Chrome Extension",
+      "WA Audio & Voice Message to Text | WASBB.COM"
+    ]
+  },
+  "SYSTEM & UTILITIES > Browser Security > Developer Control": {
+    "count": 20,
+    "avg_rating": 4.026315789473684,
+    "avg_users": 25200.0,
+    "max_users": 100000,
+    "extensions": [
+      "Console Wallet",
+      "Disable F12",
+      "Google Search Console - Bulk URL Removal",
+      "NUSO Connect AC SIP",
+      "Optimizely Assistant"
+    ]
+  },
+  "SYSTEM & UTILITIES > Browser Security > Flash & Legacy": {
+    "count": 142,
+    "avg_rating": 4.010071942446043,
+    "avg_users": 30225.352112676057,
+    "max_users": 100000,
+    "extensions": [
+      "Automated Flash Site Enabler (Lite)",
+      "Force Enable Text Selection",
+      "Global Privacy Control (GPC) Inspector",
+      "Hilton ResSmart Click to Dial",
+      "LeetCode Night"
+    ]
+  },
+  "SYSTEM & UTILITIES > Browser Security > Security": {
+    "count": 62,
+    "avg_rating": 4.108333333333333,
+    "avg_users": 35161.290322580644,
+    "max_users": 100000,
+    "extensions": [
+      "HiFrame - The Hyper IFRAME extension!",
+      "JShelter",
+      "Link Virus Check - Security Plus",
+      "Qualys BrowserCheck for Windows",
+      "Site Blocker: Stay focused & Block websites"
+    ]
+  },
+  "SYSTEM & UTILITIES > Network & Connectivity > DNS Tools": {
+    "count": 133,
+    "avg_rating": 4.174809160305343,
+    "avg_users": 29323.30827067669,
+    "max_users": 100000,
+    "extensions": [
+      "Amz superman seller tool",
+      "PageSpeed Insights Shortcut & History Report Recorder",
+      "Read fast - Speed Reading Extension",
+      "YouTube Ad Accelerator — Skip, Mute & Speed Up Ads",
+      "Z3US"
+    ]
+  },
+  "SYSTEM & UTILITIES > Network & Connectivity > Internet Tools": {
+    "count": 74,
+    "avg_rating": 3.936619718309859,
+    "avg_users": 28324.324324324323,
+    "max_users": 100000,
+    "extensions": [
+      "Beamery Extension",
+      "Offline Mode",
+      "Pogline",
+      "Speech Recognition Anywhere 365",
+      "Swiggle - Safe Search"
+    ]
+  },
+  "SYSTEM & UTILITIES > Network & Connectivity > VPN": {
+    "count": 105,
+    "avg_rating": 4.009615384615385,
+    "avg_users": 29704.761904761905,
+    "max_users": 100000,
+    "extensions": [
+      "BelkaVPN is VPN, Proxy to Unblock any sites",
+      "Global Privacy Control (GPC) Inspector",
+      "JShelter",
+      "Todo Tab",
+      "Webrtc Leak Shield"
+    ]
+  },
+  "SYSTEM & UTILITIES > System Tools > Clipboard Tools": {
+    "count": 145,
+    "avg_rating": 4.1979310344827585,
+    "avg_users": 21151.724137931036,
+    "max_users": 100000,
+    "extensions": [
+      "CopyTab URLs",
+      "PDF to text",
+      "Roam-highlighter",
+      "SelectON — selection popup. Copy & search",
+      "TECHRIS IFS Clipboard Sync"
+    ]
+  },
+  "SYSTEM & UTILITIES > System Tools > File Management": {
+    "count": 412,
+    "avg_rating": 4.038048780487805,
+    "avg_users": 25308.252427184467,
+    "max_users": 100000,
+    "extensions": [
+      "Better Classroom",
+      "EML to PDF",
+      "Facebook Videos Downloader - Save FB Videos",
+      "No PDF Download",
+      "Product review export"
+    ]
+  },
+  "SYSTEM & UTILITIES > System Tools > System Optimization": {
+    "count": 88,
+    "avg_rating": 4.254761904761905,
+    "avg_users": 24670.454545454544,
+    "max_users": 100000,
+    "extensions": [
+      "Adobe LLM Optimizer: Is Your Webpage Citable?",
+      "Ptengine-Assistant",
+      "SEOInfo",
+      "Vidnoz Flex - Video recorder & Video share",
+      "Website Responsiveness Checker"
+    ]
+  },
+  "SYSTEM & UTILITIES > System Tools > Window Management": {
+    "count": 117,
+    "avg_rating": 4.106034482758621,
+    "avg_users": 25068.37606837607,
+    "max_users": 100000,
+    "extensions": [
+      "Close Tabs",
+      "Image-Details",
+      "Mi Home For PC, Windows, Mac - Free Download",
+      "SnapMagic",
+      "Window Sizer"
+    ]
+  },
+  "VISUAL & DESIGN > Content Removal > Overlay Removal": {
+    "count": 94,
+    "avg_rating": 4.176595744680851,
+    "avg_users": 21553.191489361703,
+    "max_users": 100000,
+    "extensions": [
+      "Auto Overlay Remover",
+      "Netflix Pause Removal",
+      "Slack Custom Emoji Manager",
+      "Undisposition [Racle fork]",
+      "remove YouTube TV button"
+    ]
+  },
+  "VISUAL & DESIGN > Content Removal > Remove Elements": {
+    "count": 163,
+    "avg_rating": 4.1282208588957054,
+    "avg_users": 22760.73619631902,
+    "max_users": 100000,
+    "extensions": [
+      "Element Locator",
+      "HTML Visual Validation",
+      "Slack Custom Emoji Manager",
+      "Undisposition [Racle fork]",
+      "remove YouTube TV button"
+    ]
+  },
+  "VISUAL & DESIGN > Design Tools > Brand Tools": {
+    "count": 16,
+    "avg_rating": 4.1866666666666665,
+    "avg_users": 24750.0,
+    "max_users": 100000,
+    "extensions": [
+      "Brandfetch",
+      "Logo Turtle Graphics",
+      "MEGA Pass: Secure password manager",
+      "SmartScout - Amazon Product & Brand Research, Profitability & History Chart",
+      "Unstack Style Guide"
+    ]
+  },
+  "VISUAL & DESIGN > Design Tools > Design Creation": {
+    "count": 254,
+    "avg_rating": 4.067460317460317,
+    "avg_users": 26362.20472440945,
+    "max_users": 100000,
+    "extensions": [
+      "Better Classroom",
+      "Bookmark It",
+      "Color Name Finder",
+      "FlipaCreate: Flipaclip For PC",
+      "Force.com Migration Tool Package Creator"
+    ]
+  },
+  "VISUAL & DESIGN > Design Tools > Mockups & Wireframes": {
+    "count": 5,
+    "avg_rating": 4.42,
+    "avg_users": 7800.0,
+    "max_users": 10000,
+    "extensions": [
+      "Axure Cloud Extension",
+      "HTML to Figma: Convert Websites into Designs & Wireframes by Wireframeit",
+      "Reforge – AI prototyping for product builders",
+      "Screely: Instant Browser Mockups",
+      "Usersnap - Capture visual feedback & bugs"
+    ]
+  },
+  "VISUAL & DESIGN > Image Tools > Color Tools": {
+    "count": 87,
+    "avg_rating": 4.066279069767441,
+    "avg_users": 24482.758620689656,
+    "max_users": 100000,
+    "extensions": [
+      "Adjust Screen Brightness for Browser",
+      "Color Name Finder",
+      "DevTools for D365F&O",
+      "GcalColor",
+      "Shade Calendar – Time Blocking for Google Calendar"
+    ]
+  },
+  "VISUAL & DESIGN > Image Tools > Image Conversion": {
+    "count": 275,
+    "avg_rating": 4.036431226765799,
+    "avg_users": 23152.727272727272,
+    "max_users": 100000,
+    "extensions": [
+      "EML to PDF",
+      "Graph X-Ray",
+      "PDF Converted - Convert Documents",
+      "PDF to text",
+      "WebSite IP Information Query"
+    ]
+  },
+  "VISUAL & DESIGN > Image Tools > Image Editing": {
+    "count": 440,
+    "avg_rating": 4.006221198156682,
+    "avg_users": 25181.81818181818,
+    "max_users": 100000,
+    "extensions": [
+      "Cookie Editor",
+      "Product review export",
+      "Save Image As Type",
+      "Swiggle - Safe Search",
+      "Temu Images Downloader"
+    ]
+  },
+  "VISUAL & DESIGN > Image Tools > Photo Filters": {
+    "count": 168,
+    "avg_rating": 4.237423312883436,
+    "avg_users": 30005.95238095238,
+    "max_users": 100000,
+    "extensions": [
+      "Enhanced Outlook Web App",
+      "Ptengine-Assistant",
+      "Salesforce.com Enhanced Formula Editor",
+      "Stonly Browser Extension",
+      "UpCat - AI Proposals, Filters, Instant Job Alerts for Upwork"
+    ]
+  },
+  "VISUAL & DESIGN > Screenshot & Capture > Annotate & Markup": {
+    "count": 218,
+    "avg_rating": 4.187557603686636,
+    "avg_users": 22055.045871559632,
+    "max_users": 100000,
+    "extensions": [
+      "Bookmark It",
+      "Influencer insights for Instagram & YouTube",
+      "NFT Tab",
+      "Webpage to Markdown",
+      "Whale CoPilot"
+    ]
+  },
+  "VISUAL & DESIGN > Screenshot & Capture > Screen Recording": {
+    "count": 118,
+    "avg_rating": 4.176068376068376,
+    "avg_users": 27703.389830508473,
+    "max_users": 100000,
+    "extensions": [
+      "Audio Capture – Record Tab Sound in Chrome",
+      "Customer Meetings",
+      "MAX Video Downloader – download HLS, DASH, MP4/WEBM, LIVE streams",
+      "PageSpeed Insights Shortcut & History Report Recorder",
+      "Vidnoz Flex - Video recorder & Video share"
+    ]
+  },
+  "VISUAL & DESIGN > Screenshot & Capture > Screenshot Management": {
+    "count": 548,
+    "avg_rating": 4.103690036900368,
+    "avg_users": 26175.182481751825,
+    "max_users": 100000,
+    "extensions": [
+      "Arcify: Arc like vertical tab spaces",
+      "Better Classroom",
+      "EML to PDF",
+      "Facebook Videos Downloader - Save FB Videos",
+      "Regie.ai | AI Co-Pilot for Sales Emails"
+    ]
+  },
+  "VISUAL & DESIGN > Screenshot & Capture > Take Screenshots": {
+    "count": 143,
+    "avg_rating": 4.125352112676056,
+    "avg_users": 26174.825174825175,
+    "max_users": 100000,
+    "extensions": [
+      "Audio Capture – Record Tab Sound in Chrome",
+      "Ostendo – Capture Beautiful YouTube Screenshots",
+      "Scrollshot: Scrolling Screenshots. Full Page.",
+      "SnapMagic",
+      "YouTube Screenshot"
+    ]
+  }
+}
