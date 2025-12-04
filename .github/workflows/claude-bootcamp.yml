@@ -41,6 +41,10 @@ on:
 env:
   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+# Права для push в репозиторий
+permissions:
+  contents: write
+
 jobs:
   execute-bootcamp:
     runs-on: self-hosted
@@ -66,16 +70,19 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
-
-      - name: Create working branch
-        run: |
-          git checkout -b ${{ steps.branch.outputs.name }}
-          git push -u origin ${{ steps.branch.outputs.name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Configure Git
         run: |
           git config user.name "Claude Bootcamp Bot"
           git config user.email "bot@bootcamp.local"
+          # Настройка remote с токеном для push
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Create working branch
+        run: |
+          git checkout -b ${{ steps.branch.outputs.name }}
+          git push -u origin ${{ steps.branch.outputs.name }}
 
       - name: Execute Claude Code
         id: claude
