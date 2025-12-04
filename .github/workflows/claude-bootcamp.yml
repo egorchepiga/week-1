@@ -1,0 +1,212 @@
+name: Claude Bootcamp Execution
+
+on:
+  workflow_dispatch:
+    inputs:
+      lesson_start:
+        description: 'Start from lesson (1-4)'
+        required: true
+        default: '1'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+      lesson_end:
+        description: 'End at lesson (1-4)'
+        required: true
+        default: '2'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+      branch_suffix:
+        description: 'Branch suffix (e.g., run-001)'
+        required: false
+        default: ''
+
+env:
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+jobs:
+  execute-bootcamp:
+    runs-on: self-hosted
+    timeout-minutes: 120
+
+    steps:
+      - name: Generate branch name
+        id: branch
+        run: |
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          SUFFIX="${{ github.event.inputs.branch_suffix }}"
+          if [ -n "$SUFFIX" ]; then
+            BRANCH_NAME="bootcamp-run-${SUFFIX}"
+          else
+            BRANCH_NAME="bootcamp-run-${TIMESTAMP}"
+          fi
+          echo "name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
+          echo "Branch: ${BRANCH_NAME}"
+
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Create working branch
+        run: |
+          git checkout -b ${{ steps.branch.outputs.name }}
+          git push -u origin ${{ steps.branch.outputs.name }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "Claude Bootcamp Bot"
+          git config user.email "bot@bootcamp.local"
+
+      - name: Execute Claude Code
+        id: claude
+        run: |
+          LESSON_START=${{ github.event.inputs.lesson_start }}
+          LESSON_END=${{ github.event.inputs.lesson_end }}
+
+          # Build prompt
+          PROMPT=$(cat << 'PROMPT_END'
+          # ЗАДАЧА: Выполнение Captain Builders Bootcamp
+
+          ## ИНИЦИАЛИЗАЦИЯ КОНТЕКСТА
+
+          ### Шаг 1: Загрузка архитектуры
+          Прочитай файлы в следующем порядке:
+
+          1. `CLAUDE.md` — корневой entry point, архитектура контекста
+          2. `PROGRESS.md` — текущий прогресс выполнения
+          3. `shared/CLAUDE.md` — общие формулы и критерии оценки
+
+          ### Шаг 2: Загрузка материалов курса
+          4. `inputs/CLAUDE.md` — обзор входных данных
+          5. `inputs/course/CLAUDE.md` — структура уроков курса
+          6. `inputs/bootcamp-recordings/ERRORS_CATALOG.md` — КРИТИЧЕСКИ ВАЖНО: каталог типичных ошибок
+          7. `inputs/bootcamp-recordings/SUMMARY.md` — выжимка из разборов
+
+          ### Шаг 3: Загрузка уроков
+          8. `lesson-01/CLAUDE.md` — инструкции урока 1
+          9. `lesson-02/CLAUDE.md` — инструкции урока 2
+          10. `lesson-02/keywords/CLAUDE.md` — гайд по Semrush для AI
+
+          ## ВЫПОЛНЕНИЕ
+
+          После загрузки контекста выполни уроки от LESSON_START до LESSON_END включительно.
+
+          ### Урок 1: Выбор идеи
+          - Прочитай `inputs/course/parsed/01_vybor_idei.md`, `02_ocenka_dohodnosti.md`, `03_podschet_ballov.md`
+          - Используй `inputs/app-database/*.xlsx` для анализа рынка
+          - Проверь идеи на ошибки из `ERRORS_CATALOG.md`
+          - Создай отчёты в `lesson-01/outputs/`
+          - Выбери ТОП-3 идеи для урока 2
+
+          ### Урок 2: Keyword Research
+          - Прочитай `inputs/course/parsed/04-09_*.md`
+          - Используй Semrush (MCP Playwright) для сбора данных
+          - Следуй алгоритму из `lesson-02/keywords/CLAUDE.md`
+          - Проверь конкурентов в `inputs/app-database/*.xlsx`
+          - Проверь софтовость в Google SERP
+          - Создай отчёты по шаблонам из `lesson-02/templates/`
+          - Создай финальный отчёт `lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md`
+
+          ## ПРАВИЛА ВЫПОЛНЕНИЯ
+
+          1. **Обновляй PROGRESS.md** после каждого значимого шага
+          2. **Проверяй идеи на ошибки** из ERRORS_CATALOG.md перед валидацией
+          3. **Сохраняй все отчёты** в соответствующие outputs/ папки
+          4. **Используй шаблоны** из templates/ папок
+          5. **Коммить изменения** после каждого завершённого этапа
+
+          ## КРИТЕРИИ УСПЕХА
+
+          - [ ] Все файлы контекста загружены
+          - [ ] Уроки выполнены последовательно
+          - [ ] Отчёты созданы в правильных папках
+          - [ ] PROGRESS.md обновлён
+          - [ ] Идеи проверены на типичные ошибки
+          - [ ] Финальный выбор обоснован
+
+          ## ФОРМАТ КОММИТОВ
+
+          ```
+          feat(lesson-XX): Краткое описание
+
+          - Детали изменений
+          - Созданные файлы
+
+          🤖 Generated with Claude Code
+          Co-Authored-By: Claude <noreply@anthropic.com>
+          ```
+
+          Начни выполнение сейчас.
+          PROMPT_END
+          )
+
+          # Replace placeholders
+          PROMPT="${PROMPT//LESSON_START/$LESSON_START}"
+          PROMPT="${PROMPT//LESSON_END/$LESSON_END}"
+
+          echo "Starting Claude Code execution..."
+          echo "Lessons: $LESSON_START to $LESSON_END"
+
+          # Execute Claude Code
+          claude --print --dangerously-skip-permissions "$PROMPT" 2>&1 | tee claude_output.log
+
+          EXIT_CODE=${PIPESTATUS[0]}
+          echo "exit_code=${EXIT_CODE}" >> $GITHUB_OUTPUT
+
+      - name: Commit generated files
+        if: always()
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "$(cat << 'EOF'
+          feat(bootcamp): Auto-generated files from Claude execution
+
+          Lessons: ${{ github.event.inputs.lesson_start }} to ${{ github.event.inputs.lesson_end }}
+          Branch: ${{ steps.branch.outputs.name }}
+          Run ID: ${{ github.run_id }}
+
+          🤖 Generated with Claude Code
+          Co-Authored-By: Claude <noreply@anthropic.com>
+          EOF
+          )"
+            git push
+          fi
+
+      - name: Upload execution log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-execution-log
+          path: claude_output.log
+          retention-days: 30
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## Bootcamp Execution Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** \`${{ steps.branch.outputs.name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Lessons:** ${{ github.event.inputs.lesson_start }} to ${{ github.event.inputs.lesson_end }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Exit Code:** ${{ steps.claude.outputs.exit_code }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Files" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          git diff --name-only HEAD~1 2>/dev/null || echo "No previous commit to compare"
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      - name: Check execution status
+        if: steps.claude.outputs.exit_code != '0'
+        run: |
+          echo "::warning::Claude Code exited with code ${{ steps.claude.outputs.exit_code }}"
+          echo "Check the execution log for details"

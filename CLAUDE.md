@@ -12,7 +12,7 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 ├── PROGRESS.md              ← ⚡ ПРОГРЕСС ВЫПОЛНЕНИЯ (для каждой ветки свой)
 │
 ├── inputs/CLAUDE.md         ← Все входные данные
-│   ├── app-database/CLAUDE.md   ← 946 расширений (XLSX)
+│   ├── app-database/CLAUDE.md   ← 5625 расширений (XLSX)
 │   ├── course/CLAUDE.md         ← 11 уроков курса
 │   │   └── parsed/*.md          ← ⚡ Очищенные тексты (30K chars)
 │   ├── webinar/CLAUDE.md        ← Инсайты вебинара
@@ -25,6 +25,7 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 │
 ├── lesson-01/CLAUDE.md      ← Урок 1: Выбор идеи
 ├── lesson-02/CLAUDE.md      ← Урок 2: Keyword Research
+│   └── keywords/CLAUDE.md   ← Гайд по Semrush для AI
 ├── lesson-03/CLAUDE.md      ← Урок 3: Разработка MVP
 ├── lesson-04/CLAUDE.md      ← Урок 4: Публикация
 │
@@ -93,7 +94,7 @@ week-1/
 │
 ├── inputs/                   # Общие входные данные
 │   ├── CLAUDE.md
-│   ├── app-database/         # 20 XLSX (946 расширений)
+│   ├── app-database/         # XLSX (5625 расширений)
 │   ├── course/               # 11 уроков курса
 │   │   ├── *.htm             # Оригинальные HTML
 │   │   ├── parsed/           # ⚡ Очищенные .md (30K chars)
