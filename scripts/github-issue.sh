@@ -30,8 +30,8 @@ fi
 # Описание из аргумента или дефолтное
 SUMMARY="${1:-Session update}"
 
-# Формируем заголовок
-TITLE="[${BRANCH}] ${SUMMARY}"
+# Формируем заголовок (без имени ветки)
+TITLE="${SUMMARY}"
 
 # Читаем SESSION_LOG.md если существует
 SESSION_LOG_PATH="$(git rev-parse --show-toplevel)/SESSION_LOG.md"
@@ -75,15 +75,18 @@ SEARCH_RESULT=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
     -H "Accept: application/vnd.github.v3+json" \
     "${API_URL}/issues?state=all&per_page=100")
 
-# Ищем Issue с названием ветки в заголовке
+# Ищем Issue с веткой в body (ветка указана в body как `branch-name`)
 EXISTING_ISSUE=$(echo "$SEARCH_RESULT" | python3 -c "
 import json, sys
 data = json.load(sys.stdin)
 branch = '${BRANCH}'
 for issue in data:
-    if isinstance(issue, dict) and branch in issue.get('title', ''):
-        print(issue['number'])
-        break
+    if isinstance(issue, dict):
+        body = issue.get('body', '') or ''
+        # Ищем ветку в body (формат: \`branch-name\`)
+        if branch in body:
+            print(issue['number'])
+            break
 " 2>/dev/null || echo "")
 
 if [ -n "$EXISTING_ISSUE" ] && [ "$EXISTING_ISSUE" != "" ]; then
