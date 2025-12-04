@@ -7,6 +7,9 @@
 | extract_clean.py | Извлечение текста из HTML | sources/course-html/*.htm | reports/lessons_content.md |
 | parse_exports.py | Парсинг XLSX файлов | sources/app-database-exports/*.xlsx | pandas DataFrame |
 | analyze_exports.py | Анализ расширений | XLSX файлы | reports/ANALYSIS_SUMMARY.md |
+| transcribe.bat | Транскрипция аудио Whisper | *.mp3 файл | *.txt транскрипция |
+| fix_gpu.bat | Переустановка PyTorch с GPU | - | CUDA-версия PyTorch |
+| check_gpu.py | Проверка доступности GPU | - | Статус CUDA |
 
 ---
 
@@ -158,4 +161,50 @@ sys.stdout.reconfigure(encoding='utf-8')
 ```python
 # Использовать openpyxl engine:
 pd.read_excel(path, engine='openpyxl')
+```
+
+---
+
+## Whisper транскрипция
+
+### transcribe.bat
+
+Автоматическая транскрипция аудио через OpenAI Whisper.
+
+```bash
+# Первый запуск (создаёт venv, ставит PyTorch + Whisper)
+.\transcribe.bat
+
+# Результат: videoplayback.txt в той же папке
+```
+
+### Параметры Whisper:
+```bash
+whisper audio.mp3 --model turbo --language Russian --output_format txt
+```
+
+| Параметр | Значение | Описание |
+|----------|----------|----------|
+| --model | turbo | Быстрая модель (есть tiny, base, small, medium, large) |
+| --language | Russian | Язык аудио |
+| --output_format | txt | Формат выхода (txt, srt, vtt, json) |
+
+### fix_gpu.bat
+
+Если Whisper работает на CPU вместо GPU:
+
+```bash
+.\fix_gpu.bat
+```
+
+Переустанавливает PyTorch с поддержкой CUDA 12.1.
+
+### check_gpu.py
+
+Проверка доступности GPU:
+
+```python
+import torch
+print("CUDA available:", torch.cuda.is_available())
+print("Device:", torch.cuda.get_device_name(0))
 ```

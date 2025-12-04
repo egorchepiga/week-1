@@ -8,14 +8,20 @@
 
 ```
 week-1/
-├── sources/           # Исходные данные
-│   ├── course-html/   # HTML уроки курса
-│   └── app-database-exports/  # Экспорты из app-database.com
-├── reports/           # Аналитические отчёты
-├── prompts/           # Алгоритмы и промпты для AI
-├── scripts/           # Python скрипты обработки
-├── CLAUDE.md          # Этот файл
-└── README.md          # Описание проекта
+├── sources/                    # Исходные данные
+│   ├── course-html/            # HTML уроки курса
+│   ├── app-database-exports/   # Экспорты из app-database.com
+│   └── whisper-transcription/  # Транскрипция вебинара
+│       ├── raw_transcription.txt
+│       └── WEBINAR_INSIGHTS.md # Очищенные инсайты
+├── reports/                    # Аналитические отчёты
+├── prompts/                    # Алгоритмы и промпты для AI
+│   └── IDEA_EVALUATION_TEMPLATE.md  # Шаблон оценки идеи
+├── scripts/                    # Python/Bash скрипты
+│   ├── transcribe.bat          # Whisper транскрипция
+│   └── fix_gpu.bat             # CUDA для PyTorch
+├── CLAUDE.md                   # Этот файл
+└── README.md                   # Описание проекта
 ```
 
 ## Текущий статус
@@ -96,6 +102,85 @@ score = (monetization * 2) + (traffic * 2) + (competition * 1.5) + simplicity + 
 | Инструмент | Назначение | Доступ |
 |------------|------------|--------|
 | app-database.com | База расширений | Есть |
-| Serpstat | SEO анализ | Trial API |
+| Semrush | SEO/KD анализ | Trial $7/400руб |
 | Chrome Web Store | Публикация | Нужна регистрация |
-| GitHub | Код | Есть |
+| GitHub | Код/Open Source | Есть |
+| OpenAI Whisper | Транскрипция аудио | Локально (GPU) |
+
+---
+
+## Оценка идеи (Captain Bootcamp)
+
+> Полный шаблон: `prompts/IDEA_EVALUATION_TEMPLATE.md`
+
+### Критерии (баллы 0-10):
+
+| # | Критерий | Что оцениваем |
+|---|----------|---------------|
+| 1 | Пользователи | От 10K, не миллионы от брендов |
+| 2 | Заработок | Подписка? Цена? Доход? |
+| 3 | Одна функция | ДА/НЕТ (RED FLAG если нет) |
+| 4 | Простота | Есть open source? GitHub? |
+| 5 | Поиск ключа | Volume в Semrush |
+| 6 | Софтовость | >50% софта в Google выдаче |
+| 7 | Ключ свободен | Нет оптимизированных конкурентов |
+| 8 | KD Semrush | Зелёная=10, Оранжевая=7, Красная=6 |
+
+### RED FLAGS (отказ от идеи):
+- Нельзя сократить до 1 функции
+- Нет софтовости в выдаче (>50% статей)
+- Ключ занят оптимизированным расширением
+
+### Пример хорошей оценки:
+```
+CSS Scan: 48/50 баллов
+- 10K юзеров, $88 продажа, $100K/год
+- Есть GitHub (cssviewer)
+- Ключ "css checker" свободен
+- KD оранжевая зона
+ВЕРДИКТ: БЕРЁМ
+```
+
+---
+
+## Запрещённые бренды
+
+НЕ использовать в названии:
+- Meta (WhatsApp, Facebook, Instagram)
+- Anthropic (Claude)
+- LinkedIn
+- Google Gemini
+
+Можно:
+- YouTube (но НЕ downloader)
+- Amazon
+- Google Sheets/Docs
+
+---
+
+## Формулы расчёта
+
+```python
+# Примерная месячная выручка
+monthly_revenue = (users / 100) * subscription_price
+# Конверсия: 1% базовая, 3-5% оптимизированная, 10% рекорд
+
+# Стоимость продажи проекта (без выручки)
+sale_price = users / 10
+
+# Глобальный трафик из US-запросов
+global_english = us_traffic * 10
+all_languages = global_english * 10
+```
+
+---
+
+## Признаки оптимизированного конкурента
+
+Если хотя бы 1 НЕ выполнен — можно занимать нишу:
+
+| Критерий | Значение |
+|----------|----------|
+| Название | = точный поисковый запрос |
+| Description | > 3,000 символов |
+| Локализация | > 30 языков |

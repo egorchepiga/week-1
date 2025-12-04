@@ -23,33 +23,51 @@
 - **Как получили:** Ручной экспорт через интерфейс сайта
 - **Обработка:** Python + pandas/openpyxl
 
+### 3. Вебинар Captain Bootcamp (транскрипция)
+- **Откуда:** 2-часовой вебинар модуля 1
+- **Формат:** MP3 → TXT (Whisper turbo)
+- **Как получили:** OpenAI Whisper с GPU
+- **Обработка:** Ручная чистка, структурирование
+
+### 4. PDF-пример оценки идеи
+- **Откуда:** Captain Bootcamp - Extensions from store.pdf
+- **Формат:** Таблица с критериями и примерами
+- **Обработка:** Извлечён шаблон IDEA_EVALUATION_TEMPLATE.md
+
 ---
 
 ## Структура репозитория
 
 ```
 week-1/
-├── sources/                    # Исходные сырые данные
-│   ├── course-html/            # 11 HTML уроков курса
-│   └── app-database-exports/   # 20 XLSX экспортов
+├── sources/                       # Исходные сырые данные
+│   ├── course-html/               # 11 HTML уроков курса
+│   ├── app-database-exports/      # 20 XLSX экспортов
+│   └── whisper-transcription/     # Транскрипция вебинара
+│       ├── raw_transcription.txt  # Сырой текст (~3700 строк)
+│       └── WEBINAR_INSIGHTS.md    # Очищенные инсайты
 │
-├── reports/                    # Готовые отчёты
-│   ├── lessons_content.md      # Извлечённый текст уроков
-│   └── ANALYSIS_SUMMARY.md     # Анализ 947 расширений
+├── reports/                       # Готовые отчёты
+│   ├── lessons_content.md         # Извлечённый текст уроков
+│   └── ANALYSIS_SUMMARY.md        # Анализ 947 расширений
 │
-├── prompts/                    # Алгоритмы для AI
-│   ├── 00_MASTER_ALGORITHM.md  # Мастер-план
-│   ├── 01_vybor_idei.md        # Этап 1: Выбор идеи
-│   ├── 02_ocenka_dohodnosti.md # Этап 2: Оценка доходности
-│   └── ...                     # Этапы 3-10
+├── prompts/                       # Алгоритмы для AI
+│   ├── 00_MASTER_ALGORITHM.md     # Мастер-план
+│   ├── 01_vybor_idei.md           # Этап 1: Выбор идеи
+│   ├── 02_ocenka_dohodnosti.md    # Этап 2: Оценка доходности
+│   ├── IDEA_EVALUATION_TEMPLATE.md # Шаблон оценки идеи
+│   └── ...                        # Этапы 3-10
 │
-├── scripts/                    # Python скрипты
-│   ├── extract_clean.py        # Извлечение текста из HTML
-│   ├── parse_exports.py        # Парсинг XLSX
-│   └── analyze_exports.py      # Анализ расширений
+├── scripts/                       # Python/Bash скрипты
+│   ├── extract_clean.py           # Извлечение текста из HTML
+│   ├── parse_exports.py           # Парсинг XLSX
+│   ├── analyze_exports.py         # Анализ расширений
+│   ├── transcribe.bat             # Whisper транскрипция
+│   ├── fix_gpu.bat                # CUDA для PyTorch
+│   └── check_gpu.py               # Проверка GPU
 │
-├── CLAUDE.md                   # Инструкции для Claude AI
-└── README.md                   # Этот файл
+├── CLAUDE.md                      # Инструкции для Claude AI
+└── README.md                      # Этот файл
 ```
 
 ---
@@ -106,6 +124,7 @@ python scripts/analyze_exports.py
 ### Проанализировано:
 - 947 Chrome-расширений
 - 11 уроков курса
+- 2-часовой вебинар (3700 строк транскрипции)
 - 30+ AI-расширений
 - 20+ Developer-инструментов
 
@@ -123,11 +142,12 @@ python scripts/analyze_exports.py
 
 ## Следующие шаги (Week 2)
 
-1. [ ] Выбрать 1 идею для глубокого анализа
-2. [ ] Проверить ключевые слова в Serpstat
-3. [ ] Детально проверить конкурентов
-4. [ ] Оценить сложность разработки
-5. [ ] Создать MVP
+1. [ ] Выбрать 10+ идей и заполнить таблицу оценки
+2. [ ] Проверить ключевые слова в Semrush (KD, Volume)
+3. [ ] Проверить софтовость выдачи в Google US
+4. [ ] Найти open source аналоги на GitHub
+5. [ ] Забронировать 1 идею в боте буткемпа
+6. [ ] Создать аккаунт в Chrome Web Store
 
 ---
 
@@ -135,7 +155,8 @@ python scripts/analyze_exports.py
 
 - **Курс:** https://monetize.software
 - **База расширений:** https://app-database.com
-- **Serpstat:** https://serpstat.com
+- **SEO анализ:** https://semrush.com (trial $7)
+- **Chrome Web Store:** https://chrome.google.com/webstore/devconsole
 
 ---
 
