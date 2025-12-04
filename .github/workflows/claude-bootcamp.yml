@@ -32,6 +32,11 @@ on:
         description: 'Run identifier (optional, e.g., experiment-1)'
         required: false
         default: ''
+      custom_prompt:
+        description: 'Additional prompt to append (optional)'
+        required: false
+        default: ''
+        type: string
 
 env:
   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -158,6 +163,17 @@ jobs:
           # Replace placeholders
           PROMPT="${PROMPT//LESSON_START/$LESSON_START}"
           PROMPT="${PROMPT//LESSON_END/$LESSON_END}"
+
+          # Append custom prompt if provided
+          CUSTOM_PROMPT="${{ github.event.inputs.custom_prompt }}"
+          if [ -n "$CUSTOM_PROMPT" ]; then
+            PROMPT="${PROMPT}
+
+          ## ДОПОЛНИТЕЛЬНЫЕ ИНСТРУКЦИИ
+
+          ${CUSTOM_PROMPT}"
+            echo "Custom prompt added"
+          fi
 
           echo "Starting Claude Code execution..."
           echo "Lessons: $LESSON_START to $LESSON_END"
