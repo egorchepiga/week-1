@@ -1,18 +1,32 @@
 # Урок 1: Выбор и валидация идеи
 
-> **Для AI:** Этот файл содержит всё необходимое для загрузки контекста урока.
+> **Навигация:** [< Корень](../CLAUDE.md) | **Lesson 01** | [Lesson 02 >](../lesson-02/CLAUDE.md)
+
+**Статус:** ✅ Завершён
 
 ---
 
-## Быстрый старт
+## Загрузка контекста
 
+### Обязательно прочитать:
 ```
-Прочитай файлы в таком порядке:
-1. lesson-01/CLAUDE.md          ← ТЫ ЗДЕСЬ
+1. lesson-01/CLAUDE.md               ← ★ ТЫ ЗДЕСЬ
 2. lesson-01/templates/AI_TUTORIAL.md
 3. lesson-01/templates/IDEA_EVALUATION_TEMPLATE.md
-4. lesson-01/inputs/webinar/WEBINAR_INSIGHTS.md
-5. lesson-01/outputs/FINAL_IDEAS_REPORT.md (если есть)
+4. inputs/webinar/WEBINAR_INSIGHTS.md
+```
+
+### Данные для анализа:
+```
+5. inputs/app-database/*.xlsx        ← 946 расширений
+6. inputs/course/01_vybor_idei.htm
+7. inputs/course/02_ocenka_dohodnosti.htm
+8. inputs/course/03_podschet_ballov.htm
+```
+
+### Результат:
+```
+9. lesson-01/outputs/FINAL_IDEAS_REPORT.md
 ```
 
 ---
@@ -24,26 +38,29 @@ lesson-01/
 ├── CLAUDE.md                 # ★ Этот файл (контекст)
 ├── README.md                 # Описание урока
 │
-├── inputs/                   # Входные данные
-│   ├── app-database/         # 20 XLSX файлов (946 расширений)
-│   ├── course/               # HTML материалы курса
-│   └── webinar/              # Транскрипция 2ч вебинара
-│       └── WEBINAR_INSIGHTS.md  ★ ВАЖНО
-│
 ├── templates/                # Шаблоны и туториалы
 │   ├── AI_TUTORIAL.md           ★ Пошаговая инструкция
 │   └── IDEA_EVALUATION_TEMPLATE.md  ★ 8 критериев оценки
 │
 ├── prompts/                  # Промпты для каждого шага
 │   ├── 00_MASTER_ALGORITHM.md
-│   ├── 01_vybor_idei.md
 │   └── ...
 │
 └── outputs/                  # Результаты работы
-    ├── FINAL_IDEAS_REPORT.md    # Финальный отчёт
-    ├── ANALYSIS_SUMMARY.md      # Сводка анализа
-    └── SESSION_CONTEXT.md       # Контекст сессии
+    └── FINAL_IDEAS_REPORT.md    # Финальный отчёт ✅
 ```
+
+**Входные данные:** `../inputs/` (общие для всех уроков)
+
+---
+
+## Ссылки на inputs
+
+| Источник | Путь | Описание |
+|----------|------|----------|
+| **App Database** | [inputs/app-database/CLAUDE.md](../inputs/app-database/CLAUDE.md) | 946 расширений (XLSX) |
+| **Course 01-03** | [inputs/course/CLAUDE.md](../inputs/course/CLAUDE.md) | Уроки 1-3 курса |
+| **Webinar** | [inputs/webinar/CLAUDE.md](../inputs/webinar/CLAUDE.md) | Инсайты вебинара |
 
 ---
 
@@ -65,6 +82,8 @@ lesson-01/
 | 6 | Софтовость | ДА/НЕТ | >50% софта в Google выдаче |
 | 7 | Ключ свободен | ДА/НЕТ | Нет оптимизированных конкурентов |
 | 8 | KD | 10 | Зелёная=10, Оранжевая=7, Красная=6 |
+
+> Подробнее: [shared/CLAUDE.md](../shared/CLAUDE.md)
 
 ---
 
@@ -91,22 +110,18 @@ lesson-01/
 ## Формулы
 
 ```python
-# Месячная выручка
 monthly_revenue = (users / 100) * price  # 1% конверсия
-
-# Продажа проекта (без выручки)
-sale_price = users / 10
-
-# Глобальный трафик из US
-global = us_traffic * 10 * 10  # ×10 англ, ×10 все языки
+sale_price = users / 10                   # продажа проекта
+global = us_traffic * 10 * 10             # ×10 англ, ×10 все языки
 ```
+
+> Все формулы: [shared/CLAUDE.md](../shared/CLAUDE.md)
 
 ---
 
 ## Запрещённые бренды
 
 **НЕ использовать:** Meta, LinkedIn, Claude, Gemini
-
 **Можно:** YouTube, Amazon, Google Sheets/Docs
 
 ---
@@ -124,15 +139,28 @@ global = us_traffic * 10 * 10  # ×10 англ, ×10 все языки
 
 ## Чеклист выполнения урока
 
-- [ ] Прочитан AI_TUTORIAL.md
-- [ ] Прочитан IDEA_EVALUATION_TEMPLATE.md
-- [ ] Прочитан WEBINAR_INSIGHTS.md
-- [ ] Проанализированы XLSX из inputs/app-database/
-- [ ] Получены данные Serpstat (KD, Volume)
-- [ ] Сгенерировано 10+ идей
-- [ ] Каждая оценена по 8 критериям
-- [ ] Создан FINAL_IDEAS_REPORT.md в outputs/
-- [ ] Выбрана 1 лучшая идея
+- [x] Прочитан AI_TUTORIAL.md
+- [x] Прочитан IDEA_EVALUATION_TEMPLATE.md
+- [x] Прочитан WEBINAR_INSIGHTS.md
+- [x] Проанализированы XLSX из inputs/app-database/
+- [x] Получены данные SEO (KD, Volume)
+- [x] Сгенерировано 10+ идей
+- [x] Каждая оценена по 8 критериям
+- [x] Создан FINAL_IDEAS_REPORT.md в outputs/
+- [ ] Выбрана 1 лучшая идея (ждёт Lesson 02)
+
+---
+
+## Результат урока
+
+**ТОП-3 идеи:**
+| # | Идея | Баллы |
+|---|------|-------|
+| 1 | Grammar Checker RU/ES | 41/50 |
+| 2 | CSS Inspector Tool | 39/50 |
+| 3 | AI Code Review | 35/50 |
+
+**Полный отчёт:** `outputs/FINAL_IDEAS_REPORT.md`
 
 ---
 
