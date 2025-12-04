@@ -15,7 +15,13 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 │   ├── app-database/CLAUDE.md   ← 946 расширений (XLSX)
 │   ├── course/CLAUDE.md         ← 11 уроков курса
 │   │   └── parsed/*.md          ← ⚡ Очищенные тексты (30K chars)
-│   └── webinar/CLAUDE.md        ← Инсайты вебинара
+│   ├── webinar/CLAUDE.md        ← Инсайты вебинара
+│   └── bootcamp-recordings/     ← ⚡ Транскрипции разборов Week 1
+│       ├── CLAUDE.md            ← Описание и навигация
+│       ├── SUMMARY.md           ← Краткая выжимка
+│       └── ERRORS_CATALOG.md    ← ⚠️ КАТАЛОГ ОШИБОК (для AI)
+│
+├── Whisper/CLAUDE.md        ← Инструмент транскрибации
 │
 ├── lesson-01/CLAUDE.md      ← Урок 1: Выбор идеи
 ├── lesson-02/CLAUDE.md      ← Урок 2: Keyword Research
@@ -38,6 +44,8 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 | **Начать урок 4** | `Прочитай: lesson-04/CLAUDE.md` |
 | **Понять входные данные** | `Прочитай: inputs/CLAUDE.md` |
 | **Формулы и критерии** | `Прочитай: shared/CLAUDE.md` |
+| **⚠️ Проверить идею на ошибки** | `Прочитай: inputs/bootcamp-recordings/ERRORS_CATALOG.md` |
+| **Выжимка из разборов** | `Прочитай: inputs/bootcamp-recordings/SUMMARY.md` |
 
 ---
 
@@ -142,6 +150,34 @@ global_traffic = us_traffic * 10 * 10     # ×10 EN, ×10 все языки
 ### Запрещённые бренды
 **НЕТ:** Meta, LinkedIn, Claude, Gemini
 **ДА:** YouTube, Amazon, Google Sheets
+
+---
+
+## ⚠️ Проверка идей на ошибки (ОБЯЗАТЕЛЬНО)
+
+> **ВАЖНО:** Перед валидацией любой идеи AI должен проверить её на типичные ошибки!
+
+### Быстрый чек-лист
+```
+□ Есть конкуренты (extension ИЛИ сайты ИЛИ apps)?
+□ SERP софтовый (топ-10 = софт, не статьи)?
+□ Volume >= 500 (US)?
+□ KD <= 70?
+□ Тренд стабильный (не ботоводный)?
+□ Есть платные конкуренты?
+□ Нет MV2 зависимости?
+□ Нет запрещённых брендов?
+□ Для работы (не развлечение)?
+```
+
+### Топ-5 критических ошибок
+1. **Нет конкурентов** — 8 млрд людей, мы не первые
+2. **Не софтовая выдача** — добавить -ER (testing → tester)
+3. **FREE в названии** — модерация не пропустит
+4. **MV2 open-source** — Chrome удаляет MV2
+5. **Донаты как модель** — разница с подписками в 100-1000x
+
+**Полный каталог:** `inputs/bootcamp-recordings/ERRORS_CATALOG.md`
 
 ---
 
