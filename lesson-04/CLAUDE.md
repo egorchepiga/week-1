@@ -15,9 +15,9 @@
 3. inputs/webinar/WEBINAR_INSIGHTS.md ← Раздел про публикацию
 ```
 
-### Материалы курса:
+### Материалы курса (⚡ используй parsed/):
 ```
-4. inputs/course/11_otpravka_rezultatov.htm  ← Публикация
+4. inputs/course/parsed/11_otpravka_rezultatov.md  ← Публикация
 ```
 
 ---

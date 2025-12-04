@@ -10,6 +10,29 @@
 
 ---
 
+## ⚡ Быстрый доступ (parsed/)
+
+**HTML файлы очень большие. Используй очищенные версии:**
+
+```
+inputs/course/parsed/
+├── 01_vybor_idei.md           # 5,202 chars
+├── 02_ocenka_dohodnosti.md    # 1,963 chars
+├── 03_podschet_ballov.md      # 680 chars
+├── 04_podbor_zaprosa_1.md     # 2,740 chars
+├── 05_podbor_zaprosa_2.md     # 3,020 chars
+├── 06_keyword_difficulty.md   # 4,849 chars
+├── 07_proverka_konkurentov.md # 5,614 chars
+├── 08_ranzhirovanie_po_zaprosam.md # 1,223 chars
+├── 09_proverka_klucha.md      # 1,898 chars
+├── 10_vytaskivaem_funkciyu.md # 2,000 chars
+└── 11_otpravka_rezultatov.md  # 980 chars
+```
+
+**Всего:** 30,169 символов (vs ~500K в оригинале)
+
+---
+
 ## Связь с уроками Week 1
 
 ```
@@ -55,29 +78,29 @@ inputs/course/                       │ week-1/
 
 ### Lesson 01 — Выбор идеи
 ```
-Прочитай: inputs/course/01_vybor_idei.htm
-Прочитай: inputs/course/02_ocenka_dohodnosti.htm
-Прочитай: inputs/course/03_podschet_ballov.htm
+Прочитай: inputs/course/parsed/01_vybor_idei.md
+Прочитай: inputs/course/parsed/02_ocenka_dohodnosti.md
+Прочитай: inputs/course/parsed/03_podschet_ballov.md
 ```
 
 ### Lesson 02 — Keyword Research
 ```
-Прочитай: inputs/course/04_podbor_zaprosa_1.htm
-Прочитай: inputs/course/05_podbor_zaprosa_2.htm
-Прочитай: inputs/course/06_keyword_difficulty.htm
-Прочитай: inputs/course/07_proverka_konkurentov.htm
-Прочитай: inputs/course/08_ranzhirovanie_po_zaprosam.htm
-Прочитай: inputs/course/09_proverka_klucha.htm
+Прочитай: inputs/course/parsed/04_podbor_zaprosa_1.md
+Прочитай: inputs/course/parsed/05_podbor_zaprosa_2.md
+Прочитай: inputs/course/parsed/06_keyword_difficulty.md
+Прочитай: inputs/course/parsed/07_proverka_konkurentov.md
+Прочитай: inputs/course/parsed/08_ranzhirovanie_po_zaprosam.md
+Прочитай: inputs/course/parsed/09_proverka_klucha.md
 ```
 
 ### Lesson 03 — Разработка MVP
 ```
-Прочитай: inputs/course/10_vytaskivaem_funkciyu.htm
+Прочитай: inputs/course/parsed/10_vytaskivaem_funkciyu.md
 ```
 
 ### Lesson 04 — Публикация
 ```
-Прочитай: inputs/course/11_otpravka_rezultatov.htm
+Прочитай: inputs/course/parsed/11_otpravka_rezultatov.md
 ```
 
 ---

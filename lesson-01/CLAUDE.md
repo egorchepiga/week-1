@@ -19,9 +19,9 @@
 ### Данные для анализа:
 ```
 5. inputs/app-database/*.xlsx        ← 946 расширений
-6. inputs/course/01_vybor_idei.htm
-7. inputs/course/02_ocenka_dohodnosti.htm
-8. inputs/course/03_podschet_ballov.htm
+6. inputs/course/parsed/01_vybor_idei.md          ⚡ Очищенные!
+7. inputs/course/parsed/02_ocenka_dohodnosti.md
+8. inputs/course/parsed/03_podschet_ballov.md
 ```
 
 ### Результат:

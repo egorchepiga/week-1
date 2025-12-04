@@ -15,9 +15,9 @@
 3. inputs/webinar/WEBINAR_INSIGHTS.md ← Раздел про разработку
 ```
 
-### Материалы курса:
+### Материалы курса (⚡ используй parsed/):
 ```
-4. inputs/course/10_vytaskivaem_funkciyu.htm  ← Разработка MVP
+4. inputs/course/parsed/10_vytaskivaem_funkciyu.md  ← Разработка MVP
 ```
 
 ---
