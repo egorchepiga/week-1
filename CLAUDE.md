@@ -11,7 +11,8 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 │
 ├── inputs/CLAUDE.md         ← Все входные данные
 │   ├── app-database/CLAUDE.md   ← 946 расширений (XLSX)
-│   ├── course/CLAUDE.md         ← 11 уроков курса (HTML)
+│   ├── course/CLAUDE.md         ← 11 уроков курса
+│   │   └── parsed/*.md          ← ⚡ Очищенные тексты (30K chars)
 │   └── webinar/CLAUDE.md        ← Инсайты вебинара
 │
 ├── lesson-01/CLAUDE.md      ← Урок 1: Выбор идеи ✅
@@ -51,20 +52,20 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 ## Связь уроков с материалами курса
 
 ```
-inputs/course/
-├── 01_vybor_idei.htm          ─┐
-├── 02_ocenka_dohodnosti.htm    ├─→ Lesson 01: Выбор идеи
-├── 03_podschet_ballov.htm     ─┘
+inputs/course/parsed/              ⚡ Используй эти файлы!
+├── 01_vybor_idei.md          ─┐
+├── 02_ocenka_dohodnosti.md    ├─→ Lesson 01: Выбор идеи
+├── 03_podschet_ballov.md     ─┘
 │
-├── 04_podbor_zaprosa_1.htm    ─┐
-├── 05_podbor_zaprosa_2.htm     │
-├── 06_keyword_difficulty.htm   ├─→ Lesson 02: Keyword Research
-├── 07_proverka_konkurentov.htm │
-├── 08_ranzhirovanie.htm        │
-├── 09_proverka_klucha.htm     ─┘
+├── 04_podbor_zaprosa_1.md    ─┐
+├── 05_podbor_zaprosa_2.md     │
+├── 06_keyword_difficulty.md   ├─→ Lesson 02: Keyword Research
+├── 07_proverka_konkurentov.md │
+├── 08_ranzhirovanie_po_zaprosam.md │
+├── 09_proverka_klucha.md     ─┘
 │
-├── 10_vytaskivaem_funkciyu.htm ──→ Lesson 03: Разработка MVP
-└── 11_otpravka_rezultatov.htm  ──→ Lesson 04: Публикация
+├── 10_vytaskivaem_funkciyu.md ──→ Lesson 03: Разработка MVP
+└── 11_otpravka_rezultatov.md  ──→ Lesson 04: Публикация
 ```
 
 ---
@@ -79,7 +80,10 @@ week-1/
 ├── inputs/                   # Общие входные данные
 │   ├── CLAUDE.md
 │   ├── app-database/         # 20 XLSX (946 расширений)
-│   ├── course/               # 11 HTML уроков курса
+│   ├── course/               # 11 уроков курса
+│   │   ├── *.htm             # Оригинальные HTML
+│   │   ├── parsed/           # ⚡ Очищенные .md (30K chars)
+│   │   └── parse_html.py     # Скрипт парсинга
 │   └── webinar/              # Транскрипция вебинара
 │
 ├── lesson-01/                # Выбор идеи ✅

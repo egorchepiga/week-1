@@ -15,14 +15,14 @@
 3. inputs/webinar/WEBINAR_INSIGHTS.md       ← KD, софтовость
 ```
 
-### Материалы курса:
+### Материалы курса (⚡ используй parsed/):
 ```
-4. inputs/course/04_podbor_zaprosa_1.htm    ← Подбор ключа
-5. inputs/course/05_podbor_zaprosa_2.htm    ← Альтернативные ключи
-6. inputs/course/06_keyword_difficulty.htm  ← Анализ KD
-7. inputs/course/07_proverka_konkurentov.htm ← Конкуренты
-8. inputs/course/08_ranzhirovanie_po_zaprosam.htm ← Long-tail
-9. inputs/course/09_proverka_klucha.htm     ← Софтовость
+4. inputs/course/parsed/04_podbor_zaprosa_1.md    ← Подбор ключа
+5. inputs/course/parsed/05_podbor_zaprosa_2.md    ← Альтернативные ключи
+6. inputs/course/parsed/06_keyword_difficulty.md  ← Анализ KD
+7. inputs/course/parsed/07_proverka_konkurentov.md ← Конкуренты
+8. inputs/course/parsed/08_ranzhirovanie_po_zaprosam.md ← Long-tail
+9. inputs/course/parsed/09_proverka_klucha.md     ← Софтовость
 ```
 
 ---
