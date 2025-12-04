@@ -195,8 +195,10 @@ jobs:
           echo "Starting Claude Code execution..."
           echo "Lessons: $LESSON_START to $LESSON_END"
 
-          # Execute Claude Code
-          claude --print --dangerously-skip-permissions "$PROMPT" 2>&1 | tee claude_output.log
+          # Execute Claude Code with live streaming
+          # --verbose для подробного вывода
+          # stdbuf -oL для line-buffered output
+          stdbuf -oL claude --dangerously-skip-permissions --verbose -p "$PROMPT" 2>&1 | tee claude_output.log
 
           EXIT_CODE=${PIPESTATUS[0]}
           echo "exit_code=${EXIT_CODE}" >> $GITHUB_OUTPUT
