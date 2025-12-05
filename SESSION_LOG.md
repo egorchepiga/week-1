@@ -2,15 +2,14 @@
 
 > **Ветка:** `bootcamp-run-2`
 > **Дата:** 2025-12-05
-> **Тип сессии:** Lessons 01-02 (повторное выполнение)
+> **Тип сессии:** Lessons 01-02 (повторное выполнение) + TOP-10 расширение
 
 ---
 
 ## Цель сессии
 
-Выполнить уроки 1-2 Captain Builders Bootcamp заново:
-1. Урок 1: Выбор идеи (генерация, скрининг, оценка по 8 критериям)
-2. Урок 2: Keyword Research (анализ volume, KD, софтовости)
+1. Выполнить уроки 1-2 Captain Builders Bootcamp заново
+2. **ОБНОВЛЕНИЕ:** Расширить анализ с TOP-3 до TOP-10 идей
 
 ---
 
@@ -59,18 +58,6 @@
 5. Оценено 10 идей по 8 критериям
 6. Выбраны ТОП-3 для Keyword Research
 
-**Проверка конкурентов (MongoDB):**
-```bash
-python scripts/mongodb/query-extensions.py hybrid-search "youtube screenshot" --limit 10
-python scripts/mongodb/query-extensions.py hybrid-search "json formatter" --limit 10
-python scripts/mongodb/query-extensions.py hybrid-search "cms detector" --limit 10
-python scripts/mongodb/query-extensions.py hybrid-search "base64 encoder" --limit 10
-python scripts/mongodb/query-extensions.py hybrid-search "xpath tester" --limit 10
-python scripts/mongodb/query-extensions.py get dhnikjofbddmfnkonpedeajjkhoecdfp
-python scripts/mongodb/query-extensions.py get cfaihfocdnniaholfnjcemnfhcjchohb
-python scripts/mongodb/query-extensions.py get cneomjecgakdfoeehmmmoiklncdiodmh
-```
-
 **Созданные файлы:**
 - `lesson-01/outputs/IDEAS_SCREENING.md` — первичный скрининг 20 идей
 - `lesson-01/outputs/IDEAS_ANALYSIS.md` — оценка 10 идей по 8 критериям
@@ -78,21 +65,7 @@ python scripts/mongodb/query-extensions.py get cneomjecgakdfoeehmmmoiklncdiodmh
 
 ---
 
-### 3. Урок 02: Keyword Research
-
-**Использованы инструменты:**
-- MongoDB (проверка конкурентов)
-- Web Search (актуальные данные по keywords)
-- Анализ SERP (софтовость)
-
-**Шаги:**
-1. Для каждой из ТОП-3 идей:
-   - Оценка Volume US
-   - Оценка KD%
-   - Проверка софтовости выдачи
-   - Проверка оптимизированности конкурентов
-2. Сравнение по критериям курса
-3. Финальная рекомендация
+### 3. Урок 02: Keyword Research (первоначально TOP-3)
 
 **Созданные файлы:**
 - `lesson-02/keywords/json-formatter/json-formatter.md`
@@ -102,83 +75,106 @@ python scripts/mongodb/query-extensions.py get cneomjecgakdfoeehmmmoiklncdiodmh
 
 ---
 
+### 4. Расширение до TOP-10 (новое)
+
+**Запрос пользователя:** Расширить анализ с TOP-3 до TOP-10 и добавить это в CLAUDE.md
+
+**Выполненные действия:**
+
+1. **Обновлён CLAUDE.md:**
+   - Изменён workflow с TOP-3 на TOP-10
+   - Добавлена секция "ВАЖНО: Выбор ТОП-10 идей (не ТОП-3!)"
+
+2. **Проверены конкуренты через MongoDB:**
+   ```bash
+   python scripts/mongodb/query-extensions.py hybrid-search "regex tester" --limit 10
+   python scripts/mongodb/query-extensions.py hybrid-search "markdown viewer" --limit 10
+   python scripts/mongodb/query-extensions.py hybrid-search "xml formatter" --limit 10
+   python scripts/mongodb/query-extensions.py hybrid-search "timestamp converter" --limit 10
+   python scripts/mongodb/query-extensions.py hybrid-search "css selector" --limit 10
+   python scripts/mongodb/query-extensions.py hybrid-search "cms detector" --limit 10
+   python scripts/mongodb/query-extensions.py hybrid-search "base64 encoder" --limit 10
+   ```
+
+3. **Созданы 7 новых keyword research файлов:**
+   - `lesson-02/keywords/regex-tester/regex-tester.md`
+   - `lesson-02/keywords/markdown-viewer/markdown-viewer.md`
+   - `lesson-02/keywords/xml-formatter/xml-formatter.md`
+   - `lesson-02/keywords/timestamp-converter/timestamp-converter.md`
+   - `lesson-02/keywords/css-selector/css-selector.md`
+   - `lesson-02/keywords/cms-detector/cms-detector.md`
+   - `lesson-02/keywords/base64-encoder/base64-encoder.md`
+
+4. **Обновлён KEYWORD_RESEARCH_REPORT.md:**
+   - Добавлены все 10 идей с анализом
+   - Созданы Tier 1/2/3 категории по volume
+   - Добавлена сводная таблица GO/NO-GO
+
+---
+
 ## Принятые решения
 
-### 1. Смена первичного выбора: XPath Tester → JSON Formatter
+### 1. TOP-10 вместо TOP-3
 
-**Было (предыдущая сессия):** XPath Tester (42/50)
-**Стало (эта сессия):** JSON Formatter (48/50)
+**Причина:** Больше опций для выбора, возможность выявить GAP-ы в рынке
 
-**Почему:**
-- Volume 5,000+ vs 720 (в 7 раз больше)
-- 100% софтовая выдача vs 80%
-- Никто из 14 конкурентов не оптимизирован
-- Тривиальная реализация
+**Результат:** Обнаружен GAP - Regex Tester (нет dedicated расширения!)
 
-### 2. XPath Tester → XPath Finder
+### 2. Tier система приоритизации
 
-**Проблема:** Основной ключ "xpath tester" ЗАНЯТ
-- Лидер cneomjecgakdfoeehmmmoiklncdiodmh имеет 3,500+ символов описания
+| Tier | Volume | Идеи |
+|------|--------|------|
+| Tier 1 | >1000 | JSON Formatter, YouTube Screenshot, Regex Tester |
+| Tier 2 | 500-1000 | Markdown Viewer, CSS Selector, XML Formatter, XPath Finder, CMS Detector |
+| Tier 3 | <500 | Timestamp Converter, Base64 Encoder |
 
-**Решение:** Использовать альтернативный ключ "xpath finder"
-- Volume 500 (достаточно для узкой ниши)
-- KD 25% (ниже чем 27%)
-- Лидер НЕ оптимизирован
+### 3. GAP в рынке: Regex Tester
 
-### 3. YouTube Screenshot — резервный вариант
+**Находка:** Нет dedicated Chrome extension для regex testing!
+- Volume: 1,000
+- Софтовость: 90%
+- Конкуренция: только online сервисы (regex101.com)
+- Рекомендация: второй проект после JSON Formatter
 
-**Причина осторожности:**
-- Софтовость на границе (60%)
-- Возможные риски с YouTube TOS
-- Navigational intent в части запросов
+### 4. NO-GO: Base64 Encoder
+
+**Причина:** Volume 300 ниже порога 500
+**Альтернатива:** Объединить с другими encoding tools
 
 ---
 
 ## Изменённые файлы
 
 ```
-✅ PROGRESS.md — обновлён статус уроков 1-2
-✅ lesson-01/outputs/IDEAS_SCREENING.md — создан
-✅ lesson-01/outputs/IDEAS_ANALYSIS.md — создан
-✅ lesson-01/outputs/FINAL_IDEAS_REPORT.md — создан
-✅ lesson-02/keywords/json-formatter/json-formatter.md — создан
-✅ lesson-02/keywords/youtube-screenshot/youtube-screenshot.md — создан
-✅ lesson-02/keywords/xpath-tester/xpath-tester.md — создан
-✅ lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md — создан
+✅ CLAUDE.md — добавлено требование TOP-10
+✅ PROGRESS.md — обновлён на TOP-10
 ✅ SESSION_LOG.md — обновлён
+✅ lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md — расширен до TOP-10
+✅ lesson-02/keywords/regex-tester/regex-tester.md — создан
+✅ lesson-02/keywords/markdown-viewer/markdown-viewer.md — создан
+✅ lesson-02/keywords/xml-formatter/xml-formatter.md — создан
+✅ lesson-02/keywords/timestamp-converter/timestamp-converter.md — создан
+✅ lesson-02/keywords/css-selector/css-selector.md — создан
+✅ lesson-02/keywords/cms-detector/cms-detector.md — создан
+✅ lesson-02/keywords/base64-encoder/base64-encoder.md — создан
 ```
 
 ---
 
-## Сравнение с предыдущей сессией
+## Финальный рейтинг TOP-10
 
-| Параметр | Предыдущая | Текущая | Комментарий |
-|----------|------------|---------|-------------|
-| Первичный выбор | XPath Tester | JSON Formatter | Выше volume |
-| Баллы | 42/50 | 48/50 | +6 баллов |
-| Volume | 720 | 5,000+ | ×7 больше |
-| Ключ свободен | Частично | Да | Важное улучшение |
-| Outputs созданы | Частично | Полностью | Все файлы на месте |
-
----
-
-## Выводы
-
-### Что работает хорошо:
-- MongoDB Vector Search отлично находит конкурентов
-- Каталог ошибок (ERRORS_CATALOG.md) помогает избежать типичных проблем
-- 8 критериев оценки структурируют выбор
-- Агент chrome-extensions-analyst даёт хорошие инсайты
-
-### Что требует внимания:
-- Semrush данные недоступны напрямую без MCP Playwright
-- Volume оценки приблизительные (нужен Semrush API)
-- Нужна ручная проверка софтовости в Google
-
-### Рекомендации:
-- Использовать JSON Formatter для Урока 3
-- Подготовить XPath Finder как резервный вариант
-- Настроить MCP Playwright для точных Semrush данных
+| # | Идея | Volume | KD | Софтовость | GO/NO-GO |
+|---|------|--------|-----|------------|----------|
+| 1 | **JSON Formatter** | 5,000 | 35% | 100% | **GO** |
+| 2 | YouTube Screenshot | 1,500 | 30% | 60% | GO |
+| 3 | Regex Tester | 1,000 | 35% | 90% | GO (GAP!) |
+| 4 | Markdown Viewer | 800 | 30% | 100% | GO |
+| 5 | CSS Selector | 700 | 35% | 60% | GO (caution) |
+| 6 | XML Formatter | 600 | 30% | 90% | GO |
+| 7 | XPath Finder | 500 | 25% | 80% | GO |
+| 8 | CMS Detector | 500 | 25% | 100% | GO (caution) |
+| 9 | Timestamp Converter | 400 | 25% | 80% | GO (low vol) |
+| 10 | Base64 Encoder | 300 | 20% | 80% | NO-GO |
 
 ---
 
@@ -186,20 +182,40 @@ python scripts/mongodb/query-extensions.py get cneomjecgakdfoeehmmmoiklncdiodmh
 
 | Метрика | Значение |
 |---------|----------|
-| Файлов прочитано | 16 |
-| Файлов создано | 8 |
+| Файлов прочитано | 20+ |
+| Файлов создано/обновлено | 15 |
 | Уроков завершено | 2/4 |
-| Идей проанализировано | 20 |
-| Идей в ТОП-3 | 3 |
-| MongoDB запросов | 8 |
+| Идей проанализировано | 20 (скрининг) → 10 (keyword research) |
+| MongoDB запросов | 15 |
+| GAP обнаружено | 1 (Regex Tester) |
+
+---
+
+## Ключевые находки
+
+1. **Regex Tester - GAP в рынке!**
+   - Нет dedicated Chrome extension
+   - Volume 1,000 (хороший)
+   - 90% софтовая выдача
+   - Рекомендация: второй проект
+
+2. **JSON Formatter остаётся лучшим выбором**
+   - Высший volume (5,000+)
+   - 100% софтовая выдача
+   - Тривиальная реализация
+
+3. **Tier система работает**
+   - Чёткое разделение приоритетов
+   - Легко выбрать следующий проект
 
 ---
 
 ## Следующие шаги
 
-1. **Коммит:** Зафиксировать изменения в git
-2. **Урок 3:** Разработка MVP для JSON Formatter
-3. **Урок 4:** Публикация в Chrome Web Store
+1. [x] Закоммитить изменения
+2. [ ] Урок 3: Разработка MVP для JSON Formatter
+3. [ ] Урок 4: Публикация в Chrome Web Store
+4. [ ] Рассмотреть Regex Tester как второй проект
 
 ---
 
