@@ -2,7 +2,7 @@
 
 **Source:** Semrush
 **Database:** United States (US)
-**Date:** 2025-12-04
+**Date:** 2025-12-05
 
 ---
 
@@ -10,35 +10,61 @@
 
 | Metric | Value |
 |--------|-------|
-| Volume US | N/A |
-| KD% | N/A |
-| CPC | N/A |
-| Intent | N/A |
+| Volume US | 20 |
+| Global Volume | 610 |
+| KD% | **n/a** |
+| CPC | $0 |
+| Intent | n/a |
+| Competitive Density | 0.01 |
 
 ---
 
-## Screenshot
+## Global Volume Distribution
 
-![Overview](font-inspector-overview.png)
-
----
-
-## Raw Data
-
-```json
-{
-  "keyword": "font inspector",
-  "timestamp": "2025-12-04T23:31:30.703Z",
-  "volume": null,
-  "kd": null,
-  "cpc": null,
-  "intent": null,
-  "trend": null,
-  "variations": null,
-  "serp": []
-}
-```
+| Country | Volume |
+|---------|--------|
+| AR | 20 |
+| AT | 20 |
+| AU | 20 |
+| BE | 20 |
+| BG | 20 |
+| US | 20 |
+| Other | 490 |
 
 ---
 
-*Collected automatically via Playwright*
+## Keyword Ideas
+
+| Type | Count | Total Volume |
+|------|-------|--------------|
+| Keyword Variations | 58 | 170 |
+| Questions | 1 | 0 |
+
+### Top Variations
+| Keyword | Volume | KD% |
+|---------|--------|-----|
+| chrome font inspector | 20 | n/a |
+
+---
+
+## SERP Analysis
+
+**Results:** Nothing found for "font inspector"
+
+**Софтовость:** N/A (no SERP data)
+
+---
+
+## Conclusion
+
+| Criteria | Value | Status |
+|----------|-------|--------|
+| Volume US | 20 | ❌ FAIL (< 500) |
+| KD% | n/a | ⚠️ UNKNOWN |
+| Softness | n/a | ⚠️ UNKNOWN |
+
+**Recommendation:** ❌ НЕ РЕКОМЕНДУЕТСЯ — критически низкий volume (20), нет данных
+
+---
+
+*Collected: 2025-12-05*
