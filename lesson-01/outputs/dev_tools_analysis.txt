@@ -1,0 +1,82 @@
+Developer Tools MV3 (10K-300K users): 369
+
+  100000 | 1.6 | Web Signer for Barclays
+  100000 | 4.7 | Accessibility Insights for Web
+  100000 | 4.6 | Chrome extension source viewer
+  100000 | 5.0 | Aternity Web Activity Creator 3.0
+  100000 | 4.2 | Cookie Remover
+  100000 | 3.9 | Lightning Studio
+  100000 | 4.3 | NoFollow
+  100000 | 4.2 | WordPress Theme Detector and Plugin Detector
+  100000 | 2.8 | BrowserStack
+  100000 | 4.2 | GitZip for github
+  100000 | 4.9 | AWS Extend Switch Roles
+  100000 | 3.9 | SAML Chrome Panel
+  100000 | 3.8 | Moesif Origin/CORS Changer & API Logger
+  100000 | 4.1 | Pinterest Tag Helper
+  100000 | 2.7 | Vue.js devtools
+  100000 | 4.4 | Discrub
+  100000 | 4.4 | Reload All Tabs
+  100000 | 4.4 | IP Address and Domain Information
+  100000 | 4.7 | Odoo Debug
+  100000 | 3.8 | QR Code (Generator and Reader)
+  100000 | 4.4 | Ignore X-Frame headers
+  100000 | 4.1 | Hoppscotch Browser Extension
+  100000 | 4.8 | Link Redirect Trace
+  100000 | 4.0 | Color Picker | Eyedropper
+  100000 | 4.8 | SEO Pro Extension
+  100000 | 4.2 | Canvas Blocker - Fingerprint Protect
+  100000 | 4.6 | Functionize Architect
+  100000 | 5.0 | Squarespace ID Finder
+  100000 | 0.0 | NiCE Browser Connector
+  100000 | 4.6 | Analytics Debugger
+  100000 | 4.1 | User Agent Switcher
+  100000 | 4.8 | Refined GitHub
+  100000 | 4.8 | Competitive Companion
+  100000 | 5.0 | Summario
+  100000 | 4.5 | SelectorGadget
+  100000 | 4.9 | SN Utils - Tools for ServiceNow
+  100000 | 3.4 | XDown
+  100000 | 4.1 | BlazeMeter | The Continuous Testing Platform
+  100000 | 4.7 | GraphQL Network Inspector
+  100000 | 3.7 | Proxy Helper
+  100000 | 4.6 | Boomerang - SOAP & REST Client
+  100000 | 3.7 | Open in Colab
+  100000 | 3.8 | Grid Ruler
+   90000 | 3.8 | JetBrains Toolbox Extension
+   90000 | 4.0 | Adswerve - dataLayer Inspector+
+   90000 | 4.0 | Site Palette
+   90000 | 3.5 | Proxy SwitchyOmega (V3)
+   90000 | 4.8 | NodeGo.Ai DePIN Connect
+   90000 | 4.1 | WCAG Color contrast checker
+   90000 | 3.8 | ReqBin HTTP Client
+   90000 | 3.1 | Blocklive: Scratch Realtime Collaboration
+   80000 | 3.1 | Adobe Experience Platform Debugger
+   80000 | 4.9 | Checkbot: SEO, Web Speed & Security Tester 🚀
+   80000 | 2.9 | Multi Elasticsearch Heads
+   80000 | 4.3 | Native MPEG-Dash + HLS Playback
+   80000 | 4.2 | Check My Links
+   80000 | 3.5 | Web Data Assistant
+   80000 | 3.6 | Measure-it
+   80000 | 4.9 | ORGanizer for Salesforce
+   80000 | 4.0 | BP Proxy Switcher
+   80000 | 4.2 | JSON Viewer
+   80000 | 4.9 | Elasticvue
+   80000 | 2.9 | Permanent Inspect Element
+   80000 | 4.8 | DePINed
+   80000 | 4.2 | HackBar
+   80000 | 4.2 | Viewport Resizer: Ultimate Device Emulator & Website Testing Tool
+   80000 | 4.6 | Designer Tools
+   80000 | 4.4 | WebSocket Test Client
+   80000 | 4.8 | MeshNode
+   80000 | 3.0 | TON Wallet
+   70000 | 2.3 | HttpWatch
+   70000 | 4.2 | Caffeine - Keep Awake
+   70000 | 4.8 | Jira Assistant: Worklog, Sprint report, etc
+   70000 | 4.9 | TestCase Studio - Selenium IDE
+   70000 | 4.3 | BugHerd: Visual Feedback & Bug Tracking Tool
+   70000 | 4.1 | gs location changer
+   70000 | 4.4 | Salesforce advanced Code searcher
+   70000 | 4.6 | Live editor for CSS, Less & Sass - Magic CSS
+   70000 | 4.4 | Spoof Geolocation
+   70000 | 4.3 | MST SERP Counter - SEO Free SERP Checker Tool

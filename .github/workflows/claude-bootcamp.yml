@@ -1,0 +1,183 @@
+name: Claude Bootcamp Execution
+
+# ⚠️ ВАЖНО: Этот workflow запускается ТОЛЬКО ВРУЧНУЮ!
+# - НЕ запускается автоматически при изменениях master
+# - НЕ запускается из Claude Desktop
+# - Только через GitHub Actions UI → "Run workflow"
+
+on:
+  workflow_dispatch:
+    inputs:
+      lesson_start:
+        description: 'Start from lesson (1-4)'
+        required: true
+        default: '1'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+      lesson_end:
+        description: 'End at lesson (1-4)'
+        required: true
+        default: '2'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+      run_id:
+        description: 'Run identifier (optional, e.g., experiment-1)'
+        required: false
+        default: ''
+      custom_prompt:
+        description: 'Additional prompt to append (optional)'
+        required: false
+        default: ''
+        type: string
+
+env:
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+# Права для push в репозиторий
+permissions:
+  contents: write
+
+jobs:
+  execute-bootcamp:
+    runs-on: self-hosted
+    timeout-minutes: 120
+
+    steps:
+      - name: Generate branch name
+        id: branch
+        run: |
+          # Формат: claude/master-manual_YYYYMMDD-HHMMSS или claude/master-manual_custom-id
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          RUN_ID="${{ github.event.inputs.run_id }}"
+          if [ -n "$RUN_ID" ]; then
+            BRANCH_NAME="claude/master-manual_${RUN_ID}"
+          else
+            BRANCH_NAME="claude/master-manual_${TIMESTAMP}"
+          fi
+          echo "name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
+          echo "Branch: ${BRANCH_NAME}"
+
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "Claude Bootcamp Bot"
+          git config user.email "bot@bootcamp.local"
+          # Настройка remote с токеном для push
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Create working branch
+        run: |
+          git checkout -b ${{ steps.branch.outputs.name }}
+          git push -u origin ${{ steps.branch.outputs.name }}
+
+      - name: Execute Claude Code
+        id: claude
+        run: |
+          LESSON_START=${{ github.event.inputs.lesson_start }}
+          LESSON_END=${{ github.event.inputs.lesson_end }}
+
+          # Load prompt from file
+          PROMPT=$(cat BOOTCAMP_PROMPT.md)
+
+          # Replace placeholders
+          PROMPT="${PROMPT//\$\{LESSON_START\}/$LESSON_START}"
+          PROMPT="${PROMPT//\$\{LESSON_END\}/$LESSON_END}"
+
+          # Append custom prompt if provided
+          CUSTOM_PROMPT="${{ github.event.inputs.custom_prompt }}"
+          if [ -n "$CUSTOM_PROMPT" ]; then
+            PROMPT="${PROMPT}
+
+          ## ДОПОЛНИТЕЛЬНЫЕ ИНСТРУКЦИИ
+
+          ${CUSTOM_PROMPT}"
+            echo "Custom prompt added"
+          fi
+
+          echo "Starting Claude Code execution..."
+          echo "Lessons: $LESSON_START to $LESSON_END"
+
+          # Сохраняем промпт в файл
+          printf '%s' "$PROMPT" > /tmp/claude_prompt.txt
+
+          # Показываем промпт
+          echo "=== PROMPT (first 30 lines) ==="
+          head -30 /tmp/claude_prompt.txt
+          echo "=== END PROMPT ==="
+
+          # Execute Claude Code напрямую (без pipe для live output)
+          claude -p "$(cat /tmp/claude_prompt.txt)" --dangerously-skip-permissions > >(tee claude_output.log) 2>&1
+
+          EXIT_CODE=$?
+          echo "exit_code=${EXIT_CODE}" >> $GITHUB_OUTPUT
+
+          echo "=== EXECUTION COMPLETE ==="
+
+      - name: Commit generated files
+        if: always()
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "$(cat << 'EOF'
+          feat(bootcamp): Auto-generated files from Claude execution
+
+          Lessons: ${{ github.event.inputs.lesson_start }} to ${{ github.event.inputs.lesson_end }}
+          Branch: ${{ steps.branch.outputs.name }}
+          Run ID: ${{ github.run_id }}
+
+          🤖 Generated with Claude Code
+          Co-Authored-By: Claude <noreply@anthropic.com>
+          EOF
+          )"
+            git push
+          fi
+
+      - name: Upload execution log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-execution-log
+          path: claude_output.log
+          retention-days: 30
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## Bootcamp Execution Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** \`${{ steps.branch.outputs.name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Lessons:** ${{ github.event.inputs.lesson_start }} to ${{ github.event.inputs.lesson_end }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Exit Code:** ${{ steps.claude.outputs.exit_code }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Files" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          git diff --name-only HEAD~1 2>/dev/null || echo "No previous commit to compare"
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      - name: Check execution status
+        if: steps.claude.outputs.exit_code != '0'
+        run: |
+          echo "::warning::Claude Code exited with code ${{ steps.claude.outputs.exit_code }}"
+          echo "Check the execution log for details"
+
+      - name: Cleanup branch on failure
+        if: failure() || steps.claude.outputs.exit_code != '0'
+        run: |
+          echo "Job failed, deleting branch: ${{ steps.branch.outputs.name }}"
+          git push origin --delete ${{ steps.branch.outputs.name }} || echo "Branch already deleted or not found"

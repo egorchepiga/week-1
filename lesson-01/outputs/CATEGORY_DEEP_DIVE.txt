@@ -1,0 +1,293 @@
+=== АНАЛИЗ ПО НИШАМ ===
+
+
+### PDF (114 extensions) ###
+Слабые (rating <= 3.8): 45
+Сильные (rating > 3.8): 69
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.4 | Merge PDF
+   100000 | 1.9 | PDF Editor
+   100000 | 3.6 | Lumin: PDF Editor, Edit, Sign, Merge, Share a
+   100000 | 3.2 | Open in PDF Viewer
+   100000 | 1.9 | PDF editor online
+Сильные (лидеры):
+   100000 | 3.9 | Lingocloud - AI Translate Web, PDF & Subtitle
+   100000 | 4.8 | Guidde - Magically create video documentation
+   100000 | 4.6 | Mouse Tooltip Translator - PDF & Netflix Yout
+
+### SCREENSHOT (66 extensions) ###
+Слабые (rating <= 3.8): 17
+Сильные (rating > 3.8): 49
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | Gyazo - Share new screenshots. Instantly.
+    80000 | 3.7 | ScreenClip - Screenshot, Comment & Annotate
+    70000 | 2.8 | Vmaker - Free Screen Recorder
+    60000 | 3.4 | Full Page Screen Capture
+    20000 | 3.3 | Free Screen Recorder
+Сильные (лидеры):
+   100000 | 4.7 | Apowersoft Free Screen Recorder
+   100000 | 4.2 | Video Screenshot
+    80000 | 4.5 | Zight Screen Recorder, Screenshot App
+
+### CONVERTER (53 extensions) ###
+Слабые (rating <= 3.8): 16
+Сильные (rating > 3.8): 37
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | WebP / Avif image converter
+    70000 | 3.5 | Convert WebP to PNG / JPG
+    70000 | 3.4 | Webpage to PDF Converter
+    30000 | 3.8 | WebP to JPG Converter
+    30000 | 3.8 | Xodo | PDF Editor, Converter & Merger
+Сильные (лидеры):
+   100000 | 4.5 | Time Zone Converter - Savvy Time
+    70000 | 4.9 | PDF Tab - PDF Converter in a New Tab
+    60000 | 4.3 | MP3 Converter
+
+### TIMER (38 extensions) ###
+Слабые (rating <= 3.8): 6
+Сильные (rating > 3.8): 32
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.5 | Slides Timer
+    80000 | 0.0 | Pomodoro
+    10000 | 3.8 | Timer for Google Meet
+    10000 | 3.1 | Timer, Alarm & Stopwatch
+     9000 | 0.0 | World Clock Tab
+Сильные (лидеры):
+   100000 | 4.5 | Clockwise: AI-Powered Scheduling Assistant
+    70000 | 4.4 | Alarm, Timer and Stopwatch
+    60000 | 4.5 | Otto: Pomodoro timer and Website Blocker
+
+### COUNTER (20 extensions) ###
+Слабые (rating <= 3.8): 5
+Сильные (rating > 3.8): 15
+
+Слабые конкуренты (можно обойти):
+    30000 | 3.2 | Word Counter
+     9000 | 3.3 | Character Count
+     7000 | 3.7 | Country Flag +
+     7000 | 3.6 | Daily Motivation - Age Counter
+     5000 | 3.2 | SEO SERP Counter - Free SERP Checker tool
+Сильные (лидеры):
+   100000 | 4.1 | IP Domain Country Flag
+    70000 | 4.3 | MST SERP Counter - SEO Free SERP Checker Tool
+    30000 | 4.5 | Simple Counter Button
+
+### CHECKER (67 extensions) ###
+Слабые (rating <= 3.8): 17
+Сильные (rating > 3.8): 50
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | JustDone: GPT-4o AI Writing Assistant & Gramm
+   100000 | 3.5 | Spell Checker for Chrome
+    40000 | 3.8 | Ultimate H1B Sponsor Checker
+    40000 | 3.4 | HTML Validator
+    20000 | 2.8 | CSS and XPath checker
+Сильные (лидеры):
+   100000 | 4.2 | GMailSend Address Checker - 誤送信防止 -
+   100000 | 4.0 | Stork Verify
+    90000 | 4.9 | DeSpeed Validator
+
+### PICKER (48 extensions) ###
+Слабые (rating <= 3.8): 12
+Сильные (rating > 3.8): 36
+
+Слабые конкуренты (можно обойти):
+    80000 | 2.9 | Hex Color Picker
+    70000 | 3.6 | Colorblindly
+    70000 | 2.4 | More Colors for Calendar!
+    60000 | 2.8 | Color by Fardos - Color Picker
+    20000 | 2.9 | ColorPick Eyedropper
+Сильные (лидеры):
+   100000 | 4.0 | Color Picker | Eyedropper
+   100000 | 4.3 | Smart Color Picker
+    90000 | 4.1 | WCAG Color contrast checker
+
+### VIEWER (108 extensions) ###
+Слабые (rating <= 3.8): 42
+Сильные (rating > 3.8): 66
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.3 | Grid View for Google Meet™
+   100000 | 2.7 | DXF Viewer
+   100000 | 2.9 | Free Visio Viewer (Mac, Windows, Linux)
+   100000 | 3.2 | Open in PDF Viewer
+   100000 | 3.4 | Mobile View Switcher
+Сильные (лидеры):
+   100000 | 4.3 | Docs Online Viewer
+   100000 | 4.7 | PDF Viewer
+   100000 | 4.3 | DjVu.js Viewer
+
+### FORMATTER (10 extensions) ###
+Слабые (rating <= 3.8): 1
+Сильные (rating > 3.8): 9
+
+Слабые конкуренты (можно обойти):
+     9000 | 3.7 | JSON Viewer & Formatter for Chrome
+Сильные (лидеры):
+    50000 | 4.8 | PrettyMerch for Merch by Amazon™
+    40000 | 4.4 | JSON Formatter
+    30000 | 4.8 | JSON Beautifier and Editor
+
+### INSPECTOR (35 extensions) ###
+Слабые (rating <= 3.8): 8
+Сильные (rating > 3.8): 27
+
+Слабые конкуренты (можно обойти):
+    80000 | 3.1 | Adobe Experience Platform Debugger
+    30000 | 2.1 | Shopify Theme Inspector for Chrome
+    10000 | 2.9 | Dart Debug Extension
+    10000 | 3.7 | CSS Stacking Context inspector
+    10000 | 3.1 | Font Inspector
+Сильные (лидеры):
+   100000 | 4.6 | Analytics Debugger
+   100000 | 4.7 | Odoo Debug
+   100000 | 4.7 | GraphQL Network Inspector
+
+### QR CODE (21 extensions) ###
+Слабые (rating <= 3.8): 9
+Сильные (rating > 3.8): 12
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | QR Code (Generator and Reader)
+    60000 | 0.0 | Light QRcode
+    30000 | 3.7 | Caoliao QR Code
+    10000 | 3.1 | Screen QR Reader
+    10000 | 2.3 | IDM - URL shortener and QR code generator
+Сильные (лидеры):
+   100000 | 4.7 | QR Code
+   100000 | 4.5 | QR Code Generator
+    60000 | 4.0 | QR Code Reader
+
+### TRANSLATOR (69 extensions) ###
+Слабые (rating <= 3.8): 14
+Сильные (rating > 3.8): 55
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | Lingualeo Language Translator
+   100000 | 3.8 | Translate Selected Text
+    70000 | 3.6 | Video Translator - Translate Video & Voice on
+    60000 | 3.4 | Image Translator - Comics Translator | Manga 
+    60000 | 2.8 | YouTube Translator & YouTube Video Dubbing
+Сильные (лидеры):
+   100000 | 4.0 | Speech Translator
+   100000 | 4.5 | Translate - Translator, Dictionary, TTS
+   100000 | 3.9 | Lingocloud - AI Translate Web, PDF & Subtitle
+
+### NOTE (85 extensions) ###
+Слабые (rating <= 3.8): 16
+Сильные (rating > 3.8): 69
+
+Слабые конкуренты (можно обойти):
+    90000 | 3.8 | AI-powered Notes on Videos - Video Notebook
+    30000 | 3.1 | UpNote Web Clipper
+    30000 | 3.5 | Speechnotes Speech to Text
+    20000 | 3.7 | TTNote: Video Downloader and Saver
+    20000 | 3.5 | Edit with Notepad++
+Сильные (лидеры):
+   100000 | 4.5 | Sticky Notes 3.8 - Super Quick & Personal
+   100000 | 4.4 | Chrome Notes
+   100000 | 3.9 | Note Anywhere
+
+### TAB (202 extensions) ###
+Слабые (rating <= 3.8): 49
+Сильные (rating > 3.8): 153
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | Disable automatic tab discarding
+    90000 | 2.5 | Close About:Blank Tabs
+    60000 | 3.4 | Instant Chords: Tab Connect by UltimateGuitar
+    50000 | 3.6 | Incognito This Tab
+    50000 | 0.0 | My Weather Tab
+Сильные (лидеры):
+   100000 | 4.7 | Tab Copy
+   100000 | 4.7 | nightTab
+   100000 | 4.5 | PerfecTab Search
+
+### BOOKMARK (32 extensions) ###
+Слабые (rating <= 3.8): 6
+Сильные (rating > 3.8): 26
+
+Слабые конкуренты (можно обойти):
+    30000 | 3.1 | Export History/Bookmarks to JSON/CSV*/XLS*
+    20000 | 2.2 | Kome: AI Summary and Bookmark App
+    10000 | 3.0 | Bookmark Drag and Drop
+    10000 | 3.8 | Bookmark managers
+     8000 | 3.7 | Bookmanize - Advanced bookmark manager
+Сильные (лидеры):
+    60000 | 4.3 | floccus bookmarks sync
+    30000 | 5.0 | Bookmarklet Blocker
+    30000 | 4.0 | Talis Reading Lists Bookmarking
+
+### DOWNLOAD (211 extensions) ###
+Слабые (rating <= 3.8): 88
+Сильные (rating > 3.8): 123
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.8 | Bulk Media Downloader
+   100000 | 3.5 | Video Downloader Pro
+   100000 | 3.8 | Download Master
+   100000 | 3.7 | Video Downloader Unlimited
+   100000 | 3.6 | HLS Downloader
+Сильные (лидеры):
+   100000 | 4.9 | Video Downloader - MPMux
+   100000 | 4.5 | Media Harvest : X (twitter) Media Downloader
+   100000 | 4.2 | AliSave | Download AliExpress Images & Videos
+
+### SEO (68 extensions) ###
+Слабые (rating <= 3.8): 13
+Сильные (rating > 3.8): 55
+
+Слабые конкуренты (можно обойти):
+    80000 | 3.7 | KDSPY – Keyword Research for Authors
+    60000 | 2.7 | PlePer Local SEO Tools
+    40000 | 3.4 | Keyword Tool Dominator
+    40000 | 3.6 | Titans Pro - Amazon KDP Keyword Research Tool
+    10000 | 2.3 | Sale Samurai - Etsy SEO Keyword Tool
+Сильные (лидеры):
+   100000 | 4.8 | SEO Search Simulator by Nightwatch
+   100000 | 4.8 | SEO Pro Extension
+    80000 | 4.8 | Writesonic: AI Writing, SEO, and Keywords
+
+### CALCULATOR (15 extensions) ###
+Слабые (rating <= 3.8): 2
+Сильные (rating > 3.8): 13
+
+Слабые конкуренты (можно обойти):
+    80000 | 3.3 | zomato-spending-calculator
+    20000 | 3.7 | OpenOffice Calc online for xls spreadsheets
+Сильные (лидеры):
+    80000 | 4.1 | Calculator
+    80000 | 4.9 | Calculator app
+    70000 | 4.1 | FBA calculator for Amazon Sellers : SellerApp
+
+### TIMER/ALARM (9 extensions) ###
+Слабые (rating <= 3.8): 3
+Сильные (rating > 3.8): 6
+
+Слабые конкуренты (можно обойти):
+    60000 | 3.6 | Reminders for Google Calendar™
+    10000 | 3.1 | Timer, Alarm & Stopwatch
+     7000 | 3.8 | CNFans Warm Reminder Remover
+Сильные (лидеры):
+   100000 | 4.6 | RightInbox: Email Reminders, Tracking, Notes
+    70000 | 4.4 | Alarm, Timer and Stopwatch
+    50000 | 4.1 | Online Alarm Clock
+
+### TEXT (168 extensions) ###
+Слабые (rating <= 3.8): 57
+Сильные (rating > 3.8): 111
+
+Слабые конкуренты (можно обойти):
+   100000 | 3.3 | Passwordstate
+   100000 | 3.6 | Extract Text from Image
+   100000 | 3.8 | Highlight This: finds and marks words
+   100000 | 2.3 | Image to Text (OCR)
+   100000 | 3.8 | Translate Selected Text
+Сильные (лидеры):
+   100000 | 4.5 | Context Menu Search
+   100000 | 4.2 | WordPress Theme Detector and Plugin Detector
+   100000 | 4.0 | Clipboard Manager and Text Expander - Clipboa

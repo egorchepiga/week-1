@@ -1,0 +1,243 @@
+=== РАСШИРЕНИЯ С НИЗКИМ РЕЙТИНГОМ (1.5-3.5) ===
+Всего: 507
+
+  100000 | 2.0 | Epson iProjection Extension
+          Extension, Education
+
+  100000 | 3.3 | Asana
+          Extension, Workflow & Planning
+
+  100000 | 2.7 | DXF Viewer
+          Extension, Workflow & Planning
+
+  100000 | 1.6 | Web Signer for Barclays
+          Extension, Developer Tools
+
+  100000 | 2.9 | Kaia Wallet
+          Extension, Workflow & Planning
+
+  100000 | 3.5 | Flash Player for the Web
+          Extension, Tools
+
+  100000 | 3.4 | Transcript - AI Homework Helper
+          Extension, Education
+
+  100000 | 1.7 | eDoctrina Locker
+          Extension, Workflow & Planning
+
+  100000 | 3.4 | WEB.DE MailCheck
+          Extension, Communication
+
+  100000 | 3.3 | Wayground AI: Turn Any Website into a Quiz
+          Extension, Education
+
+  100000 | 3.2 | Open in PDF Viewer
+          Extension, Tools
+
+  100000 | 3.1 | Compass Wallet for Sei
+          Extension, Workflow & Planning
+
+  100000 | 2.6 | Shine Commerce
+          Extension, Workflow & Planning
+
+  100000 | 3.5 | YesCaptcha assistant
+          Extension, Workflow & Planning
+
+  100000 | 1.9 | PDF Editor
+          Extension, Tools
+
+  100000 | 2.9 | PikPak Browser Extension
+          Extension, Tools
+
+  100000 | 3.4 | Norton Safe Search Enhanced
+          Extension, Tools
+
+  100000 | 3.4 | LingQ Importer
+          Extension, Education
+
+  100000 | 3.4 | 智谱清言：ChatGLM & AutoGLM, AI Assistant for Work and 
+          Extension, Tools
+
+  100000 | 3.5 | Spell Checker for Chrome
+          Extension, Workflow & Planning
+
+  100000 | 3.5 | Toggle Extension
+          Extension, Workflow & Planning
+
+  100000 | 3.5 | Slides Timer
+          Extension, Workflow & Planning
+
+  100000 | 3.0 | After Dark Mode
+          Extension, Tools
+
+  100000 | 2.3 | Image to Text (OCR)
+          Extension, Workflow & Planning
+
+  100000 | 3.4 | Exodus Web3 Wallet
+          Extension, Workflow & Planning
+
+  100000 | 3.4 | Merge PDF
+          Extension, Workflow & Planning
+
+  100000 | 2.7 | Vue.js devtools
+          Extension, Developer Tools
+
+  100000 | 3.5 | Primus
+          Extension, Workflow & Planning
+
+  100000 | 3.5 | Transcribe YouTube Videos - YTScribe
+          Extension, Workflow & Planning
+
+  100000 | 2.9 | Free Visio Viewer (Mac, Windows, Linux)
+          Extension, Workflow & Planning
+
+  100000 | 3.3 | AI Prompt Genius
+          Extension, Workflow & Planning
+
+  100000 | 3.4 | Mobile View Switcher
+          Extension, Tools
+
+  100000 | 3.1 | NopeCHA: CAPTCHA Solver
+          Extension, Tools
+
+  100000 | 3.0 | Outreach Everywhere
+          Extension, Workflow & Planning
+
+  100000 | 3.0 | Samsung Internet
+          Extension, Workflow & Planning
+
+  100000 | 2.8 | Copilot sidebar for Chrome
+          Extension, Workflow & Planning
+
+  100000 | 2.9 | GradeCam Helper
+          Extension, Workflow & Planning
+
+  100000 | 3.2 | Sphere Lite
+          Extension, Workflow & Planning
+
+  100000 | 3.3 | Synology Web Clipper
+          Extension, Workflow & Planning
+
+  100000 | 3.4 | Gemini™ for Chrome
+          Extension, Tools
+
+  100000 | 3.4 | XDown
+          Extension, Developer Tools
+
+  100000 | 1.9 | PDF editor online
+          Extension, Workflow & Planning
+
+  100000 | 3.0 | Google Meet Extension
+          Extension, Education
+
+  100000 | 3.4 | Shortkeys (Custom Keyboard Shortcuts)
+          Extension, Workflow & Planning
+
+  100000 | 3.4 | Yahoo Search
+          Extension, Tools
+
+  100000 | 3.3 | Passwordstate
+          Extension, Workflow & Planning
+
+  100000 | 3.1 | Movie maker MovieStudio video editor
+          Extension, Workflow & Planning
+
+  100000 | 1.7 | Salesloft Connect
+          Extension, Workflow & Planning
+
+  100000 | 1.8 | Isabel Security Components add-on
+          Extension, Workflow & Planning
+
+  100000 | 3.3 | Grid View for Google Meet™
+          Extension, Workflow & Planning
+
+  100000 | 2.3 | Bionic Reading
+          Extension, Workflow & Planning
+
+  100000 | 3.5 | Video Downloader Pro
+          Extension, Workflow & Planning
+
+  100000 | 2.6 | Stop Motion Animator
+          Extension, Workflow & Planning
+
+  100000 | 2.8 | BrowserStack
+          Extension, Developer Tools
+
+  100000 | 3.1 | ChatGPT for YouTube
+          Extension, Workflow & Planning
+
+   90000 | 2.9 | Visual Effects Google Meet
+          Extension, Workflow & Planning
+
+   90000 | 2.9 | Password Manager Pro
+          Extension, Workflow & Planning
+
+   90000 | 3.4 | Bitlight Wallet
+          Extension, Workflow & Planning
+
+   90000 | 2.5 | Close About:Blank Tabs
+          Extension, Tools
+
+   90000 | 2.7 | Aircall Dialer
+          Extension, Workflow & Planning
+
+   90000 | 3.4 | TokenPocket - Web3 & Crypto Wallet
+          Extension, Workflow & Planning
+
+   90000 | 3.1 | Blocklive: Scratch Realtime Collaboration
+          Extension, Developer Tools
+
+   90000 | 3.5 | Proxy SwitchyOmega (V3)
+          Extension, Developer Tools
+
+   90000 | 3.5 | Name2Email: Find email by name for free
+          Extension, Tools
+
+   90000 | 2.5 | Android emulator MyAndroid
+          Extension, Tools
+
+   90000 | 3.5 | Open in PDF Reader
+          Extension, Workflow & Planning
+
+   90000 | 3.3 | Crypto.com | Onchain Extension
+          Extension, Workflow & Planning
+
+   90000 | 3.1 | Blueticks: WhatsApp Scheduler, Marketing Campaigns
+          Extension, Workflow & Planning
+
+   90000 | 3.0 | Kyruus Health (formerly Epion Health) Admin Toolki
+          Extension, Workflow & Planning
+
+   90000 | 3.5 | Bilibili Download Helper
+          Extension, Tools
+
+   80000 | 2.9 | Hex Color Picker
+          Extension, Workflow & Planning
+
+   80000 | 3.3 | zomato-spending-calculator
+          Extension, Workflow & Planning
+
+   80000 | 2.1 | JumpCloud Password Manager
+          Extension, Workflow & Planning
+
+   80000 | 3.0 | TON Wallet
+          Extension, Developer Tools
+
+   80000 | 2.9 | 4ebur.net – Best VPN Proxy
+          Extension, Workflow & Planning
+
+   80000 | 3.1 | Google Meet Auto Admit
+          Extension, Workflow & Planning
+
+   80000 | 2.6 | Prolific Assistant
+          Extension, Workflow & Planning
+
+   80000 | 2.9 | Permanent Inspect Element
+          Extension, Developer Tools
+
+   80000 | 3.0 | Dokobit e-signing and e-identification
+          Extension, Workflow & Planning
+
+   80000 | 3.5 | Free Auto Text Expander for Google Chrome™
+          Extension, Tools
+

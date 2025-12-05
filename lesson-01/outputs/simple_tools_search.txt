@@ -1,0 +1,254 @@
+
+=== CSS (11 extensions) ===
+   70000 | 4.6 | Live editor for CSS, Less & Sass - Magic CSS
+   60000 | 4.4 | CSS Used
+   50000 | 3.5 | Visual CSS Editor
+   50000 | 4.1 | CSS Viewer for Google Chrome™
+   20000 | 3.2 | PageRip (HTML + CSS Extract)
+   20000 | 4.3 | Amino: Live CSS Editor
+   20000 | 2.8 | CSS and XPath checker
+   10000 | 3.9 | CSS Grid Overlay
+   10000 | 3.7 | CSS Scan
+   10000 | 4.9 | Pesticide - Advanced CSS Debugger
+
+=== JSON (10 extensions) ===
+   80000 | 4.2 | JSON Viewer
+   40000 | 4.4 | JSON Formatter
+   30000 | 4.6 | JSON Viewer
+   30000 | 3.1 | Export History/Bookmarks to JSON/CSV*/XLS*
+   30000 | 4.8 | JSON Beautifier and Editor
+   10000 | 3.6 | Sheets to JSON
+   10000 | 4.7 | Export cookie JSON file for Puppeteer
+   10000 | 4.7 | JSONViewer
+   10000 | 4.3 | HAR/JSON viewer
+   10000 | 4.9 | JSON Lite
+
+=== FORMATTER (2 extensions) ===
+   40000 | 4.4 | JSON Formatter
+   10000 | 4.4 | Image Formatter: Save Image As Type
+
+=== CONVERTER (21 extensions) ===
+  100000 | 4.5 | Time Zone Converter - Savvy Time
+  100000 | 3.8 | WebP / Avif image converter
+   70000 | 3.4 | Webpage to PDF Converter
+   70000 | 4.9 | PDF Tab - PDF Converter in a New Tab
+   60000 | 4.3 | MP3 Converter
+   50000 | 3.9 | MP3 Converter & Downloader
+   50000 | 3.9 | Converter for Excel
+   40000 | 3.9 | Word to PDF Converter
+   30000 | 3.8 | Xodo | PDF Editor, Converter & Merger
+   30000 | 3.8 | WebP to JPG Converter
+
+=== CHECKER (38 extensions) ===
+  100000 | 3.8 | JustDone: GPT-4o AI Writing Assistant & Grammar Checker
+  100000 | 3.5 | Spell Checker for Chrome
+  100000 | 4.2 | GMailSend Address Checker - 誤送信防止 -
+   90000 | 4.1 | WCAG Color contrast checker
+   80000 | 4.8 | Grammar Checker and AI tool - Correcto
+   70000 | 4.3 | MST SERP Counter - SEO Free SERP Checker Tool
+   70000 | 4.4 | Sapling Grammar Checker and Writing Assistant
+   50000 | 4.9 | FrogHire.ai - H1B Sponsor Checker, Job Analyzer & Autofill
+   40000 | 4.3 | Grammar Checker
+   40000 | 3.8 | Ultimate H1B Sponsor Checker
+
+=== VALIDATOR (5 extensions) ===
+   90000 | 4.9 | DeSpeed Validator
+   60000 | 4.6 | AMP Validator
+   40000 | 3.4 | HTML Validator
+   20000 | 4.8 | Namso Validator
+   10000 | 3.2 | zkPass Schema Validator
+
+=== COLOR (22 extensions) ===
+  100000 | 4.3 | Smart Color Picker
+  100000 | 4.0 | Color Picker | Eyedropper
+   90000 | 4.1 | WCAG Color contrast checker
+   80000 | 2.9 | Hex Color Picker
+   70000 | 3.6 | Colorblindly
+   70000 | 4.5 | Salesforce Colored Favicons
+   70000 | 2.4 | More Colors for Calendar!
+   60000 | 2.8 | Color by Fardos - Color Picker
+   40000 | 4.1 | Color Picker Chrome extension
+   30000 | 4.6 | Amazing color picker
+
+=== PICKER (15 extensions) ===
+  100000 | 4.3 | Smart Color Picker
+  100000 | 4.0 | Color Picker | Eyedropper
+   80000 | 2.9 | Hex Color Picker
+   60000 | 2.8 | Color by Fardos - Color Picker
+   40000 | 4.1 | Color Picker Chrome extension
+   30000 | 4.0 | Web Color Picker - online color grabber
+   30000 | 4.6 | Amazing color picker
+   20000 | 4.2 | Color Picker
+   10000 | 4.4 | Color Picker - Native Eyedropper
+   10000 | 4.2 | TabColor color picker
+
+=== VIEWER (34 extensions) ===
+  100000 | 4.7 | PDF Viewer
+  100000 | 4.6 | Chrome extension source viewer
+  100000 | 2.7 | DXF Viewer
+  100000 | 3.2 | Open in PDF Viewer
+  100000 | 4.3 | Docs Online Viewer
+  100000 | 2.9 | Free Visio Viewer (Mac, Windows, Linux)
+  100000 | 4.3 | DjVu.js Viewer
+   80000 | 4.2 | JSON Viewer
+   80000 | 5.0 | DICOM viewer extension
+   60000 | 1.8 | TIFF Viewer for Google Chrome™
+
+=== INSPECTOR (13 extensions) ===
+  100000 | 4.7 | GraphQL Network Inspector
+   90000 | 4.0 | Adswerve - dataLayer Inspector+
+   50000 | 4.6 | UI5 Inspector
+   40000 | 4.6 | Salesforce Inspector Advanced
+   30000 | 2.1 | Shopify Theme Inspector for Chrome
+   30000 | 4.8 | Ember Inspector
+   20000 | 4.9 | Consent Mode Inspector by InfoTrust
+   10000 | 4.4 | Node Inspector Manager (NIM)
+   10000 | 4.8 | Site Inspector
+   10000 | 4.3 | Snowplow Inspector
+
+=== COUNTER (5 extensions) ===
+   70000 | 4.3 | MST SERP Counter - SEO Free SERP Checker Tool
+   30000 | 4.5 | Simple Counter Button
+   30000 | 3.2 | Word Counter
+   20000 | 4.2 | Chrome Tab Counter
+   10000 | 3.9 | Original Card Counter for Trello
+
+=== TIMER (9 extensions) ===
+  100000 | 3.5 | Slides Timer
+   70000 | 4.4 | Alarm, Timer and Stopwatch
+   60000 | 4.5 | Otto: Pomodoro timer and Website Blocker
+   50000 | 3.9 | Timer for Google Chrome™
+   20000 | 4.4 | Tide - Focus Timer & White Noise
+   10000 | 5.0 | Page Load Timer
+   10000 | 3.8 | Timer for Google Meet
+   10000 | 4.4 | LeetCode Timer
+   10000 | 3.1 | Timer, Alarm & Stopwatch
+
+=== CALCULATOR (7 extensions) ===
+   80000 | 4.9 | Calculator app
+   80000 | 4.1 | Calculator
+   80000 | 3.3 | zomato-spending-calculator
+   70000 | 4.1 | FBA calculator for Amazon Sellers : SellerApp
+   50000 | 4.2 | Calculator
+   30000 | 4.3 | AI Math Solver & Calculator - Symbolab
+   10000 | 4.7 | Floating Scientific Calculator
+
+=== GENERATOR (27 extensions) ===
+  100000 | 4.2 | Katalon Recorder (Selenium tests generator)
+  100000 | 3.8 | QR Code (Generator and Reader)
+  100000 | 4.5 | QR Code Generator
+   90000 | 4.8 | Bibcitation Bibliography & Citation Generator
+   80000 | 4.6 | Mapify - AI Summarizer & Mind Map Generator for YouTube, PDFs, and Webpages
+   60000 | 3.8 | Unlimited Summary Generator for YouTube™
+   60000 | 4.5 | BibGuru: Free Citation Generator
+   50000 | 3.7 | Word Cloud GeneratorвД¢
+   40000 | 4.7 | WayinVideo - AI YouTube Summarizer & Transcript Generator & Moments
+   40000 | 4.3 | QR Code Generator
+
+=== SCREENSHOT (28 extensions) ===
+  100000 | 3.8 | Gyazo - Share new screenshots. Instantly.
+  100000 | 4.2 | Video Screenshot
+   80000 | 4.5 | Zight Screen Recorder, Screenshot App
+   80000 | 3.7 | ScreenClip - Screenshot, Comment & Annotate
+   80000 | 4.7 | Screenshot & Screen Video Record by Screeny
+   70000 | 4.3 | Screenshot Helper
+   60000 | 4.4 | Screenshot - Webpage Screen Capture
+   60000 | 4.9 | Screenshot – Screen Capture & Editor-CocoShot
+   50000 | 4.3 | Scrolling Screenshot & Full Page Capture
+   40000 | 4.8 | Screen capture and recorder - Screenshot Tool
+
+=== PDF (77 extensions) ===
+  100000 | 3.2 | Open in PDF Viewer
+  100000 | 4.6 | Mouse Tooltip Translator - PDF & Netflix Youtube dual subs
+  100000 | 1.9 | PDF editor online
+  100000 | 4.7 | PDF Viewer
+  100000 | 3.4 | Merge PDF
+  100000 | 1.9 | PDF Editor
+  100000 | 4.7 | ChatGPT to PDF by PDFCrowd
+  100000 | 3.6 | Lumin: PDF Editor, Edit, Sign, Merge, Share and Print PDFs
+  100000 | 4.0 | PDF Candy | online PDF tools
+  100000 | 3.9 | Lingocloud - AI Translate Web, PDF & Subtitles
+
+=== QR CODE (14 extensions) ===
+  100000 | 4.7 | QR Code
+  100000 | 4.5 | QR Code Generator
+  100000 | 3.8 | QR Code (Generator and Reader)
+   60000 | 4.0 | QR Code Reader
+   40000 | 4.3 | QR Code Generator
+   30000 | 4.6 | QR Code Scanner Online
+   30000 | 3.7 | Caoliao QR Code
+   20000 | 4.8 | Easy QR Code
+   10000 | 3.7 | Offline QR Code Generator
+   10000 | 3.3 | QR Code Maker and Decoder
+
+=== REGEX (1 extensions) ===
+   10000 | 4.1 | RegExp Download Organizer
+
+=== TEST (31 extensions) ===
+  100000 | 4.1 | BlazeMeter | The Continuous Testing Platform
+  100000 | 4.2 | Katalon Recorder (Selenium tests generator)
+   80000 | 4.9 | Checkbot: SEO, Web Speed & Security Tester 🚀
+   80000 | 4.2 | Viewport Resizer: Ultimate Device Emulator & Website Testing Tool
+   80000 | 4.4 | WebSocket Test Client
+   70000 | 4.9 | TestCase Studio - Selenium IDE
+   50000 | 3.8 | Testim Editor
+   40000 | 3.2 | Responsive Tester
+   40000 | 3.7 | FastestVPN Proxy for chrome
+   40000 | 3.7 | Speed Test
+
+=== DECODER (1 extensions) ===
+   10000 | 3.3 | QR Code Maker and Decoder
+
+=== MARKDOWN (7 extensions) ===
+  100000 | 4.5 | Markdown Here
+   90000 | 4.1 | Markdown Preview Plus
+   30000 | 4.3 | Copy as Markdown
+   10000 | 3.8 | Markdown Editor for Chrome™
+   10000 | 4.6 | ChatGPT to Markdown Pro - Code/LaTeX/Table
+   10000 | 4.6 | AI Exporter: Save ChatGPT, Gemini to PDF | To Markdown | Sync to Notion
+   10000 | 4.0 | Copy as Markdown
+
+=== HTML (19 extensions) ===
+  100000 | 4.6 | HTML to Framer
+   90000 | 4.2 | HTML5 Outliner
+   70000 | 4.5 | HTML5 Video Speed Control for Google Chrome™
+   60000 | 3.5 | FlashPlayer - SWF to HTML
+   40000 | 4.1 | HTML Editor for Gmail by cloudHQ
+   40000 | 3.1 | Instant Multilingual PDF/HTML/TXT Translator
+   40000 | 3.4 | HTML Validator
+   40000 | 4.5 | HTML5 Video Speed Control
+   20000 | 4.3 | HTMaiL: Insert HTML into Gmail, Outlook and Yahoo Mail
+   20000 | 3.2 | PageRip (HTML + CSS Extract)
+
+=== XPATH (4 extensions) ===
+   20000 | 2.8 | CSS and XPath checker
+   20000 | 4.2 | XPath Tester
+   10000 | 4.4 | LetXPath
+   10000 | 4.5 | XPath Helper 2.0
+
+=== SELECTOR (1 extensions) ===
+  100000 | 4.5 | SelectorGadget
+
+=== EXTRACTOR (10 extensions) ===
+   80000 | 4.7 | Maps Scraper & Leads Extractor - MapsLeads
+   50000 | 4.6 | WA Contacts Extractor
+   40000 | 4.8 | Maps Scraper & Map data extractor
+   20000 | 3.3 | Image Extractor
+   10000 | 5.0 | URL Extractor
+   10000 | 2.9 | Screenshot to Text(OCR) - Image text extractor
+   10000 | 4.6 | Phone Number Extractor
+   10000 | 4.2 | Chat4Data: AI Web Scraper & Data Extractor
+   10000 | 3.9 | Email Extractor: Scrape Emails From Websites
+   10000 | 4.2 | Email Extractor
+
+=== SCRAPER (15 extensions) ===
+  100000 | 3.6 | BigSeller- Product Scraper & Promotion Management
+  100000 | 5.0 | Easy Scraper - One-click web scraper
+   90000 | 4.6 | Thunderbit: AI Web Scraper & Web Automation Agent
+   80000 | 4.7 | Maps Scraper & Leads Extractor - MapsLeads
+   60000 | 4.4 | Simplescraper — a fast and free web scraper
+   40000 | 4.8 | Maps Scraper & Map data extractor
+   40000 | 4.3 | NoCoding Data Scraper - Easy Web Scraping
+   40000 | 4.1 | Easy Web Data Scraper
+   40000 | 4.7 | Ultimate Web Scraper
+   10000 | 4.0 | SimplyTrends - Shopify Spy & Dropship Scraper
