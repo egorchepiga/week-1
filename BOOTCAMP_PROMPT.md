@@ -59,7 +59,7 @@
    - `lesson-01/outputs/IDEAS_SCREENING.md`
    - `lesson-01/outputs/IDEAS_ANALYSIS.md`
    - `lesson-01/outputs/FINAL_IDEAS_REPORT.md`
-6. Выбрать ТОП-3 идеи для урока 2
+6. Выбрать ТОП-50 идей для урока 2
 
 **Чеклист ошибок (проверить каждую идею):**
 - [ ] Есть конкуренты? (нет = RED FLAG)
@@ -82,7 +82,7 @@
 - `inputs/course/parsed/09_proverka_klucha.md`
 
 **Входные данные:**
-- `lesson-01/outputs/FINAL_IDEAS_REPORT.md` — ТОП-3 идеи
+- `lesson-01/outputs/FINAL_IDEAS_REPORT.md` — ТОП-50 идей
 
 **Алгоритм для каждой идеи:**
 
