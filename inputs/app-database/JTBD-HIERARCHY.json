@@ -1,0 +1,1168 @@
+{
+  "PRODUCTIVITY": {
+    "Email & Communication Automation": {
+      "Send & Schedule Emails": [
+        "email",
+        "schedule email",
+        "send email"
+      ],
+      "Track & Follow-up": [
+        "follow-up",
+        "track",
+        "rebump"
+      ],
+      "Email Templates": [
+        "template",
+        "automation",
+        "auto-respond"
+      ],
+      "Gmail Integration": [
+        "gmail",
+        "outlook",
+        "microsoft email"
+      ]
+    },
+    "Tab & Window Organization": {
+      "Close & Manage Tabs": [
+        "close tab",
+        "tab management"
+      ],
+      "Group & Session Tabs": [
+        "group tab",
+        "session",
+        "tab group"
+      ],
+      "Split & Compare View": [
+        "split view",
+        "compare",
+        "side by side"
+      ],
+      "Tab Search & Find": [
+        "search tab",
+        "find tab",
+        "tab search"
+      ]
+    },
+    "Time & Calendar Management": {
+      "Event Scheduling": [
+        "calendar",
+        "event",
+        "schedule"
+      ],
+      "Meeting Management": [
+        "meeting",
+        "zoom",
+        "conference"
+      ],
+      "Time Tracking": [
+        "time track",
+        "timer",
+        "countdown"
+      ],
+      "Reminders & Notifications": [
+        "reminder",
+        "notification",
+        "alert"
+      ]
+    },
+    "Notes & Knowledge Management": {
+      "Save & Capture Content": [
+        "clip",
+        "save",
+        "capture",
+        "note"
+      ],
+      "Organize & Tag Notes": [
+        "organize",
+        "categorize",
+        "tag"
+      ],
+      "Knowledge Base": [
+        "wiki",
+        "knowledge",
+        "reference"
+      ],
+      "Code Snippets": [
+        "snippet",
+        "code save"
+      ]
+    },
+    "Task & Project Management": {
+      "Create & Manage Tasks": [
+        "task",
+        "todo",
+        "create"
+      ],
+      "Project Tracking": [
+        "project",
+        "tracking"
+      ],
+      "Kanban Board": [
+        "trello",
+        "kanban"
+      ],
+      "Team Collaboration": [
+        "team",
+        "collaborate",
+        "share"
+      ]
+    }
+  },
+  "DEVELOPMENT": {
+    "Code Development & IDE": {
+      "Code Editing": [
+        "code editor",
+        "ide",
+        "syntax"
+      ],
+      "Version Control": [
+        "git",
+        "github",
+        "commit",
+        "repository"
+      ],
+      "Local Development": [
+        "localhost",
+        "dev server",
+        "testing"
+      ],
+      "Code Quality": [
+        "lint",
+        "format",
+        "quality"
+      ]
+    },
+    "API & Backend Tools": {
+      "API Testing": [
+        "api test",
+        "request",
+        "response"
+      ],
+      "API Documentation": [
+        "api docs",
+        "documentation"
+      ],
+      "JSON Tools": [
+        "json",
+        "parse",
+        "validate"
+      ],
+      "HTTP Tools": [
+        "http",
+        "headers",
+        "status"
+      ]
+    },
+    "Web Performance": {
+      "Page Speed": [
+        "page speed",
+        "load time",
+        "performance"
+      ],
+      "Cache Management": [
+        "cache",
+        "memory",
+        "storage"
+      ],
+      "Bandwidth Optimization": [
+        "bandwidth",
+        "data",
+        "compression"
+      ],
+      "Network Analysis": [
+        "network",
+        "waterfall",
+        "timing"
+      ]
+    },
+    "Frontend & Design": {
+      "CSS Inspection": [
+        "css",
+        "style",
+        "inspect"
+      ],
+      "Color Tools": [
+        "color",
+        "palette",
+        "picker"
+      ],
+      "Font Management": [
+        "font",
+        "typography"
+      ],
+      "UI Components": [
+        "ui",
+        "component",
+        "design system"
+      ]
+    },
+    "AI Coding Tools": {
+      "Code Generation": [
+        "chatgpt",
+        "code generate"
+      ],
+      "Code Completion": [
+        "autocomplete",
+        "suggestion"
+      ],
+      "Code Explanation": [
+        "explain code"
+      ],
+      "AI Coding Assistant": [
+        "ai",
+        "copilot",
+        "assistant"
+      ]
+    },
+    "Developer Utilities": {
+      "Text Generation": [
+        "lorem ipsum",
+        "dummy text",
+        "generator"
+      ],
+      "Base64 Encoding": [
+        "base64",
+        "encode",
+        "decode"
+      ],
+      "Data Conversion": [
+        "convert",
+        "transform",
+        "format"
+      ],
+      "Developer Tools": [
+        "utility",
+        "developer",
+        "tool"
+      ]
+    }
+  },
+  "SEO & MARKETING": {
+    "SEO & Search Optimization": {
+      "Keyword Research": [
+        "keyword",
+        "keyword research"
+      ],
+      "Ranking & Traffic": [
+        "ranking",
+        "traffic",
+        "serp"
+      ],
+      "On-Page SEO": [
+        "meta",
+        "schema",
+        "seo tag"
+      ],
+      "Backlink Analysis": [
+        "backlink",
+        "link",
+        "domain"
+      ]
+    },
+    "Content Analysis": {
+      "Analytics Tracking": [
+        "analytics",
+        "google analytics"
+      ],
+      "Traffic Monitoring": [
+        "traffic",
+        "visitor",
+        "pageview"
+      ],
+      "Conversion Tracking": [
+        "conversion",
+        "goal",
+        "event"
+      ],
+      "User Behavior": [
+        "behavior",
+        "heatmap",
+        "session"
+      ]
+    },
+    "Local SEO": {
+      "Google Maps": [
+        "google maps",
+        "local seo",
+        "gmb"
+      ],
+      "Business Listings": [
+        "business",
+        "listing",
+        "directory"
+      ],
+      "Review Management": [
+        "review",
+        "rating",
+        "feedback"
+      ]
+    },
+    "Social Media Marketing": {
+      "Post & Schedule": [
+        "post",
+        "schedule",
+        "publish"
+      ],
+      "Content Management": [
+        "content",
+        "calendar",
+        "management"
+      ],
+      "Social Analytics": [
+        "analytics",
+        "engagement",
+        "reach"
+      ],
+      "Platform Tools": [
+        "twitter",
+        "instagram",
+        "facebook",
+        "linkedin"
+      ]
+    },
+    "E-commerce Intelligence": {
+      "Competitor Analysis": [
+        "competitor",
+        "spy",
+        "analyze"
+      ],
+      "Product Research": [
+        "product",
+        "research",
+        "data"
+      ],
+      "Pricing Strategy": [
+        "price",
+        "pricing",
+        "comparison"
+      ],
+      "Store Intelligence": [
+        "shopify",
+        "store",
+        "theme"
+      ]
+    },
+    "Ads & Campaigns": {
+      "Ad Management": [
+        "ads",
+        "campaign",
+        "advertisement"
+      ],
+      "Budget Tracking": [
+        "budget",
+        "cost",
+        "roi"
+      ],
+      "Pixel Implementation": [
+        "pixel",
+        "tracking",
+        "tiktok"
+      ],
+      "Platform Integration": [
+        "facebook ads",
+        "google ads",
+        "linkedin ads"
+      ]
+    }
+  },
+  "COMMUNICATION": {
+    "Chat & Messaging": {
+      "Instant Messaging": [
+        "chat",
+        "message"
+      ],
+      "Slack Integration": [
+        "slack",
+        "workspace"
+      ],
+      "Discord Tools": [
+        "discord",
+        "server"
+      ],
+      "Video Chat": [
+        "zoom",
+        "meet",
+        "video call"
+      ]
+    },
+    "VoIP & Phone Integration": {
+      "Browser Calling": [
+        "call from browser",
+        "click to call"
+      ],
+      "Phone Systems": [
+        "pbx",
+        "phone",
+        "voip"
+      ],
+      "Call Routing": [
+        "routing",
+        "forwarding",
+        "dialing"
+      ],
+      "Integration": [
+        "ringostat",
+        "phone integration"
+      ]
+    },
+    "Content Creation": {
+      "Write & Compose": [
+        "write",
+        "compose",
+        "create"
+      ],
+      "Grammar & Spell": [
+        "grammar",
+        "spell",
+        "correction"
+      ],
+      "Paraphrase & Style": [
+        "paraphrase",
+        "style",
+        "tone"
+      ],
+      "Translation": [
+        "translate",
+        "language",
+        "multilingual"
+      ]
+    },
+    "Media & Recording": {
+      "Video Download": [
+        "video download",
+        "youtube"
+      ],
+      "Audio Recording": [
+        "record",
+        "audio",
+        "mic"
+      ],
+      "Transcription": [
+        "transcript",
+        "captions",
+        "subtitles"
+      ],
+      "Media Conversion": [
+        "convert",
+        "format",
+        "export"
+      ]
+    }
+  },
+  "DATA & INFORMATION": {
+    "Data Extraction & Export": {
+      "Web Scraping": [
+        "scrape",
+        "extract",
+        "crawl"
+      ],
+      "CSV Export": [
+        "csv",
+        "export",
+        "download"
+      ],
+      "Data Transformation": [
+        "transform",
+        "convert",
+        "parse"
+      ],
+      "Bulk Download": [
+        "bulk",
+        "batch",
+        "multiple"
+      ]
+    },
+    "Document Processing": {
+      "PDF Tools": [
+        "pdf",
+        "reader",
+        "viewer"
+      ],
+      "Document Conversion": [
+        "convert",
+        "word",
+        "excel"
+      ],
+      "Document Organization": [
+        "organize",
+        "sort",
+        "manage"
+      ],
+      "OCR & Text": [
+        "ocr",
+        "text extraction"
+      ]
+    },
+    "Database & Storage": {
+      "Cloud Storage": [
+        "cloud",
+        "storage",
+        "sync"
+      ],
+      "Backup & Archive": [
+        "backup",
+        "restore",
+        "archive"
+      ],
+      "Data Synchronization": [
+        "sync",
+        "synchronize",
+        "replicate"
+      ],
+      "Database Tools": [
+        "manage",
+        "organize",
+        "database"
+      ]
+    }
+  },
+  "BROWSING": {
+    "Search & Discovery": {
+      "Enhanced Search": [
+        "search",
+        "find",
+        "query"
+      ],
+      "Search Shortcuts": [
+        "shortcut",
+        "quick search"
+      ],
+      "Discovery Engine": [
+        "discover",
+        "recommendation"
+      ],
+      "Search History": [
+        "history",
+        "recent",
+        "bookmarks"
+      ]
+    },
+    "Reading & Content": {
+      "Read Later": [
+        "read later",
+        "pocket",
+        "readability"
+      ],
+      "Article Tools": [
+        "article",
+        "reader",
+        "cleaner"
+      ],
+      "News & Feed": [
+        "news",
+        "rss",
+        "feed"
+      ],
+      "Highlighting & Notes": [
+        "highlight",
+        "annotate",
+        "markup"
+      ]
+    },
+    "Privacy & Safety": {
+      "Tracker Blocking": [
+        "tracker",
+        "block",
+        "blocker"
+      ],
+      "Ad Blocking": [
+        "ad",
+        "adblock",
+        "filter"
+      ],
+      "Privacy Protection": [
+        "privacy",
+        "data",
+        "protection"
+      ],
+      "Cookie Management": [
+        "cookie",
+        "storage",
+        "cache clear"
+      ],
+      "Anti-Phishing": [
+        "phishing",
+        "threat",
+        "security"
+      ]
+    },
+    "URL Management": {
+      "URL Shortening": [
+        "short url",
+        "tinyurl",
+        "redirect"
+      ],
+      "Link Preview": [
+        "preview",
+        "metadata"
+      ],
+      "Link Management": [
+        "link",
+        "bookmark",
+        "manage"
+      ],
+      "QR Codes": [
+        "qr code",
+        "qr",
+        "barcode"
+      ]
+    }
+  },
+  "SHOPPING & DEALS": {
+    "Price & Coupons": {
+      "Price Comparison": [
+        "price",
+        "compare",
+        "lowest"
+      ],
+      "Coupon & Deals": [
+        "coupon",
+        "deal",
+        "discount"
+      ],
+      "Price Tracking": [
+        "track price",
+        "alert",
+        "notify"
+      ],
+      "Cashback & Rewards": [
+        "cashback",
+        "reward",
+        "points"
+      ]
+    },
+    "Marketplace Selling": {
+      "Fiverr Tools": [
+        "fiverr",
+        "seller",
+        "buyer"
+      ],
+      "Shopee Tools": [
+        "shopee",
+        "commission",
+        "order calculator"
+      ],
+      "Multi-Platform": [
+        "marketplace",
+        "selling",
+        "integration"
+      ]
+    },
+    "Product Intelligence": {
+      "Product Search": [
+        "product",
+        "search",
+        "find"
+      ],
+      "Reviews & Ratings": [
+        "review",
+        "rating",
+        "feedback"
+      ],
+      "Competitor Prices": [
+        "competitor",
+        "compare",
+        "price"
+      ],
+      "Product Details": [
+        "specs",
+        "details",
+        "description"
+      ]
+    }
+  },
+  "MEDIA & ENTERTAINMENT": {
+    "Streaming & Download": {
+      "Video Streaming": [
+        "video",
+        "stream",
+        "watch"
+      ],
+      "Music Streaming": [
+        "music",
+        "spotify",
+        "audio"
+      ],
+      "Podcast Tools": [
+        "podcast",
+        "episode",
+        "player"
+      ],
+      "Content Download": [
+        "download",
+        "save",
+        "offline"
+      ]
+    },
+    "Entertainment": {
+      "Gaming": [
+        "game",
+        "play",
+        "gaming",
+        "roblox"
+      ],
+      "Comics & Manga": [
+        "comic",
+        "manga",
+        "read"
+      ],
+      "Entertainment News": [
+        "entertainment",
+        "celebrity",
+        "news"
+      ]
+    }
+  },
+  "LEARNING & WRITING": {
+    "Education Platforms": {
+      "Online Courses": [
+        "course",
+        "learn",
+        "tutorial"
+      ],
+      "Learning Management": [
+        "school",
+        "university",
+        "student"
+      ],
+      "Study Tools": [
+        "study",
+        "flashcard",
+        "quiz"
+      ],
+      "Research": [
+        "research",
+        "cite",
+        "bibliography"
+      ],
+      "Platform Enhancement": [
+        "udemy",
+        "coursera",
+        "enhancement"
+      ]
+    },
+    "Writing & Language": {
+      "Grammar Check": [
+        "grammar",
+        "spell",
+        "check"
+      ],
+      "Style & Tone": [
+        "style",
+        "tone",
+        "paraphrase"
+      ],
+      "Language Learning": [
+        "learn language",
+        "vocabulary"
+      ],
+      "Dictionary": [
+        "dictionary",
+        "definition",
+        "translate"
+      ]
+    }
+  },
+  "PERSONALIZATION": {
+    "Theme & Appearance": {
+      "Dark Mode": [
+        "dark mode",
+        "night mode",
+        "google docs dark"
+      ],
+      "Color Themes": [
+        "theme",
+        "color",
+        "style"
+      ],
+      "Custom Skins": [
+        "skin",
+        "customize",
+        "appearance"
+      ],
+      "Font & Size": [
+        "font",
+        "size",
+        "zoom"
+      ]
+    },
+    "New Tab & Homepage": {
+      "New Tab Page": [
+        "new tab",
+        "tab page",
+        "group"
+      ],
+      "Dashboard": [
+        "dashboard",
+        "homepage",
+        "start page"
+      ],
+      "Wallpaper": [
+        "wallpaper",
+        "background",
+        "image"
+      ],
+      "Widget": [
+        "widget",
+        "card",
+        "shortcut"
+      ]
+    },
+    "Personal Journal": {
+      "Diary & Journal": [
+        "diary",
+        "journal",
+        "self-care"
+      ],
+      "Wellness": [
+        "wellness",
+        "mindfulness"
+      ]
+    }
+  },
+  "SYSTEM & UTILITIES": {
+    "System Tools": {
+      "System Optimization": [
+        "optimize",
+        "clean",
+        "performance"
+      ],
+      "File Management": [
+        "file",
+        "folder",
+        "manager"
+      ],
+      "Clipboard Tools": [
+        "clipboard",
+        "copy",
+        "paste"
+      ],
+      "Window Management": [
+        "window",
+        "maximize",
+        "snap"
+      ]
+    },
+    "Network & Connectivity": {
+      "VPN": [
+        "vpn",
+        "proxy",
+        "privacy"
+      ],
+      "DNS Tools": [
+        "dns",
+        "network",
+        "speed"
+      ],
+      "Internet Tools": [
+        "internet",
+        "connection",
+        "bandwidth"
+      ]
+    },
+    "Browser Security": {
+      "Developer Control": [
+        "disable f12",
+        "console",
+        "dev tools"
+      ],
+      "Flash & Legacy": [
+        "flash",
+        "legacy",
+        "enable"
+      ],
+      "Security": [
+        "security",
+        "protection"
+      ]
+    },
+    "Accessibility": {
+      "Vision Tools": [
+        "vision",
+        "magnify",
+        "high contrast"
+      ],
+      "Dyslexia Tools": [
+        "dyslexia",
+        "reading",
+        "friendly"
+      ],
+      "Keyboard Tools": [
+        "keyboard",
+        "shortcuts",
+        "navigation"
+      ],
+      "Voice Tools": [
+        "voice",
+        "audio",
+        "tts"
+      ]
+    }
+  },
+  "VISUAL & DESIGN": {
+    "Screenshot & Capture": {
+      "Take Screenshots": [
+        "screenshot",
+        "capture",
+        "snap"
+      ],
+      "Annotate & Markup": [
+        "annotate",
+        "mark",
+        "draw",
+        "redline"
+      ],
+      "Screenshot Management": [
+        "organize",
+        "save",
+        "manage"
+      ],
+      "Screen Recording": [
+        "record",
+        "video record"
+      ]
+    },
+    "Image Tools": {
+      "Image Editing": [
+        "image",
+        "edit",
+        "adjust"
+      ],
+      "Photo Filters": [
+        "filter",
+        "effect",
+        "enhance"
+      ],
+      "Color Tools": [
+        "color",
+        "palette",
+        "picker"
+      ],
+      "Image Conversion": [
+        "convert",
+        "format",
+        "resize"
+      ]
+    },
+    "Design Tools": {
+      "Design Creation": [
+        "design",
+        "create",
+        "graphic"
+      ],
+      "Mockups & Wireframes": [
+        "mockup",
+        "prototype",
+        "wireframe"
+      ],
+      "Brand Tools": [
+        "brand",
+        "logo",
+        "style guide"
+      ]
+    },
+    "Content Removal": {
+      "Remove Elements": [
+        "remove",
+        "snip",
+        "element"
+      ],
+      "Overlay Removal": [
+        "overlay",
+        "remove"
+      ]
+    }
+  },
+  "BUSINESS & ENTERPRISE": {
+    "CRM & Sales": {
+      "Lead Management": [
+        "lead",
+        "prospect",
+        "contact"
+      ],
+      "Sales Pipeline": [
+        "sales",
+        "pipeline",
+        "deal"
+      ],
+      "CRM Integration": [
+        "crm",
+        "salesforce",
+        "pipedrive"
+      ],
+      "Customer Data": [
+        "customer",
+        "profile",
+        "history"
+      ]
+    },
+    "HR & Team Management": {
+      "Employee Management": [
+        "employee",
+        "team",
+        "staff"
+      ],
+      "Time Off": [
+        "vacation",
+        "leave",
+        "absence"
+      ],
+      "Team Communication": [
+        "team",
+        "announce",
+        "notify"
+      ],
+      "Payroll": [
+        "payroll",
+        "salary",
+        "payment"
+      ]
+    },
+    "Finance & Accounting": {
+      "Invoice Management": [
+        "invoice",
+        "billing",
+        "payment"
+      ],
+      "Expense Tracking": [
+        "expense",
+        "receipt",
+        "reimbursement"
+      ],
+      "Financial Reports": [
+        "report",
+        "analytics",
+        "accounting"
+      ],
+      "Budget Planning": [
+        "budget",
+        "forecast",
+        "planning"
+      ]
+    },
+    "Enterprise Integration": {
+      "EMR Integration": [
+        "emr",
+        "healthcare",
+        "medical"
+      ],
+      "Desktop Redirect": [
+        "redirect",
+        "smartsheet",
+        "desktop"
+      ],
+      "Enterprise Tools": [
+        "enterprise",
+        "integration"
+      ]
+    }
+  },
+  "SPECIALIZED": {
+    "Cryptocurrency & Finance": {
+      "Crypto Tracking": [
+        "crypto",
+        "bitcoin",
+        "blockchain"
+      ],
+      "Trading": [
+        "trading",
+        "stock",
+        "forex"
+      ],
+      "Wallet Management": [
+        "wallet",
+        "balance",
+        "transaction"
+      ],
+      "Price Alerts": [
+        "alert",
+        "notify",
+        "price"
+      ]
+    },
+    "Legal & Compliance": {
+      "Document Management": [
+        "contract",
+        "agreement",
+        "legal"
+      ],
+      "Compliance Tracking": [
+        "compliance",
+        "regulation",
+        "audit"
+      ],
+      "Terms & Conditions": [
+        "terms",
+        "privacy",
+        "policy"
+      ]
+    },
+    "Health & Wellness": {
+      "Fitness Tracking": [
+        "fitness",
+        "workout",
+        "exercise"
+      ],
+      "Health Monitoring": [
+        "health",
+        "medical",
+        "doctor"
+      ],
+      "Wellness": [
+        "wellness",
+        "meditation",
+        "mindfulness"
+      ]
+    },
+    "IoT & Smart Devices": {
+      "Smart TV": [
+        "smart tv",
+        "tv browser",
+        "api"
+      ],
+      "Hardware Integration": [
+        "hardware",
+        "camera",
+        "device"
+      ],
+      "Smart Home": [
+        "smart home",
+        "iot"
+      ]
+    },
+    "Geolocation & Navigation": {
+      "Route Planning": [
+        "route",
+        "maps",
+        "navigation"
+      ],
+      "Location Services": [
+        "location",
+        "gps"
+      ]
+    },
+    "Time & Timezone": {
+      "Worldtime": [
+        "worldtime",
+        "timezone",
+        "clock"
+      ],
+      "Time Conversion": [
+        "convert time",
+        "timezone"
+      ]
+    },
+    "Unit Conversion": {
+      "Unit Converter": [
+        "unit",
+        "convert",
+        "currency"
+      ],
+      "Measurement": [
+        "measure",
+        "light meter",
+        "luminance"
+      ]
+    }
+  }
+}
