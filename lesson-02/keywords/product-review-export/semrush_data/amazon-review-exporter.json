@@ -1,0 +1,82 @@
+{
+  "keyword": "amazon review exporter",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 210,
+    "keyword_difficulty": 12,
+    "kd_label": "Very easy",
+    "global_volume": 780,
+    "intent": "Commercial",
+    "cpc": 3.16,
+    "competitive_density": 0.38,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 210, "percent": 26.9},
+    "IN": {"volume": 170, "percent": 21.8},
+    "IT": {"volume": 70, "percent": 9.0},
+    "UK": {"volume": 70, "percent": 9.0},
+    "CA": {"volume": 50, "percent": 6.4},
+    "BE": {"volume": 30, "percent": 3.8},
+    "Other": {"volume": 180, "percent": 23.1}
+  },
+  "keyword_variations": {
+    "total_keywords": 49,
+    "total_volume": 1200,
+    "top_variations": [
+      {"keyword": "amazon reviews exporter csv", "volume": 390, "kd": 4},
+      {"keyword": "amazon review exporter", "volume": 210, "kd": 12},
+      {"keyword": "amazon reviews exporter", "volume": 140, "kd": 15},
+      {"keyword": "amazon review export", "volume": 50, "kd": 21},
+      {"keyword": "amazon reviews exporter extension", "volume": 50, "kd": 2}
+    ]
+  },
+  "questions": {
+    "total_keywords": 10,
+    "total_volume": 60,
+    "top_questions": [
+      {"keyword": "how to export amazon reviews", "volume": 20, "kd": null},
+      {"keyword": "how to export amazon reviews to csv", "volume": 20, "kd": null},
+      {"keyword": "how to export reviews from amazon", "volume": 20, "kd": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "5.0M",
+    "softness_percent": 70,
+    "serp_features": ["FAQ", "Video"],
+    "top_10": [
+      {"position": 1, "domain": "chromewebstore.google.com", "type": "Chrome Extension - Amazon Reviews Exporter (competitor)", "extension_id": "njlppnciolcibljfdobcefcngiampidm"},
+      {"position": 2, "domain": "chromewebstore.google.com", "type": "Chrome Extension - Product Review Export (TARGET)", "extension_id": "jilbpmenakjfpjclgjpppnflkiplmhjo"},
+      {"position": 3, "domain": "amazonreviews.cc", "type": "Web Tool"},
+      {"position": 4, "domain": "scaleinsights.com", "type": "Blog/Guide"},
+      {"position": 5, "domain": "sellercentral.amazon.com", "type": "Amazon Seller Forum"},
+      {"position": 6, "domain": "feedcheck.co", "type": "Blog Article"},
+      {"position": 7, "domain": "thunderbit.com", "type": "Web Tool"},
+      {"position": 8, "domain": "youtube.com", "type": "Video Tutorial"},
+      {"position": 9, "domain": "sociablekit.com", "type": "Web Tool"},
+      {"position": 10, "domain": "shopify.com", "type": "Community Forum"}
+    ]
+  },
+  "ad_history": {
+    "has_ads": true,
+    "recent_ads": "2 ads in Apr, May, Jul, Aug 2025",
+    "note": "Seasonal advertising activity indicates monetization potential"
+  },
+  "positive_signals": [
+    "Commercial intent (not Informational)",
+    "CPC $3.16 (monetization potential)",
+    "Very low KD (12%)",
+    "Target extension at #2 in SERP",
+    "70% softness (tools dominate)",
+    "B2B audience (Amazon sellers)",
+    "Ad history shows market viability"
+  ],
+  "concerns": [
+    "Volume 210 below 500 threshold",
+    "But cluster volume 1,200 compensates",
+    "Best variation 'amazon reviews exporter csv' has 390 volume, KD 4%"
+  ],
+  "verdict": "POTENTIAL GO - Commercial intent, CPC $3.16, low KD, good SERP position, B2B audience"
+}
