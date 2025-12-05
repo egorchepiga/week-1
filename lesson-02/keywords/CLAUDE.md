@@ -41,14 +41,43 @@
 
 ```
 lesson-02/keywords/{niche-name}/
-├── raw_keywords.md           # Список всех найденных keywords (чеклист)
-├── semrush_data/             # Сырые данные Semrush (JSON)
-│   ├── xpath-tester.json
-│   ├── xpath-test.json
+├── raw_keywords.md           # Список keywords + TASK TRACKER (чеклист)
+├── semrush_data/             # Сырые данные Semrush (MD или JSON)
+│   ├── xpath-tester.md
+│   ├── xpath-test.md
 │   └── ...
 ├── SUMMARY.md                # Финальный отчёт с вердиктом
 └── competitors.md            # Анализ конкурентов (опционально)
 ```
+
+### CRITICAL: raw_keywords.md as Task Tracker
+
+> **IMPORTANT FOR AI:** The `raw_keywords.md` file serves as the **primary task list** for keyword research!
+
+**After auto-compacting or session resume:**
+1. **READ `raw_keywords.md` FIRST** to check progress
+2. Find next keyword with `pending` status
+3. **Mark as `done` IMMEDIATELY** after Semrush analysis
+4. Add key metrics (Vol, KD%, CPC) to the Notes column
+
+**Format in raw_keywords.md:**
+
+```markdown
+## Deduplicated List for Semrush Analysis
+
+| # | Keyword | Priority | Status | Notes |
+|---|---------|----------|--------|-------|
+| 1 | keyword-one | HIGH | **done** | Vol: 2,400, KD: 59%, CPC: $1.38 |
+| 2 | keyword-two | HIGH | pending | |
+| 3 | keyword-three | MEDIUM | **done** | Vol: 880, KD: 46%, CPC: $8.01 |
+
+### Progress: X/Y keywords analyzed (Z%)
+```
+
+**Why this matters:**
+- Context can be auto-compacted at any time
+- Without reading raw_keywords.md, AI may re-analyze already-done keywords
+- This ensures efficient workflow continuation
 
 ### Пример JSON формата (semrush_data/*.json)
 
