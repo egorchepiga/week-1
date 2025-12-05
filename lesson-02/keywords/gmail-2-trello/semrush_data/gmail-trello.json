@@ -1,0 +1,63 @@
+{
+  "keyword": "gmail trello",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 50,
+    "keyword_difficulty": 29,
+    "kd_label": "Easy",
+    "global_volume": 720,
+    "intent": "Informational",
+    "cpc": 7.71,
+    "competitive_density": 0.15,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 50, "percent": 6.9},
+    "AR": {"volume": 20, "percent": 2.8},
+    "CH": {"volume": 20, "percent": 2.8},
+    "CL": {"volume": 20, "percent": 2.8},
+    "CO": {"volume": 20, "percent": 2.8},
+    "FR": {"volume": 20, "percent": 2.8},
+    "Other": {"volume": 570, "percent": 79.2}
+  },
+  "keyword_variations": {
+    "total_keywords": 263,
+    "total_volume": 1300,
+    "top_variations": [
+      {"keyword": "trello for gmail", "volume": 90, "kd": 31},
+      {"keyword": "trello gmail", "volume": 90, "kd": 29},
+      {"keyword": "trello in gmail", "volume": 90, "kd": 32},
+      {"keyword": "gmail for trello", "volume": 70, "kd": 31},
+      {"keyword": "integrate trello with gmail", "volume": 70, "kd": 23}
+    ]
+  },
+  "questions": {
+    "total_keywords": 26,
+    "total_volume": 50,
+    "top_questions": [
+      {"keyword": "how to use trello for gmail", "volume": 20, "kd": null},
+      {"keyword": "what is trello for gmail", "volume": 20, "kd": null},
+      {"keyword": "how to use trello in gmail", "volume": 10, "kd": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "12.3M",
+    "softness_percent": 70,
+    "serp_features": ["Image pack", "Video"],
+    "top_10": [
+      {"position": 1, "domain": "workspace.google.com", "type": "Google Workspace Add-on (Official Trello for Gmail)"},
+      {"position": 2, "domain": "trello.com", "type": "Trello Power-Up"},
+      {"position": 3, "domain": "trello.com", "type": "Gmail by Cardbox Power-Up"},
+      {"position": 4, "domain": "support.atlassian.com", "type": "Atlassian Docs"},
+      {"position": 5, "domain": "youtube.com", "type": "Video Tutorial"},
+      {"position": 6, "domain": "chromewebstore.google.com (Gmail-2-Trello)", "type": "Chrome Extension - TARGET"},
+      {"position": 7, "domain": "getcardbox.com", "type": "SaaS Tool"},
+      {"position": 8, "domain": "appstate.edu", "type": "University Docs"},
+      {"position": 9, "domain": "youtube.com", "type": "Video Tutorial"},
+      {"position": 10, "domain": "zapier.com", "type": "Integration Platform"}
+    ]
+  },
+  "verdict": "NO-GO - Volume too low (50), Official Trello for Gmail add-on dominates #1"
+}
