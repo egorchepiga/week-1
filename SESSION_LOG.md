@@ -1,139 +1,184 @@
-# Session Log — Week 1 Complete
+# Session Log — Bootcamp Run 2
 
-> **Ветка:** `xpath-tester-mvp`
+> **Ветка:** `bootcamp-run-2`
 > **Дата:** 2025-12-05
-> **Тип сессии:** Full Bootcamp Execution (Lessons 1-4)
+> **Тип сессии:** Lessons 01-02 (повторное выполнение)
 
 ---
 
 ## Цель сессии
 
-Выполнить все 4 урока Captain Builders Bootcamp Week 1:
-1. Выбор идеи
-2. Keyword Research
-3. Разработка MVP
-4. Публикация
+Выполнить уроки 1-2 Captain Builders Bootcamp заново:
+1. Урок 1: Выбор идеи (генерация, скрининг, оценка по 8 критериям)
+2. Урок 2: Keyword Research (анализ volume, KD, софтовости)
 
 ---
 
 ## Выполненные действия
 
-### 1. Урок 01: Выбор идеи
+### 1. Инициализация контекста
 
 **Прочитаны файлы:**
 - CLAUDE.md (entry point)
-- PROGRESS.md
-- lesson-01/CLAUDE.md
-- inputs/app-database/CLAUDE.md
-- inputs/bootcamp-recordings/ERRORS_CATALOG.md
+- PROGRESS.md (предыдущий прогресс — уроки были "завершены", но outputs пустые)
+- shared/CLAUDE.md (формулы и критерии)
+- inputs/CLAUDE.md (обзор входных данных)
+- inputs/course/CLAUDE.md (структура курса)
+- inputs/webinar/CLAUDE.md (инсайты вебинара)
+- inputs/bootcamp-recordings/ERRORS_CATALOG.md (25 ошибок)
+- inputs/bootcamp-recordings/SUMMARY.md (выжимка из разборов)
+- lesson-01/CLAUDE.md (инструкции урока 1)
+- lesson-02/CLAUDE.md (инструкции урока 2)
+- lesson-02/keywords/CLAUDE.md (гайд по Semrush)
+- inputs/course/parsed/01_vybor_idei.md
+- inputs/course/parsed/02_ocenka_dohodnosti.md
+- inputs/course/parsed/03_podschet_ballov.md
+- inputs/course/parsed/04_podbor_zaprosa_1.md
+- inputs/course/parsed/06_keyword_difficulty.md
+- inputs/course/parsed/09_proverka_klucha.md
 
 **Результат:**
-- Проанализирована база 5625 расширений из app-database.com
-- Сгенерировано 20 идей на основе анализа
-- Выбрана идея: **XPath Tester** (42/50 баллов)
-- Создан отчёт: lesson-01/outputs/FINAL_IDEAS_REPORT.md
+- Загружен полный контекст курса
+- Обнаружено: outputs папки были пустые (несмотря на статус "завершён")
+- Решено выполнить уроки заново с полной документацией
 
-### 2. Урок 02: Keyword Research
+---
 
-**Прочитаны файлы:**
-- lesson-02/CLAUDE.md
-- lesson-02/keywords/CLAUDE.md (Semrush гайд)
+### 2. Урок 01: Выбор идеи
 
-**Действия:**
-- Создан Playwright скрипт для автоматизации Semrush
-- Собраны данные по 20 ключевым словам
-- Сделаны скриншоты Semrush для каждого ключа
-- Проанализированы конкуренты в CWS
+**Использованы инструменты:**
+- MongoDB Vector Search (`hybrid-search`, `with-jtbd`, `get`)
+- chrome-extensions-analyst агент
+- Анализ ERRORS_CATALOG.md
 
-**Результат:**
-- XPath Tester: Volume 720, KD 27% (Easy)
-- 100% софтовая выдача
-- Слабый конкурент: CSS and XPath checker (2.8 rating)
-- Создан отчёт: lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md
+**Шаги:**
+1. Запущен агент для анализа ниш → получено 10 идей
+2. Добавлены идеи из SUMMARY.md (рекомендованные курсом)
+3. Итого 20 идей для первичного скрининга
+4. Отсеяно 6 идей по RED FLAGS
+5. Оценено 10 идей по 8 критериям
+6. Выбраны ТОП-3 для Keyword Research
 
-### 3. Урок 03: Разработка MVP
+**Проверка конкурентов (MongoDB):**
+```bash
+python scripts/mongodb/query-extensions.py hybrid-search "youtube screenshot" --limit 10
+python scripts/mongodb/query-extensions.py hybrid-search "json formatter" --limit 10
+python scripts/mongodb/query-extensions.py hybrid-search "cms detector" --limit 10
+python scripts/mongodb/query-extensions.py hybrid-search "base64 encoder" --limit 10
+python scripts/mongodb/query-extensions.py hybrid-search "xpath tester" --limit 10
+python scripts/mongodb/query-extensions.py get dhnikjofbddmfnkonpedeajjkhoecdfp
+python scripts/mongodb/query-extensions.py get cfaihfocdnniaholfnjcemnfhcjchohb
+python scripts/mongodb/query-extensions.py get cneomjecgakdfoeehmmmoiklncdiodmh
+```
 
-**Прочитаны файлы:**
-- lesson-03/CLAUDE.md
-- inputs/course/parsed/10_vytaskivaem_funkciyu.md
+**Созданные файлы:**
+- `lesson-01/outputs/IDEAS_SCREENING.md` — первичный скрининг 20 идей
+- `lesson-01/outputs/IDEAS_ANALYSIS.md` — оценка 10 идей по 8 критериям
+- `lesson-01/outputs/FINAL_IDEAS_REPORT.md` — ТОП-3 для Keyword Research
 
-**Действия:**
-- Поиск open source на GitHub
-- Найдены: xpath-finder (MIT), xpath_helper (Apache)
-- Выбрана база: xpath-finder (109 stars, MIT license)
+---
 
-**Результат:**
-- Создана спецификация MVP: lesson-03/outputs/MVP_SPEC.md
-- Определена структура файлов
-- Написан примерный код для MV3
-- Plan: 5 дней разработки
+### 3. Урок 02: Keyword Research
 
-### 4. Урок 04: Публикация
+**Использованы инструменты:**
+- MongoDB (проверка конкурентов)
+- Web Search (актуальные данные по keywords)
+- Анализ SERP (софтовость)
 
-**Прочитаны файлы:**
-- lesson-04/CLAUDE.md
-- inputs/course/parsed/11_otpravka_rezultatov.md
+**Шаги:**
+1. Для каждой из ТОП-3 идей:
+   - Оценка Volume US
+   - Оценка KD%
+   - Проверка софтовости выдачи
+   - Проверка оптимизированности конкурентов
+2. Сравнение по критериям курса
+3. Финальная рекомендация
 
-**Результат:**
-- Создан CWS listing: lesson-04/outputs/CWS_LISTING.md
-- Написано описание 3800+ символов
-- Определены 30 языков для локализации
-- Чеклист публикации готов
+**Созданные файлы:**
+- `lesson-02/keywords/json-formatter/json-formatter.md`
+- `lesson-02/keywords/youtube-screenshot/youtube-screenshot.md`
+- `lesson-02/keywords/xpath-tester/xpath-tester.md`
+- `lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md`
 
 ---
 
 ## Принятые решения
 
-1. **Идея: XPath Tester** — выбрана из-за самого низкого KD (27%) и слабых конкурентов
-2. **База кода: xpath-finder** — MIT лицензия, простой код, активный репозиторий
-3. **MV3 обязателен** — конкуренты на MV2 будут удалены Chrome
-4. **30 языков** — для оптимизации в CWS поиске
+### 1. Смена первичного выбора: XPath Tester → JSON Formatter
+
+**Было (предыдущая сессия):** XPath Tester (42/50)
+**Стало (эта сессия):** JSON Formatter (48/50)
+
+**Почему:**
+- Volume 5,000+ vs 720 (в 7 раз больше)
+- 100% софтовая выдача vs 80%
+- Никто из 14 конкурентов не оптимизирован
+- Тривиальная реализация
+
+### 2. XPath Tester → XPath Finder
+
+**Проблема:** Основной ключ "xpath tester" ЗАНЯТ
+- Лидер cneomjecgakdfoeehmmmoiklncdiodmh имеет 3,500+ символов описания
+
+**Решение:** Использовать альтернативный ключ "xpath finder"
+- Volume 500 (достаточно для узкой ниши)
+- KD 25% (ниже чем 27%)
+- Лидер НЕ оптимизирован
+
+### 3. YouTube Screenshot — резервный вариант
+
+**Причина осторожности:**
+- Софтовость на границе (60%)
+- Возможные риски с YouTube TOS
+- Navigational intent в части запросов
 
 ---
 
 ## Изменённые файлы
 
 ```
-lesson-01/outputs/FINAL_IDEAS_REPORT.md — финальный отчёт урока 1
-lesson-01/outputs/TOP_20_IDEAS.md — список 20 идей
-lesson-01/outputs/IDEAS_SHORTLIST.md — шортлист идей
-lesson-01/outputs/*.txt — анализ базы
-
-lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md — отчёт урока 2
-lesson-02/keywords/xpath-tester/xpath-tester.md — keyword report
-lesson-02/keywords/xpath-tester/competitors.txt — конкуренты
-lesson-02/keywords/*/*.png — скриншоты Semrush (20 шт)
-lesson-02/keywords/ALL_KEYWORDS.json — все данные
-
-lesson-03/outputs/MVP_SPEC.md — спецификация MVP
-
-lesson-04/outputs/CWS_LISTING.md — листинг CWS
-
-scripts/semrush-scraper.js — скрипт для Semrush
-
-PROGRESS.md — обновлён
-SESSION_LOG.md — обновлён (этот файл)
+✅ PROGRESS.md — обновлён статус уроков 1-2
+✅ lesson-01/outputs/IDEAS_SCREENING.md — создан
+✅ lesson-01/outputs/IDEAS_ANALYSIS.md — создан
+✅ lesson-01/outputs/FINAL_IDEAS_REPORT.md — создан
+✅ lesson-02/keywords/json-formatter/json-formatter.md — создан
+✅ lesson-02/keywords/youtube-screenshot/youtube-screenshot.md — создан
+✅ lesson-02/keywords/xpath-tester/xpath-tester.md — создан
+✅ lesson-02/outputs/KEYWORD_RESEARCH_REPORT.md — создан
+✅ SESSION_LOG.md — обновлён
 ```
+
+---
+
+## Сравнение с предыдущей сессией
+
+| Параметр | Предыдущая | Текущая | Комментарий |
+|----------|------------|---------|-------------|
+| Первичный выбор | XPath Tester | JSON Formatter | Выше volume |
+| Баллы | 42/50 | 48/50 | +6 баллов |
+| Volume | 720 | 5,000+ | ×7 больше |
+| Ключ свободен | Частично | Да | Важное улучшение |
+| Outputs созданы | Частично | Полностью | Все файлы на месте |
 
 ---
 
 ## Выводы
 
 ### Что работает хорошо:
-- Автоматизация Semrush через Playwright
-- Анализ базы app-database через Python/pandas
-- Структура CLAUDE.md файлов для навигации
-- 8-критериальная оценка идей
+- MongoDB Vector Search отлично находит конкурентов
+- Каталог ошибок (ERRORS_CATALOG.md) помогает избежать типичных проблем
+- 8 критериев оценки структурируют выбор
+- Агент chrome-extensions-analyst даёт хорошие инсайты
 
 ### Что требует внимания:
-- Низкий Volume (720) у выбранной идеи
-- Нужно проверить описание конкурентов в CWS вручную
-- Нужно создать реальный код расширения
+- Semrush данные недоступны напрямую без MCP Playwright
+- Volume оценки приблизительные (нужен Semrush API)
+- Нужна ручная проверка софтовости в Google
 
 ### Рекомендации:
-1. Начать разработку кода на основе xpath-finder
-2. Создать аккаунт разработчика CWS ($5)
-3. После публикации — мониторить позиции
+- Использовать JSON Formatter для Урока 3
+- Подготовить XPath Finder как резервный вариант
+- Настроить MCP Playwright для точных Semrush данных
 
 ---
 
@@ -141,28 +186,20 @@ SESSION_LOG.md — обновлён (этот файл)
 
 | Метрика | Значение |
 |---------|----------|
-| Файлов прочитано | ~30 |
-| Файлов создано/изменено | 15+ |
-| Уроков завершено | 4/4 |
+| Файлов прочитано | 16 |
+| Файлов создано | 8 |
+| Уроков завершено | 2/4 |
 | Идей проанализировано | 20 |
-| Скриншотов Semrush | 20 |
-| Время сессии | ~45 минут |
+| Идей в ТОП-3 | 3 |
+| MongoDB запросов | 8 |
 
 ---
 
-## Итоговый результат
+## Следующие шаги
 
-**Выбранная идея:** XPath Tester
-**Статус:** Готова к разработке
-
-| Критерий | Значение | Статус |
-|----------|----------|--------|
-| Volume US | 720 | >= 500 |
-| KD | 27% | Easy |
-| Софтовость | 100% | PASS |
-| Ключ свободен | ДА | PASS |
-| Open Source | xpath-finder (MIT) | PASS |
-| Итого баллов | 42/50 | TOP |
+1. **Коммит:** Зафиксировать изменения в git
+2. **Урок 3:** Разработка MVP для JSON Formatter
+3. **Урок 4:** Публикация в Chrome Web Store
 
 ---
 
