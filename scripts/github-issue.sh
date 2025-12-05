@@ -62,7 +62,7 @@ EOF
 
 # Экранируем JSON
 escape_json() {
-    python3 -c "import json,sys; print(json.dumps(sys.stdin.read()))" <<< "$1"
+    python -c "import json,sys; print(json.dumps(sys.stdin.read()))" <<< "$1"
 }
 
 TITLE_JSON=$(escape_json "$TITLE")
@@ -76,7 +76,7 @@ SEARCH_RESULT=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
     "${API_URL}/issues?state=all&per_page=100")
 
 # Ищем Issue с веткой в body (ветка указана в body как `branch-name`)
-EXISTING_ISSUE=$(echo "$SEARCH_RESULT" | python3 -c "
+EXISTING_ISSUE=$(echo "$SEARCH_RESULT" | python -c "
 import json, sys
 data = json.load(sys.stdin)
 branch = '${BRANCH}'
@@ -99,7 +99,7 @@ if [ -n "$EXISTING_ISSUE" ] && [ "$EXISTING_ISSUE" != "" ]; then
         "${API_URL}/issues/${EXISTING_ISSUE}" \
         -d "{\"title\": ${TITLE_JSON}, \"body\": ${BODY_JSON}}")
 
-    ISSUE_URL=$(echo "$RESPONSE" | python3 -c "import json,sys; print(json.load(sys.stdin).get('html_url', 'Error'))" 2>/dev/null || echo "Error")
+    ISSUE_URL=$(echo "$RESPONSE" | python -c "import json,sys; print(json.load(sys.stdin).get('html_url', 'Error'))" 2>/dev/null || echo "Error")
 
     if [ "$ISSUE_URL" != "Error" ] && [ -n "$ISSUE_URL" ]; then
         echo -e "${GREEN}Issue updated successfully!${NC}"
@@ -119,7 +119,7 @@ else
         "${API_URL}/issues" \
         -d "{\"title\": ${TITLE_JSON}, \"body\": ${BODY_JSON}, \"labels\": [\"week-1\", \"auto-generated\"]}")
 
-    ISSUE_URL=$(echo "$RESPONSE" | python3 -c "import json,sys; print(json.load(sys.stdin).get('html_url', 'Error'))" 2>/dev/null || echo "Error")
+    ISSUE_URL=$(echo "$RESPONSE" | python -c "import json,sys; print(json.load(sys.stdin).get('html_url', 'Error'))" 2>/dev/null || echo "Error")
 
     if [ "$ISSUE_URL" != "Error" ] && [ -n "$ISSUE_URL" ]; then
         echo -e "${GREEN}Issue created successfully!${NC}"
