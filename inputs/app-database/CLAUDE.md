@@ -19,17 +19,20 @@ app-database/
 ├─ ИСХОДНЫЕ ДАННЫЕ:
 ├── app-database-COMBINED-2025-12-04-EN.xlsx   # 5625 расширений (EN only)
 │
-├─ ОБОГАЩЕНИЕ (внешний скрипт):
-├── enrichment-progress.json                    # 2100+ расширений с ссылками
+├─ ОБОГАЩЕНИЕ:
+├── enrichment-progress.json                    # 5615 расширений с ссылками
+├── description-results.json                    # Полные описания
 │
-└─ ПОЛНЫЕ ОПИСАНИЯ (наш скрипт):
-    └── description-results.json                # ⭐ НОВЫЙ: Полные описания
+├─ КЛАССИФИКАЦИЯ:
+├── extensions-with-jtbd.json                   # JTBD для каждого расширения
+└── jtbd-categories.json                        # ⭐ 340 категорий с ID расширений
 ```
 
 **Статус данных:**
 - ✅ **Исходные:** 5625 расширений (XLSX, EN only)
-- 🔄 **Обогащённые:** 2100+ расширений (JSON с ссылками) — обновляется
-- 🔄 **Выходной Excel:** app-database-COMBINED-2025-12-04-EN-enriched.xlsx
+- ✅ **Обогащённые:** 5615 расширений (JSON с ссылками)
+- ✅ **Классифицированные:** 340 категорий с полными списками ID
+- ✅ **Выходной Excel:** app-database-COMBINED-2025-12-04-EN-enriched.xlsx
 
 ---
 
@@ -195,6 +198,124 @@ print(f"Ошибок: {results['stats']['failed']}")
 
 ---
 
+### 3. `jtbd-categories.json` ⭐ **КЛАССИФИКАЦИЯ ПО КАТЕГОРИЯМ**
+
+**Назначение:** **340 категорий** действий пользователей с **полными списками** ID расширений для каждой категории
+
+**Генератор:** Inline Python script (keyword-based classification)
+
+**Статус:** ✅ **Завершено** (2025-12-05)
+
+**Структура:**
+```json
+{
+  "total_categories": 340,
+  "categories": [
+    {
+      "name": "YouTube",
+      "count": 254,
+      "extensions": ["ext_id_1", "ext_id_2", ..., "ext_id_254"]
+    },
+    {
+      "name": "YouTube: Download",
+      "count": 6,
+      "extensions": ["ext_id_1", ..., "ext_id_6"]
+    }
+  ]
+}
+```
+
+**Ключевые особенности:**
+- ✅ `count` всегда равен `len(extensions)`
+- ✅ Гранулярные под-категории (например, `YouTube: Skip ads`, `Gmail: Track emails`)
+- ✅ Категории отсортированы по количеству расширений (по убыванию)
+
+**Размер файла:** ~0.32 MB
+
+**Топ-25 категорий по группам:**
+
+| Группа | Под-категорий | Топ примеры |
+|--------|---------------|-------------|
+| **YouTube** | 21 | Download, Subtitles, Shorts, Skip ads, Transcripts |
+| **Developer** | 23 | HTML, Debug, JavaScript, CSS, JSON, GitHub |
+| **Tabs** | 19 | New tab page, Close, Group, Save, Pin, Vertical |
+| **Download** | 7 | Videos, Images, Audio, Bulk, Manager |
+| **PDF** | 7 | Convert, Edit, View, Merge/Split, Sign |
+| **AI** | 9 | Chatbot, Summarization, Writing, Image, Grammar |
+| **Blocking** | 8 | Ads, Websites, Popups, Trackers, Videos |
+| **Automation** | 12 | Auto-click, Auto-refresh, Auto-save, Workflow |
+| **Data extraction** | 8 | Web scraping, Email, Phone, Lead gen, Table |
+| **Translation** | 5 | Full page, Selected text, Subtitles, Hover |
+| **Screenshot** | 6 | Full page, Selected area, Annotate, Share |
+| **Search** | 6 | Google, Quick, Multi-engine, Image, Reverse |
+| **Gmail** | 9 | Track emails, Templates, Labels, AI assistant |
+| **Amazon** | 7 | Product research, Keywords, Seller tools, FBA |
+| **Instagram** | 6 | Download, Stories, Followers, DM, Reels |
+
+**Как использовать:**
+
+```python
+import json
+
+with open("inputs/app-database/jtbd-categories.json") as f:
+    data = json.load(f)
+
+# Получить все расширения категории
+youtube_exts = None
+for cat in data["categories"]:
+    if cat["name"] == "YouTube":
+        youtube_exts = cat["extensions"]
+        break
+
+print(f"YouTube extensions: {len(youtube_exts)}")  # 254
+
+# Найти все категории для конкретного расширения
+ext_id = "gadafnnkijfmbbmeielphlapddbmgbgo"
+ext_categories = [
+    cat["name"] for cat in data["categories"]
+    if ext_id in cat["extensions"]
+]
+print(f"Categories: {ext_categories}")
+
+# Получить топ-10 категорий
+for cat in data["categories"][:10]:
+    print(f"{cat['count']:4d}  {cat['name']}")
+```
+
+**Статистика категорий:**
+```
+Forms            309    YouTube           254
+PDF              169    ChatGPT           156
+Email            120    Tabs: New tab     118
+Translation      110    Download: Videos  107
+Gmail            105    AI: Chatbot       100
+```
+
+---
+
+### 4. `extensions-with-jtbd.json` — JTBD для расширений
+
+**Назначение:** Полные JTBD-формулировки для каждого расширения
+
+**Структура:**
+```json
+{
+  "extensions": {
+    "ext_id": {
+      "link": "https://chromewebstore.google.com/...",
+      "description": "краткое описание",
+      "jtbd": [
+        "When I have too many tabs, I want to close them quickly, so I can focus",
+        "When I need to organize browser, I want to manage tabs, so I can find pages"
+      ]
+    }
+  },
+  "stats": { "total": 5615, "processed": 5615 }
+}
+```
+
+---
+
 ## 🔄 Процесс обогащения (Pipeline)
 
 ```
@@ -202,9 +323,17 @@ print(f"Ошибок: {results['stats']['failed']}")
          ↓
     scripts/enrich-extensions.py
          ↓
-2️⃣  enrichment-progress.json (прогресс + ссылки + описания)
+2️⃣  enrichment-progress.json (5615 расширений с ссылками + описания)
+         ↓
+    scripts/fetch-descriptions.py
+         ↓
+3️⃣  description-results.json (полные описания)
+         ↓
+    keyword-based classification (inline script)
+         ↓
+4️⃣  jtbd-categories.json (340 категорий с полными списками ID)
     +
-    app-database-COMBINED-2025-12-04-EN-enriched.xlsx (Excel с новыми колонками)
+    extensions-with-jtbd.json (JTBD для каждого расширения)
 ```
 
 ---
@@ -213,10 +342,26 @@ print(f"Ошибок: {results['stats']['failed']}")
 
 | Lesson | Входной файл | Что делает |
 |--------|-------------|-----------|
-| **01** | `app-database-COMBINED-2025-12-04-EN.xlsx` | Генерация идей, анализ ниш |
+| **01** | `jtbd-categories.json` | Поиск ниш по категориям, анализ конкурентов |
 | **02** | `enrichment-progress.json` | Keyword research, анализ конкурентов |
 | **03** | `description-results.json` | Анализ функций, разработка MVP |
 | **04** | `description-results.json` | Подготовка к публикации |
+
+**Быстрый старт для анализа ниш:**
+```python
+import json
+
+# Загрузить категории
+with open("inputs/app-database/jtbd-categories.json") as f:
+    cats = json.load(f)
+
+# Найти нишевые категории (5-50 расширений)
+niche_cats = [c for c in cats["categories"] if 5 <= c["count"] <= 50]
+print(f"Нишевых категорий: {len(niche_cats)}")
+
+for c in niche_cats[:20]:
+    print(f"  {c['count']:3d}  {c['name']}")
+```
 
 ---
 
@@ -244,18 +389,22 @@ python3 scripts/fetch-descriptions.py
 
 ## 📈 Статистика обогащения
 
-### Текущий статус (2025-12-04)
+### Текущий статус (2025-12-05)
 
 | Метрика | Значение | Статус |
 |---------|----------|--------|
 | Исходных расширений | 5625 | ✅ |
-| Обогащённых (с ссылками) | 2100+ | 🔄 |
-| Успешных | ~99% | ✅ |
-| Ошибок | ~1% | ⚠️ |
+| Обогащённых (с ссылками) | 5615 | ✅ |
+| Категорий | 340 | ✅ |
+| Успешных | ~99.8% | ✅ |
 
 **Проверить текущий прогресс:**
 ```bash
-cat inputs/app-database/enrichment-progress.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(f'Progress: {len(d[\"completed\"])}/5625, Errors: {len(d[\"errors\"])}')"
+# Обогащение
+python3 -c "import json; d=json.load(open('inputs/app-database/enrichment-progress.json')); print(f'Enriched: {len(d[\"completed\"])}')"
+
+# Категории
+python3 -c "import json; d=json.load(open('inputs/app-database/jtbd-categories.json')); print(f'Categories: {d[\"total_categories\"]}')"
 ```
 
 ---
@@ -270,4 +419,5 @@ cat inputs/app-database/enrichment-progress.json | python3 -c "import json,sys; 
 ---
 
 *Источник: app-database.com, экспорт 2025-12-04*
-*Обогащение: 2025-12-04*
+*Обогащение: 2025-12-05*
+*Классификация: 2025-12-05*
