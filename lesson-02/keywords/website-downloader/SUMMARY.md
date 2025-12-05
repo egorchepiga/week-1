@@ -3,6 +3,7 @@
 > **Date:** 2025-12-05
 > **Branch:** research/website-downloader
 > **Status:** COMPLETED
+> **Keywords Analyzed:** 10/15
 
 ---
 
@@ -10,23 +11,28 @@
 
 | Aspect | Assessment |
 |--------|------------|
-| **Overall Verdict** | **NO-GO** |
+| **Overall Verdict** | **NO-GO** (main niche) |
 | **Primary Issue** | High competition + High KD + Mostly informational intent |
-| **Best Keyword Found** | website copier (CPC $8.01, transactional intent) |
-| **Alternative Recommendation** | Consider AI-powered niche: "copy website code with ai" |
+| **Best Keyword Found** | **website copier** (CPC $8.01, transactional intent) |
+| **Alternative Keyword** | **clone website** (CPC $3.83, transactional intent) |
+| **Pivot Opportunity** | "web scraper" is DIFFERENT but BETTER niche |
 
 ---
 
-## Keywords Analyzed
+## All Keywords Analyzed
 
 | Keyword | Volume (US) | KD% | CPC | Intent | Verdict |
 |---------|-------------|-----|-----|--------|---------|
-| **website downloader** | 2,400 | 59% | $1.38 | Informational | High volume, but high KD |
-| **download website** | 1,300 | 53% | $0 | Informational | Zero CPC = low commercial value |
-| **website copier** | 880 | 46% | **$8.01** | Info + Transactional | **BEST: High CPC!** |
-| **html downloader** | 590 | 55% | $1.97 | Info + Commercial | Chrome ext in SERP #1 |
-| **web page downloader** | 170 | 44% | $0 | Informational | Volume too low |
-| **save website offline** | 50 | 45% | $0 | Informational | Volume too low |
+| **website copier** | 880 | 46% | **$8.01** | I + T | **BEST** |
+| **clone website** | 1,000 | 40% | $3.83 | I + T | GOOD |
+| web scraper | 8,100 | 46% | $3.72 | C | DIFFERENT NICHE |
+| website downloader | 2,400 | 59% | $1.38 | I | High KD |
+| site downloader | 1,600 | 47% | $0.58 | I | OK volume |
+| download website | 1,300 | 53% | $0 | I | Zero CPC |
+| html downloader | 590 | 55% | $1.97 | I + C | Chrome ext #1 |
+| website archiver | 480 | 59% | $4.57 | **N** | **NO-GO** (Navigational) |
+| web page downloader | 170 | 44% | $0 | I | Low volume |
+| save website offline | 50 | 45% | $0 | I | Low volume |
 
 ---
 
@@ -54,6 +60,17 @@
 | Competition | 5 | 10 | httrack dominates |
 | **TOTAL** | **34** | **50** | Above threshold |
 
+### Alternative: "clone website"
+
+| Criterion | Score | Max | Notes |
+|-----------|-------|-----|-------|
+| Volume (1,000 US) | 7 | 10 | Good volume |
+| KD (40%) | 7 | 10 | Possible zone (lowest!) |
+| Intent (I+T) | 8 | 10 | Transactional present |
+| CPC ($3.83) | 7 | 10 | Good commercial value |
+| Competition | 5 | 10 | Watch counterfeit variations |
+| **TOTAL** | **34** | **50** | Above threshold |
+
 ---
 
 ## Key Findings
@@ -63,18 +80,22 @@
 1. **"website copier" has highest CPC ($8.01)**
    - Advertisers value this traffic
    - Transactional intent present
+   - AI opportunity: "copy website code with ai" (1K volume)
 
-2. **Chrome extensions rank in SERP**
+2. **"clone website" has lowest KD (40%)**
+   - Most achievable ranking
+   - Transactional intent present
+   - AI angle available
+
+3. **Chrome extensions rank in SERP**
    - "html downloader" #1 = Chrome Web Store extension
    - Validates Chrome extension approach
 
-3. **AI opportunity identified**
-   - "copy website code with ai" (1K volume)
-   - Modern differentiation angle
-
-4. **Global demand is high**
-   - "website downloader" 19.3K global
-   - "html downloader" 12.8K global
+4. **"web scraper" is a MASSIVE opportunity**
+   - 8,100 US volume (highest!)
+   - Commercial intent (buyers looking for tools)
+   - 25 active ads = proven market
+   - BUT: Different niche (scraping vs downloading)
 
 ### Negative Signs
 
@@ -83,16 +104,16 @@
    - httrack has 69K backlinks (established player)
 
 2. **Mostly informational intent**
+   - 7/10 keywords are pure informational
    - Users searching "how to" not looking to buy
-   - Zero CPC on 3/6 keywords
 
 3. **High KD across the board**
    - Average KD: ~50%
-   - Need 53-100 referring domains to compete
+   - Main keyword "website downloader" at 59%
 
-4. **Video downloading dominates variations**
-   - Top variations about video/movie downloads
-   - Different product category
+4. **"website archiver" is Navigational**
+   - Users searching for archive.org
+   - Cannot compete with brand searches
 
 ---
 
@@ -120,53 +141,57 @@
 
 ---
 
-## Market Opportunities
+## Recommendations
 
-### If Proceeding Despite NO-GO
+### Option 1: NO-GO (Recommended)
 
-1. **Target "website copier" keyword**
-   - Lower KD (46%)
-   - Highest CPC ($8.01)
-   - Transactional intent
+Do not pursue "website downloader" niche as primary target.
 
-2. **AI-powered differentiation**
-   - "copy website code with ai" (1K volume)
-   - Modern alternative to httrack
-   - Chrome extension vs desktop software
+**Reasons:**
+- High competition (20+ extensions)
+- High KD (average 50%+)
+- Mostly informational intent
+- httrack established brand
 
-3. **Focus on sub-niche**
-   - HTML-only download (simpler scope)
-   - Single-page copy (not full site)
+### Option 2: Pivot to "website copier"
 
----
+If interested in this space:
 
-## Final Verdict
+| Action | Details |
+|--------|---------|
+| Primary keyword | website copier |
+| Secondary keyword | clone website |
+| Differentiation | AI-powered copying |
+| Target variation | "copy website code with ai" (1K vol) |
 
-### NO-GO Reasons
+**Pros:**
+- Highest CPC ($8.01) = commercial value
+- Transactional intent
+- Lower KD (46%)
 
-| # | Reason | Severity |
-|---|--------|----------|
-| 1 | High competition (20+ extensions) | Critical |
-| 2 | High average KD (50%+) | High |
-| 3 | Mostly informational intent | High |
-| 4 | httrack established brand | Medium |
-| 5 | Video variations dominate | Medium |
+**Cons:**
+- Lower volume (880 US)
+- httrack competition
 
-### Conditional GO Scenario
+### Option 3: Different Niche — "web scraper"
 
-Could be reconsidered IF:
-- [ ] Focus exclusively on "website copier" keyword
-- [ ] Build AI-powered solution (differentiation)
-- [ ] Target "copy website code with ai" (1K volume)
-- [ ] Avoid competing with httrack directly
+Consider as SEPARATE research target:
 
-### Recommendation
+| Metric | Value |
+|--------|-------|
+| Volume | 8,100 US |
+| KD | 46% |
+| CPC | $3.72 |
+| Intent | Commercial |
+| Ads | 25 active |
 
-> **Do not pursue this niche as primary target.**
->
-> The combination of high competition, high keyword difficulty, and mostly informational intent makes this niche unattractive for a new Chrome extension.
->
-> **Alternative:** If interested in this space, consider the AI-powered angle targeting "copy website code with ai" (1K volume, untapped).
+**Why consider:**
+- Highest volume in research
+- Commercial intent (buyers)
+- Active ad market = proven monetization
+- "easy scraper - one-click web scraper" already exists (2.9K vol)
+
+**Requires:** Separate keyword research focused on scraping niche.
 
 ---
 
@@ -174,16 +199,48 @@ Could be reconsidered IF:
 
 | File | Content |
 |------|---------|
-| `niche-analysis.md` | MongoDB competitor analysis |
-| `raw_keywords.md` | Initial keyword list (15 keywords) |
+| `niche-analysis.md` | MongoDB competitor analysis (20 competitors) |
+| `raw_keywords.md` | Task tracker with all keywords |
 | `semrush_data/website-downloader.md` | Primary keyword data |
-| `semrush_data/download-website.md` | Keyword data |
 | `semrush_data/website-copier.md` | Best keyword data |
+| `semrush_data/clone-website.md` | Alternative keyword data |
+| `semrush_data/web-scraper.md` | Pivot opportunity data |
+| `semrush_data/site-downloader.md` | Keyword data |
 | `semrush_data/html-downloader.md` | Keyword data |
-| `semrush_data/web-page-downloader.md` | Keyword data |
-| `semrush_data/save-website-offline.md` | Keyword data |
+| `semrush_data/download-website.md` | Keyword data |
+| `semrush_data/website-archiver.md` | NO-GO keyword data |
+| `semrush_data/web-page-downloader.md` | Low volume keyword |
+| `semrush_data/save-website-offline.md` | Low volume keyword |
+
+---
+
+## Final Verdict
+
+### Main Niche: NO-GO
+
+The "website downloader" niche is **not recommended** due to:
+- High competition
+- High keyword difficulty
+- Mostly informational intent
+- Established brand competitors (httrack)
+
+### Conditional GO: "website copier" sub-niche
+
+Could be viable IF:
+- [ ] Focus on "website copier" keyword (CPC $8.01)
+- [ ] Build AI-powered differentiation
+- [ ] Target "copy website code with ai" (1K volume)
+- [ ] Avoid direct httrack competition
+
+### Alternative Research: "web scraper"
+
+Strong opportunity requiring separate research:
+- Highest volume (8,100 US)
+- Commercial intent
+- Proven ad market (25 ads)
+- Existing Chrome extensions validate approach
 
 ---
 
 *Research completed: 2025-12-05*
-*Verdict: NO-GO (conditional reconsideration for AI niche)*
+*Verdict: NO-GO (main niche) | CONDITIONAL GO (website copier) | RESEARCH NEEDED (web scraper)*
