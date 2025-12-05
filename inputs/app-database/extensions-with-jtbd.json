@@ -1,0 +1,1070 @@
+{
+  "extensions": {
+    "gadafnnkijfmbbmeielphlapddbmgbgo": {
+      "link": "https://chromewebstore.google.com/detail/close-tabs/gadafnnkijfmbbmeielphlapddbmgbgo",
+      "description": "Context menu to close - tabs to the left, tabs to the right, other tabs, tabs from same domain, current tab, window and more",
+      "jtbd": [
+        "When I have too many open tabs cluttering my browser, I want to close multiple tabs at once, so I can focus on my current task",
+        "When I need to clean up my workspace, I want to close tabs by domain or position, so I can organize my browsing session efficiently"
+      ]
+    },
+    "ignachbibbeengfepmkeogegpfkigljc": {
+      "link": "https://chromewebstore.google.com/detail/seo-render-insight-tool/ignachbibbeengfepmkeogegpfkigljc",
+      "description": "Identify CSR content for SEO optimization. Visualize CSR vs SSR with charts. Disable JS to test search engine indexability.",
+      "jtbd": [
+        "When I'm optimizing a website for SEO, I want to identify client-side rendered content, so I can ensure search engines can index my pages properly",
+        "When I need to debug rendering issues, I want to compare CSR vs SSR content, so I can fix indexability problems"
+      ]
+    },
+    "gaphjogbnjbkpjnabllfjgkialaojagb": {
+      "link": "https://chromewebstore.google.com/detail/techris-ifs-clipboard-syn/gaphjogbnjbkpjnabllfjgkialaojagb",
+      "description": "Shared clipboard for IFS Aurena or IFS Cloud",
+      "jtbd": [
+        "When I'm working in IFS Aurena or IFS Cloud, I want to share clipboard content between sessions, so I can transfer data more efficiently"
+      ]
+    },
+    "dhnikjofbddmfnkonpedeajjkhoecdfp": {
+      "link": "https://chromewebstore.google.com/detail/youtube-screenshot/dhnikjofbddmfnkonpedeajjkhoecdfp",
+      "description": "you can get youtube screenshot!",
+      "jtbd": [
+        "When I'm watching a YouTube video, I want to capture a screenshot of the current frame, so I can save or share interesting moments"
+      ]
+    },
+    "goanbaknlbojfglcepjnankoobfakbpg": {
+      "link": "https://chromewebstore.google.com/detail/doi-resolver/goanbaknlbojfglcepjnankoobfakbpg",
+      "description": "Quickly resolve digital object identifiers to their web destinations",
+      "jtbd": [
+        "When I encounter a DOI in academic papers, I want to quickly navigate to the source, so I can access the original content without manual lookup"
+      ]
+    },
+    "gbohoafagnlmidmhhpfdnmfpodhohaad": {
+      "link": "https://chromewebstore.google.com/detail/rebump-for-gmail/gbohoafagnlmidmhhpfdnmfpodhohaad",
+      "description": "Rebump - Automated Email Follow-up for Gmail and Googe Workspace",
+      "jtbd": [
+        "When I send important emails that need responses, I want to automate follow-ups, so I can increase my response rate without manual tracking",
+        "When I'm managing email outreach, I want scheduled reminders sent automatically, so I can save time on repetitive follow-up tasks"
+      ]
+    },
+    "lofjaafhahidapnnbiicofclaedimkda": {
+      "link": "https://chromewebstore.google.com/detail/fpt-gpa/lofjaafhahidapnnbiicofclaedimkda",
+      "description": "GPA Of FPT University.",
+      "jtbd": [
+        "When I'm a student at FPT University, I want to calculate my GPA easily, so I can track my academic performance"
+      ]
+    },
+    "eflhgammlcofelhagioegonghdmhabmk": {
+      "link": "https://chromewebstore.google.com/detail/regieai-ai-co-pilot-for-s/eflhgammlcofelhagioegonghdmhabmk",
+      "description": "Save time writing personalized sales emails using Generative AI and industry best practices.",
+      "jtbd": [
+        "When I need to write sales emails, I want AI assistance with personalization, so I can send more effective outreach in less time",
+        "When I'm doing cold outreach, I want templates based on best practices, so I can improve my conversion rates"
+      ]
+    },
+    "lpgnioiegbijnllaabmnnjflkfnjnhbn": {
+      "link": "https://chromewebstore.google.com/detail/offset-start-times-in-goo/lpgnioiegbijnllaabmnnjflkfnjnhbn",
+      "description": "Offsets start-times by default when adding a Google Calendar event, using a user-configured number of minutes.",
+      "jtbd": [
+        "When I schedule meetings, I want events to start a few minutes late by default, so I can have buffer time between appointments"
+      ]
+    },
+    "pegiihfbfblmhendfgjmcjnofblcigga": {
+      "link": "https://chromewebstore.google.com/detail/shopify-store-spy-shoper/pegiihfbfblmhendfgjmcjnofblcigga",
+      "description": "Shopify Competitor Analysis, Shopify App Detector & Shopify Theme Detector. Spy & Detect Competitor Store Products Apps & Themes",
+      "jtbd": [
+        "When I'm researching competitors' Shopify stores, I want to detect their apps and themes, so I can learn from their successful implementations",
+        "When I'm planning my e-commerce strategy, I want to analyze competitor products, so I can identify market opportunities"
+      ]
+    },
+    "ikhahkidgnljlniknmendeflkdlfhonj": {
+      "link": "https://chromewebstore.google.com/detail/no-pdf-download/ikhahkidgnljlniknmendeflkdlfhonj",
+      "description": "Opens all PDF files directly in the browser.",
+      "jtbd": [
+        "When I click on PDF links, I want them to open in browser instead of downloading, so I can quickly preview documents without cluttering my downloads"
+      ]
+    },
+    "pemdbnndbdpbelmfcddaihdihdfmnadi": {
+      "link": "https://chromewebstore.google.com/detail/selecton-%e2%80%94-selection-popu/pemdbnndbdpbelmfcddaihdihdfmnadi",
+      "description": "Customizable popup with actions on text selection",
+      "jtbd": [
+        "When I select text on a webpage, I want quick action options in a popup, so I can search, copy, or translate without extra clicks"
+      ]
+    },
+    "gdhbldfajbedclijgcmmmobdbnjhnpdh": {
+      "link": "https://chromewebstore.google.com/detail/graph-x-ray/gdhbldfajbedclijgcmmmobdbnjhnpdh",
+      "description": "Graph X-Ray converts your Microsoft admin portal clicks into ready-to-use code in PowerShell, C#, Python, and more.",
+      "jtbd": [
+        "When I'm working in Microsoft admin portal, I want to capture my actions as code, so I can automate repetitive admin tasks",
+        "When I need to script admin operations, I want generated code in my preferred language, so I can save development time"
+      ]
+    },
+    "jilbpmenakjfpjclgjpppnflkiplmhjo": {
+      "link": "https://chromewebstore.google.com/detail/product-review-export/jilbpmenakjfpjclgjpppnflkiplmhjo",
+      "description": "Export Product review in csv file with images. In short its Product review scraber",
+      "jtbd": [
+        "When I'm analyzing product reviews, I want to export them to CSV with images, so I can analyze customer feedback in spreadsheets",
+        "When I'm doing competitor research, I want to scrape reviews, so I can understand market sentiment"
+      ]
+    },
+    "cllehfhocaopfbkehdoiphpgehffmneh": {
+      "link": "https://chromewebstore.google.com/detail/eml-to-pdf/cllehfhocaopfbkehdoiphpgehffmneh",
+      "description": "Use EML to PDF Chrome Extension to quickly convert eml file to pdf. Save your Outlook or Gmail emails as pdf in just a few clicks.",
+      "jtbd": [
+        "When I need to archive emails, I want to convert them to PDF format, so I can preserve them in a universal document format",
+        "When I need to share email content, I want to save it as PDF, so recipients can view it without email clients"
+      ]
+    },
+    "maibneeahfkanhakkogkbcakcadjejkl": {
+      "link": "https://chromewebstore.google.com/detail/better-classroom/maibneeahfkanhakkogkbcakcadjejkl",
+      "description": "Better Classroom is a Google Chrome extension that lets users create folders to organize their classes in Google Classroom.",
+      "jtbd": [
+        "When I have many classes in Google Classroom, I want to organize them into folders, so I can find my courses more quickly"
+      ]
+    },
+    "jjnhjeoeaiiifekieoddeenhoignfkhj": {
+      "link": "https://chromewebstore.google.com/detail/forcecom-migration-tool-p/jjnhjeoeaiiifekieoddeenhoignfkhj",
+      "description": "Create XML package to use with Ant on top of Salesforce Workbench. Go to Workbench and browse Metadata. By Elie Perez",
+      "jtbd": [
+        "When I'm doing Salesforce deployments, I want to create migration packages easily, so I can automate my deployment workflow"
+      ]
+    },
+    "gakkobdjiifadnllomenhnpojjdaoaad": {
+      "link": "https://chromewebstore.google.com/detail/mega-debrid-browser-exten/gakkobdjiifadnllomenhnpojjdaoaad",
+      "description": "The official Mega-Debrid browser extension. Unrestrict links at a glance!",
+      "jtbd": [
+        "When I encounter restricted download links, I want to unrestrict them quickly, so I can download files without waiting"
+      ]
+    },
+    "maolmdhneopinciaokgohljhpdedekee": {
+      "link": "https://chromewebstore.google.com/detail/urlredirector/maolmdhneopinciaokgohljhpdedekee",
+      "description": "Automatically redirect specific urls.",
+      "jtbd": [
+        "When I want to avoid certain URLs or redirect them, I want automatic redirection rules, so I can customize my browsing experience"
+      ]
+    },
+    "pgklcnjgjcnkfiepibhakpikmmjnobog": {
+      "link": "https://chromewebstore.google.com/detail/fiverr-+/pgklcnjgjcnkfiepibhakpikmmjnobog",
+      "description": "Best seller/buyer features for Fiverr.",
+      "jtbd": [
+        "When I'm using Fiverr as a seller or buyer, I want enhanced features, so I can manage my gigs and orders more efficiently"
+      ]
+    },
+    "mcalfpchdglalmmjkgohhcadlfigoglo": {
+      "link": "https://chromewebstore.google.com/detail/upcat-ai-proposals-filter/mcalfpchdglalmmjkgohhcadlfigoglo",
+      "description": "Use A.I. to enhance your job search on Upwork with personalized proposals and real-time alerts.",
+      "jtbd": [
+        "When I'm freelancing on Upwork, I want AI-generated proposals, so I can apply to more jobs with personalized pitches",
+        "When new relevant jobs are posted, I want real-time alerts, so I can be among the first to apply"
+      ]
+    },
+    "adhfhfpebeloakommdgicanmhfbeifnb": {
+      "link": "https://chromewebstore.google.com/detail/bookmark-it/adhfhfpebeloakommdgicanmhfbeifnb",
+      "description": "The only extension that lets you create awesome bookmarks on your Youtube videos while showing you the best parts of videos.",
+      "jtbd": [
+        "When I'm watching YouTube videos, I want to bookmark specific timestamps, so I can return to important moments later"
+      ]
+    },
+    "jmmcaedcfanikacagdjdhdjcekckdpom": {
+      "link": "https://chromewebstore.google.com/detail/color-name-finder/jmmcaedcfanikacagdjdhdjcekckdpom",
+      "description": "Discover colors effortlessly with Color Name Finder. Ideal for designers seeking the perfect shade. Access codes instantly.",
+      "jtbd": [
+        "When I'm designing and need to identify colors, I want to find color names and codes instantly, so I can use them in my projects"
+      ]
+    },
+    "pjafhckheppfdbidlhoedddfgebmcmnc": {
+      "link": "https://chromewebstore.google.com/detail/comprehend-emr-integratio/pjafhckheppfdbidlhoedddfgebmcmnc",
+      "description": "Allow Comprehend PT to interact with your EMR!",
+      "jtbd": [
+        "When I'm using healthcare EMR systems, I want integration with Comprehend PT, so I can streamline my clinical workflows"
+      ]
+    },
+    "ghbflkcnhdpkmbbdoflmemnifphjehec": {
+      "link": "https://chromewebstore.google.com/detail/arcify-arc-like-vertical/ghbflkcnhdpkmbbdoflmemnifphjehec",
+      "description": "A sidebar extension that replicates Arc browser's tab management system",
+      "jtbd": [
+        "When I want Arc browser's tab management in Chrome, I want a similar sidebar interface, so I can organize tabs vertically like in Arc"
+      ]
+    },
+    "npchijbmlhedglnnjbbgpkejpepmjomo": {
+      "link": "https://chromewebstore.google.com/detail/facebook-videos-downloader/npchijbmlhedglnnjbbgpkejpepmjomo",
+      "description": "Download videos from FB groups, pages & profiles in one click. Fast & simple Facebook video downloader.",
+      "jtbd": [
+        "When I find videos on Facebook I want to save, I want to download them with one click, so I can watch them offline later"
+      ]
+    },
+    "mcoimieglmhdjdoplhpcmifgplkbfibp": {
+      "link": "https://chromewebstore.google.com/detail/roam-highlighter/mcoimieglmhdjdoplhpcmifgplkbfibp",
+      "description": "Highlight text on page to copy to Roam",
+      "jtbd": [
+        "When I'm researching and using Roam, I want to quickly highlight and send text to my notes, so I can capture information without context switching"
+      ]
+    },
+    "mjfahldkpjhcnfbbmdhpjolcjpcfhcpj": {
+      "link": "https://chromewebstore.google.com/detail/new-tab-toolbox/mjfahldkpjhcnfbbmdhpjolcjpcfhcpj",
+      "description": "Unleash your Web Browser's potential!",
+      "jtbd": [
+        "When I open new tabs, I want enhanced functionality, so I can be more productive in my browser"
+      ]
+    },
+    "icpikagpkkbldbfjlbefnmmmcohbjije": {
+      "link": "https://chromewebstore.google.com/detail/z3us/icpikagpkkbldbfjlbefnmmmcohbjije",
+      "description": "An open source community centered browser wallet for the Radix DLT network.",
+      "jtbd": [
+        "When I'm using the Radix blockchain, I want a browser wallet, so I can manage my crypto assets and interact with dApps"
+      ]
+    },
+    "pldlfgnilfdheajekfphjkjeooignhkc": {
+      "link": "https://chromewebstore.google.com/detail/element-locator/pldlfgnilfdheajekfphjkjeooignhkc",
+      "description": "Locate and save web elements and get their xpath/cssSelector code",
+      "jtbd": [
+        "When I'm writing automated tests, I want to easily get element selectors, so I can write test scripts more quickly",
+        "When I need to locate web elements, I want XPath and CSS selectors generated, so I can use them in my automation code"
+      ]
+    },
+    "gflgnmgilmokfhbckilljalhemjjeldl": {
+      "link": "https://chromewebstore.google.com/detail/multi-links/gflgnmgilmokfhbckilljalhemjjeldl",
+      "description": "Open multiple links at once.",
+      "jtbd": [
+        "When I have a list of URLs to check, I want to open them all at once, so I can save time clicking each link individually"
+      ]
+    },
+    "ebbjjgknalnhiikophnjodoenamanonj": {
+      "link": "https://chromewebstore.google.com/detail/pdf-to-text/ebbjjgknalnhiikophnjodoenamanonj",
+      "description": "Convert pdf to text and copy content in a click. The easiest way to extract text from protected PDFs and summarize it with AI.",
+      "jtbd": [
+        "When I need to copy text from PDFs, I want quick extraction with one click, so I can use the content in other applications",
+        "When PDFs are protected, I want to extract text anyway, so I can work with the content"
+      ]
+    },
+    "plkaaldfeolmpbeahghnndlphopbpcfm": {
+      "link": "https://chromewebstore.google.com/detail/whale-copilot/plkaaldfeolmpbeahghnndlphopbpcfm",
+      "description": "Find what you need fast, search your content, get AI-powered answers from Alice, and access your bookmarks and smart suggestions.",
+      "jtbd": [
+        "When I'm looking for information, I want AI-powered search across my content, so I can find answers quickly",
+        "When I need to access saved content, I want smart suggestions, so I can navigate to relevant bookmarks faster"
+      ]
+    },
+    "kccndgffmghcnbhodjkidogigegfbbjf": {
+      "link": "https://chromewebstore.google.com/detail/flipacreate-flipaclip-for/kccndgffmghcnbhodjkidogigegfbbjf",
+      "description": "FlipaCreate: Flipaclip For PC – Create Flipaclip-style animations on your PC. Download the extension and start animating now!",
+      "jtbd": [
+        "When I want to create animations on PC, I want Flipaclip-style tools in my browser, so I can animate without mobile apps"
+      ]
+    },
+    "aajlpbohkcfpmgeamipkmpllmgjmmmpa": {
+      "link": "https://chromewebstore.google.com/detail/crowdlog-calendar-sync/aajlpbohkcfpmgeamipkmpllmgjmmmpa",
+      "description": "Register your daily man-hours on Google Calendar / Outlook Calendar.",
+      "jtbd": [
+        "When I need to track work hours, I want to log time to my calendar, so I can maintain accurate time records"
+      ]
+    },
+    "edegnmdhngniabdiiidplepangdoccna": {
+      "link": "https://chromewebstore.google.com/detail/gcalcolor/edegnmdhngniabdiiidplepangdoccna",
+      "description": "Colorize events in the new Google Calendar. (Keywords: Gcal color colors event)",
+      "jtbd": [
+        "When I use Google Calendar, I want to colorize events, so I can visually distinguish different types of activities"
+      ]
+    },
+    "gmehpcfpaonknlejnigoloimmpcibhfc": {
+      "link": "https://chromewebstore.google.com/detail/rich-results-structured-d/gmehpcfpaonknlejnigoloimmpcibhfc",
+      "description": "Extension checks the current URL in browser with Google's Rich Results Test Tool",
+      "jtbd": [
+        "When I'm implementing structured data, I want to quickly test for rich results, so I can verify my schema markup is working"
+      ]
+    },
+    "ppbdklaincgliegpfolkjjfncpgobneb": {
+      "link": "https://chromewebstore.google.com/detail/seoinfo/ppbdklaincgliegpfolkjjfncpgobneb",
+      "description": "Shows SEO issues as you navigate pages. Displays performance data and full AMP status and errors for HTML pages.",
+      "jtbd": [
+        "When I'm browsing websites, I want to see SEO issues in real-time, so I can identify optimization opportunities",
+        "When I'm debugging AMP pages, I want to see status and errors, so I can fix issues quickly"
+      ]
+    },
+    "mifjlfhembandabikpiehhokhdepbdai": {
+      "link": "https://chromewebstore.google.com/detail/website-ip-information-qu/mifjlfhembandabikpiehhokhdepbdai",
+      "description": "Query the current location of the IP address of the site, ASN, port open information and other information.",
+      "jtbd": [
+        "When I need to investigate a website, I want IP and ASN information, so I can understand the hosting infrastructure"
+      ]
+    },
+    "jnlfiinenhhbenihclpgladoijjfbgee": {
+      "link": "https://chromewebstore.google.com/detail/fdownload-fb-video-downlo/jnlfiinenhhbenihclpgladoijjfbgee",
+      "description": "FDownload is an online Facebook Video Downloader. It allows you to download Facebook videos to your device easily on Chrome browser.",
+      "jtbd": [
+        "When I want to save Facebook videos, I want an easy download option, so I can watch content offline"
+      ]
+    },
+    "gndcbndejfodldbldgjlbceailbadmni": {
+      "link": "https://chromewebstore.google.com/detail/tastewp-free-wordpress-in/gndcbndejfodldbldgjlbceailbadmni",
+      "description": "Spin up free WordPress instances for testing themes, plugins, or just playing around with WordPress!",
+      "jtbd": [
+        "When I need to test WordPress themes or plugins, I want a quick temporary instance, so I can experiment without setting up a server"
+      ]
+    },
+    "mkfjjmjmnplabnplceaekkjcmdddokee": {
+      "link": "https://chromewebstore.google.com/detail/tabhamster/mkfjjmjmnplabnplceaekkjcmdddokee",
+      "description": "Session manager and tabs saver. With sync",
+      "jtbd": [
+        "When I have important browsing sessions, I want to save and sync my tabs, so I can restore them later on any device"
+      ]
+    },
+    "gopdeincbeopbiglgmmfpieipmiblppm": {
+      "link": "https://chromewebstore.google.com/detail/aiktp-all-in-one-ai/gopdeincbeopbiglgmmfpieipmiblppm",
+      "description": "AIKTP combines ChatGPT, Gemini, Claude, Grok & more for SEO, Chat, and Content Creation. Boost your work with one powerful AI tool",
+      "jtbd": [
+        "When I need AI assistance, I want access to multiple AI models in one place, so I can choose the best one for each task",
+        "When I'm creating content, I want AI-powered tools for SEO, so I can optimize my writing"
+      ]
+    },
+    "gmhgoccodihlkbhpfkonoglnbjdbmgpl": {
+      "link": "https://chromewebstore.google.com/detail/music-on-stream/gmhgoccodihlkbhpfkonoglnbjdbmgpl",
+      "description": "Display your music on your stream",
+      "jtbd": [
+        "When I'm streaming, I want to display currently playing music, so my viewers can see what I'm listening to"
+      ]
+    },
+    "abllalcelecmcopjgejfbmkhphcmpmae": {
+      "link": "https://chromewebstore.google.com/detail/kickcom-twitchtv-vod-down/abllalcelecmcopjgejfbmkhphcmpmae",
+      "description": "Download VOD & Clips From Kick.com and Twitch.tv",
+      "jtbd": [
+        "When I find stream VODs or clips I want to save, I want to download them, so I can watch offline or use in my content"
+      ]
+    },
+    "mljponncmhdlacmjbophphkbgcgjdnff": {
+      "link": "https://chromewebstore.google.com/detail/mydoge-dogecoin-wallet/mljponncmhdlacmjbophphkbgcgjdnff",
+      "description": "Dogecoin wallet for Chrome browser",
+      "jtbd": [
+        "When I use Dogecoin, I want a browser wallet, so I can manage my DOGE and make transactions easily"
+      ]
+    },
+    "cjhhoaiagdpfhnmdcdefeffiaejndild": {
+      "link": "https://chromewebstore.google.com/detail/pdf-converted-convert-doc/cjhhoaiagdpfhnmdcdefeffiaejndild",
+      "description": "Convert your Documents to PDF and vice-versa format for free.",
+      "jtbd": [
+        "When I need to convert documents to PDF, I want a quick browser tool, so I can convert files without installing software"
+      ]
+    },
+    "haikmmmjkcejaalkjbfobneapigfmldp": {
+      "link": "https://chromewebstore.google.com/detail/cmeter/haikmmmjkcejaalkjbfobneapigfmldp",
+      "description": "Activates Content Meter library for web-pages.",
+      "jtbd": [
+        "When I'm analyzing web content, I want to activate content metering, so I can measure and track content consumption"
+      ]
+    },
+    "mlommmdimfnldmhmfobflhhjcgjphhpm": {
+      "link": "https://chromewebstore.google.com/detail/chemistry-reference-resol/mlommmdimfnldmhmfobflhhjcgjphhpm",
+      "description": "This extension quickly resolves a chemical reference",
+      "jtbd": [
+        "When I encounter chemical references in papers, I want quick resolution to sources, so I can access the original chemical data"
+      ]
+    },
+    "acnamgmgmbamffefgplhkplaanebgkac": {
+      "link": "https://chromewebstore.google.com/detail/vertical-tabs-for-google/acnamgmgmbamffefgplhkplaanebgkac",
+      "description": "Free! Easily manage and present your tabs vertically.",
+      "jtbd": [
+        "When I have many tabs open, I want to view them vertically, so I can see more tab titles and navigate more easily"
+      ]
+    },
+    "ejolmkmnegbamafoknjamlggejcikonk": {
+      "link": "https://chromewebstore.google.com/detail/enhanced-outlook-web-app/ejolmkmnegbamafoknjamlggejcikonk",
+      "description": "Improves the default behaviour of the Outlook Web App.",
+      "jtbd": [
+        "When I'm using Outlook Web App, I want improved default behaviors, so I can be more productive with my email"
+      ]
+    },
+    "adaoonobidpkcgoigdaeejombemnbfei": {
+      "link": "https://chromewebstore.google.com/detail/khan-academy-dots/adaoonobidpkcgoigdaeejombemnbfei",
+      "description": "Translate math notation in Khan Academy Crowdin strings.",
+      "jtbd": [
+        "When I'm translating Khan Academy content, I want math notation preserved, so I can maintain accuracy in educational materials"
+      ]
+    },
+    "hcghganppfkplebfebpdnnihcjmjefep": {
+      "link": "https://chromewebstore.google.com/detail/influencer-insights-for-i/hcghganppfkplebfebpdnnihcjmjefep",
+      "description": "Best insights tool for Instagram & YouTube influencers to use for your Influencer Marketing Campaigns, brought to you by Winkl",
+      "jtbd": [
+        "When I'm running influencer marketing campaigns, I want insights on Instagram and YouTube creators, so I can make informed partnership decisions"
+      ]
+    },
+    "ladlgedhbnkabmladijjemoggkpojcga": {
+      "link": "https://chromewebstore.google.com/detail/ooma-office-for-chrome/ladlgedhbnkabmladijjemoggkpojcga",
+      "description": "Ooma Office for Chrome extension brings your Ooma Office experience to your Chrome browser.",
+      "jtbd": [
+        "When I use Ooma Office phone system, I want browser integration, so I can make and receive calls without switching applications"
+      ]
+    },
+    "emiplbkkiabideffmpogkbbogkmofgph": {
+      "link": "https://chromewebstore.google.com/detail/http-commander/emiplbkkiabideffmpogkbbogkmofgph",
+      "description": "provide additional functionality for HTTP Commander - web file manager",
+      "jtbd": [
+        "When I'm managing files with HTTP Commander, I want additional browser features, so I can work with files more efficiently"
+      ]
+    },
+    "lflcmgiebpalnlcjbadhamjfkmkfpjmg": {
+      "link": "https://chromewebstore.google.com/detail/code-beautifier-js-css-ht/lflcmgiebpalnlcjbadhamjfkmkfpjmg",
+      "description": "A lite and free JavasScript, CSS and HTML beautifier for your browser.",
+      "jtbd": [
+        "When I'm working with messy code, I want to beautify JavaScript, CSS, and HTML, so I can read and debug it more easily"
+      ]
+    },
+    "hdlfamnpialfmlkddnmijnimciflhbjo": {
+      "link": "https://chromewebstore.google.com/detail/shade-calendar-%e2%80%93-time-blo/hdlfamnpialfmlkddnmijnimciflhbjo",
+      "description": "Color-code your time blocks in Google Calendar. Make your schedule easier to read, plan, and manage 📆",
+      "jtbd": [
+        "When I'm planning my schedule in Google Calendar, I want color-coded time blocks, so I can visually organize my day"
+      ]
+    },
+    "mnmdoenafmegociachigocoeonmknghl": {
+      "link": "https://chromewebstore.google.com/detail/mailtastic/mnmdoenafmegociachigocoeonmknghl",
+      "description": "Mailtastic, for more through your email signatures",
+      "jtbd": [
+        "When I'm managing email signatures with Mailtastic, I want quick access to tools, so I can create consistent brand signatures"
+      ]
+    },
+    "mnnlhhoblmkdamjbkmlolmpomhnplihm": {
+      "link": "https://chromewebstore.google.com/detail/check-range/mnnlhhoblmkdamjbkmlolmpomhnplihm",
+      "description": "Shift-click first and last checkbox to select/deselect range.",
+      "jtbd": [
+        "When I need to select multiple checkboxes, I want to shift-click to select a range, so I can save time on repetitive tasks"
+      ]
+    },
+    "hfhfhmjmahcmfnpoheijkhhlicgjabmk": {
+      "link": "https://chromewebstore.google.com/detail/seo-checker/hfhfhmjmahcmfnpoheijkhhlicgjabmk",
+      "description": "Meta title, description, alt tags, anchor text checker for On page SEO",
+      "jtbd": [
+        "When I'm doing on-page SEO analysis, I want to check meta titles, descriptions, and alt tags, so I can optimize my content for search engines"
+      ]
+    },
+    "mogococfigmacggnaonciboalpiooiln": {
+      "link": "https://chromewebstore.google.com/detail/toss-to-papago/mogococfigmacggnaonciboalpiooiln",
+      "description": "Toss selected text to Papago the AI Translator",
+      "jtbd": [
+        "When I encounter text in a foreign language, I want to quickly translate it with Papago AI, so I can understand the content"
+      ]
+    },
+    "lcblinegofgihklfnclgedlfcolbacpl": {
+      "link": "https://chromewebstore.google.com/detail/remove-youtube-tv-button/lcblinegofgihklfnclgedlfcolbacpl",
+      "description": "removes 'play on TV' button on YouTube",
+      "jtbd": [
+        "When I'm watching YouTube, I want to remove the 'play on TV' button, so I have a cleaner interface"
+      ]
+    },
+    "jdcjfphdohecknoaelnngakpignnedfb": {
+      "link": "https://chromewebstore.google.com/detail/lead-connect-linkedin-out/jdcjfphdohecknoaelnngakpignnedfb",
+      "description": "With smart messaging cadence, Unlimited Hubspot & Email Finder Integrations",
+      "jtbd": [
+        "When I'm doing sales outreach, I want smart messaging cadences with Hubspot integration, so I can automate my follow-up process"
+      ]
+    },
+    "ahbbccaailjoopighefcododkmgmbfpb": {
+      "link": "https://chromewebstore.google.com/detail/free-route-planner-for-go/ahbbccaailjoopighefcododkmgmbfpb",
+      "description": "Route Optimisation for Google Maps by Zeo",
+      "jtbd": [
+        "When I need to visit multiple locations, I want route optimization for Google Maps, so I can save time and fuel"
+      ]
+    },
+    "hgcgfmgjkfjmhoebifgmbfipinkkjgco": {
+      "link": "https://chromewebstore.google.com/detail/codeforces-lite-dark-mode/hgcgfmgjkfjmhoebifgmbfipinkkjgco",
+      "description": "Provides dark theme and code runner for Codeforces",
+      "jtbd": [
+        "When I'm competing on Codeforces, I want dark theme and a code runner, so I can focus on problem-solving comfortably"
+      ]
+    },
+    "bknoejjhcfmakcibhifepfkegpjdnadk": {
+      "link": "https://chromewebstore.google.com/detail/clear-downloads/bknoejjhcfmakcibhifepfkegpjdnadk",
+      "description": "Clears the Downloads list every 10 seconds to force the download button to disappear when all downloads are complete",
+      "jtbd": [
+        "When all my downloads are complete, I want the downloads list to auto-clear, so the download button disappears automatically"
+      ]
+    },
+    "eagmgpbjpedchliifpgfgogdknnmkaej": {
+      "link": "https://chromewebstore.google.com/detail/idmelon-weblogin/eagmgpbjpedchliifpgfgogdknnmkaej",
+      "description": "IDmelon WebLogin empowers you to replace your passwords with a single tap of your card on a reader.",
+      "jtbd": [
+        "When I'm logging into websites, I want passwordless authentication with IDmelon, so I can use my card for secure access"
+      ]
+    },
+    "mpbbkmbdpleomiogkbkkpfoljjpahmoi": {
+      "link": "https://chromewebstore.google.com/detail/affine-web-clipper/mpbbkmbdpleomiogkbkkpfoljjpahmoi",
+      "description": "Save pages in a private and durable format that you can access offline. The official extension for AFFiNE.",
+      "jtbd": [
+        "When I find web pages I want to save, I want to store them in AFFiNE, so I can access them offline in a durable format"
+      ]
+    },
+    "aiahphffiolplmdllamhjpkdclmknojh": {
+      "link": "https://chromewebstore.google.com/detail/nft-tab/aiahphffiolplmdllamhjpkdclmknojh",
+      "description": "See currently trending NFTs in every new tab that you can browse, sort, & bookmark",
+      "jtbd": [
+        "When I open a new tab, I want to see trending NFTs, so I can stay updated on the crypto art market"
+      ]
+    },
+    "aibdjehbnedbkkojmjohamkloglhlonb": {
+      "link": "https://chromewebstore.google.com/detail/arcelik-smart-tv-browser/aibdjehbnedbkkojmjohamkloglhlonb",
+      "description": "This extension injects Arcelik Smart TV APIs to your web page and simulates TV environment as much as possible",
+      "jtbd": [
+        "When I'm developing for Arcelik Smart TVs, I want API injection for testing, so I can simulate the TV environment in my browser"
+      ]
+    },
+    "aidgmggjdemjaobaogghgfakegjnfldo": {
+      "link": "https://chromewebstore.google.com/detail/offline-mode/aidgmggjdemjaobaogghgfakegjnfldo",
+      "description": "Disconnect your browser from the internet with offline mode.",
+      "jtbd": [
+        "When I need to test offline behavior, I want to disconnect my browser from the internet, so I can simulate offline conditions"
+      ]
+    },
+    "ajeinonckioeekcfanjndliandidilid": {
+      "link": "https://chromewebstore.google.com/detail/webpage-to-markdown/ajeinonckioeekcfanjndliandidilid",
+      "description": "Convert any webpage to Markdown format with a single click",
+      "jtbd": [
+        "When I want to save web content, I want to convert pages to Markdown, so I can use the content in my notes or documentation"
+      ]
+    },
+    "hhejbopdnpbjgomhpmegemnjogflenga": {
+      "link": "https://chromewebstore.google.com/detail/owallet/hhejbopdnpbjgomhpmegemnjogflenga",
+      "description": "OWallet — Multichain Web3 Wallet by Oraichain",
+      "jtbd": [
+        "When I'm using the Oraichain network, I want a multichain wallet, so I can manage my crypto assets across different chains"
+      ]
+    },
+    "onjjpeonkbenaglclaageiidffmfemco": {
+      "link": "https://chromewebstore.google.com/detail/google-docs-new/onjjpeonkbenaglclaageiidffmfemco",
+      "description": "Try Google Docs New: easily create Docs, Forms, Spreadsheets, and access Drive from your browser.",
+      "jtbd": [
+        "When I need to create Google Docs, Forms, or Spreadsheets, I want quick access from my browser, so I can start working immediately"
+      ]
+    },
+    "nabkmoilefdjaomjhjbobkklkikooapi": {
+      "link": "https://chromewebstore.google.com/detail/speech-recognition-anywhe/nabkmoilefdjaomjhjbobkklkikooapi",
+      "description": "Use Voice Recognition to fill out forms and dictate email with speech to text. Control the Internet with custom voice commands!",
+      "jtbd": [
+        "When I'm filling out forms, I want to use voice dictation, so I can type faster with speech-to-text",
+        "When I'm browsing the web, I want custom voice commands, so I can control my browser hands-free"
+      ]
+    },
+    "akmainiinlejjdanmfhkhfkekfolhdai": {
+      "link": "https://chromewebstore.google.com/detail/simple-ruler-beta/akmainiinlejjdanmfhkhfkekfolhdai",
+      "description": "Measure it! THIS EXTENSION IS FOR BETA TESTING",
+      "jtbd": [
+        "When I need to measure elements on screen, I want a measurement tool, so I can get precise dimensions"
+      ]
+    },
+    "ndneacmpkcghablknbeiiopilgeomhon": {
+      "link": "https://chromewebstore.google.com/detail/zendesk-dark-mode-theme/ndneacmpkcghablknbeiiopilgeomhon",
+      "description": "Take care of your eyes day and night using dark theme for Zendesk tools and services.",
+      "jtbd": [
+        "When I'm using Zendesk at night, I want dark theme, so I can reduce eye strain while working"
+      ]
+    },
+    "gdbmkehljhmfcjgbjcfaklnabeccddna": {
+      "link": "https://chromewebstore.google.com/detail/cookies-extractor/gdbmkehljhmfcjgbjcfaklnabeccddna",
+      "description": "Cookies Extractor is a handy tool to help developers extract website cookies, making it easier for them to debug APIs.",
+      "jtbd": [
+        "When I'm debugging APIs, I want to extract website cookies easily, so I can test authenticated endpoints"
+      ]
+    },
+    "ncjafpiokcjepnnlmgdaphkkjehapbln": {
+      "link": "https://chromewebstore.google.com/detail/wikitree-browser-extensio/ncjafpiokcjepnnlmgdaphkkjehapbln",
+      "description": "The official WikiTree browser extension.",
+      "jtbd": [
+        "When I'm contributing to WikiTree, I want browser extension features, so I can work on genealogy more efficiently"
+      ]
+    },
+    "ldhlapfekgpknjhffocedpflhipfpjbi": {
+      "link": "https://chromewebstore.google.com/detail/download-virus-scanner/ldhlapfekgpknjhffocedpflhipfpjbi",
+      "description": "Auto scan all the download files against well-known anti-viruses using VirusTotal API.",
+      "jtbd": [
+        "When I download files, I want automatic virus scanning via VirusTotal, so I can protect my computer from malware"
+      ]
+    },
+    "hicjdabjhdmaaabgackleegipabmeack": {
+      "link": "https://chromewebstore.google.com/detail/html-visual-validation/hicjdabjhdmaaabgackleegipabmeack",
+      "description": "HTML Visual Validation gives you information about the html elements, live, on page.",
+      "jtbd": [
+        "When I'm checking web page structure, I want live HTML element information, so I can validate the markup"
+      ]
+    },
+    "ooppbalbkbdabcmaijemiaekfpnhijcl": {
+      "link": "https://chromewebstore.google.com/detail/stonly-browser-extension/ooppbalbkbdabcmaijemiaekfpnhijcl",
+      "description": "Enhance your Stonly guides creation experience with our browser extension.",
+      "jtbd": [
+        "When I'm creating Stonly guides, I want enhanced browser tools, so I can build better documentation"
+      ]
+    },
+    "hinkdfeimgkdgkildfkbmegapmiieffg": {
+      "link": "https://chromewebstore.google.com/detail/website-scraper/hinkdfeimgkdgkildfkbmegapmiieffg",
+      "description": "The Website Scraper is an extension designed for web scraping. Effortlessly scrape a website and harness data scraping with ease",
+      "jtbd": [
+        "When I need to extract data from websites, I want a web scraping tool, so I can gather information for analysis"
+      ]
+    },
+    "hinkmcnegnkncphhncbiohnomfgdegce": {
+      "link": "https://chromewebstore.google.com/detail/tris/hinkmcnegnkncphhncbiohnomfgdegce",
+      "description": "Search any and see others searching same. Chat with other Searchers in real-time. Create Alerts to be notified when others search.",
+      "jtbd": [
+        "When I'm searching online, I want to see what others are searching for, so I can discover popular topics",
+        "When someone searches for the same thing, I want to chat with them, so I can connect with like-minded people"
+      ]
+    },
+    "hbnncioglhbalkgbpbfhnmpihojjjcbi": {
+      "link": "https://chromewebstore.google.com/detail/swiggle-safe-search/hbnncioglhbalkgbpbfhnmpihojjjcbi",
+      "description": "Swiggle child-friendly search engine from the Online Safety experts at SWGfL.\n\nSearching the internet for images or content can…",
+      "jtbd": [
+        "When children are searching the internet, I want a child-friendly search engine, so I can protect them from inappropriate content"
+      ]
+    },
+    "aninmieokgdbdcgoiglchhhhbpnpolja": {
+      "link": "https://chromewebstore.google.com/detail/save-image-as-type/aninmieokgdbdcgoiglchhhhbpnpolja",
+      "description": "Save images in different formats like JPG, PNG, WEBP with right-click menu.",
+      "jtbd": [
+        "When I need to save images, I want to choose the format (JPG, PNG, WEBP), so I can get the file type I need"
+      ]
+    },
+    "hjfkaobgkmaeomgdhmhhipdbjdhhjkoi": {
+      "link": "https://chromewebstore.google.com/detail/goto-tab/hjfkaobgkmaeomgdhmhhipdbjdhhjkoi",
+      "description": "Productivity focused extension that helps you manage browser tabs",
+      "jtbd": [
+        "When I have too many browser tabs, I want a productivity-focused tab manager, so I can stay organized"
+      ]
+    },
+    "aogbgdnkcjgamgglpikcenliinchedel": {
+      "link": "https://chromewebstore.google.com/detail/autoplay-settings-for-you/aogbgdnkcjgamgglpikcenliinchedel",
+      "description": "Disable autoplay on YouTube™ and save your autoplay settings between sessions.",
+      "jtbd": [
+        "When I'm on YouTube, I want autoplay disabled, so I can control what videos play next"
+      ]
+    },
+    "nbmkldaonngpkjagofgclbioanahipdp": {
+      "link": "https://chromewebstore.google.com/detail/one-click-ticktick/nbmkldaonngpkjagofgclbioanahipdp",
+      "description": "Instantly create a new TickTick task with a link to the current page in just one click!",
+      "jtbd": [
+        "When I find a webpage to remember, I want to instantly create a TickTick task with the link, so I can add it to my todo list"
+      ]
+    },
+    "nbnfkhblcofmmbeamohjmmjfmfmhknpj": {
+      "link": "https://chromewebstore.google.com/detail/cursorlux-mouse-highlight/nbnfkhblcofmmbeamohjmmjfmfmhknpj",
+      "description": "A customizable mouse highlighter extension to highlight your cursor and clicks!",
+      "jtbd": [
+        "When I'm presenting or recording my screen, I want to highlight my cursor and clicks, so viewers can follow my actions"
+      ]
+    },
+    "dboboillnhldihjigadainihehfoackd": {
+      "link": "https://chromewebstore.google.com/detail/priority-matrix-for-chrom/dboboillnhldihjigadainihehfoackd",
+      "description": "Chrome Extension to turn web links into Priority Matrix items. Save PDF files, and context menu with other options.",
+      "jtbd": [
+        "When I find web content to save, I want to add it to Priority Matrix, so I can organize and prioritize my links"
+      ]
+    },
+    "jonloekipbhbjfcdpicecchjhhoidncn": {
+      "link": "https://chromewebstore.google.com/detail/temu-images-downloader/jonloekipbhbjfcdpicecchjhhoidncn",
+      "description": "Save your time by downloading all images with one click and zipping them together.",
+      "jtbd": [
+        "When I want to save all images from a webpage, I want to download and zip them together, so I can get them with one click"
+      ]
+    },
+    "baemjgbkbdldejgjceijnbkigkgkppoa": {
+      "link": "https://chromewebstore.google.com/detail/snapmagic/baemjgbkbdldejgjceijnbkigkgkppoa",
+      "description": "A new experience to help make your design a snap. Focus on design with ready-to-use PCB footprints and schematic symbols",
+      "jtbd": [
+        "When I'm designing PCBs, I want ready-to-use footprints and schematic symbols, so I can focus on the design itself"
+      ]
+    },
+    "bafodoggphpfleoconpidjbljeaahjkj": {
+      "link": "https://chromewebstore.google.com/detail/post-and-search/bafodoggphpfleoconpidjbljeaahjkj",
+      "description": "Post and Search is a modern extension designed to bring modern architecture to your every day browsing experience.",
+      "jtbd": [
+        "When I'm browsing, I want modern architecture for posting and searching, so I can have a better browsing experience"
+      ]
+    },
+    "fepopmflofkppphpkfjdbmimglkeifna": {
+      "link": "https://chromewebstore.google.com/detail/lipsum-generator/fepopmflofkppphpkfjdbmimglkeifna",
+      "description": "Generate lorem ipsum dummy text.",
+      "jtbd": [
+        "When I need placeholder text, I want to generate lorem ipsum quickly, so I can focus on the design"
+      ]
+    },
+    "bapjjkngobbamfijnkfcboaipbdlnbie": {
+      "link": "https://chromewebstore.google.com/detail/clicklearn-connector/bapjjkngobbamfijnkfcboaipbdlnbie",
+      "description": "ClickLearn Connector",
+      "jtbd": [
+        "When I'm using ClickLearn, I want browser connector functionality, so I can integrate with my learning platform"
+      ]
+    },
+    "bbppejejjfancffmhncgkhjdaikdgagc": {
+      "link": "https://chromewebstore.google.com/detail/undisposition-racle-fork/bbppejejjfancffmhncgkhjdaikdgagc",
+      "description": "Removes Content-Disposition: attachment HTTP header to allow view files instead of downloading them. Extension icon acts as toggle.",
+      "jtbd": [
+        "When I want to view files instead of downloading them, I want to remove Content-Disposition headers, so I can preview files in the browser"
+      ]
+    },
+    "fgfklknfijhflahngajfoagmoilakebp": {
+      "link": "https://chromewebstore.google.com/detail/web-archive-viewer/fgfklknfijhflahngajfoagmoilakebp",
+      "description": "Open the archived version of the current page on the Wayback Machine.",
+      "jtbd": [
+        "When I need to access an old version of a webpage, I want to open it on the Wayback Machine, so I can see archived content"
+      ]
+    },
+    "bdfkognhpfgcoafcncpdgpjlbhoigpil": {
+      "link": "https://chromewebstore.google.com/detail/ostendo-%e2%80%93-capture-beautif/bdfkognhpfgcoafcncpdgpjlbhoigpil",
+      "description": "Capture & Share beautiful Tiles of YouTube Thumbnails & Comments! Customize the shape, content, and theme!",
+      "jtbd": [
+        "When I find interesting YouTube content, I want to capture thumbnails and comments as tiles, so I can share them in a visual format"
+      ]
+    },
+    "pnibhbifpoiplpgkaajjejeigfchahpl": {
+      "link": "https://chromewebstore.google.com/detail/pagespeed-insights-shortc/pnibhbifpoiplpgkaajjejeigfchahpl",
+      "description": "A shortcut to open current page in Google PageSpeed Insights instantly. Record all history reports and track scores with line chart.",
+      "jtbd": [
+        "When I want to check page speed, I want a shortcut to PageSpeed Insights, so I can quickly see performance metrics",
+        "When I'm tracking performance over time, I want to view historical reports, so I can monitor improvements"
+      ]
+    },
+    "kgidpmgjombekdkhnlkbhaoenldlpmeb": {
+      "link": "https://chromewebstore.google.com/detail/sitemap-generator/kgidpmgjombekdkhnlkbhaoenldlpmeb",
+      "description": "Generate XML sitemaps effortlessly with Sitemap Generator. Convenient structured file creator for better SEO and website indexing.",
+      "jtbd": [
+        "When I need a sitemap for SEO, I want to generate XML sitemaps easily, so I can improve my website's indexing"
+      ]
+    },
+    "nfbdbedhecbnjnlnlbgljegpdnjmfcbl": {
+      "link": "https://chromewebstore.google.com/detail/change-my-location/nfbdbedhecbnjnlnlbgljegpdnjmfcbl",
+      "description": "Easily change your location to see search results in an other city, state, or country!  Great for marketing research.",
+      "jtbd": [
+        "When I'm doing marketing research, I want to see search results from different locations, so I can understand regional variations"
+      ]
+    },
+    "fipfgiejfpcdacpjepkohdlnjonchnal": {
+      "link": "https://chromewebstore.google.com/detail/keyboard-shortcuts-to-man/fipfgiejfpcdacpjepkohdlnjonchnal",
+      "description": "Add hotkeys to 1)close tabs to the left, 2)close tabs to the right, 3)close other tabs, 4)toggle tab pinning",
+      "jtbd": [
+        "When I'm managing browser tabs, I want hotkeys to close tabs by position, so I can clean up my workspace quickly"
+      ]
+    },
+    "lgjdpadgainjhokjahdjoapcdekdioge": {
+      "link": "https://chromewebstore.google.com/detail/seo-spider-tools/lgjdpadgainjhokjahdjoapcdekdioge",
+      "description": "SpiderNow's Technical SEO and Web Audit tools are designed to help website owners discover and improve On-Page SEO issues.",
+      "jtbd": [
+        "When I'm auditing a website's SEO, I want technical analysis tools, so I can identify and fix on-page issues"
+      ]
+    },
+    "fjbkdjfgiikcecefpbbijmhfnbijjacc": {
+      "link": "https://chromewebstore.google.com/detail/segura%c2%ae-mysafe/fjbkdjfgiikcecefpbbijmhfnbijjacc",
+      "description": "Segura® MySafe allows you to insert passwords from your segura vault in your browser.",
+      "jtbd": [
+        "When I'm using Segura MySafe, I want to insert passwords from my vault, so I can log in securely without remembering passwords"
+      ]
+    },
+    "lgndjfkadlbpaifdpbbobdodbaiaiakb": {
+      "link": "https://chromewebstore.google.com/detail/authenticator-app/lgndjfkadlbpaifdpbbobdodbaiaiakb",
+      "description": "Provides secure two-factor authentication(2FA). Safeguard your digital life with ease.",
+      "jtbd": [
+        "When I need two-factor authentication, I want a secure 2FA provider, so I can protect my accounts"
+      ]
+    },
+    "nfhlbmjiiogoelaflfclodlkncbdiefo": {
+      "link": "https://chromewebstore.google.com/detail/sizzy/nfhlbmjiiogoelaflfclodlkncbdiefo",
+      "description": "The responsive design browser",
+      "jtbd": [
+        "When I'm testing responsive designs, I want a responsive design browser, so I can see how sites look on different screens"
+      ]
+    },
+    "npojienggkmiiemiolplijhfdmppacik": {
+      "link": "https://chromewebstore.google.com/detail/wa-audio-voice-message-to/npojienggkmiiemiolplijhfdmppacik",
+      "description": "Convert all WhatsApp voice messages into text with ease – automatic or one-click transcription.",
+      "jtbd": [
+        "When I receive WhatsApp voice messages, I want them transcribed to text, so I can read them instead of listening"
+      ]
+    },
+    "bgjfbcjoaghcfdhnnnnaofkjbnelkkcm": {
+      "link": "https://chromewebstore.google.com/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm",
+      "description": "Get the raw URLs of all your open tabs!",
+      "jtbd": [
+        "When I need to share multiple tab URLs, I want to get raw URLs of all open tabs, so I can copy and share them easily"
+      ]
+    },
+    "dhkkimcelcgopfjblmblfhbihlihhppe": {
+      "link": "https://chromewebstore.google.com/detail/hilton-ressmart-click-to/dhkkimcelcgopfjblmblfhbihlihhppe",
+      "description": "Enables clickable telephone numbers inside the ResSmart application which will call via Amazon Connect",
+      "jtbd": [
+        "When I'm using ResSmart with Amazon Connect, I want clickable phone numbers, so I can make calls with one click"
+      ]
+    },
+    "pfmniffolgcocaddipjjiboklapjhihg": {
+      "link": "https://chromewebstore.google.com/detail/pogline/pfmniffolgcocaddipjjiboklapjhihg",
+      "description": "Pogline is one of the ad blockers that works efficiently and quickly to help you enjoy the internet",
+      "jtbd": [
+        "When I'm browsing the internet, I want ads blocked, so I can have a cleaner browsing experience"
+      ]
+    },
+    "ngbebejjbijmijmhbbpkllcnjpgkjikl": {
+      "link": "https://chromewebstore.google.com/detail/depth-translator-for-deep/ngbebejjbijmijmhbbpkllcnjpgkjikl",
+      "description": "An Assistant to Translate Selected Texts with DeepL",
+      "jtbd": [
+        "When I encounter text in another language, I want to translate it with DeepL, so I can get high-quality translations"
+      ]
+    },
+    "bhjmmlcdfdcdloebidhnlgoabjpbfjbk": {
+      "link": "https://chromewebstore.google.com/detail/bitrix-composite-notifier/bhjmmlcdfdcdloebidhnlgoabjpbfjbk",
+      "description": "Shows statistics and debugging information for the composite site.",
+      "jtbd": [
+        "When I'm debugging composite sites, I want statistics and information, so I can troubleshoot issues"
+      ]
+    },
+    "hpggkibcoihnkijdjikppfkhbfepjohl": {
+      "link": "https://chromewebstore.google.com/detail/cookie-editor/hpggkibcoihnkijdjikppfkhbfepjohl",
+      "description": "Easily view and edit cookies for any website via toolbar popup!",
+      "jtbd": [
+        "When I need to manage website cookies, I want to view and edit them easily, so I can debug or customize my session"
+      ]
+    },
+    "ngmpmjpigceaccddpkoeejmakahopopa": {
+      "link": "https://chromewebstore.google.com/detail/better-blackboard-learn/ngmpmjpigceaccddpkoeejmakahopopa",
+      "description": "Dark mode, Custom Course Images & Names, Custom Themes, and More for Blackboard Learn.",
+      "jtbd": [
+        "When I'm using Blackboard Learn, I want dark mode and custom themes, so I can have a better learning experience"
+      ]
+    },
+    "hpibfnhnogcgalnademehbgcpllmgdil": {
+      "link": "https://chromewebstore.google.com/detail/scrollshot-scrolling-scre/hpibfnhnogcgalnademehbgcpllmgdil",
+      "description": "Full page screenshots including support for ChatGPT, Grafana and Jira",
+      "jtbd": [
+        "When I need to capture a full page, I want a screenshot tool that works with ChatGPT, Grafana, and Jira, so I can save entire pages"
+      ]
+    },
+    "klpaihnmefppdfjmodipinghakkemlkg": {
+      "link": "https://chromewebstore.google.com/detail/devtools-for-d365fo/klpaihnmefppdfjmodipinghakkemlkg",
+      "description": "Chrome extension for D365 F&O: colors the nav bar, shows DB field names, and more",
+      "jtbd": [
+        "When I'm using D365 F&O, I want colored nav bars and DB field names, so I can navigate and debug more easily"
+      ]
+    },
+    "bgjmgnnejbaolgolmagcgcfinhpdbcgn": {
+      "link": "https://chromewebstore.google.com/detail/smartsheet/bgjmgnnejbaolgolmagcgcfinhpdbcgn",
+      "description": "Desktop App Redirect extension.",
+      "jtbd": [
+        "When I'm redirected to a desktop app, I want the redirect handled automatically, so I can switch applications seamlessly"
+      ]
+    },
+    "icmbnkmjhdapliaologdghjfpcmcimln": {
+      "link": "https://chromewebstore.google.com/detail/group-tabs-by-domain/icmbnkmjhdapliaologdghjfpcmcimln",
+      "description": "Streamline browsing. Group tabs by domain effortlessly. Stay organized, boost productivity.",
+      "jtbd": [
+        "When I have many tabs open, I want to group them by domain, so I can stay organized and boost productivity"
+      ]
+    },
+    "bjgoclnaikhcakddfddjalaoelgmhgif": {
+      "link": "https://chromewebstore.google.com/detail/gst-credential-manager/bjgoclnaikhcakddfddjalaoelgmhgif",
+      "description": "An extension for one to fill-up username / passwords of various clients in a click on GST website",
+      "jtbd": [
+        "When I'm working on the GST website, I want to fill client credentials with one click, so I can save time logging in"
+      ]
+    },
+    "ianmkfjhfmjjlchjceijknakecemeope": {
+      "link": "https://chromewebstore.google.com/detail/transorai-ai-translator-w/ianmkfjhfmjjlchjceijknakecemeope",
+      "description": "Free AI translator for web pages, YouTube/Netflix subtitles, PDFs & images. Real-time bilingual translation tool.",
+      "jtbd": [
+        "When I'm reading foreign web pages, I want real-time bilingual translation, so I can understand content in my language",
+        "When watching videos with subtitles, I want them translated, so I can follow along in my language"
+      ]
+    },
+    "bjmgfifmindcopelajhaahpibmmojkga": {
+      "link": "https://chromewebstore.google.com/detail/omnidefend-mfa-extension/bjmgfifmindcopelajhaahpibmmojkga",
+      "description": "Use OmniDefend's multi-factor authentication (MFA) features (non-FIDO device).",
+      "jtbd": [
+        "When I need multi-factor authentication, I want to use OmniDefend MFA, so I can secure my accounts"
+      ]
+    },
+    "bkabpllkghhddkikpelcmjklipifickd": {
+      "link": "https://chromewebstore.google.com/detail/font-finder-by-whatfont/bkabpllkghhddkikpelcmjklipifickd",
+      "description": "Font Finder directly find font details from web pages easily.",
+      "jtbd": [
+        "When I see a font I like on a website, I want to identify it easily, so I can use it in my own projects"
+      ]
+    },
+    "niiahgnkkalkindhghjcaojcpbkhfbbp": {
+      "link": "https://chromewebstore.google.com/detail/global-privacy-control-gp/niiahgnkkalkindhghjcaojcpbkhfbbp",
+      "description": "This GPC Chrome Extension enables the Global Privacy Control opt-out signal and evaluates how websites respond to the setting",
+      "jtbd": [
+        "When I want to opt out of tracking, I want the Global Privacy Control signal enabled, so I can protect my privacy"
+      ]
+    },
+    "ljeebljkookphadpedhmnlokpennimon": {
+      "link": "https://chromewebstore.google.com/detail/google-inbox-checker-inbo/ljeebljkookphadpedhmnlokpennimon",
+      "description": "Displays the number of unread messages in your Google Inbox with desktop notifications for new emails.",
+      "jtbd": [
+        "When I have unread Google Inbox messages, I want to see the count and get notifications, so I don't miss important emails"
+      ]
+    },
+    "hmckjkoaomjipiplhjmihgdjgkjedfjg": {
+      "link": "https://chromewebstore.google.com/detail/merch-dominator-for-merch/hmckjkoaomjipiplhjmihgdjgkjedfjg",
+      "description": "Merch Dominator is the all-in-one tool for Merch By Amazon & KDP, streamlining product research and auto upload for faster workflow",
+      "jtbd": [
+        "When I'm selling on Merch by Amazon or KDP, I want research and auto-upload tools, so I can streamline my workflow"
+      ]
+    },
+    "bmikpgodpkclnkgmnpphehdgcimmided": {
+      "link": "https://chromewebstore.google.com/detail/myki-password-manager-aut/bmikpgodpkclnkgmnpphehdgcimmided",
+      "description": "MYKI Password Manager Browser Extension",
+      "jtbd": [
+        "When I need to manage passwords, I want the MYKI browser extension, so I can securely auto-fill credentials"
+      ]
+    },
+    "ajhkehblebieocfkddeeikfkcecbcijn": {
+      "link": "https://chromewebstore.google.com/detail/1minai-extension/ajhkehblebieocfkddeeikfkcecbcijn",
+      "description": "1min.AI Extension",
+      "jtbd": [
+        "When I need AI assistance, I want 1min.AI extension, so I can get quick AI help in my browser"
+      ]
+    },
+    "bnfpfpdmaekgccgcfikhkjoejhoapnbj": {
+      "link": "https://chromewebstore.google.com/detail/format-copier/bnfpfpdmaekgccgcfikhkjoejhoapnbj",
+      "description": "A format painter for Gmail. Copies a text format and applies that format to other text.",
+      "jtbd": [
+        "When I need to apply text formatting in Gmail, I want a format painter, so I can copy styles to other text"
+      ]
+    },
+    "ajibjgkclejanlffognhfjojjedflhpp": {
+      "link": "https://chromewebstore.google.com/detail/udemy-picture-in-picture/ajibjgkclejanlffognhfjojjedflhpp",
+      "description": "This is a picture-in-picture extension for use on Udemy",
+      "jtbd": [
+        "When I'm watching Udemy courses, I want picture-in-picture mode, so I can continue learning while doing other tasks"
+      ]
+    },
+    "ifcbbmfoblmmckaacfoeillbkchclfpe": {
+      "link": "https://chromewebstore.google.com/detail/view-reddit-images-direct/ifcbbmfoblmmckaacfoeillbkchclfpe",
+      "description": "view reddit images directly",
+      "jtbd": [
+        "When I'm browsing Reddit, I want to view images directly, so I can see content without clicking through"
+      ]
+    },
+    "ifclboecfhkjbpmhgehodcjpciihhmif": {
+      "link": "https://chromewebstore.google.com/detail/klever-wallet/ifclboecfhkjbpmhgehodcjpciihhmif",
+      "description": "Klever wallet inside your browser",
+      "jtbd": [
+        "When I'm using the Klever ecosystem, I want a browser wallet, so I can manage my crypto assets"
+      ]
+    },
+    "bnndhdcnlgjjbikldmplfgdiamphpcol": {
+      "link": "https://chromewebstore.google.com/detail/flip-rotate-image-sempurn/bnndhdcnlgjjbikldmplfgdiamphpcol",
+      "description": "Klik kanan pada gambar untuk memutar atau membaliknya, atau gunakan popup untuk mengubah semua gambar.",
+      "jtbd": [
+        "When I need to rotate or flip images, I want right-click options, so I can adjust images quickly"
+      ]
+    },
+    "lkomnldkbflfbkebenomadllalainpec": {
+      "link": "https://chromewebstore.google.com/detail/adjust-screen-brightness/lkomnldkbflfbkebenomadllalainpec",
+      "description": "Changes the color temperature of websites.",
+      "jtbd": [
+        "When I'm working late at night, I want to change website color temperature, so I can reduce eye strain"
+      ]
+    },
+    "bogkphfdgobbdiapedfgjmdibojjnppa": {
+      "link": "https://chromewebstore.google.com/detail/seo-serp-counter-free-ser/bogkphfdgobbdiapedfgjmdibojjnppa",
+      "description": "Free SERP checker + counter tool to count the rankings",
+      "jtbd": [
+        "When I need to check SERP rankings, I want a free tool to count positions, so I can track my SEO performance"
+      ]
+    },
+    "pdkhfkjcfgiemfbnabpdffjhfmocokbg": {
+      "link": "https://chromewebstore.google.com/detail/%e5%ad%a6%e4%b9%a0/pdkhfkjcfgiemfbnabpdffjhfmocokbg",
+      "description": "一个学习强国的帮手",
+      "jtbd": [
+        "When I'm using Xuexi Qiangguo (学习强国), I want a helper tool, so I can navigate the platform more easily"
+      ]
+    },
+    "nlcnnilgjcdldkinlocencacndieokdl": {
+      "link": "https://chromewebstore.google.com/detail/%e8%b0%b7%e9%9c%b2%e5%b0%8f%e6%b0%b4%e6%bb%b4/nlcnnilgjcdldkinlocencacndieokdl",
+      "description": "谷露小水滴插件可以帮助您一键导入简历、简历查重、AI分析",
+      "jtbd": [
+        "When I'm using Gulu (谷露) recruitment platform, I want resume import and AI analysis, so I can process candidates faster"
+      ]
+    },
+    "fpfpcficbjpanlhdcjmkhopnbafbmpfa": {
+      "link": "https://chromewebstore.google.com/detail/audio-capture-%e2%80%93-record-ta/fpfpcficbjpanlhdcjmkhopnbafbmpfa",
+      "description": "Easily record audio from any browser tab in Chrome. Save sound from YouTube, podcasts, or streaming sites in one click.",
+      "jtbd": [
+        "When I want to save audio from web pages, I want to record from browser tabs, so I can capture podcasts, music, or streaming content"
+      ]
+    },
+    "dphbcebnfdinmcjnmhhglojgfhegmngc": {
+      "link": "https://chromewebstore.google.com/detail/note-it-aside-%e2%80%93-sticky-no/dphbcebnfdinmcjnmhhglojgfhegmngc",
+      "description": "Take quick sticky notes, to-dos, and reminders right in browser's side panel — stay focused and productive every day.",
+      "jtbd": [
+        "When I need to take quick notes, I want sticky notes in my browser's side panel, so I can stay focused and productive"
+      ]
+    },
+    "dpindoafffjhbnhbdgjibhdoklelcfdn": {
+      "link": "https://chromewebstore.google.com/detail/dochero-ai-your-ai-academ/dpindoafffjhbnhbdgjibhdoklelcfdn",
+      "description": "Academic translation, journal factor, and intelligent rephrasing",
+      "jtbd": [
+        "When I'm doing academic work, I want translation and journal impact factors, so I can research more effectively"
+      ]
+    },
+    "nmdenlkgkkgncmibclhckkhclilpfjap": {
+      "link": "https://chromewebstore.google.com/detail/beamery-extension/nmdenlkgkkgncmibclhckkhclilpfjap",
+      "description": "Easily source connections into Beamery from any webpage",
+      "jtbd": [
+        "When I'm sourcing candidates for Beamery, I want to import connections from any webpage, so I can build my talent pool"
+      ]
+    },
+    "nmjjcokoigamfoklbjmhpmjajmcjbjld": {
+      "link": "https://chromewebstore.google.com/detail/xpath-helper/nmjjcokoigamfoklbjmhpmjajmcjbjld",
+      "description": "Extract, edit, and evaluate XPath queries with ease.",
+      "jtbd": [
+        "When I'm testing web elements, I want to extract and evaluate XPath queries, so I can write accurate selectors"
+      ]
+    },
+    "lmmkabdibcnmjolemacgimkiakgopiga": {
+      "link": "https://chromewebstore.google.com/detail/mentiplus/lmmkabdibcnmjolemacgimkiakgopiga",
+      "description": "Mentimeter formatting extension. Change a graph column's colour or the format of the axis text using a contextual menu",
+      "jtbd": [
+        "When I'm creating Mentimeter presentations, I want formatting options for graphs, so I can customize the appearance"
+      ]
+    },
+    "ckdpobpfcmaimckielbjokndgdpelhef": {
+      "link": "https://chromewebstore.google.com/detail/webrtc-leak-shield/ckdpobpfcmaimckielbjokndgdpelhef",
+      "description": "Protect privacy with WebRTC Control. Check WebRTC leak shield, run ip leak test, and secure surfing via this WebRTC extension.",
+      "jtbd": [
+        "When I'm concerned about IP leaks, I want WebRTC control, so I can protect my privacy"
+      ]
+    },
+    "honddgdnobfcbldlmimekbmphjnehbbb": {
+      "link": "https://chromewebstore.google.com/detail/oreilly/honddgdnobfcbldlmimekbmphjnehbbb",
+      "description": "Get quick access to your content by opening a new tab and find trusted O'Reilly Answers when searching with Google or Stack Overflow",
+      "jtbd": [
+        "When I open a new tab, I want quick access to O'Reilly content, so I can find technical answers faster"
+      ]
+    },
+    "hbjoofdalcnhalhjodhechdpolcfpipb": {
+      "link": "https://chromewebstore.google.com/detail/numerousai/hbjoofdalcnhalhjodhechdpolcfpipb",
+      "description": "Use AI to generate formulas, categorize items, format cells, and perform repetitive tasks in Google Sheets.",
+      "jtbd": [
+        "When I'm working in Google Sheets, I want AI to generate formulas, so I can automate complex tasks"
+      ]
+    },
+    "camilcgaojjnemdajaipbjjkehleclnf": {
+      "link": "https://chromewebstore.google.com/detail/ptengine-assistant/camilcgaojjnemdajaipbjjkehleclnf",
+      "description": "Enhance the performance of Ptengine heatmaps and experience no-code editor.",
+      "jtbd": [
+        "When I'm using Ptengine heatmaps, I want enhanced performance, so I can analyze user behavior effectively"
+      ]
+    },
+    "lmldakdjelendidnmaieidggbffljlle": {
+      "link": "https://chromewebstore.google.com/detail/senja-testimonial-extensi/lmldakdjelendidnmaieidggbffljlle",
+      "description": "Import and share your testimonials and reviews",
+      "jtbd": [
+        "When I have testimonials and reviews, I want to import and share them, so I can build social proof"
+      ]
+    },
+    "nnjghdlejggihlebpckdmnflblhoehee": {
+      "link": "https://chromewebstore.google.com/detail/split-pdf/nnjghdlejggihlebpckdmnflblhoehee",
+      "description": "Split your PDF files fast and free!",
+      "jtbd": [
+        "When I need to split a PDF file, I want a fast and free tool, so I can separate pages quickly"
+      ]
+    }
+  },
+  "stats": {
+    "total": 5615,
+    "processed": 149,
+    "batch": 2
+  }
+}
