@@ -23,6 +23,17 @@ desktop.ini
 *.temp
 *.log
 
+# MongoDB Docker
+scripts/mongodb/data/
+mongodb_data/
+
+# Progress files
+*-import-progress.json
+*-progress.json
+
+# Environment files
+.env.mongodb
+
 # Большие бинарные файлы (опционально)
 # *.xlsx
 # *.htm
