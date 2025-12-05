@@ -15,6 +15,11 @@ Usage:
 
 import sys
 import json
+import io
+
+# Fix Windows console encoding for UTF-8 output
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 try:
     from pymongo import MongoClient
