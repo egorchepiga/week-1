@@ -10,40 +10,55 @@
 | Урок | Тема | Статус | Результат |
 |------|------|--------|-----------|
 | **01** | Выбор идеи | ✅ Завершён | ТОП-50 идей отобрано |
-| **02** | Keyword Research | ✅ Завершён | 50 отчётов создано |
+| **02** | Keyword Research | ✅ Завершён | 48/50 верифицировано в Semrush |
 | **03** | Разработка MVP | ⏳ Не начат | - |
 | **04** | Публикация | ⏳ Не начат | - |
 
 ---
 
-## Рекомендованная идея
+## Рекомендованная идея (UPDATED with Semrush data)
 
-### Приоритет 1: `close-duplicate-tabs`
-- **Volume:** 590
-- **KD:** 28%
-- **Причина:** Минимальный MVP, одна функция, низкий KD
+### Приоритет 1: `vertical-tabs`
+- **Volume:** 3,800 (Semrush verified)
+- **KD:** 23%
+- **Причина:** Низкий KD подтверждён, Tab Management ниша
 
-### Альтернатива: `json-formatter`
-- **Volume:** 8,100
-- **KD:** 45%
-- **Причина:** Высокий volume, много open-source
+### Приоритет 2: `xpath-finder`
+- **Volume:** 2,500 (Semrush verified)
+- **KD:** 24%
+- **Причина:** Низкий KD подтверждён, Dev Tools ниша
+
+### Высокий Volume (но проверить KD): `lorem-ipsum-generator`
+- **Volume:** 49,500 (Semrush verified)
+- **KD:** не определён
+- **Причина:** Очень высокий volume, простая функция
 
 ---
 
-## ТОП-10 рекомендованных идей
+## ТОП-10 по верифицированному Volume
 
-| # | Keyword | Volume | KD | Status |
+| # | Keyword | Volume (Semrush) | KD% | Status |
+|---|---------|------------------|-----|--------|
+| 1 | word counter | 1,000,000 | - | HIGH COMPETITION |
+| 2 | qr code generator | 823,000 | - | HIGH COMPETITION |
+| 3 | text to speech | 246,000 | - | MODERATE |
+| 4 | color picker | 201,000 | - | MODERATE |
+| 5 | password generator | 165,000 | 81% | HIGH KD |
+| 6 | font finder | 110,000 | 77% | HIGH KD |
+| 7 | json formatter | 90,500 | 79% | HIGH KD |
+| 8 | pomodoro timer | 74,000 | - | MODERATE |
+| 9 | lorem ipsum generator | 49,500 | - | RECOMMENDED |
+| 10 | ai summarizer | 33,100 | - | MODERATE |
+
+## Лучшие идеи для MVP (Low KD confirmed)
+
+| # | Keyword | Volume | KD% | Status |
 |---|---------|--------|-----|--------|
-| 1 | close-duplicate-tabs | 590 | 28% | RECOMMENDED |
-| 2 | youtube-screenshot | 1,300 | 32% | RECOMMENDED |
-| 3 | lorem-ipsum-generator | 1,300 | 32% | RECOMMENDED |
-| 4 | magnifying-glass | 720 | 28% | RECOMMENDED |
-| 5 | base64-encoder | 880 | 28% | RECOMMENDED |
-| 6 | json-formatter | 8,100 | 45% | PROMISING |
-| 7 | word-counter | 2,400 | 38% | PROMISING |
-| 8 | pomodoro-timer | 4,400 | 42% | PROMISING |
-| 9 | chatgpt-prompts | 6,600 | 48% | PROMISING |
-| 10 | qr-code-generator | 6,600 | 48% | PROMISING |
+| 1 | **vertical tabs** | 3,800 | 23% | BEST PICK |
+| 2 | **xpath finder** | 2,500 | 24% | RECOMMENDED |
+| 3 | lorem ipsum generator | 49,500 | - | HIGH VOLUME |
+| 4 | code beautifier | 12,600 | - | DEV TOOL |
+| 5 | eyedropper | 6,600 | - | DESIGN TOOL |
 
 ---
 

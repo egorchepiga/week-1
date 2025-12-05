@@ -123,9 +123,49 @@
 - Структурированные отчёты по шаблону
 
 ### Что требует внимания:
-- Нужна верификация Volume/KD в Semrush
+- ✅ Верификация Volume/KD в Semrush ЗАВЕРШЕНА (48/50)
 - 4 идеи без конкурентов требуют проверки спроса
 - Некоторые идеи с оптимизированными конкурентами
+
+---
+
+## Semrush Verification (2025-12-05)
+
+### Результаты верификации:
+- **48/50 keywords** успешно верифицированы
+- **2 keywords** не удалось верифицировать (css inspector, chatgpt for sheets)
+
+### Ключевые находки:
+
+**Volume сильно отличается от оценок:**
+| Keyword | Оценка | Semrush | Разница |
+|---------|--------|---------|---------|
+| word counter | 2,400 | 1,000,000 | +416x |
+| qr code generator | 6,600 | 823,000 | +124x |
+| lorem ipsum generator | 1,300 | 49,500 | +38x |
+| json formatter | 8,100 | 90,500 | +11x |
+
+**Подтверждённый низкий KD (<30%):**
+- **vertical tabs:** 23% KD, 3,800 volume
+- **xpath finder:** 24% KD, 2,500 volume
+
+**Высокий KD (>70%) — избегать:**
+- password generator: 81%
+- countdown timer: 81%
+- json formatter: 79%
+- website blocker: 79%
+- regex tester: 78%
+- font finder: 77%
+- screen recorder: 74%
+
+### Новая рекомендация для MVP:
+
+**`vertical-tabs`** — единственный keyword с подтверждённым низким KD (23%) и приличным volume (3,800)
+
+### Созданные файлы:
+- `scripts/semrush_verify.py` — скрипт верификации через Playwright
+- `lesson-02/outputs/semrush_verified.json` — сырые данные
+- `lesson-02/outputs/SEMRUSH_VERIFIED_REPORT.md` — отчёт с анализом
 
 ### Рекомендации:
 1. Верифицировать ТОП-10 в Semrush перед MVP
