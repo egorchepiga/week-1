@@ -1,0 +1,59 @@
+{
+  "keyword": "gmass alternative",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 70,
+    "keyword_difficulty": 14,
+    "kd_label": "Very easy",
+    "global_volume": 440,
+    "intent": ["Informational", "Commercial"],
+    "cpc": 12.47,
+    "competitive_density": 0.57,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 70, "percent": 15.9},
+    "UK": {"volume": 30, "percent": 6.8},
+    "AU": {"volume": 20, "percent": 4.5},
+    "BD": {"volume": 20, "percent": 4.5},
+    "CA": {"volume": 20, "percent": 4.5},
+    "DE": {"volume": 20, "percent": 4.5},
+    "Other": {"volume": 260, "percent": 59.1}
+  },
+  "keyword_variations": {
+    "total_keywords": 16,
+    "total_volume": 230,
+    "top_variations": [
+      {"keyword": "gmass alternative", "volume": 70, "kd": 14},
+      {"keyword": "alternative to gmass", "volume": 30, "kd": null},
+      {"keyword": "gmass alternative free", "volume": 30, "kd": null},
+      {"keyword": "gmass alternatives", "volume": 30, "kd": null},
+      {"keyword": "gmass free alternative", "volume": 30, "kd": 9}
+    ]
+  },
+  "questions": {
+    "total_keywords": 0,
+    "total_volume": 0,
+    "top_questions": []
+  },
+  "serp_analysis": {
+    "results_count": 100,
+    "softness_percent": 10,
+    "serp_features": ["Sitelinks", "AI Overview", "Image pack", "Video"],
+    "top_10": [
+      {"position": 1, "domain": "reddit.com", "type": "Forum", "page_as": 0},
+      {"position": 2, "domain": "gmass.co", "type": "Competitor Blog", "page_as": 12},
+      {"position": 3, "domain": "saleshandy.com", "type": "Competitor Blog", "page_as": 14},
+      {"position": 4, "domain": "warmforge.ai", "type": "Blog", "page_as": 0},
+      {"position": 5, "domain": "merge.email", "type": "SaaS Alternative Page", "page_as": 0},
+      {"position": 6, "domain": "mailforge.ai", "type": "Blog", "page_as": 0},
+      {"position": 7, "domain": "gmass.co", "type": "Competitor Blog", "page_as": 13},
+      {"position": 8, "domain": "mailmeteor.com", "type": "SaaS Alternative Page", "page_as": 13},
+      {"position": 9, "domain": "gmass.co", "type": "Competitor Blog", "page_as": 12},
+      {"position": 10, "domain": "instantly.ai", "type": "Blog", "page_as": 11}
+    ]
+  },
+  "verdict": "LOW VOLUME - Volume 70 is too low for primary keyword. GMass dominates 3/10 SERP positions. High CPC ($12.47) shows commercial intent but low search demand."
+}

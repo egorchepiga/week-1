@@ -1,0 +1,61 @@
+{
+  "keyword": "gmail mail merge",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 1900,
+    "keyword_difficulty": 70,
+    "kd_label": "Hard",
+    "global_volume": 7900,
+    "intent": "Informational",
+    "cpc": 5.49,
+    "competitive_density": 0.46,
+    "pla": "n/a",
+    "ads": "GMass running ads"
+  },
+  "global_distribution": {
+    "US": {"volume": 1900, "percent": 24.1},
+    "IN": {"volume": 1300, "percent": 16.5},
+    "UK": {"volume": 720, "percent": 9.1},
+    "CA": {"volume": 480, "percent": 6.1},
+    "AU": {"volume": 390, "percent": 4.9}
+  },
+  "keyword_variations": {
+    "total_keywords": 814,
+    "total_volume": 15500,
+    "top_variations": [
+      {"keyword": "mail merge gmail", "volume": 2900, "kd": 66},
+      {"keyword": "gmail mail merge", "volume": 1900, "kd": 70},
+      {"keyword": "google mail merge", "volume": 1600, "kd": 67},
+      {"keyword": "mail merge for gmail", "volume": 720, "kd": 64},
+      {"keyword": "mail merge in gmail", "volume": 590, "kd": 64}
+    ]
+  },
+  "questions": {
+    "total_keywords": 176,
+    "total_volume": 3300,
+    "top_questions": [
+      {"keyword": "how to mail merge in gmail", "volume": 720, "kd": 64},
+      {"keyword": "how to do mail merge in gmail", "volume": 590, "kd": 63},
+      {"keyword": "can you mail merge in gmail", "volume": 320, "kd": 59}
+    ]
+  },
+  "serp_analysis": {
+    "softness_percent": 70,
+    "extensions_in_serp": 2,
+    "top_10": [
+      {"position": 1, "domain": "support.google.com", "type": "Documentation"},
+      {"position": 2, "domain": "blog.google", "type": "Blog"},
+      {"position": 3, "domain": "workspace.google.com/marketplace", "type": "Google Workspace App"},
+      {"position": 4, "domain": "merge.email", "type": "SaaS Tool"},
+      {"position": 5, "domain": "clouddevs.com", "type": "Blog"},
+      {"position": 6, "domain": "chromewebstore.google.com (GMass)", "type": "Chrome Extension"},
+      {"position": 7, "domain": "workspace.google.com (YAMM)", "type": "Google Workspace App"},
+      {"position": 8, "domain": "gmass.co", "type": "SaaS Tool"},
+      {"position": 9, "domain": "yamm.com", "type": "SaaS Tool"},
+      {"position": 10, "domain": "mailmeteor.com", "type": "SaaS Tool"}
+    ],
+    "serp_features": ["AI Overview", "Video", "People also ask", "Ads top"]
+  },
+  "verdict": "MARGINAL - High volume (1900) but KD 70% is very hard. Established competitors (GMass, YAMM, Mailmeteor). CPC $5.49 shows commercial intent."
+}
