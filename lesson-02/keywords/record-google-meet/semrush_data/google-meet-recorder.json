@@ -1,0 +1,26 @@
+{
+  "keyword": "google meet recorder",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 140,
+    "keyword_difficulty": 36,
+    "kd_label": "Possible",
+    "global_volume": 410,
+    "intent": ["Informational", "Transactional"],
+    "cpc": 4.44,
+    "competitive_density": 0.58,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 140, "percent": 34.1},
+    "BR": {"volume": 40, "percent": 9.8},
+    "AU": {"volume": 20, "percent": 4.9},
+    "CA": {"volume": 20, "percent": 4.9},
+    "DE": {"volume": 20, "percent": 4.9},
+    "ES": {"volume": 20, "percent": 4.9},
+    "Other": {"volume": 150, "percent": 36.6}
+  },
+  "verdict": "FAIL - Volume too low (140 < 500 minimum)"
+}
