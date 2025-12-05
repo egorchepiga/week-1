@@ -1,0 +1,51 @@
+{
+  "keyword": "save website offline",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 50,
+    "volume_global": 1200,
+    "kd_percent": 45,
+    "kd_level": "Possible",
+    "cpc": 0,
+    "competitive_density": 0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "United States", "volume": 50, "share_percent": 4.3},
+    {"country": "Bangladesh", "volume": 30, "share_percent": 2.6},
+    {"country": "Switzerland", "volume": 30, "share_percent": 2.6},
+    {"country": "Egypt", "volume": 30, "share_percent": 2.6},
+    {"country": "Croatia", "volume": 30, "share_percent": 2.6},
+    {"country": "Indonesia", "volume": 30, "share_percent": 2.6}
+  ],
+  "variations": {
+    "total_count": 274,
+    "total_volume": 1200,
+    "top_keywords": [
+      {"keyword": "how to save a website offline", "volume": 70, "kd_percent": 44},
+      {"keyword": "save a website for offline", "volume": 70, "kd_percent": 43},
+      {"keyword": "how to save a website for offline viewing", "volume": 50, "kd_percent": 36},
+      {"keyword": "how to save a website to view offline", "volume": 50, "kd_percent": 34},
+      {"keyword": "how to save website for offline", "volume": 50, "kd_percent": 30}
+    ]
+  },
+  "questions": {
+    "total_count": 121,
+    "total_volume": 660,
+    "top_questions": [
+      {"question": "how to save a website offline", "volume": 70, "kd_percent": 44},
+      {"question": "how to save a website for offline viewing", "volume": 50, "kd_percent": 36},
+      {"question": "how to save a website to view offline", "volume": 50, "kd_percent": 34},
+      {"question": "how to save website for offline", "volume": 50, "kd_percent": 30},
+      {"question": "how to save website for offline viewing", "volume": 50, "kd_percent": 24}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection"
+}

@@ -1,0 +1,61 @@
+{
+  "keyword": "page downloader",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 260,
+    "volume_global": 3900,
+    "kd_percent": 52,
+    "kd_level": "Difficult",
+    "cpc": 0,
+    "competitive_density": 0,
+    "intent": "Informational, Commercial",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 720, "share_percent": 18.5},
+    {"country": "Indonesia", "volume": 390, "share_percent": 10.0},
+    {"country": "United States", "volume": 260, "share_percent": 6.7},
+    {"country": "Brazil", "volume": 210, "share_percent": 5.4},
+    {"country": "Nigeria", "volume": 170, "share_percent": 4.4},
+    {"country": "Philippines", "volume": 170, "share_percent": 4.4}
+  ],
+  "variations": {
+    "total_count": 7411,
+    "total_volume": 44400,
+    "top_keywords": [
+      {"keyword": "how to save website to desktop", "volume": 1600, "kd_percent": 19},
+      {"keyword": "save video from website.", "volume": 1600, "kd_percent": null},
+      {"keyword": "how to save a website to desktop", "volume": 1300, "kd_percent": 21},
+      {"keyword": "how to save a website as a pdf", "volume": 880, "kd_percent": 45},
+      {"keyword": "how to save website as pdf", "volume": 590, "kd_percent": 37}
+    ]
+  },
+  "questions": {
+    "total_count": 2856,
+    "total_volume": 23500,
+    "top_questions": [
+      {"question": "how to save website to desktop", "volume": 1600, "kd_percent": 19},
+      {"question": "how to save a website to desktop", "volume": 1300, "kd_percent": 21},
+      {"question": "how to save a website as a pdf", "volume": 880, "kd_percent": 45},
+      {"question": "how to save website as pdf", "volume": 590, "kd_percent": 37},
+      {"question": "how do i save a website to my desktop", "volume": 390, "kd_percent": 30}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "7.0B",
+    "serp_features": ["Sitelinks", "Image pack", "Video"],
+    "top_results": [
+      {"position": 1, "url": "https://saveweb2zip.com/en", "domain": "saveweb2zip.com", "type": "Web Tool", "page_as": 34, "ref_domains": 64, "backlinks": 159, "search_traffic": 6500, "url_keywords": 858},
+      {"position": 2, "url": "https://chromewebstore.google.com/detail/web-page-downloader/iaaokenmfgahhlcfbdipjonlkeinadaa", "domain": "google.com", "type": "Extension", "page_as": 24, "ref_domains": 3, "backlinks": 6, "search_traffic": 3100, "url_keywords": 278},
+      {"position": 3, "url": "https://websitedownloader.com/", "domain": "websitedownloader.com", "type": "Web Tool", "page_as": 19, "ref_domains": 327, "backlinks": 482, "search_traffic": 1700, "url_keywords": 561},
+      {"position": 4, "url": "https://www6.waybackmachinedownloader.com/website-downloader-online/", "domain": "waybackmachinedownloader.com", "type": "Web Tool", "page_as": 56, "ref_domains": 215, "backlinks": 954, "search_traffic": 2200, "url_keywords": 990},
+      {"position": 5, "url": "https://extract.pics/", "domain": "extract.pics", "type": "Web Tool", "page_as": 37, "ref_domains": 266, "backlinks": 583, "search_traffic": 50700, "url_keywords": 2800},
+      {"position": 6, "url": "https://www.httrack.com/", "domain": "httrack.com", "type": "Software", "page_as": 69, "ref_domains": 2600, "backlinks": 69000, "search_traffic": 20900, "url_keywords": 1200},
+      {"position": 7, "url": "https://simplystatic.com/tools/website-downloader/", "domain": "simplystatic.com", "type": "Web Tool", "page_as": 41, "ref_domains": 179, "backlinks": 281, "search_traffic": 449, "url_keywords": 387},
+      {"position": 8, "url": "https://www.cyotek.com/cyotek-webcopy", "domain": "cyotek.com", "type": "Software", "page_as": 52, "ref_domains": 474, "backlinks": 2300, "search_traffic": 1400, "url_keywords": 577},
+      {"position": 9, "url": "https://dynomapper.com/blog/11-content-inventory/287-how-to-download-an-entire-website-for-offline-viewing", "domain": "dynomapper.com", "type": "Blog", "page_as": 42, "ref_domains": 24, "backlinks": 614, "search_traffic": 764, "url_keywords": 318},
+      {"position": 10, "url": "https://webpagetest.org/", "domain": "webpagetest.org", "type": "Web Tool", "page_as": 70, "ref_domains": 18200, "backlinks": 172000, "search_traffic": 20200, "url_keywords": 7400}
+    ]
+  }
+}

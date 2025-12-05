@@ -1,0 +1,61 @@
+{
+  "keyword": "website saver",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 50,
+    "volume_global": 460,
+    "kd_percent": 46,
+    "kd_level": "Possible",
+    "cpc": 0,
+    "competitive_density": 0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 90, "share_percent": 19.6},
+    {"country": "United States", "volume": 50, "share_percent": 10.9},
+    {"country": "Australia", "volume": 20, "share_percent": 4.3},
+    {"country": "Belgium", "volume": 20, "share_percent": 4.3},
+    {"country": "Brazil", "volume": 20, "share_percent": 4.3},
+    {"country": "Canada", "volume": 20, "share_percent": 4.3}
+  ],
+  "variations": {
+    "total_count": 7411,
+    "total_volume": 44400,
+    "top_keywords": [
+      {"keyword": "how to save website to desktop", "volume": 1600, "kd_percent": 19},
+      {"keyword": "save video from website.", "volume": 1600, "kd_percent": null},
+      {"keyword": "how to save a website to desktop", "volume": 1300, "kd_percent": 21},
+      {"keyword": "how to save a website as a pdf", "volume": 880, "kd_percent": 45},
+      {"keyword": "how to save website as pdf", "volume": 590, "kd_percent": 37}
+    ]
+  },
+  "questions": {
+    "total_count": 2856,
+    "total_volume": 23500,
+    "top_questions": [
+      {"question": "how to save website to desktop", "volume": 1600, "kd_percent": 19},
+      {"question": "how to save a website to desktop", "volume": 1300, "kd_percent": 21},
+      {"question": "how to save a website as a pdf", "volume": 880, "kd_percent": 45},
+      {"question": "how to save website as pdf", "volume": 590, "kd_percent": 37},
+      {"question": "how do i save a website to my desktop", "volume": 390, "kd_percent": 30}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "6.6B",
+    "serp_features": ["Sitelinks", "Video"],
+    "top_results": [
+      {"position": 1, "url": "https://saveweb2zip.com/en", "domain": "saveweb2zip.com", "type": "Web Tool", "page_as": 34, "ref_domains": 64, "backlinks": 159, "search_traffic": 6500, "url_keywords": 858},
+      {"position": 2, "url": "https://www.httrack.com/", "domain": "httrack.com", "type": "Software", "page_as": 69, "ref_domains": 2600, "backlinks": 69000, "search_traffic": 20900, "url_keywords": 1200},
+      {"position": 3, "url": "https://chromewebstore.google.com/detail/website-downloader/iaaokenmfgahhlcfbdipjonlkeinadaa", "domain": "google.com", "type": "Extension", "page_as": 24, "ref_domains": 3, "backlinks": 6, "search_traffic": 3100, "url_keywords": 278},
+      {"position": 4, "url": "https://www.reddit.com/r/DataHoarder/comments/14776q8/what_is_a_good_program_to_download_a_full_website/", "domain": "reddit.com", "type": "Discussion", "page_as": 0, "ref_domains": 1, "backlinks": 1, "search_traffic": 2000, "url_keywords": 87},
+      {"position": 5, "url": "https://www6.waybackmachinedownloader.com/website-downloader-online/", "domain": "waybackmachinedownloader.com", "type": "Web Tool", "page_as": 56, "ref_domains": 215, "backlinks": 954, "search_traffic": 2200, "url_keywords": 990},
+      {"position": 6, "url": "https://websitedownloader.com/", "domain": "websitedownloader.com", "type": "Web Tool", "page_as": 19, "ref_domains": 327, "backlinks": 482, "search_traffic": 1700, "url_keywords": 561},
+      {"position": 7, "url": "https://play.google.com/store/apps/details?id=com.WebsiteSourceCode.Viewer", "domain": "google.com", "type": "Android App", "page_as": 0, "ref_domains": 0, "backlinks": 0, "search_traffic": 212, "url_keywords": 44},
+      {"position": 8, "url": "https://simplystatic.com/tools/website-downloader/", "domain": "simplystatic.com", "type": "Web Tool", "page_as": 41, "ref_domains": 179, "backlinks": 281, "search_traffic": 449, "url_keywords": 387},
+      {"position": 9, "url": "https://dynomapper.com/blog/11-content-inventory/287-how-to-download-an-entire-website-for-offline-viewing", "domain": "dynomapper.com", "type": "Blog", "page_as": 42, "ref_domains": 24, "backlinks": 614, "search_traffic": 764, "url_keywords": 318},
+      {"position": 10, "url": "https://www.cyotek.com/cyotek-webcopy", "domain": "cyotek.com", "type": "Software", "page_as": 52, "ref_domains": 474, "backlinks": 2300, "search_traffic": 1400, "url_keywords": 577}
+    ]
+  }
+}

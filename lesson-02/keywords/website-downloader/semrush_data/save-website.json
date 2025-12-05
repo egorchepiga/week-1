@@ -1,0 +1,61 @@
+{
+  "keyword": "save website",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 390,
+    "volume_global": 2200,
+    "kd_percent": 65,
+    "kd_level": "Difficult",
+    "cpc": 7.59,
+    "competitive_density": 0.02,
+    "intent": "Navigational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "United States", "volume": 390, "share_percent": 17.8},
+    {"country": "India", "volume": 260, "share_percent": 11.9},
+    {"country": "Brazil", "volume": 210, "share_percent": 9.6},
+    {"country": "Indonesia", "volume": 110, "share_percent": 5.0},
+    {"country": "United Kingdom", "volume": 90, "share_percent": 4.1},
+    {"country": "United Arab Emirates", "volume": 20, "share_percent": 0.91}
+  ],
+  "variations": {
+    "total_count": 7411,
+    "total_volume": 44400,
+    "top_keywords": [
+      {"keyword": "how to save website to desktop", "volume": 1600, "kd_percent": 19},
+      {"keyword": "save video from website.", "volume": 1600, "kd_percent": null},
+      {"keyword": "how to save a website to desktop", "volume": 1300, "kd_percent": 21},
+      {"keyword": "how to save a website as a pdf", "volume": 880, "kd_percent": 45},
+      {"keyword": "how to save website as pdf", "volume": 590, "kd_percent": 37}
+    ]
+  },
+  "questions": {
+    "total_count": 2856,
+    "total_volume": 23500,
+    "top_questions": [
+      {"question": "how to save website to desktop", "volume": 1600, "kd_percent": 19},
+      {"question": "how to save a website to desktop", "volume": 1300, "kd_percent": 21},
+      {"question": "how to save a website as a pdf", "volume": 880, "kd_percent": 45},
+      {"question": "how to save website as pdf", "volume": 590, "kd_percent": 37},
+      {"question": "how do i save a website to my desktop", "volume": 390, "kd_percent": 30}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "5.5B",
+    "serp_features": ["Sitelinks", "Video", "People also ask"],
+    "top_results": [
+      {"position": 1, "url": "https://www.uscis.gov/save", "domain": "uscis.gov", "type": "Government", "page_as": 66, "ref_domains": 738, "backlinks": 2400, "search_traffic": 15900, "url_keywords": 7000},
+      {"position": 2, "url": "https://chromewebstore.google.com/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof", "domain": "google.com", "type": "Extension", "page_as": 34, "ref_domains": 2, "backlinks": 2, "search_traffic": 1500, "url_keywords": 180},
+      {"position": 3, "url": "https://www.reddit.com/r/DataHoarder/comments/q7r65p/how_can_i_save_a_website_for_permanent_offline/", "domain": "reddit.com", "type": "Discussion", "page_as": 0, "ref_domains": 0, "backlinks": 0, "search_traffic": 1200, "url_keywords": 99},
+      {"position": 4, "url": "https://saveweb2zip.com/en", "domain": "saveweb2zip.com", "type": "Web Tool", "page_as": 34, "ref_domains": 64, "backlinks": 159, "search_traffic": 6500, "url_keywords": 858},
+      {"position": 5, "url": "https://support.mozilla.org/en-US/kb/how-save-web-page", "domain": "mozilla.org", "type": "Documentation", "page_as": 48, "ref_domains": 44, "backlinks": 83, "search_traffic": 233, "url_keywords": 233},
+      {"position": 6, "url": "https://support.google.com/chrome/answer/7343019", "domain": "google.com", "type": "Documentation", "page_as": 42, "ref_domains": 42, "backlinks": 70, "search_traffic": 957, "url_keywords": 302},
+      {"position": 7, "url": "https://help.archive.org/help/save-pages-in-the-wayback-machine/", "domain": "archive.org", "type": "Documentation", "page_as": 50, "ref_domains": 76, "backlinks": 229, "search_traffic": 1100, "url_keywords": 339},
+      {"position": 8, "url": "https://www.kaspersky.com/blog/how-to-use-web-archives-and-permanently-save-webpages/52587/", "domain": "kaspersky.com", "type": "Blog", "page_as": 19, "ref_domains": 12, "backlinks": 42, "search_traffic": 23, "url_keywords": 226},
+      {"position": 9, "url": "https://www.dhs.gov/publication/systematic-alien-verification-entitlements-save-program", "domain": "dhs.gov", "type": "Government", "page_as": 51, "ref_domains": 48, "backlinks": 99, "search_traffic": 362, "url_keywords": 99},
+      {"position": 10, "url": "https://www.usgs.gov/core-science-systems/ngp/tnm-corps/web-browser-tip-save-webpage-complete", "domain": "usgs.gov", "type": "Government", "page_as": 0, "ref_domains": 0, "backlinks": 0, "search_traffic": 45, "url_keywords": 80}
+    ]
+  }
+}

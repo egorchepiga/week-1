@@ -3,7 +3,7 @@
 > **Date:** 2025-12-05
 > **Branch:** research/website-downloader
 > **Status:** COMPLETED
-> **Keywords Analyzed:** 10/15
+> **Keywords Analyzed:** 15/15
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-## All Keywords Analyzed
+## All Keywords Analyzed (15/15)
 
 | Keyword | Volume (US) | KD% | CPC | Intent | Verdict |
 |---------|-------------|-----|-----|--------|---------|
@@ -31,8 +31,14 @@
 | download website | 1,300 | 53% | $0 | I | Zero CPC |
 | html downloader | 590 | 55% | $1.97 | I + C | Chrome ext #1 |
 | website archiver | 480 | 59% | $4.57 | **N** | **NO-GO** (Navigational) |
+| save website | 390 | 65% | $7.59 | **N** | **NO-GO** (Navigational) |
+| page downloader | 260 | 52% | $0 | I + C | Low volume |
 | web page downloader | 170 | 44% | $0 | I | Low volume |
+| offline website | 140 | 61% | $0 | I | Low vol, High KD |
+| download website chrome | 70 | 68% | $32.07 | I + N | Low vol, High KD |
+| website saver | 50 | 46% | $0 | I | Low volume |
 | save website offline | 50 | 45% | $0 | I | Low volume |
+| full page downloader | 20 | n/a | $0 | n/a | Very low volume |
 
 ---
 
@@ -195,22 +201,28 @@ Consider as SEPARATE research target:
 
 ---
 
-## Raw Data Files
+## Raw Data Files (JSON Format)
 
 | File | Content |
 |------|---------|
 | `niche-analysis.md` | MongoDB competitor analysis (20 competitors) |
 | `raw_keywords.md` | Task tracker with all keywords |
-| `semrush_data/website-downloader.md` | Primary keyword data |
-| `semrush_data/website-copier.md` | Best keyword data |
-| `semrush_data/clone-website.md` | Alternative keyword data |
-| `semrush_data/web-scraper.md` | Pivot opportunity data |
-| `semrush_data/site-downloader.md` | Keyword data |
-| `semrush_data/html-downloader.md` | Keyword data |
-| `semrush_data/download-website.md` | Keyword data |
-| `semrush_data/website-archiver.md` | NO-GO keyword data |
-| `semrush_data/web-page-downloader.md` | Low volume keyword |
-| `semrush_data/save-website-offline.md` | Low volume keyword |
+| `semrush_data/website-downloader.json` | Primary keyword data |
+| `semrush_data/website-copier.json` | Best keyword data |
+| `semrush_data/clone-website.json` | Alternative keyword data |
+| `semrush_data/web-scraper.json` | Pivot opportunity data |
+| `semrush_data/site-downloader.json` | Keyword data |
+| `semrush_data/html-downloader.json` | Keyword data |
+| `semrush_data/download-website.json` | Keyword data |
+| `semrush_data/website-archiver.json` | NO-GO keyword data |
+| `semrush_data/web-page-downloader.json` | Low volume keyword |
+| `semrush_data/save-website-offline.json` | Low volume keyword |
+| `semrush_data/save-website.json` | Navigational (NO-GO) |
+| `semrush_data/website-saver.json` | Low volume |
+| `semrush_data/page-downloader.json` | Low volume |
+| `semrush_data/offline-website.json` | Low volume, High KD |
+| `semrush_data/full-page-downloader.json` | Very low volume |
+| `semrush_data/download-website-chrome.json` | Low vol, High KD |
 
 ---
 
@@ -243,4 +255,6 @@ Strong opportunity requiring separate research:
 ---
 
 *Research completed: 2025-12-05*
+*Keywords analyzed: 15/15 (100%)*
+*JSON data files: 16*
 *Verdict: NO-GO (main niche) | CONDITIONAL GO (website copier) | RESEARCH NEEDED (web scraper)*

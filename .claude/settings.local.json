@@ -14,7 +14,10 @@
       "Bash(mv:*)",
       "Bash(gh pr create:*)",
       "Bash(pkill:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(chmod:*)",
+      "Bash(claude --print --agent chrome-keyword-generator \"email extractor\")",
+      "Bash(claude --print --agent:*)"
     ],
     "deny": [],
     "ask": []

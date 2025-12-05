@@ -1,0 +1,51 @@
+{
+  "keyword": "website archiver",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 480,
+    "volume_global": 16400,
+    "kd_percent": 59,
+    "kd_level": "Difficult",
+    "cpc": 4.57,
+    "competitive_density": 0,
+    "intent": "Navigational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 1900, "share_percent": 11.6},
+    {"country": "Azerbaijan", "volume": 1000, "share_percent": 6.1},
+    {"country": "Poland", "volume": 880, "share_percent": 5.4},
+    {"country": "South Africa", "volume": 880, "share_percent": 5.4},
+    {"country": "Algeria", "volume": 720, "share_percent": 4.4},
+    {"country": "United States", "volume": 480, "share_percent": 2.9}
+  ],
+  "variations": {
+    "total_count": 2700,
+    "total_volume": 59800,
+    "top_keywords": [
+      {"keyword": "website archive", "volume": 8100, "kd_percent": 85},
+      {"keyword": "archive website", "volume": 5400, "kd_percent": 90},
+      {"keyword": "website archive sites", "volume": 2900, "kd_percent": 35},
+      {"keyword": "internet archives website", "volume": 1600, "kd_percent": 82},
+      {"keyword": "web archive website", "volume": 1600, "kd_percent": 54}
+    ]
+  },
+  "questions": {
+    "total_count": 361,
+    "total_volume": 2500,
+    "top_questions": [
+      {"question": "how to archive a website", "volume": 320, "kd_percent": 47},
+      {"question": "how to crawl website internet archives", "volume": 320, "kd_percent": 31},
+      {"question": "how do you archive a website", "volume": 170, "kd_percent": 31},
+      {"question": "how to archive websites", "volume": 140, "kd_percent": 52},
+      {"question": "how to archive website", "volume": 90, "kd_percent": 51}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection. WARNING: Navigational intent - users searching for archive.org"
+}
