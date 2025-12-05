@@ -1,0 +1,63 @@
+{
+  "keyword": "insert table gmail",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 590,
+    "keyword_difficulty": 21,
+    "kd_label": "Easy",
+    "global_volume": 2900,
+    "intent": "Informational",
+    "cpc": 0,
+    "competitive_density": 0,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "IN": {"volume": 590, "percent": 20.3},
+    "US": {"volume": 590, "percent": 20.3},
+    "SG": {"volume": 140, "percent": 4.8},
+    "CA": {"volume": 70, "percent": 2.4},
+    "UK": {"volume": 70, "percent": 2.4},
+    "AU": {"volume": 50, "percent": 1.7},
+    "Other": {"volume": 1400, "percent": 47.9}
+  },
+  "keyword_variations": [
+    {"keyword": "insert table in gmail", "volume": 880, "kd": 20},
+    {"keyword": "gmail insert table", "volume": 720, "kd": 20},
+    {"keyword": "insert a table into gmail", "volume": 590, "kd": 14},
+    {"keyword": "insert table gmail", "volume": 590, "kd": 21},
+    {"keyword": "how to insert a table in gmail", "volume": 480, "kd": 19}
+  ],
+  "questions": [
+    {"keyword": "how to insert a table in gmail", "volume": 480, "kd": 19},
+    {"keyword": "how to insert table in gmail", "volume": 480, "kd": 14},
+    {"keyword": "how to insert table into gmail", "volume": 320, "kd": 21},
+    {"keyword": "how to insert a table into gmail", "volume": 260, "kd": 25},
+    {"keyword": "can i insert a table in gmail", "volume": 50, "kd": 22}
+  ],
+  "total_variations": 121,
+  "total_variations_volume": 6600,
+  "total_questions": 56,
+  "total_questions_volume": 2100,
+  "serp_analysis": {
+    "results_count": "44.0M",
+    "serp_features": ["AI Overview", "Image pack", "Video", "Video carousel", "People also ask"],
+    "softness_score": "20%",
+    "softness_verdict": "LOW - mostly informational articles, only 2 extensions in top 10",
+    "our_extension_position": 4,
+    "top_results": [
+      {"position": 1, "url": "support.google.com/mail/thread/2910771", "domain": "google.com", "type": "Forum", "page_as": 0, "ref_domains": 0, "backlinks": 0},
+      {"position": 2, "url": "it.stonybrook.edu/help/kb/...", "domain": "stonybrook.edu", "type": "University IT Help", "page_as": 0, "ref_domains": 0, "backlinks": 0},
+      {"position": 3, "url": "yamm.com/blog/how-to-insert-table-in-gmail", "domain": "yamm.com", "type": "Blog Article", "page_as": 10, "ref_domains": 2, "backlinks": 3},
+      {"position": 4, "url": "chromewebstore.google.com/detail/tables-for-gmail-by-cloud/pkgjbjdolcdbpmddccngjdijegfokdgi", "domain": "google.com", "type": "Chrome Extension (TARGET)", "page_as": 0, "ref_domains": 0, "backlinks": 0},
+      {"position": 5, "url": "support.google.com/docs/answer/1696711", "domain": "google.com", "type": "Documentation", "page_as": 58, "ref_domains": 65, "backlinks": 624},
+      {"position": 6, "url": "geeksforgeeks.org/techtips/how-to-insert-tables-into-a-gmail-message", "domain": "geeksforgeeks.org", "type": "Tech Article", "page_as": 20, "ref_domains": 2, "backlinks": 2},
+      {"position": 7, "url": "merge.email/gmail-knowledge/how-to-insert-a-table-in-a-gmail-message", "domain": "merge.email", "type": "Blog Article", "page_as": 6, "ref_domains": 9, "backlinks": 10},
+      {"position": 8, "url": "support.cloudhq.net/getting-started-with-gmail-tables", "domain": "cloudhq.net", "type": "Support Page (same developer)", "page_as": 0, "ref_domains": 0, "backlinks": 0},
+      {"position": 9, "url": "gmail-tables.com", "domain": "gmail-tables.com", "type": "Product Website (same developer)", "page_as": 19, "ref_domains": 13, "backlinks": 96},
+      {"position": 10, "url": "chromewebstore.google.com/detail/quick-table-for-gmail/fmolkclgdnbgkcgofmgbhgjklmjkhnel", "domain": "google.com", "type": "Chrome Extension (Competitor)", "page_as": 0, "ref_domains": 0, "backlinks": 0}
+    ]
+  },
+  "notes": "cloudHQ dominates this SERP with 3 positions (CWS #4, support #8, website #9). Only 2 extensions in top 10."
+}
