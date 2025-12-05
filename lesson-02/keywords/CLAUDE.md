@@ -4,7 +4,87 @@
 
 ---
 
-## Структура папки
+## ⚡ НОВЫЙ АВТОМАТИЗИРОВАННЫЙ WORKFLOW (v2.0)
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  ВХОД: Extension Name + Description                                  │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  ШАГ 1: ГЕНЕРАЦИЯ НАЧАЛЬНЫХ KEYWORDS (Claude + агенты)              │
+│  ├── @search-intent-analyzer → извлечь keywords из name+desc        │
+│  ├── @chrome-keyword-generator → вариации для каждого keyword       │
+│  ├── Дедупликация и нормализация                                    │
+│  └── OUTPUT: raw_keywords.md (начальный список)                     │
+│                                                                      │
+│  ШАГ 2: SEMRUSH ANALYSIS (итеративно, 2 уровня)                     │
+│  ├── Для КАЖДОГО keyword из raw_keywords.md:                        │
+│  │   ├── Semrush Keyword Overview → browser_snapshot                │
+│  │   ├── python3 scripts/semrush_parser.py → JSON                   │
+│  │   ├── Сохранить в semrush_data/{keyword}.json                    │
+│  │   └── Извлечь Keyword Variations (хвосты с Volume >= 50)         │
+│  │                                                                   │
+│  ├── Уровень 2: Новые keywords из variations                        │
+│  │   └── Если volume >= 50 и нет в raw_keywords → добавить + analyze│
+│  │                                                                   │
+│  └── OUTPUT: semrush_data/*.json (сырые данные по каждому keyword)  │
+│                                                                      │
+│  ШАГ 3: ГЕНЕРАЦИЯ ОТЧЁТА                                            │
+│  ├── Агрегация всех semrush_data/*.json                             │
+│  ├── Расчёт метрик (keyword_analyzer.py)                            │
+│  └── OUTPUT: SUMMARY.md                                              │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### Новая структура папки
+
+```
+lesson-02/keywords/{niche-name}/
+├── raw_keywords.md           # Список всех найденных keywords (чеклист)
+├── semrush_data/             # Сырые данные Semrush (JSON)
+│   ├── xpath-tester.json
+│   ├── xpath-test.json
+│   └── ...
+├── SUMMARY.md                # Финальный отчёт с вердиктом
+└── competitors.md            # Анализ конкурентов (опционально)
+```
+
+### Пример JSON формата (semrush_data/*.json)
+
+```json
+{
+  "keyword": "xpath tester",
+  "analyzed_at": "2025-12-05T16:56:55Z",
+  "iteration_level": 1,
+  "metrics": {
+    "volume_us": 720,
+    "volume_global": 3100,
+    "kd_percent": 27,
+    "kd_level": "Easy",
+    "cpc": 0.0,
+    "intent": "Informational"
+  },
+  "global_distribution": [...],
+  "variations": {"total_count": 338, "total_volume": 1900, "top_keywords": [...]},
+  "questions": {"total_count": 25, "top_questions": [...]},
+  "clusters": [...]
+}
+```
+
+### Команды
+
+```bash
+# Парсинг snapshot в JSON
+python3 scripts/semrush_parser.py <snapshot_file> --output semrush_data/keyword.json
+
+# Анализ всех keywords
+python3 scripts/keyword_analyzer.py
+```
+
+---
+
+## Структура папки (старый формат)
 
 ```
 lesson-02/keywords/

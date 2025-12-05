@@ -1,0 +1,138 @@
+{
+  "keyword": "xpath tester",
+  "analyzed_at": "2025-12-05T17:00:04.895894Z",
+  "source_url": "https://www.semrush.com/analytics/keywordoverview/?q=xpath%20tester&db=us",
+  "iteration_level": 1,
+  "metrics": {
+    "volume_us": 720,
+    "volume_global": 3100,
+    "kd_percent": 27,
+    "kd_level": "Easy",
+    "cpc": 0.0,
+    "competitive_density": 0.0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {
+      "country": "United States",
+      "code": "us",
+      "volume": 720,
+      "percent": 23.2
+    },
+    {
+      "country": "Germany",
+      "code": "de",
+      "volume": 320,
+      "percent": 10.3
+    },
+    {
+      "country": "India",
+      "code": "in",
+      "volume": 320,
+      "percent": 10.3
+    },
+    {
+      "country": "United Kingdom",
+      "code": "uk",
+      "volume": 210,
+      "percent": 6.8
+    },
+    {
+      "country": "France",
+      "code": "fr",
+      "volume": 140,
+      "percent": 4.5
+    },
+    {
+      "country": "Netherlands",
+      "code": "nl",
+      "volume": 140,
+      "percent": 4.5
+    }
+  ],
+  "variations": {
+    "total_count": 338,
+    "total_volume": 1900,
+    "top_keywords": [
+      {
+        "keyword": "xpath tester",
+        "volume": 720,
+        "kd": 27
+      },
+      {
+        "keyword": "xpath test",
+        "volume": 110,
+        "kd": 50
+      },
+      {
+        "keyword": "online xpath tester",
+        "volume": 90,
+        "kd": 37
+      },
+      {
+        "keyword": "xpath online testing",
+        "volume": 70,
+        "kd": 34
+      },
+      {
+        "keyword": "xpath tester online",
+        "volume": 40,
+        "kd": 33
+      }
+    ]
+  },
+  "questions": {
+    "total_count": 25,
+    "total_volume": 80,
+    "top_questions": [
+      {
+        "keyword": "how to test xpath",
+        "volume": 20,
+        "kd": null
+      },
+      {
+        "keyword": "how to test xpath in chrome",
+        "volume": 20,
+        "kd": null
+      },
+      {
+        "keyword": "how to test xpath in console",
+        "volume": 10,
+        "kd": null
+      },
+      {
+        "keyword": "how to test xpath in firefox",
+        "volume": 10,
+        "kd": null
+      },
+      {
+        "keyword": "what is xpath in automation testing",
+        "volume": 10,
+        "kd": null
+      }
+    ]
+  },
+  "clusters": [
+    {
+      "name": "xpath evaluator",
+      "intents": "Informational 91%, Commercial 9%"
+    },
+    {
+      "name": "xml xpath",
+      "intents": "Informational 50%, Commercial 50%"
+    },
+    {
+      "name": "xpath check",
+      "intents": "Informational 100%"
+    },
+    {
+      "name": "get xpath from xml",
+      "intents": "Informational 100%"
+    },
+    {
+      "name": "xml pathfinder",
+      "intents": "Informational 100%"
+    }
+  ]
+}
