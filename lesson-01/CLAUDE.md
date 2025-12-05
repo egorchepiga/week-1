@@ -18,15 +18,17 @@
 
 ### Данные для анализа:
 ```
-5. inputs/app-database/*.xlsx        ← 946 расширений
-6. inputs/course/parsed/01_vybor_idei.md          ⚡ Очищенные!
-7. inputs/course/parsed/02_ocenka_dohodnosti.md
-8. inputs/course/parsed/03_podschet_ballov.md
+5. inputs/app-database/*.xlsx              ← 5,625 расширений (XLSX)
+6. inputs/app-database/jtbd-categories.json ← 340 JTBD категорий
+7. MongoDB Vector Search                   ← 5,402 расширений (семантический поиск)
+8. inputs/course/parsed/01_vybor_idei.md          ⚡ Очищенные!
+9. inputs/course/parsed/02_ocenka_dohodnosti.md
+10. inputs/course/parsed/03_podschet_ballov.md
 ```
 
 ### Результат:
 ```
-9. lesson-01/outputs/FINAL_IDEAS_REPORT.md
+11. lesson-01/outputs/FINAL_IDEAS_REPORT.md
 ```
 
 ---
@@ -58,7 +60,9 @@ lesson-01/
 
 | Источник | Путь | Описание |
 |----------|------|----------|
-| **App Database** | [inputs/app-database/CLAUDE.md](../inputs/app-database/CLAUDE.md) | 946 расширений (XLSX) |
+| **App Database** | [inputs/app-database/CLAUDE.md](../inputs/app-database/CLAUDE.md) | 5,625 расширений (XLSX) |
+| **JTBD Categories** | [inputs/app-database/jtbd-categories.json](../inputs/app-database/jtbd-categories.json) | 340 категорий потребностей |
+| **MongoDB** | [scripts/mongodb/CLAUDE.md](../scripts/mongodb/CLAUDE.md) | 5,402 расширений (Vector Search) |
 | **Course 01-03** | [inputs/course/CLAUDE.md](../inputs/course/CLAUDE.md) | Уроки 1-3 курса |
 | **Webinar** | [inputs/webinar/CLAUDE.md](../inputs/webinar/CLAUDE.md) | Инсайты вебинара |
 
@@ -128,12 +132,45 @@ global = us_traffic * 10 * 10             # ×10 англ, ×10 все язык�
 
 ## Инструменты
 
+### Внешние сервисы
+
 | Инструмент | Для чего |
 |------------|----------|
 | app-database.com | База расширений |
 | Serpstat/Semrush | KD, Volume |
 | Chrome Web Store | Анализ конкурентов |
 | GitHub | Поиск open source |
+
+### Локальные инструменты
+
+| Инструмент | Команда | Для чего |
+|------------|---------|----------|
+| **MongoDB Vector Search** | `python3 scripts/mongodb/query-extensions.py` | Семантический поиск по 5,402 расширениям |
+| **Keyword Analyzer** | `python3 scripts/keyword_analyzer.py` | Расчёт метрик keywords |
+| **Агент @chrome-extensions-analyst** | Task tool | Комплексный анализ ниш |
+
+### Примеры использования MongoDB
+
+```bash
+# Гибридный поиск конкурентов
+python3 scripts/mongodb/query-extensions.py hybrid-search "tab manager" --limit 20
+
+# Расширения с JTBD анализом
+python3 scripts/mongodb/query-extensions.py with-jtbd --limit 10
+
+# Детали конкретного расширения
+python3 scripts/mongodb/query-extensions.py get <extension_id>
+```
+
+### Когда использовать агента
+
+```
+@chrome-extensions-analyst анализируй нишу "PDF tools"
+@chrome-extensions-analyst изучи расширение <extension_id>
+@chrome-extensions-analyst найди незанятые ниши в productivity
+```
+
+> **Документация:** [scripts/mongodb/CLAUDE.md](../scripts/mongodb/CLAUDE.md)
 
 ---
 
@@ -142,7 +179,8 @@ global = us_traffic * 10 * 10             # ×10 англ, ×10 все язык�
 - [ ] Прочитан AI_TUTORIAL.md
 - [ ] Прочитан IDEA_EVALUATION_TEMPLATE.md
 - [ ] Прочитан WEBINAR_INSIGHTS.md
-- [ ] Проанализированы XLSX из inputs/app-database/
+- [ ] Проанализированы данные из inputs/app-database/ (XLSX)
+- [ ] Проверены конкуренты через MongoDB Vector Search
 - [ ] Получены данные SEO (KD, Volume)
 - [ ] Сгенерировано 10+ идей
 - [ ] Каждая оценена по 8 критериям
