@@ -4,7 +4,183 @@
 
 ---
 
-## Структура папки
+## ⚡ АВТОМАТИЗИРОВАННЫЙ WORKFLOW
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  ВХОД: Extension Name + Description                                  │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  ШАГ 1: ГЕНЕРАЦИЯ KEYWORDS                                          │
+│  ├── @search-intent-analyzer → извлечь keywords из name+desc        │
+│  ├── Дедупликация и приоритизация                                   │
+│  └── OUTPUT: raw_keywords.md (начальный список)                     │
+│                                                                      │
+│  ШАГ 2: SEMRUSH ANALYSIS (итеративно)                               │
+│  ├── Для КАЖДОГО keyword из raw_keywords.md:                        │
+│  │   ├── Semrush Keyword Overview → browser_snapshot                │
+│  │   ├── Сохранить в semrush_data/{keyword}.json                    │
+│  │   └── Извлечь Keyword Variations (хвосты с Volume >= 50)         │
+│  │                                                                   │
+│  ├── Уровень 2: Новые keywords из variations                        │
+│  │   └── Если volume >= 50 и нет в raw_keywords → добавить + analyze│
+│  │                                                                   │
+│  └── OUTPUT: semrush_data/*.json (сырые данные по каждому keyword)  │
+│                                                                      │
+│  ШАГ 3: ГЕНЕРАЦИЯ ОТЧЁТА                                            │
+│  ├── Агрегация всех semrush_data/*.json                             │
+│  ├── Расчёт метрик (keyword_analyzer.py)                            │
+│  └── OUTPUT: SUMMARY.md                                              │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### Новая структура папки
+
+```
+lesson-02/keywords/{niche-name}/
+├── raw_keywords.md           # Список keywords + TASK TRACKER (чеклист)
+├── semrush_data/             # Сырые данные Semrush (ТОЛЬКО JSON!)
+│   ├── xpath-tester.json
+│   ├── xpath-test.json
+│   └── ...
+├── SUMMARY.md                # Финальный отчёт с вердиктом (с аналитикой)
+└── competitors.md            # Анализ конкурентов (опционально)
+```
+
+### Важно
+
+- Cохраняй raw_keywords.md как простой список с чекбоксами "- [ ]" - без категорий, приоритетов и аналитики. 
+- Используй этот файл для трекинга прогресса при дальнейшеем прогоне с SEMRUSH
+
+### CRITICAL RULES
+
+#### Rule 1: NEVER skip keywords from deduplicated list
+
+> **The deduplicated list in raw_keywords.md is the BACKLOG for Semrush analysis.**
+>
+> **Semrush task is NOT COMPLETE until ALL keywords in the list are analyzed!**
+>
+> - Do NOT mark keywords as "skipped"
+> - Do NOT assume keywords are "similar" - always verify with Semrush
+> - Priority (HIGH/MEDIUM/LOW) is for ordering, not for skipping
+
+#### Rule 2: semrush_data/ files MUST be JSON format
+
+> **Files in semrush_data/ folder contain RAW DATA ONLY - no analysis!**
+>
+> - Format: JSON only (not MD)
+> - Content: Raw Semrush data extraction
+> - MUST include: SERP Analysis (10 records)
+> - NO analysis, NO recommendations, NO verdicts
+> - Treat as autonomous data extraction task
+
+### raw_keywords.md as Task Tracker
+
+> **IMPORTANT FOR AI:** The `raw_keywords.md` file serves as the **primary task list** for keyword research!
+
+**After auto-compacting or session resume:**
+1. **READ `raw_keywords.md` FIRST** to check progress
+2. Find next keyword with `pending` status
+3. **Mark as `done` IMMEDIATELY** after Semrush analysis
+4. Add key metrics (Vol, KD%, CPC) to the Notes column
+5. **Continue until ALL keywords are done** (no skipping!)
+
+**Format in raw_keywords.md:**
+
+```markdown
+## Deduplicated List for Semrush Analysis
+
+| # | Keyword | Priority | Status | Notes |
+|---|---------|----------|--------|-------|
+| 1 | keyword-one | HIGH | **done** | Vol: 2,400, KD: 59%, CPC: $1.38 |
+| 2 | keyword-two | HIGH | pending | |
+| 3 | keyword-three | MEDIUM | **done** | Vol: 880, KD: 46%, CPC: $8.01 |
+
+### Progress: X/Y keywords analyzed (Z%)
+```
+
+**Completion criteria:**
+- ALL keywords must have status `**done**`
+- ALL keywords must have corresponding JSON file in semrush_data/
+- Progress must show 100%
+
+### JSON формат (semrush_data/*.json)
+
+> **RAW DATA ONLY - no analysis, no recommendations, no verdicts!**
+
+```json
+{
+  "keyword": "xpath tester",
+  "database": "us",
+  "analyzed_at": "2025-12-05T16:56:55Z",
+  "metrics": {
+    "volume_us": 720,
+    "volume_global": 3100,
+    "kd_percent": 27,
+    "kd_level": "Easy",
+    "cpc": 0.0,
+    "competitive_density": 0.0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "United States", "volume": 720, "share_percent": 23.2},
+    {"country": "India", "volume": 500, "share_percent": 16.1}
+  ],
+  "variations": {
+    "total_count": 338,
+    "total_volume": 1900,
+    "top_keywords": [
+      {"keyword": "xpath tester online", "volume": 320, "kd_percent": 25},
+      {"keyword": "xpath test", "volume": 210, "kd_percent": 30}
+    ]
+  },
+  "questions": {
+    "total_count": 25,
+    "total_volume": 450,
+    "top_questions": [
+      {"question": "how to test xpath", "volume": 90, "kd_percent": 22}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "4.3B",
+    "serp_features": ["Sitelinks", "Video", "People also ask"],
+    "top_results": [
+      {
+        "position": 1,
+        "url": "https://example.com/tool",
+        "domain": "example.com",
+        "type": "Web Tool",
+        "backlinks": 1500,
+        "ref_domains": 120
+      }
+    ]
+  }
+}
+```
+
+**Required fields:**
+- `keyword`, `database`, `analyzed_at`
+- `metrics` (all fields)
+- `global_distribution` (top 6 countries)
+- `variations` (total + top 5)
+- `questions` (total + top 5)
+- `serp_analysis` (features + top 10 results)
+
+### Команды
+
+```bash
+# Парсинг snapshot в JSON
+python3 scripts/semrush_parser.py <snapshot_file> --output semrush_data/keyword.json
+
+# Анализ всех keywords
+python3 scripts/keyword_analyzer.py
+```
+
+---
+
+## Структура папки (старый формат)
 
 ```
 lesson-02/keywords/
@@ -90,6 +266,36 @@ Password: BrsXoi6yq4ff
   - ❌ Не софт: статьи, Wikipedia, маркетплейсы товаров
 
 **Критерий:** > 50% = софтовая выдача
+
+### Этап 5.1: ⚠️ Проверка бесплатных веб-конкурентов (КРИТИЧНО!)
+
+**Это ОБЯЗАТЕЛЬНЫЙ этап для оценки монетизируемости!**
+
+В Google SERP проверить топ-3 результата:
+- [ ] Есть ли **бесплатный веб-инструмент** в топ-3?
+- [ ] Решает ли он проблему **полностью**?
+- [ ] Какой у него **UX** (плохой/хороший/отличный)?
+
+**Матрица принятия решения:**
+
+| Топ Google SERP | Качество | Рекомендация |
+|-----------------|----------|--------------|
+| Бесплатный + Отличный UX | regex101, canva | **❌ NO-GO** — нет смысла конкурировать |
+| Бесплатный + Плохой UX | старые инструменты | ⚠️ MAYBE — можно сделать лучше |
+| Платный сервис | SaaS продукты | ✅ GO — есть платёжеспособность |
+| Расширения CWS | конкуренты | ✅ GO — рынок расширений существует |
+| Статьи/гайды | нет софта | ⚠️ CHECK — нужно ли вообще расширение? |
+
+**Примеры:**
+
+| Ключ | Топ-1 в Google | Статус | Решение |
+|------|----------------|--------|---------|
+| regex tester | regex101.com (бесплатный, отличный) | ❌ | NO-GO |
+| xpath tester | xpather.com (бесплатный, но требует копипаст) | ⚠️ | Возможно — расширение лучше |
+| pdf converter | smallpdf.com (freemium, лимиты) | ✅ | GO — есть модель |
+
+**Ключевой вопрос:**
+> Зачем пользователь будет **устанавливать расширение И платить за него**, если в топе Google уже есть **бесплатный инструмент**, который решает его проблему полностью?
 
 ### Этап 6: Конкуренты-расширения
 
@@ -292,6 +498,17 @@ matches = df[df['Title'].str.lower().str.contains(kw.lower(), na=False)]
 | Софтовость | > 50% софта в выдаче | PASS/FAIL |
 | Ключ свободен | Нет оптимизированного конкурента | ДА/НЕТ |
 | Intent | C (Commercial) лучше, чем I (Informational) | - |
+| **⚠️ Монетизируемость** | Нет бесплатного отличного веб-конкурента в топ-3 | **БЛОКЕР** |
+
+### Блокирующие критерии (любой = NO-GO)
+
+1. **Бесплатный веб-конкурент с отличным UX в топ-3 Google**
+   - Пример: regex101.com для "regex tester"
+   - Почему: пользователь не будет платить за худшее решение
+
+2. **Navigational intent (N)**
+   - Пример: "table capture" — ищут конкретное расширение
+   - Почему: невозможно перехватить трафик
 
 ---
 
@@ -331,6 +548,13 @@ total_potential = total_variations_volume * 100
 6. **Не проверять Global Volume Distribution**
    - Важно понимать географию запроса
    - Например: chatgpt exporter — 72.6% Италия (необычно!)
+
+7. **⚠️ КРИТИЧЕСКАЯ ОШИБКА: Игнорировать бесплатные веб-конкуренты**
+   - Свободный ключ в CWS ≠ Рыночная возможность!
+   - **ОБЯЗАТЕЛЬНО** проверять Google SERP на топ-3 результата
+   - Если в топе **бесплатный полнофункциональный веб-инструмент** → NO-GO
+   - Пример: "regex tester" — regex101.com бесплатный и отличный
+   - Расширение не может конкурировать с бесплатным веб-сервисом
 
 ---
 

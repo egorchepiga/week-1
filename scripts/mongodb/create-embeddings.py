@@ -26,8 +26,14 @@ Features:
 import json
 import argparse
 import sys
+import io
 from pathlib import Path
 from datetime import datetime
+
+# Fix Windows console encoding for UTF-8 output
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
 from typing import List, Dict, Any
 import time
 

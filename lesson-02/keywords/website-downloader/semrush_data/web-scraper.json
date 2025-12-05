@@ -1,0 +1,59 @@
+{
+  "keyword": "web scraper",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 8100,
+    "volume_global": 172800,
+    "kd_percent": 46,
+    "kd_level": "Possible",
+    "cpc": 3.72,
+    "competitive_density": 0.34,
+    "intent": "Commercial",
+    "ads_count": 25,
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 22200, "share_percent": 12.8},
+    {"country": "Turkiye", "volume": 12100, "share_percent": 7.0},
+    {"country": "Indonesia", "volume": 9900, "share_percent": 5.7},
+    {"country": "Philippines", "volume": 8100, "share_percent": 4.7},
+    {"country": "United States", "volume": 8100, "share_percent": 4.7},
+    {"country": "Saudi Arabia", "volume": 6600, "share_percent": 3.8}
+  ],
+  "variations": {
+    "total_count": 4900,
+    "total_volume": 69300,
+    "top_keywords": [
+      {"keyword": "web scraper", "volume": 8100, "kd_percent": 46},
+      {"keyword": "scrape web python", "volume": 5400, "kd_percent": 50},
+      {"keyword": "easy scraper - one-click web scraper", "volume": 2900, "kd_percent": 51},
+      {"keyword": "fastest web scraper of twitter options", "volume": 1900, "kd_percent": 8},
+      {"keyword": "web scraper python", "volume": 1600, "kd_percent": 63}
+    ]
+  },
+  "questions": {
+    "total_count": 676,
+    "total_volume": 6800,
+    "top_questions": [
+      {"question": "is web scraper slow", "volume": 1000, "kd_percent": 16},
+      {"question": "how to web scrape with python", "volume": 480, "kd_percent": 50},
+      {"question": "what is a web scraper", "volume": 480, "kd_percent": 54},
+      {"question": "how to web scrape a table in python", "volume": 390, "kd_percent": 18},
+      {"question": "how to scrape data from a web page", "volume": 320, "kd_percent": 53}
+    ]
+  },
+  "keyword_strategy_topics": [
+    {"topic": "page scraping software", "intent_breakdown": {"I": 51, "C": 47, "T": 2}},
+    {"topic": "scrape site", "intent_breakdown": {"I": 65, "C": 35}},
+    {"topic": "best web scraping tools", "intent_breakdown": {"I": 5, "C": 95}},
+    {"topic": "screen scraping tools", "intent_breakdown": {"I": 80, "C": 20}},
+    {"topic": "page scraper free", "intent_breakdown": {"I": 20, "C": 80}}
+  ],
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection. NOTE: DIFFERENT NICHE from website downloading"
+}

@@ -1,0 +1,51 @@
+{
+  "keyword": "site downloader",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 1600,
+    "volume_global": 7000,
+    "kd_percent": 47,
+    "kd_level": "Possible",
+    "cpc": 0.58,
+    "competitive_density": 0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "United States", "volume": 1600, "share_percent": 22.9},
+    {"country": "Germany", "volume": 720, "share_percent": 10.3},
+    {"country": "Philippines", "volume": 720, "share_percent": 10.3},
+    {"country": "United Kingdom", "volume": 390, "share_percent": 5.6},
+    {"country": "Brazil", "volume": 320, "share_percent": 4.6},
+    {"country": "Netherlands", "volume": 320, "share_percent": 4.6}
+  ],
+  "variations": {
+    "total_count": 8000,
+    "total_volume": 55800,
+    "top_keywords": [
+      {"keyword": "youtube mp3 downloader site", "volume": 6600, "kd_percent": 15},
+      {"keyword": "any site video downloader", "volume": 1900, "kd_percent": 62},
+      {"keyword": "site downloader", "volume": 1600, "kd_percent": 47},
+      {"keyword": "site video downloader", "volume": 1300, "kd_percent": 54},
+      {"keyword": "sites for downloading music for mp3 free", "volume": 1300, "kd_percent": 40}
+    ]
+  },
+  "questions": {
+    "total_count": 427,
+    "total_volume": 450,
+    "top_questions": [
+      {"question": "what site gives downloadable ssdi reports with paid access", "volume": 90, "kd_percent": null},
+      {"question": "a site for downloading songs", "volume": 20, "kd_percent": null},
+      {"question": "how to download videos from non downloadable sites", "volume": 20, "kd_percent": null},
+      {"question": "how to unblock a site from downloading", "volume": 20, "kd_percent": null},
+      {"question": "what are the best sites for downloading movies", "volume": 20, "kd_percent": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection"
+}

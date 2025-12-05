@@ -1,0 +1,61 @@
+{
+  "keyword": "download website chrome",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 70,
+    "volume_global": 530,
+    "kd_percent": 68,
+    "kd_level": "Difficult",
+    "cpc": 32.07,
+    "competitive_density": 0.11,
+    "intent": "Informational, Navigational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "United States", "volume": 70, "share_percent": 13.2},
+    {"country": "Russia", "volume": 40, "share_percent": 7.5},
+    {"country": "Australia", "volume": 20, "share_percent": 3.8},
+    {"country": "Brazil", "volume": 20, "share_percent": 3.8},
+    {"country": "Canada", "volume": 20, "share_percent": 3.8},
+    {"country": "Czech Republic", "volume": 20, "share_percent": 3.8}
+  ],
+  "variations": {
+    "total_count": 725,
+    "total_volume": 7700,
+    "top_keywords": [
+      {"keyword": "download video from any website chrome", "volume": 720, "kd_percent": 65},
+      {"keyword": "download video from website chrome", "volume": 720, "kd_percent": 65},
+      {"keyword": "download video from website chrome extension", "volume": 720, "kd_percent": 50},
+      {"keyword": "download a video from website chrome", "volume": 480, "kd_percent": null},
+      {"keyword": "download video from any website chrome extension", "volume": 480, "kd_percent": 50}
+    ]
+  },
+  "questions": {
+    "total_count": 168,
+    "total_volume": 940,
+    "top_questions": [
+      {"question": "how to download videos from any website in google chrome", "volume": 170, "kd_percent": 42},
+      {"question": "how to download video from website chrome extension", "volume": 40, "kd_percent": 40},
+      {"question": "how to download video from website chrome", "volume": 30, "kd_percent": null},
+      {"question": "how to download videos from websites on chrome", "volume": 30, "kd_percent": null},
+      {"question": "how to download a certificate from a website chrome", "volume": 20, "kd_percent": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "1.6B",
+    "serp_features": ["Sitelinks", "Video", "People also ask"],
+    "top_results": [
+      {"position": 1, "url": "https://chromewebstore.google.com/detail/web-page-downloader/aeojmgngnebhbjpncamiplkimkbnmpmk?hl=en", "domain": "google.com", "type": "Extension", "page_as": 0, "ref_domains": 3, "backlinks": 4, "search_traffic": 1200, "url_keywords": 261},
+      {"position": 2, "url": "https://support.google.com/chrome/answer/7343019?hl=en&co=GENIE.Platform=Desktop", "domain": "google.com", "type": "Documentation", "page_as": 42, "ref_domains": 42, "backlinks": 70, "search_traffic": 957, "url_keywords": 302},
+      {"position": 3, "url": "https://chromewebstore.google.com/detail/website-downloader/iaaokenmfgahhlcfbdipjonlkeinadaa?hl=en", "domain": "google.com", "type": "Extension", "page_as": 24, "ref_domains": 3, "backlinks": 6, "search_traffic": 3100, "url_keywords": 278},
+      {"position": 4, "url": "https://www.google.com/chrome/", "domain": "google.com", "type": "Download Page", "page_as": 98, "ref_domains": 102800, "backlinks": 242000000, "search_traffic": 1900000, "url_keywords": 16900},
+      {"position": 5, "url": "https://support.google.com/chrome/answer/7343019?hl=en&co=GENIE.Platform=Android", "domain": "google.com", "type": "Documentation", "page_as": 44, "ref_domains": 35, "backlinks": 148, "search_traffic": 226, "url_keywords": 169},
+      {"position": 6, "url": "https://www.reddit.com/r/chrome/comments/1m1qjj/download_a_whole_website/", "domain": "reddit.com", "type": "Discussion", "page_as": 26, "ref_domains": 1, "backlinks": 33, "search_traffic": 2, "url_keywords": 7},
+      {"position": 7, "url": "https://www.pcmag.com/how-to/download-a-web-page-or-article-to-read-offline", "domain": "pcmag.com", "type": "Blog", "page_as": 28, "ref_domains": 23, "backlinks": 62, "search_traffic": 541, "url_keywords": 484},
+      {"position": 8, "url": "https://stackoverflow.com/questions/60928505/download-complete-web-page-from-chrome-extension", "domain": "stackoverflow.com", "type": "Discussion", "page_as": 22, "ref_domains": 2, "backlinks": 35, "search_traffic": 2, "url_keywords": 38},
+      {"position": 9, "url": "https://play.google.com/store/apps/details?id=com.android.chrome&hl=en_US", "domain": "google.com", "type": "Android App", "page_as": 55, "ref_domains": 287, "backlinks": 887, "search_traffic": 106100, "url_keywords": 9400},
+      {"position": 10, "url": "https://chromeenterprise.google/download/", "domain": "chromeenterprise.google", "type": "Download Page", "page_as": 66, "ref_domains": 575, "backlinks": 5100, "search_traffic": 24700, "url_keywords": 8900}
+    ]
+  }
+}

@@ -6,9 +6,24 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(cp:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(python3:*)",
+      "Bash(python scripts/mongodb/query-extensions.py:*)",
+      "Bash(npx @anthropic/claude-code mcp list)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(gh pr create:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(chmod:*)",
+      "Bash(claude --print --agent chrome-keyword-generator \"email extractor\")",
+      "Bash(claude --print --agent:*)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
 }

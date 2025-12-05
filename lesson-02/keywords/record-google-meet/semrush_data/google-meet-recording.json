@@ -1,0 +1,54 @@
+{
+  "keyword": "google meet recording",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 1900,
+    "keyword_difficulty": 25,
+    "kd_label": "Easy",
+    "global_volume": 11000,
+    "intent": "Informational",
+    "cpc": 3.04,
+    "competitive_density": 0.06,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "IN": {"volume": 2400, "percent": 21.8},
+    "US": {"volume": 1900, "percent": 17.3},
+    "MY": {"volume": 720, "percent": 6.5},
+    "PH": {"volume": 720, "percent": 6.5},
+    "UK": {"volume": 590, "percent": 5.4},
+    "CA": {"volume": 390, "percent": 3.5},
+    "Other": {"volume": 4300, "percent": 39.0}
+  },
+  "keyword_variations": [
+    {"keyword": "how to record google meet", "volume": 2900, "kd": 39},
+    {"keyword": "google meet recording", "volume": 1900, "kd": 25},
+    {"keyword": "how to record a google meet", "volume": 1900, "kd": 12},
+    {"keyword": "record google meet", "volume": 1600, "kd": 48},
+    {"keyword": "google meet recordings", "volume": 1300, "kd": 34}
+  ],
+  "total_variations": 2000,
+  "total_variations_volume": 56300,
+  "serp_analysis": {
+    "results_count": "n/a",
+    "serp_features": ["Sitelinks", "Image pack", "Video", "Video carousel", "People also ask"],
+    "softness_score": "20%",
+    "softness_verdict": "LOW - mostly documentation and blog articles",
+    "our_extension_position": 2,
+    "top_results": [
+      {"position": 1, "url": "support.google.com/meet/answer/9308681", "domain": "google.com", "type": "Documentation"},
+      {"position": 2, "url": "chromewebstore.google.com/detail/record-google-meet/bepmaejckfhbdbikphclmnmclpiheche", "domain": "google.com", "type": "Chrome Extension (OURS!)"},
+      {"position": 3, "url": "guidebooks.google.com/record-transcribe-google-meet", "domain": "google.com", "type": "Documentation"},
+      {"position": 4, "url": "riverside.com/blog/how-to-record-a-google-meet", "domain": "riverside.com", "type": "SaaS Blog"},
+      {"position": 5, "url": "tldv.io/recording-google-meet", "domain": "tldv.io", "type": "SaaS Tool"},
+      {"position": 6, "url": "support.google.com/meet/thread/318524529", "domain": "google.com", "type": "Forum"},
+      {"position": 7, "url": "reddit.com/r/RemoteJobs/...", "domain": "reddit.com", "type": "Forum"},
+      {"position": 8, "url": "zapier.com/blog/how-to-record-google-meet", "domain": "zapier.com", "type": "Blog"},
+      {"position": 9, "url": "otter.ai/blog/how-to-record-a-google-meet-call", "domain": "otter.ai", "type": "SaaS Blog"},
+      {"position": 10, "url": "descript.com/blog/article/how-to-record-google-meet", "domain": "descript.com", "type": "SaaS Blog"}
+    ]
+  },
+  "verdict": "MODERATE - Good volume and KD, extension already ranks #2, but Informational intent"
+}

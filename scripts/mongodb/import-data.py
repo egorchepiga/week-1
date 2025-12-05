@@ -15,9 +15,14 @@ Features:
 """
 
 import json
+import io
 from pathlib import Path
 from datetime import datetime
 import sys
+
+# Fix Windows console encoding for UTF-8 output
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 # Check if pymongo is available
 try:
@@ -101,12 +106,12 @@ def main():
         print(f"Warning: {JTBD_FILE} not found, will import without JTBD data")
         jtbd_data = {"extensions": {}}
     else:
-        with open(JTBD_FILE) as f:
+        with open(JTBD_FILE, encoding='utf-8') as f:
             jtbd_data = json.load(f)
         print(f"✅ Loaded {len(jtbd_data.get('extensions', {}))} JTBD entries")
 
     # Load descriptions
-    with open(DESCRIPTIONS_FILE) as f:
+    with open(DESCRIPTIONS_FILE, encoding='utf-8') as f:
         descriptions = json.load(f)
     print(f"✅ Loaded {len(descriptions.get('processed', {}))} descriptions")
 
