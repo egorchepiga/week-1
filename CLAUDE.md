@@ -20,6 +20,11 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 │
 ├── PROGRESS.md              ← ⚡ ПРОГРЕСС ВЫПОЛНЕНИЯ (для каждой ветки свой)
 │
+├── jtbd-analysis/CLAUDE.md  ← 📊 JTBD анализ (ВСЕ отчёты здесь!)
+│   ├── JTBD-ANALYSIS-REPORT.md  ← Сводный отчёт
+│   ├── extensions-with-jtbd.json ← 5,400 расширений с JTBD
+│   └── jtbd-categories.json     ← 340 категорий
+│
 ├── inputs/CLAUDE.md         ← Все входные данные
 │   ├── app-database/CLAUDE.md   ← 5625 расширений (XLSX + JSON)
 │   ├── course/CLAUDE.md         ← 11 уроков курса
@@ -57,6 +62,7 @@ CLAUDE.md                    ← ★ ТЫ ЗДЕСЬ (Entry Point)
 | **Начать урок 3** | `Прочитай: lesson-03/CLAUDE.md` |
 | **Начать урок 4** | `Прочитай: lesson-04/CLAUDE.md` |
 | **Понять входные данные** | `Прочитай: inputs/CLAUDE.md` |
+| **JTBD анализ** | `Прочитай: jtbd-analysis/CLAUDE.md` |
 | **Скрипты обогащения** | `Прочитай: scripts/CLAUDE.md` |
 | **MongoDB Vector Search** | `Прочитай: scripts/mongodb/CLAUDE.md` |
 | **Формулы и критерии** | `Прочитай: shared/CLAUDE.md` |
@@ -227,13 +233,18 @@ week-1/
 ├── PROGRESS.md               # ⚡ Прогресс выполнения
 ├── README.md                 # Описание проекта
 │
+├── jtbd-analysis/            # 📊 JTBD анализ (ВСЕ отчёты!)
+│   ├── CLAUDE.md             # Документация
+│   ├── JTBD-ANALYSIS-REPORT.md  # Сводный отчёт
+│   ├── extensions-with-jtbd.json  # 5,400 расширений с JTBD
+│   └── jtbd-categories.json  # 340 категорий
+│
 ├── inputs/                   # Общие входные данные
 │   ├── CLAUDE.md
 │   ├── app-database/         # 5625 расширений (XLSX + JSON)
 │   │   ├── app-database-COMBINED-2025-12-04-EN.xlsx      # Исходные данные
 │   │   ├── app-database-COMBINED-2025-12-04-EN-enriched.xlsx  # Обогащённые
 │   │   └── enrichment-progress.json   # Прогресс обогащения
-│   ├── app-database/         # XLSX (5625 расширений)
 │   ├── course/               # 11 уроков курса
 │   │   ├── *.htm             # Оригинальные HTML
 │   │   ├── parsed/           # ⚡ Очищенные .md (30K chars)
@@ -441,7 +452,7 @@ research/xpath-tester/
 | Стадия исследования | Папка | Примеры файлов |
 |---------------------|-------|----------------|
 | Анализ ниши/идеи | `lesson-01/outputs/` | idea-analysis.md, competitors.md |
-| JTBD анализ | `inputs/app-database/` | JTBD-ANALYSIS-REPORT.md |
+| JTBD анализ | `jtbd-analysis/` | JTBD-ANALYSIS-REPORT.md |
 | Keyword Research | `lesson-02/keywords/<ниша>/` | keyword.md, SUMMARY.md |
 | Competitor Deep-dive | `lesson-02/outputs/` | competitor-analysis.md |
 | MVP планирование | `lesson-03/outputs/` | mvp-spec.md, features.md |
