@@ -8,9 +8,19 @@
       "Bash(cp:*)",
       "Bash(git push:*)",
       "Bash(python3:*)",
-      "Bash(python scripts/mongodb/query-extensions.py:*)"
+      "Bash(python scripts/mongodb/query-extensions.py:*)",
+      "Bash(npx @anthropic/claude-code mcp list)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(gh pr create:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
 }
