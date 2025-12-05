@@ -1,0 +1,42 @@
+{
+  "keyword": "add table gmail",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 320,
+    "keyword_difficulty": 20,
+    "kd_label": "Easy",
+    "global_volume": 680,
+    "intent": "Informational",
+    "cpc": 0,
+    "competitive_density": 0,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 320, "percent": 47.1},
+    "CA": {"volume": 170, "percent": 25.0},
+    "AU": {"volume": 140, "percent": 20.6},
+    "BR": {"volume": 30, "percent": 4.4},
+    "ES": {"volume": 20, "percent": 2.9}
+  },
+  "keyword_variations": [
+    {"keyword": "add table in gmail", "volume": 720, "kd": 20},
+    {"keyword": "add table gmail", "volume": 320, "kd": 20},
+    {"keyword": "how to add a table in gmail", "volume": 320, "kd": 21},
+    {"keyword": "how to add table to gmail", "volume": 320, "kd": 22},
+    {"keyword": "how to add table in gmail", "volume": 210, "kd": 24}
+  ],
+  "questions": [
+    {"keyword": "how to add a table in gmail", "volume": 320, "kd": 21},
+    {"keyword": "how to add table to gmail", "volume": 320, "kd": 22},
+    {"keyword": "how to add table in gmail", "volume": 210, "kd": 24},
+    {"keyword": "can you add a table in gmail", "volume": 20, "kd": null},
+    {"keyword": "how to add a table in gmail email", "volume": 20, "kd": null}
+  ],
+  "total_variations": 43,
+  "total_variations_volume": 2200,
+  "total_questions": 24,
+  "total_questions_volume": 1000,
+  "verdict": "LOW VOLUME - Volume 320 is below minimum threshold (500)"
+}
