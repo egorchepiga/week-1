@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Extensions Navigator</title>
+    <style>
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-card: #0f3460;
+            --text-primary: #eaeaea;
+            --text-secondary: #a0a0a0;
+            --accent: #e94560;
+            --accent-hover: #ff6b6b;
+            --border: #2a2a4a;
+            --success: #4ade80;
+            --shadow: rgba(0, 0, 0, 0.3);
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --accent: #e94560;
+            --accent-hover: #dc2626;
+            --border: #e2e8f0;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* Header */
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-box input {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.6rem 1rem 0.6rem 2.5rem;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            width: 300px;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .search-box::before {
+            content: "🔍";
+            position: absolute;
+            left: 0.8rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.9rem;
+        }
+
+        .theme-toggle {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.5rem 1rem;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: var(--bg-card);
+        }
+
+        .stats {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            margin-top: 70px;
+            min-height: calc(100vh - 70px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            overflow-y: auto;
+            position: fixed;
+            top: 70px;
+            bottom: 0;
+            left: 0;
+        }
+
+        .sidebar-header {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background: var(--bg-secondary);
+            z-index: 10;
+        }
+
+        .sidebar-header h2 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .category-search {
+            width: 100%;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.5rem 0.75rem;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+        }
+
+        .category-search:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .category-list {
+            list-style: none;
+        }
+
+        .category-item {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .category-item:hover {
+            background: var(--bg-card);
+        }
+
+        .category-item.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .category-item.active .category-count {
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+
+        .category-name {
+            font-size: 0.9rem;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .category-count {
+            background: var(--bg-primary);
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-left: 0.5rem;
+        }
+
+        /* Main Content */
+        .main {
+            flex: 1;
+            margin-left: 280px;
+            padding: 1.5rem;
+        }
+
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .main-header h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .view-info {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Extension Grid */
+        .extensions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+
+        .extension-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        }
+
+        .extension-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px var(--shadow);
+            border-color: var(--accent);
+        }
+
+        .extension-name {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .extension-description {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .extension-meta {
+            margin-top: 0.75rem;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .extension-tag {
+            background: var(--bg-primary);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .extension-tag.jtbd {
+            background: rgba(233, 69, 96, 0.2);
+            color: var(--accent);
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            width: 90%;
+            max-width: 700px;
+            max-height: 85vh;
+            overflow: hidden;
+            transform: translateY(20px);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+            padding: 0.25rem;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+
+        .modal-close:hover {
+            color: var(--accent);
+        }
+
+        .modal-body {
+            padding: 1.5rem;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .modal-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .modal-section h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .modal-description {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            white-space: pre-wrap;
+        }
+
+        .jtbd-list {
+            list-style: none;
+        }
+
+        .jtbd-item {
+            background: var(--bg-primary);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            border-left: 3px solid var(--accent);
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-card);
+        }
+
+        .copy-success {
+            color: var(--success);
+        }
+
+        /* Loading */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            color: var(--text-secondary);
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-secondary);
+        }
+
+        .empty-state h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+                top: 0;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+                max-height: 300px;
+            }
+
+            .main {
+                margin-left: 0;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .header {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .search-box input {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>
+            <span>🧩</span>
+            Chrome Extensions Navigator
+        </h1>
+        <div class="header-controls">
+            <div class="search-box">
+                <input type="text" id="globalSearch" placeholder="Search extensions...">
+            </div>
+            <span class="stats" id="stats">Loading...</span>
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Categories</h2>
+                <input type="text" class="category-search" id="categorySearch" placeholder="Filter categories...">
+            </div>
+            <ul class="category-list" id="categoryList">
+                <li class="loading">
+                    <div class="spinner"></div>
+                    Loading categories...
+                </li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <div class="main-header">
+                <h2 id="currentCategory">All Extensions</h2>
+                <span class="view-info" id="viewInfo"></span>
+            </div>
+            <div class="extensions-grid" id="extensionsGrid">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    Loading extensions...
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <div>
+                    <h2 class="modal-title" id="modalTitle">Extension Name</h2>
+                    <span class="extension-id" id="modalExtId"></span>
+                </div>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Description</h3>
+                    <p class="modal-description" id="modalDescription"></p>
+                </div>
+                <div class="modal-section" id="jtbdSection">
+                    <h3>Jobs To Be Done</h3>
+                    <ul class="jtbd-list" id="modalJtbd"></ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Actions</h3>
+                    <div class="modal-actions">
+                        <a href="#" class="btn btn-primary" id="modalLink" target="_blank">
+                            🔗 Open in Chrome Web Store
+                        </a>
+                        <button class="btn btn-secondary" id="copyIdBtn">
+                            📋 Copy Extension ID
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let categories = [];
+        let extensions = {};
+        let descriptions = {};
+        let currentCategory = null;
+        let searchQuery = '';
+
+        // DOM Elements
+        const categoryList = document.getElementById('categoryList');
+        const categorySearch = document.getElementById('categorySearch');
+        const extensionsGrid = document.getElementById('extensionsGrid');
+        const globalSearch = document.getElementById('globalSearch');
+        const currentCategoryEl = document.getElementById('currentCategory');
+        const viewInfo = document.getElementById('viewInfo');
+        const stats = document.getElementById('stats');
+        const modalOverlay = document.getElementById('modalOverlay');
+        const themeToggle = document.getElementById('themeToggle');
+
+        // Theme Management
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        }
+
+        function updateThemeIcon(theme) {
+            themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Data Loading
+        async function loadData() {
+            try {
+                // Load categories first (smallest file)
+                const catResponse = await fetch('../jtbd-analysis/jtbd-categories.json');
+                const catData = await catResponse.json();
+                categories = catData.categories;
+                renderCategories();
+
+                // Load extensions with JTBD
+                const extResponse = await fetch('../jtbd-analysis/extensions-with-jtbd.json');
+                const extData = await extResponse.json();
+                extensions = extData.extensions;
+
+                // Update stats
+                stats.textContent = `${Object.keys(extensions).length.toLocaleString()} extensions | ${categories.length} categories`;
+
+                // Render all extensions initially
+                renderExtensions(Object.keys(extensions));
+
+                // Load full descriptions in background
+                loadDescriptions();
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                categoryList.innerHTML = '<li class="empty-state"><h3>Error loading data</h3><p>Make sure JSON files are accessible</p></li>';
+                extensionsGrid.innerHTML = '<div class="empty-state"><h3>Error loading data</h3><p>Check console for details</p></div>';
+            }
+        }
+
+        async function loadDescriptions() {
+            try {
+                const response = await fetch('../inputs/app-database/description-results.json');
+                const data = await response.json();
+                descriptions = data.processed || {};
+                console.log(`Loaded ${Object.keys(descriptions).length} full descriptions`);
+            } catch (error) {
+                console.warn('Could not load full descriptions:', error);
+            }
+        }
+
+        // Render Categories
+        function renderCategories() {
+            const filter = categorySearch.value.toLowerCase();
+            const filtered = categories.filter(cat =>
+                cat.name.toLowerCase().includes(filter)
+            );
+
+            if (filtered.length === 0) {
+                categoryList.innerHTML = '<li class="empty-state">No categories found</li>';
+                return;
+            }
+
+            categoryList.innerHTML = `
+                <li class="category-item ${!currentCategory ? 'active' : ''}" data-category="">
+                    <span class="category-name">All Extensions</span>
+                    <span class="category-count">${Object.keys(extensions).length || '...'}</span>
+                </li>
+                ${filtered.map(cat => `
+                    <li class="category-item ${currentCategory === cat.name ? 'active' : ''}" data-category="${cat.name}">
+                        <span class="category-name" title="${cat.name}">${cat.name}</span>
+                        <span class="category-count">${cat.count}</span>
+                    </li>
+                `).join('')}
+            `;
+
+            // Add click handlers
+            categoryList.querySelectorAll('.category-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const catName = item.dataset.category;
+                    selectCategory(catName);
+                });
+            });
+        }
+
+        // Select Category
+        function selectCategory(categoryName) {
+            currentCategory = categoryName || null;
+
+            // Update active state
+            categoryList.querySelectorAll('.category-item').forEach(item => {
+                item.classList.toggle('active', item.dataset.category === (categoryName || ''));
+            });
+
+            // Update title
+            currentCategoryEl.textContent = categoryName || 'All Extensions';
+
+            // Get extension IDs for this category
+            let extIds;
+            if (!categoryName) {
+                extIds = Object.keys(extensions);
+            } else {
+                const cat = categories.find(c => c.name === categoryName);
+                extIds = cat ? cat.extensions : [];
+            }
+
+            // Apply search filter
+            if (searchQuery) {
+                extIds = filterBySearch(extIds, searchQuery);
+            }
+
+            renderExtensions(extIds);
+        }
+
+        // Filter by search
+        function filterBySearch(extIds, query) {
+            const q = query.toLowerCase();
+            return extIds.filter(id => {
+                const ext = extensions[id];
+                if (!ext) return false;
+
+                const name = extractName(ext.link) || '';
+                const desc = ext.description || '';
+                const jtbd = (ext.jtbd || []).join(' ');
+
+                return name.toLowerCase().includes(q) ||
+                       desc.toLowerCase().includes(q) ||
+                       jtbd.toLowerCase().includes(q) ||
+                       id.toLowerCase().includes(q);
+            });
+        }
+
+        // Extract extension name from URL
+        function extractName(url) {
+            if (!url) return 'Unknown';
+            const match = url.match(/\/detail\/([^/]+)\//);
+            if (match) {
+                return match[1].replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            }
+            return 'Unknown';
+        }
+
+        // Render Extensions
+        function renderExtensions(extIds) {
+            if (!extIds || extIds.length === 0) {
+                extensionsGrid.innerHTML = '<div class="empty-state"><h3>No extensions found</h3><p>Try a different category or search term</p></div>';
+                viewInfo.textContent = '0 extensions';
+                return;
+            }
+
+            viewInfo.textContent = `${extIds.length.toLocaleString()} extensions`;
+
+            // Limit rendering for performance
+            const displayIds = extIds.slice(0, 200);
+            const hasMore = extIds.length > 200;
+
+            extensionsGrid.innerHTML = displayIds.map(id => {
+                const ext = extensions[id];
+                if (!ext) return '';
+
+                const name = extractName(ext.link);
+                const hasJtbd = ext.jtbd && ext.jtbd.length > 0;
+
+                return `
+                    <div class="extension-card" data-id="${id}">
+                        <h3 class="extension-name">
+                            ${name}
+                        </h3>
+                        <p class="extension-description">${ext.description || 'No description available'}</p>
+                        <div class="extension-meta">
+                            ${hasJtbd ? `<span class="extension-tag jtbd">${ext.jtbd.length} JTBD</span>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            if (hasMore) {
+                extensionsGrid.innerHTML += `
+                    <div class="empty-state" style="grid-column: 1/-1; padding: 2rem;">
+                        <p>Showing first 200 of ${extIds.length.toLocaleString()} extensions. Use search to narrow down.</p>
+                    </div>
+                `;
+            }
+
+            // Add click handlers
+            extensionsGrid.querySelectorAll('.extension-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    openModal(card.dataset.id);
+                });
+            });
+        }
+
+        // Modal
+        function openModal(extId) {
+            const ext = extensions[extId];
+            if (!ext) return;
+
+            const fullDesc = descriptions[extId];
+            const name = extractName(ext.link);
+
+            document.getElementById('modalTitle').textContent = name;
+            document.getElementById('modalExtId').textContent = extId;
+            document.getElementById('modalLink').href = ext.link;
+
+            // Description - prefer full description if available
+            const description = fullDesc?.full_description || ext.description || 'No description available';
+            document.getElementById('modalDescription').textContent = description;
+
+            // JTBD
+            const jtbdSection = document.getElementById('jtbdSection');
+            const jtbdList = document.getElementById('modalJtbd');
+
+            if (ext.jtbd && ext.jtbd.length > 0) {
+                jtbdSection.style.display = 'block';
+                jtbdList.innerHTML = ext.jtbd.map(j => `
+                    <li class="jtbd-item">${j}</li>
+                `).join('');
+            } else {
+                jtbdSection.style.display = 'none';
+            }
+
+            // Copy button
+            const copyBtn = document.getElementById('copyIdBtn');
+            copyBtn.innerHTML = '📋 Copy Extension ID';
+            copyBtn.onclick = () => {
+                navigator.clipboard.writeText(extId).then(() => {
+                    copyBtn.innerHTML = '<span class="copy-success">✓ Copied!</span>';
+                    setTimeout(() => {
+                        copyBtn.innerHTML = '📋 Copy Extension ID';
+                    }, 2000);
+                });
+            };
+
+            modalOverlay.classList.add('active');
+        }
+
+        function closeModal() {
+            modalOverlay.classList.remove('active');
+        }
+
+        // Event Listeners
+        document.getElementById('modalClose').addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) closeModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        categorySearch.addEventListener('input', () => {
+            renderCategories();
+        });
+
+        globalSearch.addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            selectCategory(currentCategory);
+        });
+
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Initialize
+        initTheme();
+        loadData();
+    </script>
+</body>
+</html>
