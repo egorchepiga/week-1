@@ -1,0 +1,286 @@
+- generic [ref=e1]:
+  - img
+  - generic [ref=e2]:
+    - button "Skip to content" [ref=e4]
+    - generic [ref=e6]:
+      - img
+      - img
+      - banner [ref=e7]:
+        - generic [ref=e8]:
+          - link "Semrush homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e15]:
+            - generic [ref=e19]:
+              - generic [ref=e20]:
+                - combobox "Enter your task, website, or keyword" [ref=e21]: xpath tester
+                - generic: xpath tester
+              - button "Clear" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]:
+                  - generic:
+                    - img
+            - button "Search" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]:
+                - generic:
+                  - img
+          - navigation [ref=e29]:
+            - menubar [ref=e30]:
+              - menuitem "Pricing" [ref=e31] [cursor=pointer]
+              - menuitem "Enterprise" [ref=e32] [cursor=pointer]
+              - menuitem "More" [ref=e33] [cursor=pointer]
+              - menuitem "My profile" [ref=e34] [cursor=pointer]:
+                - generic: r
+    - generic [ref=e214]:
+      - main [ref=e215]:
+        - generic [ref=e217]:
+          - region "Keyword Overview header" [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - navigation "Breadcrumbs" [ref=e221]:
+                  - list [ref=e222]:
+                    - listitem [ref=e223]:
+                      - link "Home" [ref=e224] [cursor=pointer]:
+                        - /url: https://www.semrush.com/
+                    - img [ref=e226]
+                    - listitem [ref=e228]:
+                      - link "SEO" [ref=e229] [cursor=pointer]:
+                        - /url: https://www.semrush.com/seo
+                    - img [ref=e231]
+                    - listitem [ref=e233]:
+                      - generic [ref=e234]: Keyword Overview
+              - generic [ref=e240]:
+                - 'heading "Keyword Overview: xpath tester" [level=1] [ref=e241]':
+                  - generic [ref=e242]: "Keyword Overview:"
+                  - generic [ref=e243]: xpath tester
+          - generic [ref=e291]:
+            - generic [ref=e300]:
+              - heading "National metrics" [level=2] [ref=e301]
+              - generic [ref=e329]:
+                - region "Keyword summary" [ref=e330]:
+                  - heading "Keyword summary" [level=3] [ref=e331]: Keyword summary
+                  - generic [ref=e336]:
+                    - generic [ref=e338]:
+                      - generic [ref=e343]: Volume
+                      - generic [ref=e344]: "720"
+                    - generic [ref=e348]:
+                      - generic [ref=e353]: Keyword Difficulty
+                      - generic [ref=e354]:
+                        - generic [ref=e355]:
+                          - generic [ref=e356]: 27%
+                          - generic [ref=e357]: Easy
+                        - img [ref=e359]
+                    - generic [ref=e363]: It is quite possible to rank for this keyword.
+                  - generic [ref=e368]:
+                    - generic [ref=e373]: Global Volume
+                    - generic [ref=e374]:
+                      - generic [ref=e375]: 3.1K
+                      - generic [ref=e376]:
+                        - generic [ref=e377]:
+                          - button "United States" [ref=e378] [cursor=pointer]:
+                            - generic [ref=e381]: us
+                            - generic [ref=e382]: United States
+                          - button "Volume 23.2%" [ref=e384] [cursor=pointer]
+                          - generic [ref=e387]:
+                            - button "720"
+                        - generic [ref=e388] [cursor=pointer]:
+                          - button "Germany" [ref=e389]:
+                            - generic [ref=e392]: de
+                            - generic [ref=e393]: Germany
+                          - button "Volume 10.3%" [ref=e395]
+                          - button "320" [ref=e399]
+                        - generic [ref=e400] [cursor=pointer]:
+                          - button "India" [ref=e401]:
+                            - generic [ref=e404]: in
+                            - generic [ref=e405]: India
+                          - button "Volume 10.3%" [ref=e407]
+                          - button "320" [ref=e411]
+                        - generic [ref=e412] [cursor=pointer]:
+                          - button "United Kingdom" [ref=e413]:
+                            - generic [ref=e416]: uk
+                            - generic [ref=e417]: United Kingdom
+                          - button "Volume 6.8%" [ref=e419]
+                          - button "210" [ref=e423]
+                        - generic [ref=e424] [cursor=pointer]:
+                          - button "France" [ref=e425]:
+                            - generic [ref=e428]: fr
+                            - generic [ref=e429]: France
+                          - button "Volume 4.5%" [ref=e431]
+                          - button "140" [ref=e435]
+                        - generic [ref=e436] [cursor=pointer]:
+                          - button "Netherlands" [ref=e437]:
+                            - generic [ref=e440]: nl
+                            - generic [ref=e441]: Netherlands
+                          - button "Volume 4.5%" [ref=e443]
+                          - button "140" [ref=e447]
+                        - separator [ref=e448]
+                        - generic [ref=e449]:
+                          - generic [ref=e450]: Other
+                          - button "Volume 40.5%" [ref=e452] [cursor=pointer]
+                          - generic [ref=e455]:
+                            - button "1.3K"
+                  - generic [ref=e456]:
+                    - generic [ref=e460]:
+                      - generic [ref=e466]: Intent
+                      - button "Informational" [ref=e470] [cursor=pointer]:
+                        - generic [ref=e471]: Informational
+                    - generic [ref=e480]: Trend
+                  - generic [ref=e521]:
+                    - generic [ref=e523]:
+                      - generic [ref=e529]: CPC
+                      - generic [ref=e530]: $0
+                    - generic [ref=e532]:
+                      - generic [ref=e538]: Competitive Density
+                      - generic [ref=e539]: "0"
+                    - generic [ref=e540]:
+                      - generic [ref=e541]:
+                        - generic [ref=e547]: PLA
+                        - generic [ref=e548]: n/a
+                      - generic [ref=e549]:
+                        - generic [ref=e555]: Ads
+                        - generic [ref=e556]: n/a
+                - region "Keyword ideas" [ref=e557]:
+                  - generic [ref=e558]:
+                    - heading "Keyword ideas" [level=3] [ref=e560]: Keyword ideas
+                    - generic [ref=e563]:
+                      - generic [ref=e566]:
+                        - generic [ref=e572]: Keyword Variations
+                        - generic [ref=e574]:
+                          - generic [ref=e577]:
+                            - link "View all 338 keywords" [ref=e579] [cursor=pointer]:
+                              - /url: https://www.semrush.com/analytics/keywordmagic?q=xpath%20tester&db=us
+                              - text: "338"
+                            - generic [ref=e580]:
+                              - text: "Total Volume:"
+                              - generic [ref=e581]: 1.9K
+                          - table [ref=e582]:
+                            - row "Keywords Volume KD %" [ref=e583]:
+                              - columnheader "Keywords" [ref=e584]:
+                                - generic [ref=e585]: Keywords
+                              - columnheader "Volume" [ref=e586]
+                              - columnheader "KD %" [ref=e587]
+                            - row "xpath tester 720 27" [ref=e588]:
+                              - cell "xpath tester" [ref=e589]:
+                                - link "xpath tester" [ref=e590] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=xpath%20tester&db=us&date=202512&device=0
+                              - cell "720" [ref=e591]:
+                                - generic [ref=e592]: "720"
+                              - cell "27" [ref=e593]:
+                                - generic [ref=e596]: "27"
+                            - row "xpath test 110 50" [ref=e598]:
+                              - cell "xpath test" [ref=e599]:
+                                - link "xpath test" [ref=e600] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=xpath%20test&db=us&date=202512&device=0
+                              - cell "110" [ref=e601]:
+                                - generic [ref=e602]: "110"
+                              - cell "50" [ref=e603]:
+                                - generic [ref=e606]: "50"
+                            - row "online xpath tester 90 37" [ref=e608]:
+                              - cell "online xpath tester" [ref=e609]:
+                                - link "online xpath tester" [ref=e610] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=online%20xpath%20tester&db=us&date=202512&device=0
+                              - cell "90" [ref=e611]:
+                                - generic [ref=e612]: "90"
+                              - cell "37" [ref=e613]:
+                                - generic [ref=e616]: "37"
+                            - row "xpath online testing 70 34" [ref=e618]:
+                              - cell "xpath online testing" [ref=e619]:
+                                - link "xpath online testing" [ref=e620] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=xpath%20online%20testing&db=us&date=202512&device=0
+                              - cell "70" [ref=e621]:
+                                - generic [ref=e622]: "70"
+                              - cell "34" [ref=e623]:
+                                - generic [ref=e626]: "34"
+                            - row "xpath tester online 40 33" [ref=e628]:
+                              - cell "xpath tester online" [ref=e629]:
+                                - link "xpath tester online" [ref=e630] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=xpath%20tester%20online&db=us&date=202512&device=0
+                              - cell "40" [ref=e631]:
+                                - generic [ref=e632]: "40"
+                              - cell "33" [ref=e633]:
+                                - generic [ref=e636]: "33"
+                          - link "View all 338 keywords" [ref=e639] [cursor=pointer]:
+                            - /url: https://www.semrush.com/analytics/keywordmagic?q=xpath%20tester&db=us
+                            - generic [ref=e641]: View all 338 keywords
+                      - generic [ref=e644]:
+                        - generic [ref=e650]: Questions
+                        - generic [ref=e652]:
+                          - generic [ref=e655]:
+                            - link "View all 25 keywords" [ref=e657] [cursor=pointer]:
+                              - /url: https://www.semrush.com/analytics/keywordmagic?q=xpath%20tester&db=us&questions=true
+                              - text: "25"
+                            - generic [ref=e658]:
+                              - text: "Total Volume:"
+                              - generic [ref=e659]: "80"
+                          - table [ref=e660]:
+                            - row "Keywords Volume KD %" [ref=e661]:
+                              - columnheader "Keywords" [ref=e662]:
+                                - generic [ref=e663]: Keywords
+                              - columnheader "Volume" [ref=e664]
+                              - columnheader "KD %" [ref=e665]
+                            - row "how to test xpath 20 n/a" [ref=e666]:
+                              - cell "how to test xpath" [ref=e667]:
+                                - link "how to test xpath" [ref=e668] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=how%20to%20test%20xpath&db=us&date=202512&device=0
+                              - cell "20" [ref=e669]:
+                                - generic [ref=e670]: "20"
+                              - cell "n/a" [ref=e671]:
+                                - generic [ref=e674]: n/a
+                            - row "how to test xpath in chrome 20 n/a" [ref=e676]:
+                              - cell "how to test xpath in chrome" [ref=e677]:
+                                - link "how to test xpath in chrome" [ref=e678] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=how%20to%20test%20xpath%20in%20chrome&db=us&date=202512&device=0
+                              - cell "20" [ref=e679]:
+                                - generic [ref=e680]: "20"
+                              - cell "n/a" [ref=e681]:
+                                - generic [ref=e684]: n/a
+                            - row "how to test xpath in console 10 n/a" [ref=e686]:
+                              - cell "how to test xpath in console" [ref=e687]:
+                                - link "how to test xpath in console" [ref=e688] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=how%20to%20test%20xpath%20in%20console&db=us&date=202512&device=0
+                              - cell "10" [ref=e689]:
+                                - generic [ref=e690]: "10"
+                              - cell "n/a" [ref=e691]:
+                                - generic [ref=e694]: n/a
+                            - row "how to test xpath in firefox 10 n/a" [ref=e696]:
+                              - cell "how to test xpath in firefox" [ref=e697]:
+                                - link "how to test xpath in firefox" [ref=e698] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=how%20to%20test%20xpath%20in%20firefox&db=us&date=202512&device=0
+                              - cell "10" [ref=e699]:
+                                - generic [ref=e700]: "10"
+                              - cell "n/a" [ref=e701]:
+                                - generic [ref=e704]: n/a
+                            - row "what is xpath in automation testing 10 n/a" [ref=e706]:
+                              - cell "what is xpath in automation testing" [ref=e707]:
+                                - link "what is xpath in automation testing" [ref=e708] [cursor=pointer]:
+                                  - /url: https://www.semrush.com/analytics/keywordoverview?q=what%20is%20xpath%20in%20automation%20testing&db=us&date=202512&device=0
+                              - cell "10" [ref=e709]:
+                                - generic [ref=e710]: "10"
+                              - cell "n/a" [ref=e711]:
+                                - generic [ref=e714]: n/a
+                          - link "View all 25 keywords" [ref=e717] [cursor=pointer]:
+                            - /url: https://www.semrush.com/analytics/keywordmagic?q=xpath%20tester&db=us&questions=true
+                            - generic [ref=e719]: View all 25 keywords
+                      - generic [ref=e722]:
+                        - generic [ref=e726]: Keyword Strategy
+                        - generic [ref=e728]:
+                          - generic [ref=e729]: Get topics, pillar and subpages automatically
+                          - generic [ref=e732]: xpath tester
+                          - generic [ref=e733]:
+                            - generic [ref=e734]:
+                              - generic [ref=e739]: "Intents: Informational 91%, Commercial 9%"
+                              - generic [ref=e741]: xpath evaluator
+                            - generic [ref=e742]:
+                              - generic [ref=e747]: "Intents: Informational 50%, Commercial 50%"
+                              - generic [ref=e749]: xml xpath
+                            - generic [ref=e750]:
+                              - generic [ref=e754]: "Intents: Informational 100%"
+                              - generic [ref=e756]: xpath check
+                            - generic [ref=e757]:
+                              - generic [ref=e761]: "Intents: Informational 100%"
+                              - generic [ref=e763]: get xpath from xml
+                            - generic [ref=e764]:
+                              - generic [ref=e768]: "Intents: Informational 100%"
+                              - generic [ref=e770]: xml pathfinder
+                          - link "View all" [active] [ref=e771] [cursor=pointer]:
+                            - /url: https://www.semrush.com/analytics/keywordmanager/list/autosetup?seed=xpath%20tester&db=us
+                            - generic [ref=e773]: View all

@@ -175,6 +175,82 @@ open http://localhost:8080/html-tools/
 
 ---
 
+## 🔬 Автоматизированный Keyword Research (v2.0)
+
+> **Документация:** [lesson-02/keywords/CLAUDE.md](lesson-02/keywords/CLAUDE.md)
+
+### Workflow
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  ВХОД: Extension Name + Description (или идея/ниша)                 │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  ШАГ 1: ГЕНЕРАЦИЯ KEYWORDS (Claude + агенты)                        │
+│  ├── @search-intent-analyzer → keywords из name+desc                │
+│  ├── @chrome-keyword-generator → вариации                           │
+│  └── OUTPUT: raw_keywords.md                                         │
+│                                                                      │
+│  ШАГ 2: SEMRUSH ANALYSIS (итеративно, 2 уровня)                     │
+│  ├── Для каждого keyword: Semrush → browser_snapshot                │
+│  ├── python3 scripts/semrush_parser.py → JSON                       │
+│  ├── Сохранить в semrush_data/{keyword}.json                        │
+│  └── Новые keywords из variations (volume >= 50) → повторить        │
+│                                                                      │
+│  ШАГ 3: ГЕНЕРАЦИЯ ОТЧЁТА                                            │
+│  ├── Агрегация semrush_data/*.json                                  │
+│  └── OUTPUT: SUMMARY.md                                              │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### Структура папки исследования
+
+```
+lesson-02/keywords/{niche-name}/
+├── raw_keywords.md           # Список keywords (чеклист)
+├── semrush_data/             # Сырые данные Semrush (JSON)
+│   ├── xpath-tester.json
+│   └── ...
+├── SUMMARY.md                # Финальный вердикт
+└── competitors.md            # Анализ конкурентов (опционально)
+```
+
+### Ключевые инструменты
+
+```bash
+# Парсинг Semrush snapshot в JSON
+python3 scripts/semrush_parser.py <snapshot_file> --output semrush_data/keyword.json
+
+# Расчёт метрик для всех keywords
+python3 scripts/keyword_analyzer.py
+```
+
+### Инструкции для AI (АВТОМАТИЗАЦИЯ)
+
+```
+КОГДА ПОЛЬЗОВАТЕЛЬ ПРОСИТ ПРОВЕСТИ KEYWORD RESEARCH:
+
+1. АВТОМАТИЧЕСКИ запустить агентов:
+   - @search-intent-analyzer "Extension Name: X, Description: Y"
+   - @chrome-keyword-generator для каждого найденного keyword
+
+2. Создать raw_keywords.md с дедуплицированным списком
+
+3. Для КАЖДОГО keyword из списка:
+   - Открыть Semrush: /analytics/keywordoverview/?q={keyword}&db=us
+   - Сделать browser_snapshot
+   - Сохранить snapshot → semrush_data/{keyword}-snapshot.txt
+   - Запустить: python3 scripts/semrush_parser.py → JSON
+   - Проверить variations на новые keywords (volume >= 50)
+
+4. Если найдены новые keywords → добавить в raw_keywords.md → повторить шаг 3
+
+5. Сгенерировать SUMMARY.md с вердиктом GO/NO-GO
+```
+
+---
+
 ## 🔄 Интеграция инструментов в пайплайн
 
 ### Когда что использовать?
@@ -188,13 +264,17 @@ LESSON 01: Выбор идеи
 │   └── 🔧 MongoDB: with-jtbd → что хотят пользователи?
 └── Шаг 4: Финальный выбор ТОП-3
 
-LESSON 02: Keyword Research
-├── Шаг 1: Сбор данных Semrush (скриншоты)
-├── Шаг 2: Расчёт метрик
-│   └── 🔧 keyword_analyzer.py → Volume, KD, Score
-├── Шаг 3: Сопоставление с рынком
+LESSON 02: Keyword Research (v2.0 — АВТОМАТИЗИРОВАННЫЙ)
+├── Шаг 1: Генерация keywords
+│   ├── 🤖 @search-intent-analyzer → извлечь keywords
+│   └── 🤖 @chrome-keyword-generator → вариации
+├── Шаг 2: Semrush Analysis (итеративно)
+│   ├── 🔧 Playwright → browser_snapshot
+│   ├── 🔧 semrush_parser.py → JSON
+│   └── 🔧 Новые keywords из variations → повторить
+├── Шаг 3: Валидация конкурентов
 │   └── 🔧 MongoDB: hybrid-search "ключ" → реальные конкуренты
-└── Шаг 4: Финальное решение GO/NO-GO
+└── Шаг 4: Финальный отчёт → SUMMARY.md (GO/NO-GO)
 
 LESSON 03: MVP
 ├── Шаг 1: Изучение конкурента
@@ -279,6 +359,7 @@ week-1/
 │
 ├── scripts/                  # ⚡ Скрипты и инструменты
 │   ├── CLAUDE.md             # Документация скриптов
+│   ├── semrush_parser.py     # 🔬 Парсер Semrush snapshot → JSON
 │   ├── keyword_analyzer.py   # 🔢 Расчёт метрик keywords
 │   ├── mongodb/              # 🤖 MongoDB Vector Search
 │   │   ├── CLAUDE.md         # Документация модуля
