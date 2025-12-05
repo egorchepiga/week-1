@@ -6,14 +6,15 @@
 
 ## 📋 Описание
 
-Полноценная система для семантического поиска по 5,347+ описаниям Chrome-расширений с использованием MongoDB + Text Search (Vector Search — Phase 2).
+Полноценная система для семантического поиска по 5,402 описаниям Chrome-расширений с использованием MongoDB + Semantic Search (локальные embeddings).
 
 **Ключевые возможности:**
 - ✅ Быстрая локальная база данных (MongoDB в Docker)
 - ✅ Полнотекстовый поиск по описаниям
+- ✅ 🆕 Семантический поиск с embeddings (all-MiniLM-L6-v2, 384-dim)
 - ✅ Интеграция с JTBD (Jobs-To-Be-Done) данными
 - ✅ Python CLI для удобного поиска
-- ✅ Готово для Vector Search (Phase 2)
+- ✅ Полностью локально (без внешних APIs)
 
 ---
 
@@ -449,20 +450,62 @@ python3 scripts/mongodb/query-extensions.py semantic-search "Я хочу зак�
 ## 🎯 Типичный workflow
 
 ```bash
-# День 1: Setup
+# День 1: Setup (Phase 1)
 cd scripts/mongodb
 ./setup-docker.sh
-python3 import-data.py  # ~10 минут
+python3 import-data.py  # 5-10 минут для 5,402 расширений
 
-# День 2+: Использование
+# День 2: Embeddings (Phase 2)
+python3 create-embeddings.py  # ~1 минута для всех 5,402
+
+# День 3+: Использование
 python3 query-extensions.py stats
-python3 query-extensions.py search "ваш запрос"
+python3 query-extensions.py search "ваш запрос"                    # Text search
+python3 query-extensions.py semantic-search "manage tabs"          # Semantic search
+python3 query-extensions.py hybrid-search "productivity tools"     # Combined search
 python3 query-extensions.py get <extension_id>
 python3 query-extensions.py with-jtbd
 ```
 
 ---
 
+## 🚀 Phase 2: Semantic Search (✅ ГОТОВО)
+
+### Что было добавлено в Phase 2
+
+- ✅ Локальные embeddings (all-MiniLM-L6-v2, 384 dimensions)
+- ✅ Семантический поиск по cosine similarity
+- ✅ Гибридный поиск (текст + семантика)
+- ✅ Полностью offline (без внешних APIs)
+
+### Команды для семантического поиска
+
+```bash
+# Семантический поиск (ищет по смыслу, не по ключевым словам)
+python3 query-extensions.py semantic-search "manage browser tabs" --limit 10
+
+# Гибридный поиск (комбинирует текстовый и семантический поиск)
+python3 query-extensions.py hybrid-search "productivity tools" --limit 5
+
+# Проверить embeddings статус
+python3 query-extensions.py --verify
+```
+
+### Метрики Phase 2
+
+| Метрика | Значение |
+|---------|----------|
+| Всего extensions | 5,402 |
+| С embeddings | 5,402 (100%) |
+| Модель | all-MiniLM-L6-v2 |
+| Размер embedding | 384 dimensions |
+| Скорость генерации | 110.6 docs/sec |
+| Время для всех | ~49 секунд |
+| Стоимость | $0 (полностью локально) |
+
+---
+
 *Последнее обновление: 2025-12-05*
-*Статус: Phase 1 — Text Search (готово)*
-*Phase 2: Vector Search (в процессе)*
+*Статус: Phase 1 ✅ — Text Search (готово)*
+*Статус: Phase 2 ✅ — Semantic Search (готово)*
+*Phase 3 (планируется): Claude Code Integration*
