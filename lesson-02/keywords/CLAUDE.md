@@ -4,23 +4,21 @@
 
 ---
 
-## ⚡ НОВЫЙ АВТОМАТИЗИРОВАННЫЙ WORKFLOW (v2.0)
+## ⚡ АВТОМАТИЗИРОВАННЫЙ WORKFLOW
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │  ВХОД: Extension Name + Description                                  │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                      │
-│  ШАГ 1: ГЕНЕРАЦИЯ НАЧАЛЬНЫХ KEYWORDS (Claude + агенты)              │
+│  ШАГ 1: ГЕНЕРАЦИЯ KEYWORDS                                          │
 │  ├── @search-intent-analyzer → извлечь keywords из name+desc        │
-│  ├── @chrome-keyword-generator → вариации для каждого keyword       │
-│  ├── Дедупликация и нормализация                                    │
+│  ├── Дедупликация и приоритизация                                   │
 │  └── OUTPUT: raw_keywords.md (начальный список)                     │
 │                                                                      │
-│  ШАГ 2: SEMRUSH ANALYSIS (итеративно, 2 уровня)                     │
+│  ШАГ 2: SEMRUSH ANALYSIS (итеративно)                               │
 │  ├── Для КАЖДОГО keyword из raw_keywords.md:                        │
 │  │   ├── Semrush Keyword Overview → browser_snapshot                │
-│  │   ├── python3 scripts/semrush_parser.py → JSON                   │
 │  │   ├── Сохранить в semrush_data/{keyword}.json                    │
 │  │   └── Извлечь Keyword Variations (хвосты с Volume >= 50)         │
 │  │                                                                   │
@@ -41,36 +39,134 @@
 
 ```
 lesson-02/keywords/{niche-name}/
-├── raw_keywords.md           # Список всех найденных keywords (чеклист)
-├── semrush_data/             # Сырые данные Semrush (JSON)
+├── raw_keywords.md           # Список keywords + TASK TRACKER (чеклист)
+├── semrush_data/             # Сырые данные Semrush (ТОЛЬКО JSON!)
 │   ├── xpath-tester.json
 │   ├── xpath-test.json
 │   └── ...
-├── SUMMARY.md                # Финальный отчёт с вердиктом
+├── SUMMARY.md                # Финальный отчёт с вердиктом (с аналитикой)
 └── competitors.md            # Анализ конкурентов (опционально)
 ```
 
-### Пример JSON формата (semrush_data/*.json)
+### Важно
+
+- Cохраняй raw_keywords.md как простой список с чекбоксами "- [ ]" - без категорий, приоритетов и аналитики. 
+- Используй этот файл для трекинга прогресса при дальнейшеем прогоне с SEMRUSH
+
+### CRITICAL RULES
+
+#### Rule 1: NEVER skip keywords from deduplicated list
+
+> **The deduplicated list in raw_keywords.md is the BACKLOG for Semrush analysis.**
+>
+> **Semrush task is NOT COMPLETE until ALL keywords in the list are analyzed!**
+>
+> - Do NOT mark keywords as "skipped"
+> - Do NOT assume keywords are "similar" - always verify with Semrush
+> - Priority (HIGH/MEDIUM/LOW) is for ordering, not for skipping
+
+#### Rule 2: semrush_data/ files MUST be JSON format
+
+> **Files in semrush_data/ folder contain RAW DATA ONLY - no analysis!**
+>
+> - Format: JSON only (not MD)
+> - Content: Raw Semrush data extraction
+> - MUST include: SERP Analysis (10 records)
+> - NO analysis, NO recommendations, NO verdicts
+> - Treat as autonomous data extraction task
+
+### raw_keywords.md as Task Tracker
+
+> **IMPORTANT FOR AI:** The `raw_keywords.md` file serves as the **primary task list** for keyword research!
+
+**After auto-compacting or session resume:**
+1. **READ `raw_keywords.md` FIRST** to check progress
+2. Find next keyword with `pending` status
+3. **Mark as `done` IMMEDIATELY** after Semrush analysis
+4. Add key metrics (Vol, KD%, CPC) to the Notes column
+5. **Continue until ALL keywords are done** (no skipping!)
+
+**Format in raw_keywords.md:**
+
+```markdown
+## Deduplicated List for Semrush Analysis
+
+| # | Keyword | Priority | Status | Notes |
+|---|---------|----------|--------|-------|
+| 1 | keyword-one | HIGH | **done** | Vol: 2,400, KD: 59%, CPC: $1.38 |
+| 2 | keyword-two | HIGH | pending | |
+| 3 | keyword-three | MEDIUM | **done** | Vol: 880, KD: 46%, CPC: $8.01 |
+
+### Progress: X/Y keywords analyzed (Z%)
+```
+
+**Completion criteria:**
+- ALL keywords must have status `**done**`
+- ALL keywords must have corresponding JSON file in semrush_data/
+- Progress must show 100%
+
+### JSON формат (semrush_data/*.json)
+
+> **RAW DATA ONLY - no analysis, no recommendations, no verdicts!**
 
 ```json
 {
   "keyword": "xpath tester",
+  "database": "us",
   "analyzed_at": "2025-12-05T16:56:55Z",
-  "iteration_level": 1,
   "metrics": {
     "volume_us": 720,
     "volume_global": 3100,
     "kd_percent": 27,
     "kd_level": "Easy",
     "cpc": 0.0,
-    "intent": "Informational"
+    "competitive_density": 0.0,
+    "intent": "Informational",
+    "trend": "stable"
   },
-  "global_distribution": [...],
-  "variations": {"total_count": 338, "total_volume": 1900, "top_keywords": [...]},
-  "questions": {"total_count": 25, "top_questions": [...]},
-  "clusters": [...]
+  "global_distribution": [
+    {"country": "United States", "volume": 720, "share_percent": 23.2},
+    {"country": "India", "volume": 500, "share_percent": 16.1}
+  ],
+  "variations": {
+    "total_count": 338,
+    "total_volume": 1900,
+    "top_keywords": [
+      {"keyword": "xpath tester online", "volume": 320, "kd_percent": 25},
+      {"keyword": "xpath test", "volume": 210, "kd_percent": 30}
+    ]
+  },
+  "questions": {
+    "total_count": 25,
+    "total_volume": 450,
+    "top_questions": [
+      {"question": "how to test xpath", "volume": 90, "kd_percent": 22}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "4.3B",
+    "serp_features": ["Sitelinks", "Video", "People also ask"],
+    "top_results": [
+      {
+        "position": 1,
+        "url": "https://example.com/tool",
+        "domain": "example.com",
+        "type": "Web Tool",
+        "backlinks": 1500,
+        "ref_domains": 120
+      }
+    ]
+  }
 }
 ```
+
+**Required fields:**
+- `keyword`, `database`, `analyzed_at`
+- `metrics` (all fields)
+- `global_distribution` (top 6 countries)
+- `variations` (total + top 5)
+- `questions` (total + top 5)
+- `serp_analysis` (features + top 10 results)
 
 ### Команды
 

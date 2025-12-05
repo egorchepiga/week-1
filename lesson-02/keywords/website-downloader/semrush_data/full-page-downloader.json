@@ -1,0 +1,42 @@
+{
+  "keyword": "full page downloader",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 20,
+    "volume_global": 40,
+    "kd_percent": null,
+    "kd_level": null,
+    "cpc": 0,
+    "competitive_density": 0.05,
+    "intent": null,
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "Pakistan", "volume": 20, "share_percent": 50.0},
+    {"country": "United States", "volume": 20, "share_percent": 50.0},
+    {"country": "Malaysia", "volume": 0, "share_percent": 0}
+  ],
+  "variations": {
+    "total_count": 21,
+    "total_volume": 110,
+    "top_keywords": [
+      {"keyword": "downloadable full page printable graph paper pdf", "volume": 40, "kd_percent": 25},
+      {"keyword": "pdf full page downloadable free printable check register", "volume": 30, "kd_percent": null},
+      {"keyword": "full page downloader", "volume": 20, "kd_percent": null},
+      {"keyword": "instagram full page downloader", "volume": 20, "kd_percent": null},
+      {"keyword": "downloadable free full page recipe templates for word", "volume": 0, "kd_percent": null}
+    ]
+  },
+  "questions": {
+    "total_count": 0,
+    "total_volume": 0,
+    "top_questions": []
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": [],
+    "notes": "No SERP data available - keyword has very low volume"
+  }
+}

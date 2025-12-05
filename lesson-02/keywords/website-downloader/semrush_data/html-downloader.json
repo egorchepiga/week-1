@@ -1,0 +1,61 @@
+{
+  "keyword": "html downloader",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 590,
+    "volume_global": 12800,
+    "kd_percent": 55,
+    "kd_level": "Difficult",
+    "cpc": 1.97,
+    "competitive_density": 0.01,
+    "intent": "Informational + Commercial",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 3600, "share_percent": 28.1},
+    {"country": "Japan", "volume": 720, "share_percent": 5.6},
+    {"country": "Indonesia", "volume": 590, "share_percent": 4.6},
+    {"country": "Philippines", "volume": 590, "share_percent": 4.6},
+    {"country": "United States", "volume": 590, "share_percent": 4.6},
+    {"country": "Pakistan", "volume": 390, "share_percent": 3.0}
+  ],
+  "variations": {
+    "total_count": 3387,
+    "total_volume": 6000,
+    "top_keywords": [
+      {"keyword": "html downloader", "volume": 590, "kd_percent": 55},
+      {"keyword": "downloading html", "volume": 210, "kd_percent": 50},
+      {"keyword": "html video downloader", "volume": 210, "kd_percent": 45},
+      {"keyword": "html video downloader chrome extension", "volume": 210, "kd_percent": 41},
+      {"keyword": "html downloads", "volume": 170, "kd_percent": 61}
+    ]
+  },
+  "questions": {
+    "total_count": 235,
+    "total_volume": 800,
+    "top_questions": [
+      {"question": "how do i make a pdf downloadable link in html", "volume": 20, "kd_percent": null},
+      {"question": "how to add a downloadable pdf to html", "volume": 20, "kd_percent": null},
+      {"question": "how to add a downloaded image in html", "volume": 20, "kd_percent": null},
+      {"question": "how to add downloadable pdf to html", "volume": 20, "kd_percent": null},
+      {"question": "how to add downloaded font to html", "volume": 20, "kd_percent": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": ["Sitelinks", "Video", "People also ask"],
+    "top_results": [
+      {"position": 1, "url": "chromewebstore.google.com", "domain": "chromewebstore.google.com", "type": "Extension", "title": "Website Downloader", "backlinks": 6, "ref_domains": null},
+      {"position": 2, "url": "saveweb2zip.com", "domain": "saveweb2zip.com", "type": "Web Tool", "backlinks": 159, "ref_domains": null},
+      {"position": 3, "url": "httrack.com", "domain": "httrack.com", "type": "Software", "backlinks": 69000, "ref_domains": null},
+      {"position": 4, "url": "reddit.com", "domain": "reddit.com", "type": "Discussion", "backlinks": 1, "ref_domains": null},
+      {"position": 5, "url": "waybackmachinedownloader.com", "domain": "waybackmachinedownloader.com", "type": "Web Tool", "backlinks": 954, "ref_domains": null},
+      {"position": 6, "url": "view-page-source.com", "domain": "view-page-source.com", "type": "Web Tool", "backlinks": 341, "ref_domains": null},
+      {"position": 7, "url": "websitedownloader.com", "domain": "websitedownloader.com", "type": "Web Tool", "backlinks": 481, "ref_domains": null},
+      {"position": 8, "url": "simplystatic.com", "domain": "simplystatic.com", "type": "Web Tool", "backlinks": 281, "ref_domains": null},
+      {"position": 9, "url": "play.google.com", "domain": "play.google.com", "type": "Android App", "backlinks": 0, "ref_domains": null},
+      {"position": 10, "url": "chromewebstore.google.com", "domain": "chromewebstore.google.com", "type": "Extension", "title": "Web Page Downloader", "backlinks": 4, "ref_domains": null}
+    ]
+  }
+}

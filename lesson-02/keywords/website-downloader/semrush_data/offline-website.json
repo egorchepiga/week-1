@@ -1,0 +1,61 @@
+{
+  "keyword": "offline website",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 140,
+    "volume_global": 1100,
+    "kd_percent": 61,
+    "kd_level": "Difficult",
+    "cpc": 0,
+    "competitive_density": 0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 210, "share_percent": 18.6},
+    {"country": "United States", "volume": 140, "share_percent": 12.4},
+    {"country": "Austria", "volume": 20, "share_percent": 1.8},
+    {"country": "Australia", "volume": 20, "share_percent": 1.8},
+    {"country": "Belgium", "volume": 20, "share_percent": 1.8},
+    {"country": "Brazil", "volume": 20, "share_percent": 1.8}
+  ],
+  "variations": {
+    "total_count": 2906,
+    "total_volume": 14000,
+    "top_keywords": [
+      {"keyword": "offline website design software", "volume": 390, "kd_percent": 58},
+      {"keyword": "best offline website builder software", "volume": 320, "kd_percent": 37},
+      {"keyword": "offline games website", "volume": 320, "kd_percent": 68},
+      {"keyword": "best offline website builder", "volume": 260, "kd_percent": 35},
+      {"keyword": "free offline drag and drop website builder", "volume": 260, "kd_percent": 46}
+    ]
+  },
+  "questions": {
+    "total_count": 732,
+    "total_volume": 3000,
+    "top_questions": [
+      {"question": "how to save a website offline", "volume": 70, "kd_percent": 44},
+      {"question": "how to download a website for offline use", "volume": 50, "kd_percent": 50},
+      {"question": "how to download a website to use offline", "volume": 50, "kd_percent": 25},
+      {"question": "how to save a website for offline viewing", "volume": 50, "kd_percent": 36},
+      {"question": "how to save a website to view offline", "volume": 50, "kd_percent": 34}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "699.0M",
+    "serp_features": ["Sitelinks", "Image pack", "Video", "People also ask"],
+    "top_results": [
+      {"position": 1, "url": "https://support.microsoft.com/en-us/topic/how-to-make-web-pages-available-for-offline-viewing-aa1ada53-1572-562b-c7bc-73fe0845105a", "domain": "microsoft.com", "type": "Documentation", "page_as": 28, "ref_domains": 24, "backlinks": 38, "search_traffic": 240, "url_keywords": 88},
+      {"position": 2, "url": "https://www.reddit.com/r/web_design/comments/vv7jcr/i_need_to_create_an_offline_website_that_will_be/", "domain": "reddit.com", "type": "Discussion", "page_as": 0, "ref_domains": 1, "backlinks": 1, "search_traffic": 75, "url_keywords": 5},
+      {"position": 3, "url": "https://play.google.com/store/apps/details?id=com.offline.browser&hl=en_US", "domain": "google.com", "type": "Android App", "page_as": 0, "ref_domains": 0, "backlinks": 0, "search_traffic": 34, "url_keywords": 46},
+      {"position": 4, "url": "https://support.google.com/chrome/answer/7343019?hl=en&co=GENIE.Platform=Desktop", "domain": "google.com", "type": "Documentation", "page_as": 42, "ref_domains": 42, "backlinks": 70, "search_traffic": 957, "url_keywords": 302},
+      {"position": 5, "url": "https://www.httrack.com/", "domain": "httrack.com", "type": "Software", "page_as": 69, "ref_domains": 2600, "backlinks": 69000, "search_traffic": 20900, "url_keywords": 1200},
+      {"position": 6, "url": "https://mobirise.com/offline-website-builder.html", "domain": "mobirise.com", "type": "Software", "page_as": 77, "ref_domains": 16900, "backlinks": 87700, "search_traffic": 142, "url_keywords": 142},
+      {"position": 7, "url": "https://www.isitdownrightnow.com/", "domain": "isitdownrightnow.com", "type": "Web Tool", "page_as": 76, "ref_domains": 3000, "backlinks": 12300, "search_traffic": 59000, "url_keywords": 3200},
+      {"position": 8, "url": "https://play.google.com/store/apps/details?id=it.nikodroid.offline&hl=en_US", "domain": "google.com", "type": "Android App", "page_as": 24, "ref_domains": 2, "backlinks": 3, "search_traffic": 638, "url_keywords": 66},
+      {"position": 9, "url": "https://support.google.com/chrome/answer/7343019?hl=en&co=GENIE.Platform=Android", "domain": "google.com", "type": "Documentation", "page_as": 44, "ref_domains": 35, "backlinks": 148, "search_traffic": 226, "url_keywords": 169},
+      {"position": 10, "url": "https://dev.to/buildwebcrumbs/why-your-website-should-work-offline-and-what-you-should-do-about-it-fck", "domain": "dev.to", "type": "Blog", "page_as": 17, "ref_domains": 3, "backlinks": 15, "search_traffic": 0, "url_keywords": 4}
+    ]
+  }
+}

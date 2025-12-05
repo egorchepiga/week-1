@@ -1,0 +1,51 @@
+{
+  "keyword": "download website",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 1300,
+    "volume_global": 16500,
+    "kd_percent": 53,
+    "kd_level": "Difficult",
+    "cpc": 0,
+    "competitive_density": 0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 3600, "share_percent": 21.9},
+    {"country": "United States", "volume": 1300, "share_percent": 7.9},
+    {"country": "Indonesia", "volume": 1000, "share_percent": 6.1},
+    {"country": "Philippines", "volume": 720, "share_percent": 4.4},
+    {"country": "Pakistan", "volume": 720, "share_percent": 4.4},
+    {"country": "Turkiye", "volume": 590, "share_percent": 3.6}
+  ],
+  "variations": {
+    "total_count": 53370,
+    "total_volume": 456600,
+    "top_keywords": [
+      {"keyword": "download video from any website", "volume": 9900, "kd_percent": 49},
+      {"keyword": "download any video from any website", "volume": 8100, "kd_percent": 48},
+      {"keyword": "download video from website", "volume": 8100, "kd_percent": 48},
+      {"keyword": "download videos from any website", "volume": 5400, "kd_percent": 56},
+      {"keyword": "download any video from website", "volume": 3600, "kd_percent": 46}
+    ]
+  },
+  "questions": {
+    "total_count": 6437,
+    "total_volume": 67000,
+    "top_questions": [
+      {"question": "how to download a website into", "volume": 2400, "kd_percent": null},
+      {"question": "how to download a website to run locally", "volume": 2400, "kd_percent": 49},
+      {"question": "how to download videos from websites", "volume": 2400, "kd_percent": 51},
+      {"question": "how to download a video from a website", "volume": 1900, "kd_percent": 32},
+      {"question": "how to download video from website", "volume": 1900, "kd_percent": 44}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection"
+}

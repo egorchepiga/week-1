@@ -1,0 +1,45 @@
+{
+  "keyword": "web page downloader",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 170,
+    "volume_global": 1800,
+    "kd_percent": 44,
+    "kd_level": "Possible",
+    "cpc": 0,
+    "competitive_density": 0,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 170, "share_percent": 9.6},
+    {"country": "United States", "volume": 170, "share_percent": 9.6},
+    {"country": "United Arab Emirates", "volume": 20, "share_percent": 1.1},
+    {"country": "Argentina", "volume": 20, "share_percent": 1.1},
+    {"country": "Austria", "volume": 20, "share_percent": 1.1},
+    {"country": "Azerbaijan", "volume": 20, "share_percent": 1.1}
+  ],
+  "variations": {
+    "total_count": 217,
+    "total_volume": 1700,
+    "top_keywords": [
+      {"keyword": "web page video downloader", "volume": 590, "kd_percent": 55},
+      {"keyword": "web page image downloader", "volume": 390, "kd_percent": 42},
+      {"keyword": "web page downloader", "volume": 170, "kd_percent": 44},
+      {"keyword": "chrome downloading web pages", "volume": 140, "kd_percent": 50},
+      {"keyword": "web page downloader online", "volume": 110, "kd_percent": 59}
+    ]
+  },
+  "questions": {
+    "total_count": 30,
+    "total_volume": 0,
+    "top_questions": []
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection"
+}

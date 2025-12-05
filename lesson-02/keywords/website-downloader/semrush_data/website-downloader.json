@@ -1,0 +1,51 @@
+{
+  "keyword": "website downloader",
+  "database": "us",
+  "analyzed_at": "2025-12-05T00:00:00Z",
+  "metrics": {
+    "volume_us": 2400,
+    "volume_global": 19300,
+    "kd_percent": 59,
+    "kd_level": "Difficult",
+    "cpc": 1.38,
+    "competitive_density": 0.01,
+    "intent": "Informational",
+    "trend": "stable"
+  },
+  "global_distribution": [
+    {"country": "India", "volume": 3600, "share_percent": 18.7},
+    {"country": "United States", "volume": 2400, "share_percent": 12.5},
+    {"country": "Indonesia", "volume": 1000, "share_percent": 5.2},
+    {"country": "Germany", "volume": 880, "share_percent": 4.6},
+    {"country": "Philippines", "volume": 720, "share_percent": 3.7},
+    {"country": "Pakistan", "volume": 720, "share_percent": 3.7}
+  ],
+  "variations": {
+    "total_count": 5771,
+    "total_volume": 81300,
+    "top_keywords": [
+      {"keyword": "website video downloader", "volume": 2900, "kd_percent": 46},
+      {"keyword": "crunchyroll downloader website", "volume": 2400, "kd_percent": null},
+      {"keyword": "video downloader from any website", "volume": 2400, "kd_percent": 33},
+      {"keyword": "website downloader", "volume": 2400, "kd_percent": 59},
+      {"keyword": "free movie and tv show downloads websites", "volume": 1900, "kd_percent": null}
+    ]
+  },
+  "questions": {
+    "total_count": 585,
+    "total_volume": 1600,
+    "top_questions": [
+      {"question": "what to do when website downloads are slow", "volume": 480, "kd_percent": 23},
+      {"question": "how to download pdf from website which is not downloadable", "volume": 70, "kd_percent": 26},
+      {"question": "how to make a file downloadable from a website", "volume": 50, "kd_percent": 50},
+      {"question": "a website for downloading movies", "volume": 30, "kd_percent": null},
+      {"question": "a website for free music downloads", "volume": 20, "kd_percent": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": null,
+    "serp_features": [],
+    "top_results": []
+  },
+  "notes": "SERP data missing - requires Semrush collection"
+}
