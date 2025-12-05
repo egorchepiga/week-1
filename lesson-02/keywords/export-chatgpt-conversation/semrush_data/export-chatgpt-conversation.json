@@ -1,0 +1,77 @@
+{
+  "keyword": "export chatgpt conversation",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 390,
+    "keyword_difficulty": 30,
+    "kd_label": "Possible",
+    "global_volume": 500,
+    "intent": "Informational",
+    "cpc": 0,
+    "competitive_density": 0,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 390, "percent": 78},
+    "BE": {"volume": 20, "percent": 4},
+    "NL": {"volume": 20, "percent": 4},
+    "AU": {"volume": 10, "percent": 2},
+    "BR": {"volume": 10, "percent": 2},
+    "CA": {"volume": 10, "percent": 2},
+    "Other": {"volume": 40, "percent": 8}
+  },
+  "keyword_variations": {
+    "total_keywords": 36,
+    "total_volume": 1600,
+    "top_variations": [
+      {"keyword": "export chatgpt conversation", "volume": 390, "kd": 30},
+      {"keyword": "how to export chatgpt conversations", "volume": 210, "kd": 16},
+      {"keyword": "export chatgpt conversation to pdf", "volume": 170, "kd": 39},
+      {"keyword": "how to export a chatgpt conversation", "volume": 110, "kd": 14},
+      {"keyword": "how to export chatgpt conversation", "volume": 90, "kd": 10}
+    ]
+  },
+  "questions": {
+    "total_keywords": 11,
+    "total_volume": 710,
+    "top_questions": [
+      {"keyword": "how to export chatgpt conversations", "volume": 210, "kd": 16},
+      {"keyword": "how to export a chatgpt conversation", "volume": 110, "kd": 14},
+      {"keyword": "how to export chatgpt conversation", "volume": 90, "kd": 10},
+      {"keyword": "can i export chatgpt conversation", "volume": 70, "kd": 30},
+      {"keyword": "how to export chatgpt conversation as pdf", "volume": 70, "kd": 28}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "10.4M",
+    "softness_percent": 40,
+    "serp_features": ["Sitelinks", "Image pack", "Video"],
+    "top_10": [
+      {"position": 1, "domain": "reddit.com", "type": "Reddit Discussion"},
+      {"position": 2, "domain": "chromewebstore.google.com", "type": "Chrome Extension - TARGET", "extension_id": "clgidpflecgaaabfcmdmkcgebpbadgoc"},
+      {"position": 3, "domain": "help.openai.com", "type": "OpenAI Help - Official Export Guide"},
+      {"position": 4, "domain": "community.openai.com", "type": "OpenAI Community Forum"},
+      {"position": 5, "domain": "github.com", "type": "Open Source Exporter (FREE)"},
+      {"position": 6, "domain": "chromewebstore.google.com", "type": "Chrome Extension - ExportGPT (competitor)", "extension_id": "jamcijfplmgbngnppdhmbbogjebgfimn"},
+      {"position": 7, "domain": "wondershare.com", "type": "Blog Article"},
+      {"position": 8, "domain": "community.openai.com", "type": "OpenAI Community Forum"},
+      {"position": 9, "domain": "youtube.com", "type": "Video Tutorial"},
+      {"position": 10, "domain": "yahoo.com", "type": "News Article"}
+    ]
+  },
+  "critical_issues": [
+    "CPC = $0 — zero commercial interest",
+    "OpenAI has native export feature (help.openai.com #3)",
+    "Free GitHub exporter at #5",
+    "10+ direct competitors in Chrome Web Store",
+    "Market completely saturated"
+  ],
+  "positive_signals": [
+    "Target extension already at #2 in SERP",
+    "Low KD (30%) — ranking is achievable",
+    "US-centric traffic (78%)"
+  ],
+  "verdict": "NO-GO - CPC $0 (no monetization), free alternatives exist (GitHub, OpenAI native), saturated market"
+}
