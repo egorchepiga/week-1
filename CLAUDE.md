@@ -818,3 +818,4 @@ elif PROGRESS.md показывает "Lesson 03 завершён":
 - Если нужно убить заблокированный брайзер playwright, делай это так: pkill -f "playwright" || pkill -f "chromium" || pkill -f "chrome" || echo "No
       Playwright/browser processes found"
 - запомни: вывод chrome-extensions-analyst всегда возвращай в виде простого списка с вот такими будллетами: '- [ ] '. Урезай список до 30 самых топовых
+- никогда не преедлагай делать git stash. вместо этого всегда предлагай пользователю закоммитить все файлы, пушнуть и сдеать  pr
