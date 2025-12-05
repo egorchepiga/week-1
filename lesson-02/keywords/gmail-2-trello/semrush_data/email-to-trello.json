@@ -1,0 +1,66 @@
+{
+  "keyword": "email to trello",
+  "database": "us",
+  "date": "2025-12-06",
+  "metrics": {
+    "volume": 70,
+    "keyword_difficulty": 17,
+    "kd_label": "Easy",
+    "global_volume": 460,
+    "intent": "Informational",
+    "cpc": 0,
+    "competitive_density": 0,
+    "pla": "n/a",
+    "ads": "n/a"
+  },
+  "global_distribution": {
+    "US": {"volume": 70, "percent": 15.2},
+    "DE": {"volume": 40, "percent": 8.7},
+    "IN": {"volume": 30, "percent": 6.5},
+    "Other": {"volume": 320, "percent": 69.6}
+  },
+  "keyword_variations": {
+    "total_keywords": 285,
+    "total_volume": 820,
+    "top_variations": [
+      {"keyword": "trello email integration", "volume": 110, "kd": 24},
+      {"keyword": "trello email", "volume": 90, "kd": 22},
+      {"keyword": "email to trello card", "volume": 50, "kd": 16},
+      {"keyword": "forward email to trello", "volume": 40, "kd": 14},
+      {"keyword": "trello email to board", "volume": 30, "kd": 15}
+    ]
+  },
+  "questions": {
+    "total_keywords": 18,
+    "total_volume": 40,
+    "top_questions": [
+      {"keyword": "how to add email to trello", "volume": 20, "kd": null},
+      {"keyword": "how to send email to trello board", "volume": 10, "kd": null},
+      {"keyword": "can you email to trello", "volume": 10, "kd": null}
+    ]
+  },
+  "serp_analysis": {
+    "results_count": "8.5M",
+    "softness_percent": 60,
+    "serp_features": ["Video", "People also ask"],
+    "top_10": [
+      {"position": 1, "domain": "trello.com", "type": "Official Email-to-Board Feature"},
+      {"position": 2, "domain": "support.atlassian.com", "type": "Atlassian Docs"},
+      {"position": 3, "domain": "trello.com", "type": "Power-Ups Page"},
+      {"position": 4, "domain": "youtube.com", "type": "Video Tutorial"},
+      {"position": 5, "domain": "zapier.com", "type": "Integration Platform"},
+      {"position": 6, "domain": "make.com", "type": "Integration Platform"},
+      {"position": 7, "domain": "n8n.io", "type": "Automation Tool"},
+      {"position": 8, "domain": "automate.io", "type": "Integration Platform"},
+      {"position": 9, "domain": "trello.com", "type": "Community Post"},
+      {"position": 10, "domain": "medium.com", "type": "Blog Article"}
+    ]
+  },
+  "critical_issues": [
+    "CPC = $0 — zero commercial interest",
+    "Trello has native Email-to-Board feature",
+    "Dominated by integration platforms (Zapier, Make, n8n)",
+    "No Chrome extensions in top 10"
+  ],
+  "verdict": "NO-GO - Volume too low (70), CPC $0, Trello has native feature"
+}
